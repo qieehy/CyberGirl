@@ -1,0 +1,37 @@
+{
+  "stage": "B18a-constrained-control",
+  "live_admitted": false,
+  "full_regression_during_implementation": {
+    "passed": 577,
+    "subtests_passed": 848,
+    "seconds": 301.34
+  },
+  "final_related_regression": {
+    "passed": 168,
+    "seconds": 24.87,
+    "background_specialist_tests_included": 74
+  },
+  "ruff": "passed",
+  "powershell_parse": "passed",
+  "real_send_actions_created": 0,
+  "real_ledger_writes": 0,
+  "source_hashes": {
+    "src/wechat_agent/bridges/wechat/background_contract.py": "40489d2551839f40e5fefa2d29be221dc42d497fa550488ab145b3b32fc34fa7",
+    "src/wechat_agent/bridges/wechat/background_journal.py": "b91f59e0f1013cd90053e08514feb37a55ee4d106e2f2bc19b8d98a7a8ee749c",
+    "src/wechat_agent/bridges/wechat/background_lock.py": "30b573a4c67fd29ec20f2b62a2dba99a4a0bfd2fdc14bcc4256d1f84c4491174",
+    "src/wechat_agent/bridges/wechat/background_observer.py": "49304f89eeef414c40bbb66707a53158f3b172e3978d3e1b10dcb5b235fd0fc9",
+    "src/wechat_agent/bridges/wechat/send_state.py": "acba481e04f73062e2aeebaa7db7278c5a15eb0df554eaa54905d7c43f211aaf",
+    "scripts/wechat_background_control.py": "7dd1cdf8ff83aa145dec33622487f0a0564f94c9f47178deb0f738ea04fcc1be",
+    "scripts/wechat_background_native.py": "3f5b75e68dec9851f32760eaa790c6b3b6507a038229eecb572aa67de56fb933",
+    "scripts/probe_wechat_background_readiness.py": "f9bf029366891fe6f3872f2d4c62f43eca8e550d09a22035a31d2a56aa955f5f",
+    "scripts/wechat_native_worker.py": "8f58f9495eac98e1edb569104cb13fa633de4166626b3355506de944acdffa1e",
+    "scripts/wechat_native_ui.ps1": "09ef11583ba1a759496b83b0d7d15c961dd49ae7686e56f7645323d1b0d2b1b4",
+    "tests/test_wechat_background_audit.py": "a65348f5defa9989dd995a107971948ec707ad5eafe0b6e73cb5d8e03744cdd7",
+    "tests/test_wechat_background_control.py": "1578b0ba76fcdb622e6f656b8e659b617b9ed0f9b8cf6e82fe9f47e794e7b58f",
+    "tests/test_wechat_background_journal.py": "3c7c3cd078fed8335faa53e864e2ee82f2a7a126917d76bab563327b3b6dd0ee",
+    "tests/test_wechat_background_lock.py": "5690c5e04018975b3ece97bee9a9eaaea44f2907261772ead2ace469b7ef744a",
+    "tests/test_wechat_background_native.py": "1e049612d688de93e126cbcb66d01f5cc268d6c6a4a599e0082a16b41c391517",
+    "tests/test_wechat_background_observer.py": "eb751467b07469649ba3a9b0e0b5b16eceffcd851ed3130d8649c20d2e0ffc48",
+    "tests/wechat_background_lock_worker.py": "f408d4173b52be8b63fda70821dfd7e2cad5db46a013f3afa17439b75f0b7284"
+  }
+}

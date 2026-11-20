@@ -1,0 +1,39 @@
+{
+  "status": "not_verified",
+  "stage": "memory_snapshot",
+  "pid": 34044,
+  "hwnd": 68894,
+  "created_filetime": "134380654003431728",
+  "process_write_attempts": 0,
+  "key_files_written": 0,
+  "plaintext_database_files_written": 0,
+  "chat_rows_read": 0,
+  "external_messages": 0,
+  "model_requests": 0,
+  "key_source": "wcdb",
+  "preflight": {
+    "pid": 34044,
+    "hwnd": 68894,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "created_filetime": "134380654003431728",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x410",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "active_account_matched": true,
+  "account_fingerprint": "7899795f940e3a76be6036711f126ecfdc733ca26557aefe3c21d0c1d50b9100",
+  "scan": {
+    "bytes_scanned": 8278016,
+    "regions_checked": 473,
+    "config_objects_checked": 1,
+    "candidate_count": 1,
+    "failed_reads": 0
+  },
+  "error_type": "SocialError",
+  "reason": "wal_incomplete_or_bound",
+  "recorded_at": "2026-11-02T04:23:07.302409+00:00",
+  "script_sha256": "fbb099655ad7d138b30b1731a8999f2bb3c4b83725f97fd6998f92f46d122774"
+}

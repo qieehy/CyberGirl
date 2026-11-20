@@ -1,0 +1,154 @@
+{
+  "repository": "https://github.com/NousResearch/hermes-agent",
+  "commit": "e82bf01eec9bb58848209b07f0bc7d8895a39f9b",
+  "tree": "6f036b475cb7e5a193c16e4fdfbef93a6e3dfe03",
+  "review_date": "2026-10-26",
+  "review_timezone": "Asia/Shanghai",
+  "note": "Static text snapshots; upstream code and tests were not executed.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "local_path": "LICENSE.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/LICENSE",
+      "blob_sha1": "75410e73319c72cd3e991a501c5455eb78f38375",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "size": 1070
+    },
+    {
+      "path": "agent/codex_headers.py",
+      "local_path": "agent/codex_headers.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/agent/codex_headers.py",
+      "blob_sha1": "84cbe955fcbee8a799016ab99223c00df3f11c4c",
+      "sha256": "54d165f64bb3988c16254f587a5dccac2efa988e57e86027714bf98f16bbbca9",
+      "size": 5306
+    },
+    {
+      "path": "agent/codex_responses_adapter.py",
+      "local_path": "agent/codex_responses_adapter.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/agent/codex_responses_adapter.py",
+      "blob_sha1": "8d6d9bfe8a5683c3e6deac6b36dad2189716d700",
+      "sha256": "c86e14ebe721e94f86a1a50266272c364ccea9660a6da456eb00fa109e5f054d",
+      "size": 72408
+    },
+    {
+      "path": "agent/codex_runtime.py",
+      "local_path": "agent/codex_runtime.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/agent/codex_runtime.py",
+      "blob_sha1": "27b89aeaee6e48bfb1b8ee92d8b3bcfcecb343e6",
+      "sha256": "227c8105a7d5e69431097d72121d3693f40dcd1b5f419f0b74e41c0212065b2f",
+      "size": 87524
+    },
+    {
+      "path": "agent/transports/base.py",
+      "local_path": "agent/transports/base.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/agent/transports/base.py",
+      "blob_sha1": "e4399089561d5d1a05d41a406ac795eabe7af139",
+      "sha256": "a6cfd8f58ac16dcdef7b2098c5a8254472a050b06a8c4dac8cc5f2186c0b1d02",
+      "size": 2393
+    },
+    {
+      "path": "agent/transports/codex.py",
+      "local_path": "agent/transports/codex.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/agent/transports/codex.py",
+      "blob_sha1": "5419bb39a3daf261717014c1b60b15d07a488377",
+      "sha256": "dd5b7acb4ad905f560c7b9669b26e3f2ff4af2de4fdc22856b1d669b74f844b2",
+      "size": 51112
+    },
+    {
+      "path": "hermes_cli/auth_codex.py",
+      "local_path": "hermes_cli/auth_codex.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/hermes_cli/auth_codex.py",
+      "blob_sha1": "762aaff615114b48b64ea4d46856ef69b63a900b",
+      "sha256": "e21f78752fcaaff40932face80ae7692e3d9f4c882d952ee9c8135c09116bc2c",
+      "size": 60270
+    },
+    {
+      "path": "hermes_cli/auth_codex_browser.py",
+      "local_path": "hermes_cli/auth_codex_browser.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/hermes_cli/auth_codex_browser.py",
+      "blob_sha1": "2915676292aec80dde5f52e087e9e78c9b31475d",
+      "sha256": "7f99812effb1e300a70a436877aebc6a732cdc03d4da1ef5d06200a9e3250eb6",
+      "size": 8675
+    },
+    {
+      "path": "hermes_cli/auth_constants.py",
+      "local_path": "hermes_cli/auth_constants.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/hermes_cli/auth_constants.py",
+      "blob_sha1": "4843fb11962d91abfc24c15a30da63b958519f41",
+      "sha256": "7d7db5fc497a28cd7f1579ed7dcff9695ab5375643ae5ae9c80113ef91c2848b",
+      "size": 8230
+    },
+    {
+      "path": "hermes_cli/codex_models.py",
+      "local_path": "hermes_cli/codex_models.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/hermes_cli/codex_models.py",
+      "blob_sha1": "e5cc3f21d0b593e681b9e60ee38d32fcdb206894",
+      "sha256": "701e5aa665fac59c17e31aa33bef9bf225fef128ddf5b6cbf8419282f861b217",
+      "size": 10860
+    },
+    {
+      "path": "hermes_cli/providers.py",
+      "local_path": "hermes_cli/providers.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/hermes_cli/providers.py",
+      "blob_sha1": "e3d604a300b946cd75658b2cea5cdfb37346814e",
+      "sha256": "0861401ea0609e497036d6e8398a516d41e28946841f50572d40d57408d20b07",
+      "size": 34393
+    },
+    {
+      "path": "pyproject.toml",
+      "local_path": "pyproject.toml.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/pyproject.toml",
+      "blob_sha1": "8793ed59e09a5ad7fcd036bf6126f2ef31c484fa",
+      "sha256": "f8bfd2b0153cd95ddd4bba8e74502e7dcf11fe8f6f7c98f5ee384ff430dd8962",
+      "size": 45643
+    },
+    {
+      "path": "tests/agent/test_codex_responses_adapter.py",
+      "local_path": "tests/agent/test_codex_responses_adapter.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/tests/agent/test_codex_responses_adapter.py",
+      "blob_sha1": "9febf15acba8e953a368cd08ba5f0c4cf4a1933b",
+      "sha256": "a696b777e5f1af7523aa5200a3feaa696dcc78d6a69cdebe67f81a5ed204e3e4",
+      "size": 42459
+    },
+    {
+      "path": "tests/agent/test_codex_stream_rotating_item_ids.py",
+      "local_path": "tests/agent/test_codex_stream_rotating_item_ids.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/tests/agent/test_codex_stream_rotating_item_ids.py",
+      "blob_sha1": "605a954b6925e8ae625587c48a04e31e288c2b82",
+      "sha256": "eb520c089138b210b90dd8678476ee4d4da70debcb463ceee91bd1af5a631243",
+      "size": 3356
+    },
+    {
+      "path": "tests/agent/test_codex_stream_supersession.py",
+      "local_path": "tests/agent/test_codex_stream_supersession.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/tests/agent/test_codex_stream_supersession.py",
+      "blob_sha1": "af17cc7ab107295ff2fb2e694621c167f66bcbb2",
+      "sha256": "fc24ebd607f449da7b648db73c5b1d5738e2742b90c69c50fb636d477c64356f",
+      "size": 3972
+    },
+    {
+      "path": "tests/hermes_cli/test_auth_codex_bounded_body.py",
+      "local_path": "tests/hermes_cli/test_auth_codex_bounded_body.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/tests/hermes_cli/test_auth_codex_bounded_body.py",
+      "blob_sha1": "0aca376d38fe8f5744fff28714a3ed74f784ce83",
+      "sha256": "3b6bed70dca77f19fd93f87e232ccf7d013199f5da41bb87ec6f9a0c6758aa52",
+      "size": 3137
+    },
+    {
+      "path": "tests/hermes_cli/test_auth_codex_browser_login.py",
+      "local_path": "tests/hermes_cli/test_auth_codex_browser_login.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/tests/hermes_cli/test_auth_codex_browser_login.py",
+      "blob_sha1": "10145aeb512f093e9c264b8e6dbbfb4d8853111b",
+      "sha256": "156bde9eaa0c31316fb8237460c1c84445111184e04a772c4989160aea38198a",
+      "size": 6877
+    },
+    {
+      "path": "tests/hermes_cli/test_auth_codex_provider.py",
+      "local_path": "tests/hermes_cli/test_auth_codex_provider.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/tests/hermes_cli/test_auth_codex_provider.py",
+      "blob_sha1": "12ad0af0f326e6cc31d4dec71e70ad2a4a5420ff",
+      "sha256": "d27996da103249cc2332f80d5197957863dd412aead3d40d8e3a02d7acd02476",
+      "size": 18605
+    }
+  ]
+}

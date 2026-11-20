@@ -1,0 +1,21 @@
+{
+  "status": "unsupported_version_offline_migration_audit",
+  "at": 1794365205.0218427,
+  "dll_sha256": "afe3d02c58bada3c35009c0cd58ee1f57b2a00fe53237d0dce649107fddb9a20",
+  "pinned_supported_version": "4.2.0.9",
+  "installed_version": "4.2.0.13",
+  "identity_landmark_check": "cache instance code changed",
+  "cache_prefix_at_old_rva_matches": false,
+  "session_getter_at_old_rva_matches": false,
+  "gate_candidate_changed": true,
+  "image_size_changed": true,
+  "old_single_meta_rva": 152341752,
+  "old_single_vtable_rva": 160048360,
+  "old_window_class_entry_rva": 40568048,
+  "runtime_profile_enabled": false,
+  "processes_opened": 0,
+  "process_writes": 0,
+  "input_posts": 0,
+  "submit_posts": 0,
+  "old_pins_preserved": true
+}

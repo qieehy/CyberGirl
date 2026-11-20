@@ -1,0 +1,24 @@
+{
+  "cache_global_rva": 198292240,
+  "cache_vtable_rva": 155298552,
+  "cache_instance_rva": 29049904,
+  "session_format_rvas": [
+    164085280
+  ],
+  "session_format_xref_candidates": [
+    102070006,
+    116903672
+  ],
+  "observed_property_static_matches": [
+    {
+      "static_name": "context_menu_connected",
+      "rva": 164076824
+    }
+  ],
+  "process_memory_accessed": false,
+  "canonical_conversation_verified": false,
+  "interpretation": "Pinned static landmarks; format and interface locations are not business identity evidence.",
+  "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+  "recorded_at": "2026-11-02T06:10:41.566811+00:00",
+  "script_sha256": "95095639fe482128fa013d99d81625fc806365c169a59afa75493f5d548e27d3"
+}

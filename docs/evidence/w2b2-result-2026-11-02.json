@@ -1,0 +1,59 @@
+{
+  "stage": "W2-B2",
+  "status": "capabilities_observed_identity_unresolved",
+  "recorded_at": "2026-11-02T05:12:43.726001+00:00",
+  "tests": {
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "new_offline_scenarios": 3,
+  "restoration_regression_scenarios": 1,
+  "ruff": "passed",
+  "activation_runs": 4,
+  "all_activation_originals": 0,
+  "all_restore_readbacks_verified": true,
+  "final_readonly_node_count": 3,
+  "capabilities": {
+    "nodes": 147,
+    "input_count": 1,
+    "value_pattern": true,
+    "value_pattern_read_only": false,
+    "draft_empty": true,
+    "input_focused": false,
+    "send_button_candidates": 1,
+    "send_button_invoke_pattern": true,
+    "send_button_enabled_with_empty_draft": false
+  },
+  "canonical_account_reverified_this_stage": false,
+  "canonical_conversation_verified": false,
+  "native_send_enabled": false,
+  "v0_passed": false,
+  "wechat_ui_input_actions": 0,
+  "wechat_messages_sent": 0,
+  "real_model_requests": 0,
+  "favorites_modified": 0,
+  "keys_read": false,
+  "plaintext_databases_written": 0,
+  "user_ledgers_opened": false,
+  "raw_ui_values_written": false,
+  "manual_identity_fallback_implemented": false,
+  "sources": [
+    "w2b2-input-readonly-2026-11-02.json",
+    "w2b2-input-activated-2026-11-02.json",
+    "w2b2-input-after-restore-2026-11-02.json",
+    "w2b2-input-properties-2026-11-02.json",
+    "w2b2-input-properties-restored-2026-11-02.json",
+    "w2b2-profile-candidates-2026-11-02.json",
+    "w2b2-message-identity-shapes-2026-11-02.json",
+    "w2b2-final-restored-2026-11-02.json"
+  ],
+  "implementation_sha256": {
+    "scripts/probe_wechat_input.py": "b3d1e5f25661212a9d376d1724b63674f3b7b38251247fa275b3186d0f9182c3",
+    "scripts/probe_wechat_input.ps1": "8c4759e8374e205bda50d91c342757d2050bdb19fbd1e88f9daf32386573d6a5",
+    "scripts/wechat_input_metadata.ps1": "3ae698cae3411c05b822aa98a6e27641f7d4334c1215797d56cd4d09171336fc",
+    "tests/test_wechat_input.py": "48f602fbe1db283022ee7428a750a4aea32a9263a8b25297e5f162621193c85c",
+    "tests/wechat_input_metadata_fixture.ps1": "83731d4cce3eb92dd860c706fdbb9a313ae1c596c976d67167a7198f21946cb1"
+  }
+}

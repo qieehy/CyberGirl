@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-18",
+  "features": ["json_configuration_edit_import_export", "model_selection", "scoped_runtime_logs_and_statistics", "ordered_keyword_reply_or_ignore_rules", "rule_preview_without_effects", "media_module_toggles", "persona_versions", "light_dark_system_themes"],
+  "settings_scope": "selected_private_conversation",
+  "critical_checks_passed": 16,
+  "javascript_syntax": "passed",
+  "local_draft_ui_smoke": "passed",
+  "new_modules_lint": "passed",
+  "browser_panels_verified": ["config", "logs", "rules", "extensions", "persona"],
+  "night_preference_retained_after_reload": true,
+  "desktop_and_narrow_layouts_viewed": true,
+  "temporary_viewport_reset": true,
+  "preview": ".build/studio-night-20261118.jpg",
+  "extra_verification_wechat_sends": 0,
+  "extra_verification_reply_model_calls": 0,
+  "natural_chat_local_echoes_observed": 2,
+  "natural_chat_delivery_state": "UNCONFIRMED",
+  "natural_chat_reason_preserved": "private_background_cleanup_not_verified",
+  "minimized_send_enabled": false
+}

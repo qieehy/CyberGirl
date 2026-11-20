@@ -1,0 +1,4 @@
+# Copy to wechat-agent.local.toml in the directory where you start the app.
+# Set the port to your local proxy client; an empty string selects direct access.
+[network]
+proxy = "http://127.0.0.1:12334"

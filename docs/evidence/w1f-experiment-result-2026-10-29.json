@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-29T15:41:33.185673+00:00",
+  "status": "one_authorized_activation_and_restoration_verified",
+  "authorization": "user explicitly agreed to one temporary enable-and-restore experiment",
+  "authorized_experiments_executed": 1,
+  "authorization_remaining": 0,
+  "pid": 30376,
+  "hwnd": 460506,
+  "before_byte": 0,
+  "temporary_value": 1,
+  "after_byte": 0,
+  "root_during": "mmui::MainWindow",
+  "nodes_during": 51,
+  "depth_bound_reached": true,
+  "root_after": "Qt51514QWindowIcon",
+  "nodes_after": 3,
+  "restoration_readback": true,
+  "independent_readonly_restoration_check": true,
+  "model_requests": 0,
+  "external_messages": 0,
+  "system_settings_changed": false,
+  "chat_input_and_identity_verified": false,
+  "evidence_sha256": {
+    "w1f-authorized-experiment-2026-10-29.json": "9cbcc36b4422b295f6b07c9307caed941704e5f220186ca6d084623468e93d13",
+    "w1f-authorized-experiment-2026-10-29.uia.json": "aaf63c3e00fec1edade9cb3b4bf78da182cde945cc1fa1cd58c84f684a5c09ea",
+    "w1f-after-restore-2026-10-29.json": "28c4515a23426149632617ee9ebf15c8e88b12b26726fa5e98231c17bd898c81"
+  }
+}

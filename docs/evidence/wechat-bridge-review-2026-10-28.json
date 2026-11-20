@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-10-28T13:59:35.874878+00:00",
+  "scope": "environment metadata and static upstream review only",
+  "status": "research_complete_runtime_compatibility_unverified",
+  "local_wechat_version": "4.2.0.9",
+  "architecture": "x64",
+  "candidates": [
+    {
+      "repo": "aixed/WeChat-Hook",
+      "commit": "1003f3e48d99711d6cfe8d12813049ac832490d6",
+      "metadata": "research/wechat_bridge/2026-10-28/aixed__WeChat-Hook/metadata.json"
+    },
+    {
+      "repo": "cluic/wxauto4",
+      "commit": "d0ae14d3e435807b4dead393af9d014529bbac78",
+      "metadata": "research/wechat_bridge/2026-10-28/cluic__wxauto4/metadata.json"
+    },
+    {
+      "repo": "FreeWisdom/wxauto-4.0",
+      "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+      "metadata": "research/wechat_bridge/2026-10-28/FreeWisdom__wxauto-4.0/metadata.json"
+    },
+    {
+      "repo": "Hello-Mr-Crab/pywechat",
+      "commit": "8589baa049bb91d3a500602c167f07b2f8397a13",
+      "metadata": "research/wechat_bridge/2026-10-28/Hello-Mr-Crab__pywechat/metadata.json"
+    },
+    {
+      "repo": "lich0821/WeChatFerry",
+      "commit": "0f5c60a034fcac234cabd000b49c9200defa7f7d",
+      "metadata": "research/wechat_bridge/2026-10-28/lich0821__WeChatFerry/metadata.json"
+    },
+    {
+      "repo": "wechaty/puppet-xp",
+      "commit": "1ee1e7d314a29d91dc2260db380013809c006294",
+      "metadata": "research/wechat_bridge/2026-10-28/wechaty__puppet-xp/metadata.json"
+    }
+  ],
+  "static_files_hash_verified": 22,
+  "download_failures": [
+    {
+      "url": "https://raw.githubusercontent.com/aixed/WeChat-Hook/1003f3e48d99711d6cfe8d12813049ac832490d6/README.md",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wechaty/puppet-xp/1ee1e7d314a29d91dc2260db380013809c006294/package.json",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/src/pyproject.toml",
+      "error": "_ssl.c:993: The handshake operation timed out"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/src/pyweixin/WeChatTools.py",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    }
+  ],
+  "local_document_links": "passed",
+  "candidate_code_executed": false,
+  "wechat_installation_changed": false,
+  "chat_content_read": false,
+  "model_requests": 0,
+  "external_messages": 0,
+  "runtime_tests": "not run: no application code changes",
+  "next_step": "W1 read-only UI Automation capability probe",
+  "report": "docs/WECHAT_BRIDGE_REVIEW_2026-10-28.md"
+}

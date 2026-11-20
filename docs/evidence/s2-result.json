@@ -1,0 +1,118 @@
+{
+  "stage": "S2",
+  "recorded_at_utc": "2026-10-27T08:49:35.500337+00:00",
+  "status": "persona_versions_and_local_mock_console_passed",
+  "application_source_sha256": "16e51dd55306e05266b935dcfca8ae478d7e7c105783dacef067b3f27607fb96",
+  "acceptance": {
+    "distinct_scenarios_passed": 8,
+    "new_console_scenarios": 3,
+    "affected_s1_scenarios": 5,
+    "reports": [
+      {
+        "path": ".build/s2-critical.xml",
+        "sha256": "7695a91032336457707f9bd7eab3ed5e87300eded761369d4401477b8f5e408b",
+        "attributes": {
+          "name": "pytest",
+          "errors": "0",
+          "failures": "1",
+          "skipped": "0",
+          "tests": "8",
+          "time": "4.215",
+          "timestamp": "2026-10-27T16:40:15.707992+08:00",
+          "hostname": "Qze"
+        }
+      },
+      {
+        "path": ".build/s2-http-final.xml",
+        "sha256": "77d1e9af920b0329671debb7e2eecdc239d5b62053034fe23c47eebfb16c4908",
+        "attributes": {
+          "name": "pytest",
+          "errors": "0",
+          "failures": "0",
+          "skipped": "0",
+          "tests": "1",
+          "time": "2.032",
+          "timestamp": "2026-10-27T16:40:43.469029+08:00",
+          "hostname": "Qze"
+        }
+      }
+    ],
+    "initial_failure": "Test harness used keyword arguments in httpx.Headers.update; corrected to a dict. Only that HTTP scenario rerun.",
+    "full_regression_rerun": false,
+    "ruff": "passed"
+  },
+  "browser_acceptance": {
+    "flow": [
+      "existing S1 data preserved",
+      "save persona v2",
+      "generate mock draft",
+      "explicit fake delivery confirmed",
+      "inspect receipt and prompt hash",
+      "duplicate replay without regeneration or submission",
+      "reload retains local tab authorization"
+    ],
+    "fix": "Last-turn status now follows ledger after delivery; affected generate/deliver UI flow repeated successfully.",
+    "synthetic_messages_added": 2,
+    "synthetic_model_calls": 2,
+    "fake_adapter_submissions": 2,
+    "real_model_requests": 0,
+    "real_external_messages": 0,
+    "screenshot": "docs/evidence/s2-console.png",
+    "schema_version": 2,
+    "ledger_counts_after_browser": {
+      "inbox": 4,
+      "decisions": 4,
+      "outbox": 3,
+      "attempts": 3,
+      "personas": 2
+    }
+  },
+  "local_server": {
+    "bind": "127.0.0.1",
+    "default_port": 8765,
+    "auth": "ephemeral per-process bearer token, not recorded in evidence",
+    "mutations": "exact Host and Origin plus bearer",
+    "mode": "mock only"
+  },
+  "project_wheel": {
+    "path": ".build/s2-wheels/wechat_agent-0.1.0-py3-none-any.whl",
+    "sha256": "66e30e5bab35ff3d76837ab6f4bdaee0de23aec7c024d7a817aa99a6520b4da2",
+    "bytes": 851259,
+    "verified_package_files": 38,
+    "sources_and_assets_match": true,
+    "state_and_credentials_excluded": true
+  },
+  "original_framework_wheel_preserved": true,
+  "new_dependencies": false,
+  "remaining": [
+    "Explicit real-model persona preview in console",
+    "Group buffering, budgets, cooldown and proactive scheduling",
+    "Retention/deletion and manual reconciliation",
+    "Real WeChat adapter and group reply acceptance",
+    "H4b natural real-token refresh"
+  ],
+  "file_sha256": {
+    "pyproject.toml": "94b2fbaf12b69d544615e79c39c375c5ea03b0e150033e07522f8af549d696b6",
+    "requirements.lock": "5a6bf03c53170bac0696e27f510e2eefde3c97ec33c3a7d78beec9f2a8a92e0a",
+    "framework.lock.json": "cfbe3f390b2a9d90ebdf0302aec97367229c54a1113e4b482e9e57d4135c40e1",
+    "README.md": "8fce4cd9ff771b0a4e125d44dfbeceb0f4711e32af53bc66026d5ff6d104448a",
+    "PROJECT_PLAN.md": "8530965f06bc1e8b39269509310fd64910b6f5ac8330ed5478c3f266bf02d842",
+    "docs/S2_PERSONA_CONSOLE.md": "7cef005e869fe7cb560443a363d233ee23628851626f03e7951485db19f0a2e5",
+    "docs/FEASIBILITY_AND_EXECUTION.md": "b43a8d02fb1e19272ccbb79ddd04aa607e6fc0aea0d7234ba47a13118976a2ee",
+    "tests/test_console.py": "04cfd167cc6561cf5e8ad2e619c7b2b7f6f8def936cf08ce41783cbba54d5be9",
+    "tests/test_social.py": "13fcc5617ed8c01dbf8ab1de448d3452c58c0e912b46eaa9e36d8c0f7f9df91e",
+    "docs/evidence/s2-console.png": "0d184775651ff36fab7b8f01c4921ff50efcb4cd2f57a2ae21e336fad698adf1",
+    "src/wechat_agent/assets/console/app.js": "81ba9f7357199fe3a02059320a8d872fdd7325fe55bfc20e26ff4b541d56c5cb",
+    "src/wechat_agent/assets/console/index.html": "5e2d97228035888719f9212d0d3885c549b85d837696b380c9e17dc7d7e40e54",
+    "src/wechat_agent/assets/console/style.css": "1262d567a689b652c4fb9bf61334492df67147354ca1505092dbea996b90bbd4",
+    "src/wechat_agent/social/decision.py": "a7aa71a21d6495046699f895296ecf7298697bf37b4c0bb33e667cddf378b9f3",
+    "src/wechat_agent/social/ledger.py": "fc857313682e87856137cc5e35dddf6a7d8b707044e3f4b564e9e90fdb75efa5",
+    "src/wechat_agent/social/models.py": "19d6fe56060d054590d62e35bb63b4493e9348ce0ad7f543259e94c4af80a23e",
+    "src/wechat_agent/social/persona.py": "43b3dc1d95134a51cfd23ac68d18d8d706d68f5d1fbd34a5ac434b680d302fce",
+    "src/wechat_agent/social/sandbox.py": "a95e7aba2b21359ecb51cd852c6b43885df52bb266ee480fce5064784799dc97",
+    "src/wechat_agent/social/service.py": "8cd87b294976481735ede25654264aedae2603e599ae9ae1f896c0451758f265",
+    "src/wechat_agent/social/__init__.py": "0ddfbbd13b5d42bf774fdde98983cd001014c798c274f6d7f5469efedb4b9e41",
+    "src/wechat_agent/console.py": "eeda3230125a04564eaa673615fe427137eba70231e33789697c5ad027f16340",
+    "src/wechat_agent/cli.py": "f546d2bf0fc0c1c091f303820174afddd3be8876bf2eb1fb0ceb3b157a087a9f"
+  }
+}

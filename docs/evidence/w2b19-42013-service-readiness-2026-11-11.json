@@ -1,0 +1,63 @@
+{
+  "status": "background_service_prepared",
+  "mode": "integrated_background_bmp",
+  "marker_sha256": "16dd2b42e74c3c4f2890aeab3e5d5c5ed4972a55a55c1837e771da75c9ec8354",
+  "service_pid": 23212,
+  "model_requests": 0,
+  "start_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1793689102000,
+        "local_id": 145
+      },
+      "local_fence": 145
+    }
+  },
+  "reader_start_pid": 48824,
+  "starting_counts": {
+    "operations": 14,
+    "inputs": 12,
+    "submits": 8
+  },
+  "binding_generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+  "background_revalidation": {
+    "source_generation": "96dba0cb0ff1e650fe490b105761420f3698f7e8e3b105617cb8e81a821ef81f",
+    "generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+    "observed_at": 1794366321.4509733,
+    "other_input_generations_exited": true,
+    "build_transition_verified": true
+  },
+  "readiness": {
+    "account_and_filehelper_verified": true,
+    "both_draft_patterns_empty": true,
+    "same_editor_and_button": true,
+    "standalone_identity_verified": true,
+    "background_observer_active": true,
+    "no_capture": true,
+    "button_not_pressed": true,
+    "class_entry_matches_pinned_code": true,
+    "covered_by_other_app": true,
+    "observed_at": 1794366321.4525924,
+    "binding_generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+    "prior_input_context_reconciled": true,
+    "background_admission_verified": true
+  },
+  "no_input_or_submit": true,
+  "reader_reaped": true,
+  "ending_counts": {
+    "operations": 14,
+    "inputs": 12,
+    "submits": 8
+  },
+  "active_operations": 0,
+  "integrity_ok": true
+}

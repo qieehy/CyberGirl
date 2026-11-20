@@ -1,0 +1,3139 @@
+﻿{
+    "status":  "observed",
+    "pid":  34044,
+    "hwnd":  68894,
+    "created_filetime":  "134380654003431728",
+    "input_actions":  0,
+    "model_requests":  0,
+    "external_messages":  0,
+    "raw_values_serialized":  false,
+    "canonical_identity_verified":  false,
+    "limits":  {
+                   "max_draft_chars":  2000,
+                   "max_depth":  32,
+                   "max_nodes":  800,
+                   "parent_timeout_seconds":  25
+               },
+    "tree":  {
+                 "truncation_reasons":  [
+
+                                        ],
+                 "errors":  [
+
+                            ],
+                 "bounded":  false,
+                 "nodes":  [
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Window",
+                                   "selected":  false,
+                                   "class_name":  "mmui::MainWindow",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10009,
+                                                       10016
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  null,
+                                   "index":  0,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  0,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Pane",
+                                   "selected":  false,
+                                   "class_name":  "MMUIRenderSubWindow",
+                                   "pattern_ids":  [
+
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  0,
+                                   "index":  1,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  1,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "QWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  0,
+                                   "index":  2,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  1,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Custom",
+                                   "selected":  false,
+                                   "class_name":  "QStackedWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  2,
+                                   "index":  3,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  2,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ToolBar",
+                                   "selected":  false,
+                                   "class_name":  "mmui::TitleBar",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  2,
+                                   "index":  4,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  2,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "QWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  2,
+                                   "index":  5,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  2,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::MainView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  3,
+                                   "index":  6,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  3,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::PinnedButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  4,
+                                   "index":  7,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  3,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  4,
+                                   "index":  8,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  3,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  4,
+                                   "index":  9,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  3,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  4,
+                                   "index":  10,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  3,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ToolBar",
+                                   "selected":  false,
+                                   "class_name":  "mmui::MainTabBar",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  6,
+                                   "index":  11,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  4,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "QWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  6,
+                                   "index":  12,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  4,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  7,
+                                   "index":  13,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  4,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  8,
+                                   "index":  14,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  4,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  9,
+                                   "index":  15,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  4,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  10,
+                                   "index":  16,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  4,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XTabBarItem",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  11,
+                                   "index":  17,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XTabBarItem",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  11,
+                                   "index":  18,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XTabBarItem",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  11,
+                                   "index":  19,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XTabBarItem",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  11,
+                                   "index":  20,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::HandoffTabbarView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  11,
+                                   "index":  21,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::MainTabBarSettingView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  11,
+                                   "index":  22,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::MainView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  12,
+                                   "index":  23,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  13,
+                                   "index":  24,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  14,
+                                   "index":  25,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  15,
+                                   "index":  26,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  16,
+                                   "index":  27,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  5,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  17,
+                                   "index":  28,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XBadge",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  17,
+                                   "index":  29,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  18,
+                                   "index":  30,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XBadge",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  18,
+                                   "index":  31,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  19,
+                                   "index":  32,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XBadge",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  19,
+                                   "index":  33,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  20,
+                                   "index":  34,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XBadge",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  20,
+                                   "index":  35,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  21,
+                                   "index":  36,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  22,
+                                   "index":  37,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Custom",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XSplitterView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  23,
+                                   "index":  38,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  6,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  28,
+                                   "index":  39,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  7,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  30,
+                                   "index":  40,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  7,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  32,
+                                   "index":  41,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  7,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  34,
+                                   "index":  42,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  7,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  36,
+                                   "index":  43,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  7,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  37,
+                                   "index":  44,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  7,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Custom",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XSplitterView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  38,
+                                   "index":  45,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  7,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  43,
+                                   "index":  46,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  8,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  44,
+                                   "index":  47,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  8,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Custom",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XStackedWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  45,
+                                   "index":  48,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  8,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  45,
+                                   "index":  49,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  8,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Thumb",
+                                   "selected":  false,
+                                   "class_name":  "QSplitterHandle",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  45,
+                                   "index":  50,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  8,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatDetailView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  48,
+                                   "index":  51,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  9,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "name_is_canonical_filehelper":  false,
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatMasterView",
+                                   "item_type_is_canonical_filehelper":  false,
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "item_status_is_canonical_filehelper":  false,
+                                   "automation_id_present":  false,
+                                   "parent":  49,
+                                   "name_contains_filehelper_label":  false,
+                                   "depth":  9,
+                                   "index":  52,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "value_is_canonical_filehelper":  false,
+                                   "help_is_canonical_filehelper":  false,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Custom",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XSplitterView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  51,
+                                   "index":  53,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  10,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XVBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  52,
+                                   "index":  54,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  10,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Custom",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XStackedWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  53,
+                                   "index":  55,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  11,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  54,
+                                   "index":  56,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  11,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  54,
+                                   "index":  57,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  11,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "name_is_canonical_filehelper":  false,
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatMessagePage",
+                                   "item_type_is_canonical_filehelper":  false,
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "item_status_is_canonical_filehelper":  false,
+                                   "automation_id_present":  true,
+                                   "parent":  55,
+                                   "name_contains_filehelper_label":  false,
+                                   "depth":  12,
+                                   "index":  58,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "value_is_canonical_filehelper":  false,
+                                   "help_is_canonical_filehelper":  false,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Custom",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XStackedWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  56,
+                                   "index":  59,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  12,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  56,
+                                   "index":  60,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  12,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XDivider",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  56,
+                                   "index":  61,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  12,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  57,
+                                   "index":  62,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  12,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "name_is_canonical_filehelper":  false,
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatTitleBarMasterView",
+                                   "item_type_is_canonical_filehelper":  false,
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "item_status_is_canonical_filehelper":  false,
+                                   "automation_id_present":  false,
+                                   "parent":  58,
+                                   "name_contains_filehelper_label":  false,
+                                   "depth":  13,
+                                   "index":  63,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "value_is_canonical_filehelper":  false,
+                                   "help_is_canonical_filehelper":  false,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Custom",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XSplitterView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  58,
+                                   "index":  64,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  13,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XHBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  59,
+                                   "index":  65,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  13,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  60,
+                                   "index":  66,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  13,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatSessionList",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  62,
+                                   "index":  67,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  13,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "name_is_canonical_filehelper":  false,
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatTitleBarChatSingleView",
+                                   "item_type_is_canonical_filehelper":  false,
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "item_status_is_canonical_filehelper":  false,
+                                   "automation_id_present":  false,
+                                   "parent":  63,
+                                   "name_contains_filehelper_label":  false,
+                                   "depth":  14,
+                                   "index":  68,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "chat_title",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "value_is_canonical_filehelper":  false,
+                                   "help_is_canonical_filehelper":  false,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  64,
+                                   "index":  69,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  14,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XVBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  64,
+                                   "index":  70,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  14,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Thumb",
+                                   "selected":  false,
+                                   "class_name":  "QSplitterHandle",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  64,
+                                   "index":  71,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  14,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  65,
+                                   "index":  72,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  14,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  66,
+                                   "index":  73,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  14,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.List",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XTableView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10001,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  67,
+                                   "index":  74,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "session_list",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  14,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XVBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  68,
+                                   "index":  75,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XDivider",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  68,
+                                   "index":  76,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "name_is_canonical_filehelper":  false,
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatInputView",
+                                   "item_type_is_canonical_filehelper":  false,
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "item_status_is_canonical_filehelper":  false,
+                                   "automation_id_present":  false,
+                                   "parent":  69,
+                                   "name_contains_filehelper_label":  false,
+                                   "depth":  15,
+                                   "index":  77,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "value_is_canonical_filehelper":  false,
+                                   "help_is_canonical_filehelper":  false,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::MessageView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  70,
+                                   "index":  78,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  72,
+                                   "index":  79,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatSessionCell",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  74,
+                                   "index":  80,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatSessionCell",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  74,
+                                   "index":  81,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatSessionCell",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  74,
+                                   "index":  82,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatSessionCell",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  74,
+                                   "index":  83,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatSessionCell",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  74,
+                                   "index":  84,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "name_is_canonical_filehelper":  false,
+                                   "focused":  false,
+                                   "type":  "ControlType.ListItem",
+                                   "session_payload_shape":  {
+                                                                 "hex":  false,
+                                                                 "non_ascii_count":  6,
+                                                                 "ascii_separator_count":  0,
+                                                                 "length":  6,
+                                                                 "decimal":  false,
+                                                                 "has_wxid_prefix":  false,
+                                                                 "canonical_word_present":  false
+                                                             },
+                                   "selected":  true,
+                                   "class_name":  "mmui::ChatSessionCell",
+                                   "item_type_is_canonical_filehelper":  false,
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "item_status_is_canonical_filehelper":  false,
+                                   "automation_id_present":  true,
+                                   "parent":  74,
+                                   "name_contains_filehelper_label":  true,
+                                   "depth":  15,
+                                   "index":  85,
+                                   "automation_id_filehelper_md5":  false,
+                                   "canonical_word_anywhere":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "session_item_marker_present":  true,
+                                   "enabled":  true,
+                                   "value_is_canonical_filehelper":  false,
+                                   "help_is_canonical_filehelper":  false,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatSessionCell",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  74,
+                                   "index":  86,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatSessionCell",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  74,
+                                   "index":  87,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  15,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XVBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  75,
+                                   "index":  88,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  16,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  75,
+                                   "index":  89,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  16,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XVBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  77,
+                                   "index":  90,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  16,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.List",
+                                   "selected":  false,
+                                   "class_name":  "mmui::RecyclerListView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10001,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  78,
+                                   "index":  91,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  16,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  79,
+                                   "index":  92,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  16,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XHBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  88,
+                                   "index":  93,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  17,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XHBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  90,
+                                   "index":  94,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  17,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.ToolBar",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XHBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  90,
+                                   "index":  95,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  17,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "numeric_component_lengths":  [
+
+                                                                 ],
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatItemView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "message_id_shape":  "empty",
+                                   "automation_id_present":  false,
+                                   "parent":  91,
+                                   "index":  96,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  17,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "numeric_component_lengths":  [
+
+                                                                 ],
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatTextItemView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "message_id_shape":  "other",
+                                   "automation_id_present":  true,
+                                   "parent":  91,
+                                   "index":  97,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  17,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "numeric_component_lengths":  [
+
+                                                                 ],
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatItemView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "message_id_shape":  "empty",
+                                   "automation_id_present":  false,
+                                   "parent":  91,
+                                   "index":  98,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  17,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "numeric_component_lengths":  [
+
+                                                                 ],
+                                   "type":  "ControlType.ListItem",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatImageItemView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10010
+                                                   ],
+                                   "message_id_shape":  "other",
+                                   "automation_id_present":  true,
+                                   "parent":  91,
+                                   "index":  99,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  17,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XVBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  93,
+                                   "index":  100,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  18,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XVBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  93,
+                                   "index":  101,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  18,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "name_is_canonical_filehelper":  false,
+                                   "focused":  false,
+                                   "type":  "ControlType.Edit",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatInputField",
+                                   "item_type_is_canonical_filehelper":  false,
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002,
+                                                       10014
+                                                   ],
+                                   "draft_source":  "ValuePattern",
+                                   "item_status_is_canonical_filehelper":  false,
+                                   "runtime_token":  "b2b3a568746d047eb77aeaad603e90d87151db576fbd9388db74a830552e6394",
+                                   "automation_id_present":  true,
+                                   "value_read_only":  false,
+                                   "parent":  94,
+                                   "name_contains_filehelper_label":  true,
+                                   "depth":  18,
+                                   "index":  102,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  true,
+                                   "role":  "chat_input",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "help_is_canonical_filehelper":  false,
+                                   "automation_id_filehelper_token":  false,
+                                   "draft":  {
+                                                 "status":  "read",
+                                                 "length":  0,
+                                                 "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                                                 "empty":  true
+                                             }
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatInputToolbarLeftView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  95,
+                                   "index":  103,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  18,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatInputToolbarRightView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  95,
+                                   "index":  104,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  18,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "QWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  100,
+                                   "index":  105,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XVBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  100,
+                                   "index":  106,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XHBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  101,
+                                   "index":  107,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "QWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  102,
+                                   "index":  108,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  103,
+                                   "index":  109,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  103,
+                                   "index":  110,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  103,
+                                   "index":  111,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ComposePulldownButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  103,
+                                   "index":  112,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::VoiceInputView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  103,
+                                   "index":  113,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XHBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  104,
+                                   "index":  114,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  19,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "QWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  106,
+                                   "index":  115,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  106,
+                                   "index":  116,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "QWidget",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  106,
+                                   "index":  117,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XVBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  107,
+                                   "index":  118,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  109,
+                                   "index":  119,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  110,
+                                   "index":  120,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  111,
+                                   "index":  121,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  112,
+                                   "index":  122,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  112,
+                                   "index":  123,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  113,
+                                   "index":  124,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  114,
+                                   "index":  125,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XOutlineButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  114,
+                                   "index":  126,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "send_button_candidate",
+                                   "offscreen":  false,
+                                   "enabled":  false,
+                                   "depth":  20,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Text",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XHBoxView",
+                                   "pattern_ids":  [
+                                                       10000
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  116,
+                                   "index":  127,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XHBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  116,
+                                   "index":  128,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  118,
+                                   "index":  129,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  119,
+                                   "index":  130,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  120,
+                                   "index":  131,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  121,
+                                   "index":  132,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  122,
+                                   "index":  133,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  123,
+                                   "index":  134,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  124,
+                                   "index":  135,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  125,
+                                   "index":  136,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Text",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XTextView",
+                                   "pattern_ids":  [
+                                                       10000
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  126,
+                                   "index":  137,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  21,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Text",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XTextView",
+                                   "pattern_ids":  [
+                                                       10000
+                                                   ],
+                                   "automation_id_present":  true,
+                                   "parent":  127,
+                                   "index":  138,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  22,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::ChatlogMigrateView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  129,
+                                   "index":  139,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  22,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  133,
+                                   "index":  140,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  22,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  134,
+                                   "index":  141,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  22,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  135,
+                                   "index":  142,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  22,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  136,
+                                   "index":  143,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  22,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XHBoxView",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  139,
+                                   "index":  144,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  23,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  144,
+                                   "index":  145,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  24,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XButton",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  144,
+                                   "index":  146,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  24,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  145,
+                                   "index":  147,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  25,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Group",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XIcon",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  146,
+                                   "index":  148,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  25,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  147,
+                                   "index":  149,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  26,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Button",
+                                   "selected":  false,
+                                   "class_name":  "mmui::XImage",
+                                   "pattern_ids":  [
+                                                       10000,
+                                                       10002
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  148,
+                                   "index":  150,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  26,
+                                   "automation_id_filehelper_token":  false
+                               }
+                           ]
+             },
+    "recorded_at":  "2026-11-02T05:50:58.6678100+00:00"
+}

@@ -1,0 +1,2931 @@
+{
+  "repo": "lich0821/WeChatFerry",
+  "default_branch": "master",
+  "commit": "0f5c60a034fcac234cabd000b49c9200defa7f7d",
+  "commit_date": "2026-03-21T07:45:27Z",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "archived": true,
+  "tree": {
+    "sha": "0f5c60a034fcac234cabd000b49c9200defa7f7d",
+    "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/0f5c60a034fcac234cabd000b49c9200defa7f7d",
+    "tree": [
+      {
+        "path": ".editorconfig",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fcd9dea4821e5cd9d25db5a2c7654ca0a3aa08d",
+        "size": 169,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/8fcd9dea4821e5cd9d25db5a2c7654ca0a3aa08d"
+      },
+      {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cd6e62128de4c5971273ad1ca5c0368cb6db72d",
+        "size": 29,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/8cd6e62128de4c5971273ad1ca5c0368cb6db72d"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "25eedb7bef81c62e70ff9b0da15553fa4b3b9e50",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/25eedb7bef81c62e70ff9b0da15553fa4b3b9e50"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6e757388793b1e990873bf4b26b93f0ac32043cd",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/6e757388793b1e990873bf4b26b93f0ac32043cd"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fdc6f1df757cb0b821f6a14792259da2fd89ba1f",
+        "size": 911,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/fdc6f1df757cb0b821f6a14792259da2fd89ba1f"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "440cf38bb06dda7ca1c44486803aa39326d3cd16",
+        "size": 689,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/440cf38bb06dda7ca1c44486803aa39326d3cd16"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "43ba81f83d9936b9346bc1ec7f803663b90ed92e",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/43ba81f83d9936b9346bc1ec7f803663b90ed92e"
+      },
+      {
+        "path": ".github/workflows/build-ci.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "972c09af08b8443b5dbd0710f1551afe42c20bb3",
+        "size": 2599,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/972c09af08b8443b5dbd0710f1551afe42c20bb3"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e90dd0cc4864ff7553ae0ff191fdab48912f8af1",
+        "size": 166,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/e90dd0cc4864ff7553ae0ff191fdab48912f8af1"
+      },
+      {
+        "path": ".github/workflows/release.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7bbc55bc735c43a38af102409a1a34472ad79c8",
+        "size": 2223,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/d7bbc55bc735c43a38af102409a1a34472ad79c8"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9a684907a3088ab6b7f5f9cf74192609d602848",
+        "size": 468,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/b9a684907a3088ab6b7f5f9cf74192609d602848"
+      },
+      {
+        "path": ".gitmodules",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4156d12a016006975c8229499385e538f7dd586a",
+        "size": 230,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/4156d12a016006975c8229499385e538f7dd586a"
+      },
+      {
+        "path": ".readthedocs.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b52193bf4c28d4d4f4e8290a192cfee2e72c1b40",
+        "size": 205,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/b52193bf4c28d4d4f4e8290a192cfee2e72c1b40"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91630e1590f144b4229eee26776c4b6b1116ada7",
+        "size": 1065,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/91630e1590f144b4229eee26776c4b6b1116ada7"
+      },
+      {
+        "path": "README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d94b13697fc1606646417e540f9b44bc555c620a",
+        "size": 8220,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/d94b13697fc1606646417e540f9b44bc555c620a"
+      },
+      {
+        "path": "WeChatFerry",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d1f21b740950739ff2221bc0fb3b68c4431f15d0",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/d1f21b740950739ff2221bc0fb3b68c4431f15d0"
+      },
+      {
+        "path": "WeChatFerry/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0abeef385de7c013b890cd8278b0f50f9886cced",
+        "size": 1400,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0abeef385de7c013b890cd8278b0f50f9886cced"
+      },
+      {
+        "path": "WeChatFerry/DISCLAIMER.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "520a4ace3ffea8ff91c6f908af19be6f0692c28a",
+        "size": 1279,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/520a4ace3ffea8ff91c6f908af19be6f0692c28a"
+      },
+      {
+        "path": "WeChatFerry/WeChatFerry.sln",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02ba879a2dfa6d4b0847fc7d70888d8432a36718",
+        "size": 1775,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/02ba879a2dfa6d4b0847fc7d70888d8432a36718"
+      },
+      {
+        "path": "WeChatFerry/com",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "323ac373784c87fdef0311a3796757a2dbe425ab",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/323ac373784c87fdef0311a3796757a2dbe425ab"
+      },
+      {
+        "path": "WeChatFerry/com/framework.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80cbbc9b06a9b0141f92ee19eceaed71328caff4",
+        "size": 154,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/80cbbc9b06a9b0141f92ee19eceaed71328caff4"
+      },
+      {
+        "path": "WeChatFerry/com/log.hpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8fa8f807d203ae19d616becaf9fa9401e109d09",
+        "size": 2592,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a8fa8f807d203ae19d616becaf9fa9401e109d09"
+      },
+      {
+        "path": "WeChatFerry/com/util.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5a837636fb6ada3e9866541d2d0f6faebc8e00f",
+        "size": 9023,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/f5a837636fb6ada3e9866541d2d0f6faebc8e00f"
+      },
+      {
+        "path": "WeChatFerry/com/util.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e83b014b5a2661497f19cb2fa036312dabce5ad",
+        "size": 3621,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/6e83b014b5a2661497f19cb2fa036312dabce5ad"
+      },
+      {
+        "path": "WeChatFerry/license_check.bat",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "474519aba248538c828c4386d3fd31e6c617af3e",
+        "size": 1255,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/474519aba248538c828c4386d3fd31e6c617af3e"
+      },
+      {
+        "path": "WeChatFerry/rpc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a688806db6d297601ebabba7df5bfb763a92f27e",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/a688806db6d297601ebabba7df5bfb763a92f27e"
+      },
+      {
+        "path": "WeChatFerry/rpc/nanopb",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a0c2a5c97f9170623d36d7d21166d37319c7c32d",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/a0c2a5c97f9170623d36d7d21166d37319c7c32d"
+      },
+      {
+        "path": "WeChatFerry/rpc/nanopb/pb.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7acdf46bed8508114951f564421451ee2ca043a",
+        "size": 43940,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/f7acdf46bed8508114951f564421451ee2ca043a"
+      },
+      {
+        "path": "WeChatFerry/rpc/nanopb/pb_common.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6aee76b1efa1e6f2f3fe7d43629da9b2114eea19",
+        "size": 12141,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/6aee76b1efa1e6f2f3fe7d43629da9b2114eea19"
+      },
+      {
+        "path": "WeChatFerry/rpc/nanopb/pb_common.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58aa90f76d58596d3f45a120b65b4a0bff7fd688",
+        "size": 1677,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/58aa90f76d58596d3f45a120b65b4a0bff7fd688"
+      },
+      {
+        "path": "WeChatFerry/rpc/nanopb/pb_decode.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "788998eb962e3b3a2ea68146e3fa0b84f3054341",
+        "size": 53759,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/788998eb962e3b3a2ea68146e3fa0b84f3054341"
+      },
+      {
+        "path": "WeChatFerry/rpc/nanopb/pb_decode.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae1d3ccf2ebd5d3839ca90efb6308bdb48cd5b56",
+        "size": 7378,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ae1d3ccf2ebd5d3839ca90efb6308bdb48cd5b56"
+      },
+      {
+        "path": "WeChatFerry/rpc/nanopb/pb_encode.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f562012553b706e48ea17c32f455d6e2baf1c7e",
+        "size": 30339,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7f562012553b706e48ea17c32f455d6e2baf1c7e"
+      },
+      {
+        "path": "WeChatFerry/rpc/nanopb/pb_encode.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "891368322f4ab58f086fc92ba21781244a0ea147",
+        "size": 6958,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/891368322f4ab58f086fc92ba21781244a0ea147"
+      },
+      {
+        "path": "WeChatFerry/rpc/pb_types.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82f5459bd456f1ee7a21cfc1598fb4d8752412a9",
+        "size": 1051,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/82f5459bd456f1ee7a21cfc1598fb4d8752412a9"
+      },
+      {
+        "path": "WeChatFerry/rpc/pb_util.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5bde0f5617ab29468b481a6583d7faa41aab356e",
+        "size": 6396,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/5bde0f5617ab29468b481a6583d7faa41aab356e"
+      },
+      {
+        "path": "WeChatFerry/rpc/pb_util.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c238a4c68a49591c810032f28b82f78654ab93d",
+        "size": 650,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/3c238a4c68a49591c810032f28b82f78654ab93d"
+      },
+      {
+        "path": "WeChatFerry/rpc/proto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0a6d0dabdb23d85b2347d295f07f0d57292b0058",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/0a6d0dabdb23d85b2347d295f07f0d57292b0058"
+      },
+      {
+        "path": "WeChatFerry/rpc/proto/wcf.options",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30c189e25e9af78878c9abdaf3638a32b1016476",
+        "size": 305,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/30c189e25e9af78878c9abdaf3638a32b1016476"
+      },
+      {
+        "path": "WeChatFerry/rpc/proto/wcf.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad44e9e657cd6436b4b75da4fe3c6a17f60e9ad7",
+        "size": 7719,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ad44e9e657cd6436b4b75da4fe3c6a17f60e9ad7"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2184e134278fdd723ef205666dbe47d176fef855",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/2184e134278fdd723ef205666dbe47d176fef855"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/nanopb_generator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb75cf7ae27b35e6406307371d87bc27fba840c0",
+        "size": 106406,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/fb75cf7ae27b35e6406307371d87bc27fba840c0"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/nanopb_generator.py2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0469461d67c33f7dc94f2bcac1b862c531af780b",
+        "size": 460,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0469461d67c33f7dc94f2bcac1b862c531af780b"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/platformio_generator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c3eeebca1934ea550b403484b5b46f635927368",
+        "size": 5820,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1c3eeebca1934ea550b403484b5b46f635927368"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/proto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0da0a93030bfaee3d8e8e7704364a57d64c7747d",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/0da0a93030bfaee3d8e8e7704364a57d64c7747d"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/proto/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a93d88ff2cb3e63b08df7ae83cff0c4f7b632e6b",
+        "size": 126,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a93d88ff2cb3e63b08df7ae83cff0c4f7b632e6b"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/proto/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cfab9103c1a8a2826184eebb3eb863b92c0c36d9",
+        "size": 4565,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/cfab9103c1a8a2826184eebb3eb863b92c0c36d9"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/proto/_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9c8c94f8cfa281a75399f2c72f5a5cbba907767",
+        "size": 2023,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/f9c8c94f8cfa281a75399f2c72f5a5cbba907767"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/proto/google",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8418e2d25c2bf92cabd4990112c95ba052f13569",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/8418e2d25c2bf92cabd4990112c95ba052f13569"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/proto/google/protobuf",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8e6fea290c0fe49e886dd5aff070700ac9f16291",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/8e6fea290c0fe49e886dd5aff070700ac9f16291"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/proto/google/protobuf/descriptor.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8697a50de4a9c053a21a38e0e5e92f8971b32156",
+        "size": 36277,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/8697a50de4a9c053a21a38e0e5e92f8971b32156"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/proto/nanopb.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e36eaa89842fad4eee8699aa951088b18ae9b81",
+        "size": 6923,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/5e36eaa89842fad4eee8699aa951088b18ae9b81"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/proto/nanopb_pb2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5db3058658c1c2b5d89abb46343b29d16cae48d2",
+        "size": 5971,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/5db3058658c1c2b5d89abb46343b29d16cae48d2"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/protoc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c259702fd033815a46ab8b311751c71bb3b31b79",
+        "size": 1577,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/c259702fd033815a46ab8b311751c71bb3b31b79"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/protoc-gen-nanopb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20a36c79ae3d6333c5749ab991d3805b56979566",
+        "size": 374,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/20a36c79ae3d6333c5749ab991d3805b56979566"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/protoc-gen-nanopb-py2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6427094c1570febec9d96bcb3f38537eda980c8",
+        "size": 554,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/e6427094c1570febec9d96bcb3f38537eda980c8"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/protoc-gen-nanopb.bat",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa5bdd2be5ce4a15f9df16b926f3bafbc74bf232",
+        "size": 449,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/fa5bdd2be5ce4a15f9df16b926f3bafbc74bf232"
+      },
+      {
+        "path": "WeChatFerry/rpc/tool/protoc.bat",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2538c94a6d69729183bffe213fe88124a0f1506e",
+        "size": 302,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2538c94a6d69729183bffe213fe88124a0f1506e"
+      },
+      {
+        "path": "WeChatFerry/sdk",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ea19b308bb39f2e8e5fa22445fc4145ce75db35d",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/ea19b308bb39f2e8e5fa22445fc4145ce75db35d"
+      },
+      {
+        "path": "WeChatFerry/sdk/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "158a4412fa24d9ca26c9b7cdb1620e1d5cf5c566",
+        "size": 1145,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/158a4412fa24d9ca26c9b7cdb1620e1d5cf5c566"
+      },
+      {
+        "path": "WeChatFerry/sdk/SDK.vcxproj",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "054ecc1f688867f070ad7936eeffaebd43029d4f",
+        "size": 7491,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/054ecc1f688867f070ad7936eeffaebd43029d4f"
+      },
+      {
+        "path": "WeChatFerry/sdk/SDK.vcxproj.filters",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c2e881b2f55664cd3f97bf0c659f3e1bc77a004",
+        "size": 1596,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/9c2e881b2f55664cd3f97bf0c659f3e1bc77a004"
+      },
+      {
+        "path": "WeChatFerry/sdk/SDK.vcxproj.user",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "88a550947edbc3c5003a41726f0749201fdb6822",
+        "size": 165,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/88a550947edbc3c5003a41726f0749201fdb6822"
+      },
+      {
+        "path": "WeChatFerry/sdk/dllmain.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66475e4831c77310ed6c105beab4e28f1bfff4e9",
+        "size": 377,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/66475e4831c77310ed6c105beab4e28f1bfff4e9"
+      },
+      {
+        "path": "WeChatFerry/sdk/injector.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6eb935ed9734a47c34156c414c92dc58f309bd92",
+        "size": 5971,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/6eb935ed9734a47c34156c414c92dc58f309bd92"
+      },
+      {
+        "path": "WeChatFerry/sdk/injector.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83988a6cff4f6463cf8d9349d9f1397d645e973d",
+        "size": 489,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/83988a6cff4f6463cf8d9349d9f1397d645e973d"
+      },
+      {
+        "path": "WeChatFerry/sdk/sdk.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "831a8559032b6f9f3b7da601112a12a6359c8c7e",
+        "size": 4447,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/831a8559032b6f9f3b7da601112a12a6359c8c7e"
+      },
+      {
+        "path": "WeChatFerry/sdk/sdk.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2002d03f6a1a0ade9bf0f932f65de55c01fa7ec6",
+        "size": 132,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2002d03f6a1a0ade9bf0f932f65de55c01fa7ec6"
+      },
+      {
+        "path": "WeChatFerry/smc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "10d928f0b00a870a933c31c1b49ec2acbb13d419",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/10d928f0b00a870a933c31c1b49ec2acbb13d419"
+      },
+      {
+        "path": "WeChatFerry/smc/Codec.lib",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b9943959d7ca7f96fa5040cbc649d6beff0bf35a",
+        "size": 5511876,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/b9943959d7ca7f96fa5040cbc649d6beff0bf35a"
+      },
+      {
+        "path": "WeChatFerry/smc/codec.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b73771a2c11deedc914abee26409b65290cf38b",
+        "size": 605,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/8b73771a2c11deedc914abee26409b65290cf38b"
+      },
+      {
+        "path": "WeChatFerry/smc/libCodec.a",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "137050524af80fb7b198f4c6365c8d050b511968",
+        "size": 454392,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/137050524af80fb7b198f4c6365c8d050b511968"
+      },
+      {
+        "path": "WeChatFerry/smc/libmp3lame.a",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96e03ae5abd0e16c942f608dae204eaffe50a872",
+        "size": 443158,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/96e03ae5abd0e16c942f608dae204eaffe50a872"
+      },
+      {
+        "path": "WeChatFerry/spy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c1a2b7a2bd5edef5a42d5165e155c37665972077",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/c1a2b7a2bd5edef5a42d5165e155c37665972077"
+      },
+      {
+        "path": "WeChatFerry/spy/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "986c53be630eba2b3aa869c4f820c0e4c9406ebe",
+        "size": 2518,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/986c53be630eba2b3aa869c4f820c0e4c9406ebe"
+      },
+      {
+        "path": "WeChatFerry/spy/Spy.vcxproj",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ca8ea825cc9ee3be8c407467d03298f5c71194f4",
+        "size": 14782,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ca8ea825cc9ee3be8c407467d03298f5c71194f4"
+      },
+      {
+        "path": "WeChatFerry/spy/Spy.vcxproj.filters",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dafe11c4385780f6e2043cc61a98b54afeabeba6",
+        "size": 4963,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/dafe11c4385780f6e2043cc61a98b54afeabeba6"
+      },
+      {
+        "path": "WeChatFerry/spy/Spy.vcxproj.user",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "88a550947edbc3c5003a41726f0749201fdb6822",
+        "size": 165,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/88a550947edbc3c5003a41726f0749201fdb6822"
+      },
+      {
+        "path": "WeChatFerry/spy/account_manager.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "232fe856a1df5c7893bc5a5811e516cf20b319ba",
+        "size": 3128,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/232fe856a1df5c7893bc5a5811e516cf20b319ba"
+      },
+      {
+        "path": "WeChatFerry/spy/account_manager.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4eede789cf6f5ae3d856b661fa7efd10f4503057",
+        "size": 525,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/4eede789cf6f5ae3d856b661fa7efd10f4503057"
+      },
+      {
+        "path": "WeChatFerry/spy/chatroom_manager.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57632831b61c1a5c4f5e671cad982c838a49dd31",
+        "size": 3351,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/57632831b61c1a5c4f5e671cad982c838a49dd31"
+      },
+      {
+        "path": "WeChatFerry/spy/chatroom_manager.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3be999d62a28ce5599a0d241115ccee1df9cec10",
+        "size": 676,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/3be999d62a28ce5599a0d241115ccee1df9cec10"
+      },
+      {
+        "path": "WeChatFerry/spy/contact_manager.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2863aedfffc047a587fa1293ca53a79c08cdbae8",
+        "size": 5051,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2863aedfffc047a587fa1293ca53a79c08cdbae8"
+      },
+      {
+        "path": "WeChatFerry/spy/contact_manager.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "440091ee87ecb1e709b54bf3c262bb00614d9c3f",
+        "size": 727,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/440091ee87ecb1e709b54bf3c262bb00614d9c3f"
+      },
+      {
+        "path": "WeChatFerry/spy/database_executor.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42e0d9a8f2e9b18c83e8b81b12a92b29d14e6234",
+        "size": 9042,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/42e0d9a8f2e9b18c83e8b81b12a92b29d14e6234"
+      },
+      {
+        "path": "WeChatFerry/spy/database_executor.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d50373f3e92a6750b61bd611bc0f7237989a014",
+        "size": 802,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0d50373f3e92a6750b61bd611bc0f7237989a014"
+      },
+      {
+        "path": "WeChatFerry/spy/dllmain.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66475e4831c77310ed6c105beab4e28f1bfff4e9",
+        "size": 377,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/66475e4831c77310ed6c105beab4e28f1bfff4e9"
+      },
+      {
+        "path": "WeChatFerry/spy/message_handler.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "851584f75ba49e2f8c820ead0cea3cdb7699ddbf",
+        "size": 8856,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/851584f75ba49e2f8c820ead0cea3cdb7699ddbf"
+      },
+      {
+        "path": "WeChatFerry/spy/message_handler.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53e3d1a2b6bd346a0350a034c98aba49e05ee3e9",
+        "size": 1988,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/53e3d1a2b6bd346a0350a034c98aba49e05ee3e9"
+      },
+      {
+        "path": "WeChatFerry/spy/message_sender.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "544c74710cad49d785b4b28cc0dddad0a1a89b67",
+        "size": 12169,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/544c74710cad49d785b4b28cc0dddad0a1a89b67"
+      },
+      {
+        "path": "WeChatFerry/spy/message_sender.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c724d09ea746be392246d49b1bbdab20eedf29ec",
+        "size": 3265,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/c724d09ea746be392246d49b1bbdab20eedf29ec"
+      },
+      {
+        "path": "WeChatFerry/spy/misc_manager.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a7f445661379ee95d05ad66a5612842c03aeefc",
+        "size": 13709,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7a7f445661379ee95d05ad66a5612842c03aeefc"
+      },
+      {
+        "path": "WeChatFerry/spy/misc_manager.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1351438a9c8ea02bd30379f4fadbf64c58d035d6",
+        "size": 1583,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1351438a9c8ea02bd30379f4fadbf64c58d035d6"
+      },
+      {
+        "path": "WeChatFerry/spy/offsets.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a29370e7cb6dee0a65696f94779e1bffa664ea61",
+        "size": 6010,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a29370e7cb6dee0a65696f94779e1bffa664ea61"
+      },
+      {
+        "path": "WeChatFerry/spy/resource.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05cb1c46fefe786ef92cde2abe35b57cbafe93e4",
+        "size": 368,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/05cb1c46fefe786ef92cde2abe35b57cbafe93e4"
+      },
+      {
+        "path": "WeChatFerry/spy/rpc_helper.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ecbdcbbe7c4ecb5c9d1bd9f85d51843e258b7d7",
+        "size": 3681,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0ecbdcbbe7c4ecb5c9d1bd9f85d51843e258b7d7"
+      },
+      {
+        "path": "WeChatFerry/spy/rpc_server.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "354f7da55a46bc0e4bbe696b77595d3038fd9848",
+        "size": 14660,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/354f7da55a46bc0e4bbe696b77595d3038fd9848"
+      },
+      {
+        "path": "WeChatFerry/spy/rpc_server.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76dbc1b49f3925afeb5d026278b3575a9ba6aeac",
+        "size": 1560,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/76dbc1b49f3925afeb5d026278b3575a9ba6aeac"
+      },
+      {
+        "path": "WeChatFerry/spy/spy.aps",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19965705ba7c957de4b79f6f4870e7d7a42c8cfa",
+        "size": 2612,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/19965705ba7c957de4b79f6f4870e7d7a42c8cfa"
+      },
+      {
+        "path": "WeChatFerry/spy/spy.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc7e6b0b6e9cbc850ce0947e5b57ddab9b0b439f",
+        "size": 1124,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/cc7e6b0b6e9cbc850ce0947e5b57ddab9b0b439f"
+      },
+      {
+        "path": "WeChatFerry/spy/spy.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e460bc99e9bce62cc90fbfd6854c9c3eab22998d",
+        "size": 502,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/e460bc99e9bce62cc90fbfd6854c9c3eab22998d"
+      },
+      {
+        "path": "WeChatFerry/spy/spy.rc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "346545c15b37c17175f4de7d8eacedfda7c615df",
+        "size": 2210,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/346545c15b37c17175f4de7d8eacedfda7c615df"
+      },
+      {
+        "path": "WeChatFerry/spy/spy_types.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e0f764e6a1b9612158e02c59a3072bcf534ce1a",
+        "size": 1340,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/4e0f764e6a1b9612158e02c59a3072bcf534ce1a"
+      },
+      {
+        "path": "WeChatFerry/spy/sqlite3.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a680be7b9ed62dfd141d5be27cf4fbff2227396c",
+        "size": 10356,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a680be7b9ed62dfd141d5be27cf4fbff2227396c"
+      },
+      {
+        "path": "WeChatFerry/vcpkg.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f077e0d5a496c3f436e548e68a1f20e3d299fed",
+        "size": 223,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/5f077e0d5a496c3f436e548e68a1f20e3d299fed"
+      },
+      {
+        "path": "assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d195420ee2765c929b18a1e27f0a64394885335f",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/d195420ee2765c929b18a1e27f0a64394885335f"
+      },
+      {
+        "path": "assets/QR.jpeg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a44e0b5e7979039e1490e1b264d18c6495bb9ec",
+        "size": 57603,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/6a44e0b5e7979039e1490e1b264d18c6495bb9ec"
+      },
+      {
+        "path": "clients",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1986f818b8256168735e119b3ca503f22b08573d",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/1986f818b8256168735e119b3ca503f22b08573d"
+      },
+      {
+        "path": "clients/go",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8c8da6e73e48a1e9e9b358a5a77d68b055578fc2",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/8c8da6e73e48a1e9e9b358a5a77d68b055578fc2"
+      },
+      {
+        "path": "clients/go/LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9a8399b2323d4c898606e25d0c97eaee1b8d834",
+        "size": 1064,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/b9a8399b2323d4c898606e25d0c97eaee1b8d834"
+      },
+      {
+        "path": "clients/go/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74258d7f4b899f2fbe43f58140838c0ae507a434",
+        "size": 275,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/74258d7f4b899f2fbe43f58140838c0ae507a434"
+      },
+      {
+        "path": "clients/go/go.mod",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5c09405609e9aac68612f51080df8a18ac386e8",
+        "size": 483,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/b5c09405609e9aac68612f51080df8a18ac386e8"
+      },
+      {
+        "path": "clients/go/proto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7a7f6bba01bcd76b2ff14b0db541ffcffdbc015f",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/7a7f6bba01bcd76b2ff14b0db541ffcffdbc015f"
+      },
+      {
+        "path": "clients/go/proto/wcf.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04e6cd475448b00874c925eb7e78f31424fb1636",
+        "size": 4519,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/04e6cd475448b00874c925eb7e78f31424fb1636"
+      },
+      {
+        "path": "clients/go/wcf",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fb225381ab706b710e4de07ea771fc2375b7cdd8",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/fb225381ab706b710e4de07ea771fc2375b7cdd8"
+      },
+      {
+        "path": "clients/go/wcf/wcf.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82719dea6a9d27a000acd3a0605feaa762195cbe",
+        "size": 9833,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/82719dea6a9d27a000acd3a0605feaa762195cbe"
+      },
+      {
+        "path": "clients/go/wcf/wcf.pb.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecae68c3399442de5806d2333976918eea34891d",
+        "size": 69413,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ecae68c3399442de5806d2333976918eea34891d"
+      },
+      {
+        "path": "clients/go/wcf/wcf_test.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60660d507d6ce76c6efb501c5a5e1c84f9b9657f",
+        "size": 3948,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/60660d507d6ce76c6efb501c5a5e1c84f9b9657f"
+      },
+      {
+        "path": "clients/go_wcf_http",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "90d43cfaa945ce3a89477265f258fe5a3190694f",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/90d43cfaa945ce3a89477265f258fe5a3190694f"
+      },
+      {
+        "path": "clients/go_wcf_http/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19bc228d6ecdd4abcd5ae3b4443ec06f1e2155ec",
+        "size": 622,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/19bc228d6ecdd4abcd5ae3b4443ec06f1e2155ec"
+      },
+      {
+        "path": "clients/go_wcf_http/app",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "92d2002b3a6c267c87a4a7e7f9e66cc2d4c10724",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/92d2002b3a6c267c87a4a7e7f9e66cc2d4c10724"
+      },
+      {
+        "path": "clients/go_wcf_http/app/api.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "473f544fffc130b47784a8575c760889e8a02fd3",
+        "size": 12690,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/473f544fffc130b47784a8575c760889e8a02fd3"
+      },
+      {
+        "path": "clients/go_wcf_http/app/robot.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddb6ee05f86522a76db862e22507de9ebada2f3a",
+        "size": 3483,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ddb6ee05f86522a76db862e22507de9ebada2f3a"
+      },
+      {
+        "path": "clients/go_wcf_http/go.mod",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf74752c8f5cc78d03d09a5947b3495e5bbaf668",
+        "size": 1684,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/cf74752c8f5cc78d03d09a5947b3495e5bbaf668"
+      },
+      {
+        "path": "clients/go_wcf_http/go.sum",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "686d3b1bc98ca14e5f184988ff2a6ac29295a6db",
+        "size": 16530,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/686d3b1bc98ca14e5f184988ff2a6ac29295a6db"
+      },
+      {
+        "path": "clients/go_wcf_http/mian.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93f92435ded9f04d0d76e1b58554e0809577ec35",
+        "size": 6712,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/93f92435ded9f04d0d76e1b58554e0809577ec35"
+      },
+      {
+        "path": "clients/go_wcf_http/proto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0a288a434aebdcd3dc50de67b1b2274b87407582",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/0a288a434aebdcd3dc50de67b1b2274b87407582"
+      },
+      {
+        "path": "clients/go_wcf_http/proto/wcf.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97083dd46be0433edcd5d05462a9b924c1d3838e",
+        "size": 5917,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/97083dd46be0433edcd5d05462a9b924c1d3838e"
+      },
+      {
+        "path": "clients/go_wcf_http/templates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "45930909bfa0f9e3b182b9a2d2fe074d0e940c23",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/45930909bfa0f9e3b182b9a2d2fe074d0e940c23"
+      },
+      {
+        "path": "clients/go_wcf_http/templates/wechatFerryGoHttp.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01bef45af7e1b18cbfba798b1cf1544faa360c7a",
+        "size": 1446295,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/01bef45af7e1b18cbfba798b1cf1544faa360c7a"
+      },
+      {
+        "path": "clients/go_wcf_http/wcf",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f909be8b4d11ca0c2edd17b263b78dc7ae10e0e4",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/f909be8b4d11ca0c2edd17b263b78dc7ae10e0e4"
+      },
+      {
+        "path": "clients/go_wcf_http/wcf/wcf.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65057cffd233e21e36c3ec3e2a13438df1c0ddc8",
+        "size": 11889,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/65057cffd233e21e36c3ec3e2a13438df1c0ddc8"
+      },
+      {
+        "path": "clients/go_wcf_http/wcf/wcf.pb.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d5c1c3ff95138fcf4be3d1d40e2ea668a8e952c",
+        "size": 88416,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2d5c1c3ff95138fcf4be3d1d40e2ea668a8e952c"
+      },
+      {
+        "path": "clients/gohttp",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f5518e11dc1f6be965a86c08580f2e57480e0ccf",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/f5518e11dc1f6be965a86c08580f2e57480e0ccf"
+      },
+      {
+        "path": "clients/gohttp/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd1908a028a1808db826fb2932fcf4ca51768efe",
+        "size": 2451,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/dd1908a028a1808db826fb2932fcf4ca51768efe"
+      },
+      {
+        "path": "clients/gohttp/config.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40b6fd9bc8f24d21e84253bfa4bc9a7af49df147",
+        "size": 826,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/40b6fd9bc8f24d21e84253bfa4bc9a7af49df147"
+      },
+      {
+        "path": "clients/gohttp/go.mod",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d875c0704cca4eca80577e4cc644b6881509b5e",
+        "size": 2866,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7d875c0704cca4eca80577e4cc644b6881509b5e"
+      },
+      {
+        "path": "clients/gohttp/go.sum",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4019d8271bc78e060331ac4d6855b1ec966d13f5",
+        "size": 16516,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/4019d8271bc78e060331ac4d6855b1ec966d13f5"
+      },
+      {
+        "path": "clients/gohttp/httpd",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "020240239ba92b86a13bb97054885d3ab60fcafd",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/020240239ba92b86a13bb97054885d3ab60fcafd"
+      },
+      {
+        "path": "clients/gohttp/httpd/server.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d2a112d080db844e93c9d095b17c6cc76ac9bc3",
+        "size": 843,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/6d2a112d080db844e93c9d095b17c6cc76ac9bc3"
+      },
+      {
+        "path": "clients/gohttp/main.go",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "973f4c0224e0e4c86afe077086907f96373a8f46",
+        "size": 184,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/973f4c0224e0e4c86afe077086907f96373a8f46"
+      },
+      {
+        "path": "clients/gohttp/public",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4bd59708a5d6f4a969b42df90b64cc30175179a2",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/4bd59708a5d6f4a969b42df90b64cc30175179a2"
+      },
+      {
+        "path": "clients/gohttp/public/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "12b1f4cd930d1fe8411bdb9407dc96d0705d7e53",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/12b1f4cd930d1fe8411bdb9407dc96d0705d7e53"
+      },
+      {
+        "path": "clients/gohttp/public/assets/icon.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0bb0371bd27b11b55f6e4556b1e65f982b6494c",
+        "size": 44615,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/c0bb0371bd27b11b55f6e4556b1e65f982b6494c"
+      },
+      {
+        "path": "clients/gohttp/public/assets/logo.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4e0da086b9fad3a6e01795c065b9af1216d4589",
+        "size": 45304,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/b4e0da086b9fad3a6e01795c065b9af1216d4589"
+      },
+      {
+        "path": "clients/gohttp/public/assets/style.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a867a0d83570c0a55aa56f9593dbc4ecc6b378ab",
+        "size": 49,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a867a0d83570c0a55aa56f9593dbc4ecc6b378ab"
+      },
+      {
+        "path": "clients/gohttp/public/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f7c0a28559931c43b4042bbbe66137b71e32434",
+        "size": 521,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/9f7c0a28559931c43b4042bbbe66137b71e32434"
+      },
+      {
+        "path": "clients/gohttp/public/swagger",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6a04c5a4d05b828b1588c7b20aef3ee5355531d5",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/6a04c5a4d05b828b1588c7b20aef3ee5355531d5"
+      },
+      {
+        "path": "clients/gohttp/public/swagger/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e53578e996910604c848585c04f0f09e38dce08",
+        "size": 990,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/9e53578e996910604c848585c04f0f09e38dce08"
+      },
+      {
+        "path": "clients/gohttp/public/swagger/swagger.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e95530de352554aa550b0510eca8e814f1007f81",
+        "size": 80388,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/e95530de352554aa550b0510eca8e814f1007f81"
+      },
+      {
+        "path": "clients/gohttp/start-dev.bat",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36183815824e20501893c171547b4aa967a42864",
+        "size": 300,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/36183815824e20501893c171547b4aa967a42864"
+      },
+      {
+        "path": "clients/http",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ecf3dd16207ceb2fc7954072529d04e033d70c33",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/ecf3dd16207ceb2fc7954072529d04e033d70c33"
+      },
+      {
+        "path": "clients/http/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f06d39a4eb4f5d37af3224a26df851d800c2848a",
+        "size": 187,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/f06d39a4eb4f5d37af3224a26df851d800c2848a"
+      },
+      {
+        "path": "clients/java",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3656c046be8807ba5fd71e012d6088bda2f63f81",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/3656c046be8807ba5fd71e012d6088bda2f63f81"
+      },
+      {
+        "path": "clients/java/wcf-bmc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f107191b888ecf9fb6829d497e41b8f55831e34b",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/f107191b888ecf9fb6829d497e41b8f55831e34b"
+      },
+      {
+        "path": "clients/java/wcf-bmc/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "549e00a2a96fa9d7c5dbc9859664a78d980158c2",
+        "size": 395,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/549e00a2a96fa9d7c5dbc9859664a78d980158c2"
+      },
+      {
+        "path": "clients/java/wcf-bmc/CHANGELOG.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8bbc5a9573b7750f3131e0c464b102b35be84ead",
+        "size": 18492,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/8bbc5a9573b7750f3131e0c464b102b35be84ead"
+      },
+      {
+        "path": "clients/java/wcf-bmc/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2fa111ddbf4529e9a3edee89436701f7806364e7",
+        "size": 9673,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2fa111ddbf4529e9a3edee89436701f7806364e7"
+      },
+      {
+        "path": "clients/java/wcf-bmc/dll",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7d5cc3e90a124723a8a222bb39125501bacc8382",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/7d5cc3e90a124723a8a222bb39125501bacc8382"
+      },
+      {
+        "path": "clients/java/wcf-bmc/dll/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/dll/DISCLAIMER.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "520a4ace3ffea8ff91c6f908af19be6f0692c28a",
+        "size": 1279,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/520a4ace3ffea8ff91c6f908af19be6f0692c28a"
+      },
+      {
+        "path": "clients/java/wcf-bmc/dll/readme.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b6e18a833e3595019749e515deb58034b645c4a",
+        "size": 278,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/6b6e18a833e3595019749e515deb58034b645c4a"
+      },
+      {
+        "path": "clients/java/wcf-bmc/dll/sdk.dll",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "748326598ed6513f068eda2fa20d8d680ab83950",
+        "size": 845312,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/748326598ed6513f068eda2fa20d8d680ab83950"
+      },
+      {
+        "path": "clients/java/wcf-bmc/dll/spy.dll",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2eb45fc9e1de63eee74c4bcba82f37817181cfdd",
+        "size": 1358848,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2eb45fc9e1de63eee74c4bcba82f37817181cfdd"
+      },
+      {
+        "path": "clients/java/wcf-bmc/dll/spy_debug.dll",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4900318eb20f22b3eb16fd7eec1efed3cb0d863a",
+        "size": 1982976,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/4900318eb20f22b3eb16fd7eec1efed3cb0d863a"
+      },
+      {
+        "path": "clients/java/wcf-bmc/pom.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5cd0b7618babaf2b5f433c73672537ab98929e0d",
+        "size": 8501,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/5cd0b7618babaf2b5f433c73672537ab98929e0d"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2b0d1fd2baa546fd54c828b2ab540617be34dc26",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/2b0d1fd2baa546fd54c828b2ab540617be34dc26"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cbcc74ce81af0f175b014f947a5b5a6c86cf1613",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/cbcc74ce81af0f175b014f947a5b5a6c86cf1613"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5f919fe9158df2073405c6d342408ba236e11158",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/5f919fe9158df2073405c6d342408ba236e11158"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e67b43c4371db1c52160b36e22278771c4b6dd81",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/e67b43c4371db1c52160b36e22278771c4b6dd81"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3fff63a80606c2f912fbcb2a439592cbde35ab12",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/3fff63a80606c2f912fbcb2a439592cbde35ab12"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "784a2b9829f69ce393935713226432b163a9e237",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/784a2b9829f69ce393935713226432b163a9e237"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/WeChatFerryApplication.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ace8c66958ff8a5ef5e693ee13aa2b3a9d533a3c",
+        "size": 487,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ace8c66958ff8a5ef5e693ee13aa2b3a9d533a3c"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/aggregation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "39ba46c18c40e04ef6ffb2bfe7b07ecf449da4db",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/39ba46c18c40e04ef6ffb2bfe7b07ecf449da4db"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/aggregation/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/aggregation/facade",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f412f887a081d7b244e6bcf60a67b3501bb3a89e",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/f412f887a081d7b244e6bcf60a67b3501bb3a89e"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/aggregation/facade/ChatRoomDo.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "586b4a563ca4f2c07d94f621860e9ea55fefef22",
+        "size": 231,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/586b4a563ca4f2c07d94f621860e9ea55fefef22"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/aggregation/facade/ContactDo.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bfb43d2e5e35496119a5519a8294ce33b7035cf5",
+        "size": 7479,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/bfb43d2e5e35496119a5519a8294ce33b7035cf5"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/config",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2888fd4987701aff5100e34139a24f00a8a01d58",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/2888fd4987701aff5100e34139a24f00a8a01d58"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/config/ProtobufConfig.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7eb0a81e913f08c6d733dee4d6f366c0bee2d8d6",
+        "size": 858,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7eb0a81e913f08c6d733dee4d6f366c0bee2d8d6"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/config/SwaggerConfig.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e34628ebaafd207ab1e4bdc36d74d4322aa16bf",
+        "size": 1388,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7e34628ebaafd207ab1e4bdc36d74d4322aa16bf"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/config/WeChatConfiguration.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8efe3d4a2d5409608eb8a1c800f83182c74beffe",
+        "size": 5494,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/8efe3d4a2d5409608eb8a1c800f83182c74beffe"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/config/WeChatFerryProperties.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d33770b2c38f786d71150b23df0f6958a49f574",
+        "size": 1970,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1d33770b2c38f786d71150b23df0f6958a49f574"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/config/WebConfig.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e765bc3ed2979c51b58006279a8588086d299fb3",
+        "size": 1141,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/e765bc3ed2979c51b58006279a8588086d299fb3"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/constant",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "07bc761de7ab522e80e8f4c5ec012731030cf199",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/07bc761de7ab522e80e8f4c5ec012731030cf199"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/constant/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/controller",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ea77580c63968cbc8047be02455a14f54b73b1e0",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/ea77580c63968cbc8047be02455a14f54b73b1e0"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/controller/WeChatDllController.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "488d6765402f67895035c094df6f2ab7b9e94ee9",
+        "size": 14934,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/488d6765402f67895035c094df6f2ab7b9e94ee9"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/controller/WeChatMsgController.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdf109ab1c3ab9770640e709f0a1fa7ab8d09af0",
+        "size": 1310,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/bdf109ab1c3ab9770640e709f0a1fa7ab8d09af0"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d065d4ca679ada1ee2d79f483a37a81146c2705c",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/d065d4ca679ada1ee2d79f483a37a81146c2705c"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/IResponse.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73aedb36aff3515d653de2f54eedf71a46abf851",
+        "size": 207,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/73aedb36aff3515d653de2f54eedf71a46abf851"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/TResponse.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "627f3715b1634c317151ce2028fdd1b1becf7945",
+        "size": 2488,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/627f3715b1634c317151ce2028fdd1b1becf7945"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/dto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "87b111df20c23204ec8626acd0c8119ebad77a1e",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/87b111df20c23204ec8626acd0c8119ebad77a1e"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/dto/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/dto/WxPpMsgDTO.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e341df2700294eedd6a7bbe3bd48a94c2af4674",
+        "size": 2019,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/9e341df2700294eedd6a7bbe3bd48a94c2af4674"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/po",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "49933a7817ce1fd015087bcfa1da0a4c9713b348",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/49933a7817ce1fd015087bcfa1da0a4c9713b348"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/po/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/po/wcf",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "97f53d4956ee1d197d94104a43c53c44a8021b04",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/97f53d4956ee1d197d94104a43c53c44a8021b04"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/po/wcf/ChatRoom.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f685c247cd899f26bf5ed22c0f47771db631839",
+        "size": 695,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/3f685c247cd899f26bf5ed22c0f47771db631839"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/po/wcf/ChatRoomInfo.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa078e6b7fa19f49a9b3b224913fb56f7200e205",
+        "size": 946,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/fa078e6b7fa19f49a9b3b224913fb56f7200e205"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/po/wcf/Contact.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc1f1ef62f9e4dac8417b8dd324ef8fc87b78a17",
+        "size": 1302,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/bc1f1ef62f9e4dac8417b8dd324ef8fc87b78a17"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/po/wcf/ContactHeadImgUrl.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2379c966a66448bde97f0b842a2416a97cc43c5c",
+        "size": 716,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2379c966a66448bde97f0b842a2416a97cc43c5c"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/po/wcf/RevokeMsgStorage.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7889a57619b230aa071315a6faa42d8c116c906",
+        "size": 718,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/b7889a57619b230aa071315a6faa42d8c116c906"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/proto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5a1ec26284441d00221498ddd4dabc566b9f59e3",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/5a1ec26284441d00221498ddd4dabc566b9f59e3"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/proto/Wcf.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd3d1f312267472ec1bfcd3f69772a01fa18ac8a",
+        "size": 1092511,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/bd3d1f312267472ec1bfcd3f69772a01fa18ac8a"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2d03ecd273e77279bcd0fcf8c99c6c4f937ca07d",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/2d03ecd273e77279bcd0fcf8c99c6c4f937ca07d"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b45c295b3521797187d8a8bfafd5dd9cdf50f11c",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/b45c295b3521797187d8a8bfafd5dd9cdf50f11c"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfAddFriendGroupMemberReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ab873f592f65360df2f287ed596a7731085d5f9",
+        "size": 799,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1ab873f592f65360df2f287ed596a7731085d5f9"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfDatabaseSqlReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ba95e4eadd88074d1100bbb759cb6fea706c562",
+        "size": 786,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/9ba95e4eadd88074d1100bbb759cb6fea706c562"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfDatabaseTableReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c5df0c6e9361a695ab1eb45b3352eb6ed892ad2c",
+        "size": 636,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/c5df0c6e9361a695ab1eb45b3352eb6ed892ad2c"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfDeleteGroupMemberReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4055c09a8e0a53c852acb172b99edd6b65a33568",
+        "size": 784,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/4055c09a8e0a53c852acb172b99edd6b65a33568"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfDownloadAttachReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be2fc177b75d1f09a01d3acb2e8f6f4cad3ac636",
+        "size": 1139,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/be2fc177b75d1f09a01d3acb2e8f6f4cad3ac636"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfGroupMemberReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9b43a0dd4b256de250ba411561224cdf57ba697",
+        "size": 596,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a9b43a0dd4b256de250ba411561224cdf57ba697"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfInviteGroupMemberReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97bd6cc1b66bbb10027cb313eb9679c5eb33c707",
+        "size": 784,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/97bd6cc1b66bbb10027cb313eb9679c5eb33c707"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfPassFriendApplyReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e8bef68df7f962f079886ba6dd4882e76ab3682",
+        "size": 1173,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/5e8bef68df7f962f079886ba6dd4882e76ab3682"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfPatOnePatMsgReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac8594dbad11610805eff2aea2dc94844ee0db9d",
+        "size": 928,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ac8594dbad11610805eff2aea2dc94844ee0db9d"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfReceiveTransferReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7e3bea375330215ac0feac2a4df33f9adea4bd5",
+        "size": 761,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/b7e3bea375330215ac0feac2a4df33f9adea4bd5"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfRevokeMsgReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe84b0943c8a9c6bbbaefcd21a18c89de9700dce",
+        "size": 532,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/fe84b0943c8a9c6bbbaefcd21a18c89de9700dce"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfSendEmojiMsgReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69b269c45e3cc86b72ed86759efa71714d8911f9",
+        "size": 1032,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/69b269c45e3cc86b72ed86759efa71714d8911f9"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfSendFileMsgReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "620b219f05a19a87de4829df54fcb9fa8e00e81c",
+        "size": 942,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/620b219f05a19a87de4829df54fcb9fa8e00e81c"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfSendImageMsgReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37f81e9e0768a8608a758371556e1fdb350be3a7",
+        "size": 1175,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/37f81e9e0768a8608a758371556e1fdb350be3a7"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfSendRichTextMsgReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4774d5e20153de77112e46fb372011473450eae",
+        "size": 1561,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/f4774d5e20153de77112e46fb372011473450eae"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfSendTextMsgReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bfdfd3d953b844aee5f7ef595c6abff2c338a6fb",
+        "size": 1503,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/bfdfd3d953b844aee5f7ef595c6abff2c338a6fb"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/request/WxPpWcfSendXmlMsgReq.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00c5e6b6c87d483123ad846d21048a10074336f0",
+        "size": 1279,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/00c5e6b6c87d483123ad846d21048a10074336f0"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "67645d0567e5019e41164db59e8f938e485b6e4e",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/67645d0567e5019e41164db59e8f938e485b6e4e"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfContactsResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "907825ef97ae4cd66f0a289bfdc4dbdd4467a964",
+        "size": 2023,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/907825ef97ae4cd66f0a289bfdc4dbdd4467a964"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfDatabaseFieldResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7d050ba1b80f179fe471b5c3d92385b3a6f24b8",
+        "size": 717,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/e7d050ba1b80f179fe471b5c3d92385b3a6f24b8"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfDatabaseRowResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0eeadd4363c423d951e1c6c2c87d77a78b867cd5",
+        "size": 565,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0eeadd4363c423d951e1c6c2c87d77a78b867cd5"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfDatabaseTableResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c73f86e1cfa5dd44e94adf77ae5c814089e7fdd7",
+        "size": 638,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/c73f86e1cfa5dd44e94adf77ae5c814089e7fdd7"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfGroupMemberResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cfa27a625aacc34da12e899584d4de1a37e85078",
+        "size": 1067,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/cfa27a625aacc34da12e899584d4de1a37e85078"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfLoginInfoResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e0e43dfe7b88301519b819e518627cb809053b8",
+        "size": 976,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7e0e43dfe7b88301519b819e518627cb809053b8"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfMsgTypeResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44934b081569e57f98656b37bbffe868188b3a1b",
+        "size": 605,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/44934b081569e57f98656b37bbffe868188b3a1b"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfSendEmojiMsgResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f2ee72d103732286b7d65e9c914833e083a4aff",
+        "size": 615,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1f2ee72d103732286b7d65e9c914833e083a4aff"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfSendFileMsgResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67b1f6530c83b5b14b3e712766fad4578b80505e",
+        "size": 619,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/67b1f6530c83b5b14b3e712766fad4578b80505e"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfSendImageMsgResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51ef04b543f0d3ba5c1634db7d1c65442a81beeb",
+        "size": 956,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/51ef04b543f0d3ba5c1634db7d1c65442a81beeb"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfSendPatOnePatMsgResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "22d34220cd3608e04a61ebcd5ddedab0125295c0",
+        "size": 635,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/22d34220cd3608e04a61ebcd5ddedab0125295c0"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfSendRichTextMsgResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "934035c6e3a7c4162e80e6e48d103d15cae32c85",
+        "size": 633,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/934035c6e3a7c4162e80e6e48d103d15cae32c85"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfSendTextMsgResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a5c50d882dd8ccac08e56f1a4dafd826c600167",
+        "size": 619,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2a5c50d882dd8ccac08e56f1a4dafd826c600167"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/entity/vo/response/WxPpWcfSendXmlMsgResp.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f7829a9cbe7f2e309e5286ef49c62f02a48a1d2",
+        "size": 611,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2f7829a9cbe7f2e309e5286ef49c62f02a48a1d2"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d6ba0cdf91fad03892e155ac517f0b9f907b3c2a",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/d6ba0cdf91fad03892e155ac517f0b9f907b3c2a"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/DatabaseNameEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b52035188187797d87724b937b0e4889dc8df7d",
+        "size": 908,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0b52035188187797d87724b937b0e4889dc8df7d"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/MsgCallbackTypeEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "787eeb9b7640bc33df9b48f0969c179dd924a9b1",
+        "size": 1133,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/787eeb9b7640bc33df9b48f0969c179dd924a9b1"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/MsgEventTypeEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae137c19aa87de261f96abc5dae7b267565cf473",
+        "size": 915,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ae137c19aa87de261f96abc5dae7b267565cf473"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/ReceiveMsgChannelEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d4850c556ca12e2abab38d6d7037939af86658c",
+        "size": 934,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1d4850c556ca12e2abab38d6d7037939af86658c"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/ResponseCodeEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79bc7fef9645211f504b73f51af5e3bb0b08e303",
+        "size": 1103,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/79bc7fef9645211f504b73f51af5e3bb0b08e303"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/SexEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8ebf447922f2228652b85dedd9580d7b72ca1e2",
+        "size": 959,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a8ebf447922f2228652b85dedd9580d7b72ca1e2"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/TableNameEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a05aa573aaa85d24e1f05fd652c8fb6a5892aea8",
+        "size": 938,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a05aa573aaa85d24e1f05fd652c8fb6a5892aea8"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/WcfMsgTypeEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a90fd76dfc953498460bdf088327ae93c56b3dc",
+        "size": 3360,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1a90fd76dfc953498460bdf088327ae93c56b3dc"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/WhetherEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "569d005f18c80edce692053fe17f0ab97e341277",
+        "size": 568,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/569d005f18c80edce692053fe17f0ab97e341277"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/WxContactsMixedEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3775a02ed904ee397a40cdbe4a1d1fb346de542",
+        "size": 1897,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/b3775a02ed904ee397a40cdbe4a1d1fb346de542"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/WxContactsOfficialEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4bba47a1f304f8456ae77061a41375c12adba5e7",
+        "size": 1979,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/4bba47a1f304f8456ae77061a41375c12adba5e7"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/WxContactsTypeEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a274f1eeae9fa8bb21cf8429c4f897239d13940",
+        "size": 1277,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0a274f1eeae9fa8bb21cf8429c4f897239d13940"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/enums/WxPpMsgTypeEnum.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "32cbbf47ac74b04a8f4783d9407601114192bf8a",
+        "size": 833,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/32cbbf47ac74b04a8f4783d9407601114192bf8a"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/exception",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "37e740c0a4afd31080cfced915043d2cc9e8d47f",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/37e740c0a4afd31080cfced915043d2cc9e8d47f"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/exception/BizException.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2de4bba4f51913e94ad151540bdcb05c7d57ef59",
+        "size": 1841,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2de4bba4f51913e94ad151540bdcb05c7d57ef59"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/exception/GlobalExceptionHandler.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d1e4a4cfe60acffc0960c846eced1281180f945",
+        "size": 2358,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1d1e4a4cfe60acffc0960c846eced1281180f945"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/handle",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3692ed85d47b8a7a17b284897cee230f1a32fc58",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/3692ed85d47b8a7a17b284897cee230f1a32fc58"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/handle/WeChatSocketClient.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "558b24f7d2fefdb3ad9d3acc11239c93d9ac76a1",
+        "size": 33653,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/558b24f7d2fefdb3ad9d3acc11239c93d9ac76a1"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/service",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f1eadce6bb9d24aa06873fa476704a9d8366d53f",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/f1eadce6bb9d24aa06873fa476704a9d8366d53f"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/service/SDK.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24fe7d00cfb93c55cf24b6c511eef15c284bd3bb",
+        "size": 445,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/24fe7d00cfb93c55cf24b6c511eef15c284bd3bb"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/service/WeChatDllService.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e80826b60bce3deb7fae47446d12ae0ffba3a70",
+        "size": 13815,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/9e80826b60bce3deb7fae47446d12ae0ffba3a70"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/service/WeChatMsgService.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a5bad84bc39ccb87a9811320de186cb8f2b08d1",
+        "size": 341,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/3a5bad84bc39ccb87a9811320de186cb8f2b08d1"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/service/impl",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ad0b5cb25e2c6a6a2f9b2b5e19a78687d07a4e19",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/ad0b5cb25e2c6a6a2f9b2b5e19a78687d07a4e19"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/service/impl/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/service/impl/WeChatDllServiceImpl.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3c8ab1c5166987cc54304da6c73f6a3a30b37bf",
+        "size": 36504,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/e3c8ab1c5166987cc54304da6c73f6a3a30b37bf"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/service/impl/WeChatMsgServiceImpl.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ea128a4ee1df011b963331d55362055a9a83d41",
+        "size": 6190,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7ea128a4ee1df011b963331d55362055a9a83d41"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/strategy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7452af875cbf5e963f7f10f55b13e02dd4737693",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/7452af875cbf5e963f7f10f55b13e02dd4737693"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/strategy/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/strategy/msg",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "199681ea0e595bbca1ff8120fd8a60b05378dbfb",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/199681ea0e595bbca1ff8120fd8a60b05378dbfb"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/strategy/msg/receive",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3babb77e40d7f96dfc309b02611e20f3fdfa7329",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/3babb77e40d7f96dfc309b02611e20f3fdfa7329"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/strategy/msg/receive/ReceiveMsgFactory.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39fb5b066a5540cb988e54df384c419c3cd463dd",
+        "size": 3143,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/39fb5b066a5540cb988e54df384c419c3cd463dd"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/strategy/msg/receive/ReceiveMsgStrategy.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7fb0a81c50ed0c5a674c7e8af2a1534921c4c40b",
+        "size": 563,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7fb0a81c50ed0c5a674c7e8af2a1534921c4c40b"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/strategy/msg/receive/impl",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "26df79e804a8949cc8be02f54a537e377ed88204",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/26df79e804a8949cc8be02f54a537e377ed88204"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/strategy/msg/receive/impl/SignInMsgStrategyImpl.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c7061a92067382ecf5aef81c9ccb5d3f4ea33b3",
+        "size": 1029,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7c7061a92067382ecf5aef81c9ccb5d3f4ea33b3"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/task",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "70fa1d77238ea34582dfdfe04482843b76867fd6",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/70fa1d77238ea34582dfdfe04482843b76867fd6"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/task/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/task/ContactGroupMonitorTask.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6432306c345bfcfdd75d77cfa45d4c12089cebab",
+        "size": 8306,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/6432306c345bfcfdd75d77cfa45d4c12089cebab"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "17fe451bbf2f1db0c3bc35c5339172490c31ed77",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/17fe451bbf2f1db0c3bc35c5339172490c31ed77"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/utils/HttpClientUtil.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86509deadb74d72ec0880bd858f95b3a18cf2384",
+        "size": 5095,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/86509deadb74d72ec0880bd858f95b3a18cf2384"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/utils/PathUtils.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b707a3206f48d168ab1a462f46f0f1ea4480e7e",
+        "size": 1999,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0b707a3206f48d168ab1a462f46f0f1ea4480e7e"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/java/com/wechat/ferry/utils/XmlJsonConvertUtil.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b4092415591ec4c9cefee1ec9d454d521cd1e24",
+        "size": 5479,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2b4092415591ec4c9cefee1ec9d454d521cd1e24"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0a7fd8c67115b4fbffc6976fc9698ba3b4c43476",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/0a7fd8c67115b4fbffc6976fc9698ba3b4c43476"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/application.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38b835629885312c09988b9b909cca8a7d931f07",
+        "size": 1652,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/38b835629885312c09988b9b909cca8a7d931f07"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/libs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "27ae2d3cc340ef95ee86d0d5b0a4a9c523aa7b70",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/27ae2d3cc340ef95ee86d0d5b0a4a9c523aa7b70"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/libs/nng-java-1.4.0-SNAPSHOT.jar",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64a150162acfb782ee5a7c457954bdc7625dceeb",
+        "size": 74638,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/64a150162acfb782ee5a7c457954bdc7625dceeb"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/logback-spring.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3cae4df5e2122f1f05b8387519fb67b6dded87ca",
+        "size": 6094,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/3cae4df5e2122f1f05b8387519fb67b6dded87ca"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/proto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4ee4460705dedf7aa65d0914f8c5f46374d0216b",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/4ee4460705dedf7aa65d0914f8c5f46374d0216b"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/proto/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/proto/wcf.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d5bef76318be6dfcb5723fbe868c4269331da03",
+        "size": 7824,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7d5bef76318be6dfcb5723fbe868c4269331da03"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/win32-x86-64",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "35bc7123b88c501a9d5d0688f1c11a4fc2deaf3a",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/35bc7123b88c501a9d5d0688f1c11a4fc2deaf3a"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/win32-x86-64/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10d4fedcd67768c652ab221d48db46763b93978",
+        "size": 68,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a10d4fedcd67768c652ab221d48db46763b93978"
+      },
+      {
+        "path": "clients/java/wcf-bmc/src/main/resources/win32-x86-64/nng.dll",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7488b2d740a9641c18ac33c63ed22e958862bbaa",
+        "size": 813568,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7488b2d740a9641c18ac33c63ed22e958862bbaa"
+      },
+      {
+        "path": "clients/java/wcferry",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3ba3800b331b5ddfe2f2c223cd12f1e276fbc446",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/3ba3800b331b5ddfe2f2c223cd12f1e276fbc446"
+      },
+      {
+        "path": "clients/java/wcferry/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c11e9f84afffbf6ef2be9206bb0c00737daf479",
+        "size": 2538,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0c11e9f84afffbf6ef2be9206bb0c00737daf479"
+      },
+      {
+        "path": "clients/java/wcferry/build.gradle",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1bb444da46b0b40fc993fd1f8fd8df5d52684848",
+        "size": 623,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1bb444da46b0b40fc993fd1f8fd8df5d52684848"
+      },
+      {
+        "path": "clients/java/wcferry/gradle",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eef020cd5a8673b4845cab830483960cfd00f4ea",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/eef020cd5a8673b4845cab830483960cfd00f4ea"
+      },
+      {
+        "path": "clients/java/wcferry/gradle/wrapper",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "878de8659797dff9068a4a478f654d6062ccec0e",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/878de8659797dff9068a4a478f654d6062ccec0e"
+      },
+      {
+        "path": "clients/java/wcferry/gradle/wrapper/gradle-wrapper.jar",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41d9927a4d4fb3f96a785543079b8df6723c946b",
+        "size": 59821,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/41d9927a4d4fb3f96a785543079b8df6723c946b"
+      },
+      {
+        "path": "clients/java/wcferry/gradle/wrapper/gradle-wrapper.properties",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41dfb87909a877d96c3af4adccce4c7a301b55a2",
+        "size": 200,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/41dfb87909a877d96c3af4adccce4c7a301b55a2"
+      },
+      {
+        "path": "clients/java/wcferry/gradlew",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b6c787337ffb79f0e3cf8b1e9f00f680a959de1",
+        "size": 8070,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1b6c787337ffb79f0e3cf8b1e9f00f680a959de1"
+      },
+      {
+        "path": "clients/java/wcferry/gradlew.bat",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "107acd32c4e687021ef32db511e8a206129b88ec",
+        "size": 2674,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/107acd32c4e687021ef32db511e8a206129b88ec"
+      },
+      {
+        "path": "clients/java/wcferry/libs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "27ae2d3cc340ef95ee86d0d5b0a4a9c523aa7b70",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/27ae2d3cc340ef95ee86d0d5b0a4a9c523aa7b70"
+      },
+      {
+        "path": "clients/java/wcferry/libs/nng-java-1.4.0-SNAPSHOT.jar",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64a150162acfb782ee5a7c457954bdc7625dceeb",
+        "size": 74638,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/64a150162acfb782ee5a7c457954bdc7625dceeb"
+      },
+      {
+        "path": "clients/java/wcferry/settings.gradle",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28bedb6d010a8449c3b02d0d29fd09d43bcc8e1d",
+        "size": 30,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/28bedb6d010a8449c3b02d0d29fd09d43bcc8e1d"
+      },
+      {
+        "path": "clients/java/wcferry/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1e78339be36ca8ac56d9ab8efd6f101da558f414",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/1e78339be36ca8ac56d9ab8efd6f101da558f414"
+      },
+      {
+        "path": "clients/java/wcferry/src/main",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "43affd5086430aa68699a6f2e06215ea4359585a",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/43affd5086430aa68699a6f2e06215ea4359585a"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/java",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fd90443e7fd0e8413daf661a01e2520e4d62a842",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/fd90443e7fd0e8413daf661a01e2520e4d62a842"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/java/com",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "110f0760a0431834f613306c1887756c14b28e5f",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/110f0760a0431834f613306c1887756c14b28e5f"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/java/com/iamteer",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6344763a1516a6585ec8a9961fb77a84441b82c5",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/6344763a1516a6585ec8a9961fb77a84441b82c5"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/java/com/iamteer/Client.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05378c71c4ee09e5ba59cb62e09e26f44c6b2d67",
+        "size": 14497,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/05378c71c4ee09e5ba59cb62e09e26f44c6b2d67"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/java/com/iamteer/Main.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdd07c7e1b682b744bc4ea551494d3dece8d33a4",
+        "size": 4245,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/bdd07c7e1b682b744bc4ea551494d3dece8d33a4"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/java/com/iamteer/SDK.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ee95bddf4ff74c68b05e3dfb7187b59048df62b",
+        "size": 705,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1ee95bddf4ff74c68b05e3dfb7187b59048df62b"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/java/com/iamteer/Wcf.java",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "45e06cc3fb143231cf5e5514c10979e0314154df",
+        "size": 999093,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/45e06cc3fb143231cf5e5514c10979e0314154df"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/resources",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "70168a5f98bba9054d3fee37723cb7ea77d756b2",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/70168a5f98bba9054d3fee37723cb7ea77d756b2"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/resources/logback.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e6c67d92e36441e6dbccd0dd788dec7be501e27",
+        "size": 486,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/6e6c67d92e36441e6dbccd0dd788dec7be501e27"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/resources/win32-x86-64",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ea62c16a0ccdcb83d5fd81ae36afd3cb2da8900d",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/ea62c16a0ccdcb83d5fd81ae36afd3cb2da8900d"
+      },
+      {
+        "path": "clients/java/wcferry/src/main/resources/win32-x86-64/nng.dll",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7488b2d740a9641c18ac33c63ed22e958862bbaa",
+        "size": 813568,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7488b2d740a9641c18ac33c63ed22e958862bbaa"
+      },
+      {
+        "path": "clients/node",
+        "mode": "160000",
+        "type": "commit",
+        "sha": "e4d0f7fc3f7799b2710591f35ece4ff8858a4cb5"
+      },
+      {
+        "path": "clients/pyauto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d119814fd8919033b660db4a2800ebc1a1e82037",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/d119814fd8919033b660db4a2800ebc1a1e82037"
+      },
+      {
+        "path": "clients/pyauto/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16b232715aaeac4afcf22b2990a469b31c84c03b",
+        "size": 4442,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/16b232715aaeac4afcf22b2990a469b31c84c03b"
+      },
+      {
+        "path": "clients/pyauto/demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b0bccd33b06926bdd07a2a3ea46cc0ea46659da",
+        "size": 3412,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/7b0bccd33b06926bdd07a2a3ea46cc0ea46659da"
+      },
+      {
+        "path": "clients/pyauto/setup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2dc9a1ccd7f4caf6ecba9c5a5a1a6020ac2ec0a",
+        "size": 1141,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/f2dc9a1ccd7f4caf6ecba9c5a5a1a6020ac2ec0a"
+      },
+      {
+        "path": "clients/pyauto/wcfauto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0ebe17394702fe173821299e0cf94a94b6011904",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/0ebe17394702fe173821299e0cf94a94b6011904"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "75593bccbc86494471ee6e547111ffbaff44ad19",
+        "size": 168,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/75593bccbc86494471ee6e547111ffbaff44ad19"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/auto_res",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f243acde3b2baa199c578e94451ced54515aec14",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/f243acde3b2baa199c578e94451ced54515aec14"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/auto_res/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ebd8b6a2ffbae4dc7516ada5314573ba786cb5e",
+        "size": 153,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0ebd8b6a2ffbae4dc7516ada5314573ba786cb5e"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/auto_res/bot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a06c83af21b218f7a77254df83535f4959bcbac1",
+        "size": 9613,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a06c83af21b218f7a77254df83535f4959bcbac1"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/auto_res/core.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f971eecf0f2b297ffbffa843f05f9a2f7f00a16",
+        "size": 7939,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/9f971eecf0f2b297ffbffa843f05f9a2f7f00a16"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/event",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6fdd69862af20b9508d3e31a96dd677ed68fd0d9",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/6fdd69862af20b9508d3e31a96dd677ed68fd0d9"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/event/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef6920ef63659d51bf7e2650e4d3e8af04866218",
+        "size": 143,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ef6920ef63659d51bf7e2650e4d3e8af04866218"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/event/core.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a2f975a9d31a9022eac9f5e6025413c5a73651c",
+        "size": 6359,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/8a2f975a9d31a9022eac9f5e6025413c5a73651c"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/event/event.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39e0980a89cb75854f3afb1ee0b15a6a567a54ba",
+        "size": 1876,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/39e0980a89cb75854f3afb1ee0b15a6a567a54ba"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/msg_list.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbe21de822ca5c5899d4de77bcc784e4bdc89e44",
+        "size": 1760,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/dbe21de822ca5c5899d4de77bcc784e4bdc89e44"
+      },
+      {
+        "path": "clients/pyauto/wcfauto/wcf.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b8fdb79f9e4e4299119eeec9de1522f893524d6",
+        "size": 7724,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/5b8fdb79f9e4e4299119eeec9de1522f893524d6"
+      },
+      {
+        "path": "clients/python",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ee490e275480b2cd2a130c65909889c35349d5c8",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/ee490e275480b2cd2a130c65909889c35349d5c8"
+      },
+      {
+        "path": "clients/python/MANIFEST.in",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc25aee3ab5f12a64c3110a44fc9854293ba1477",
+        "size": 43,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/bc25aee3ab5f12a64c3110a44fc9854293ba1477"
+      },
+      {
+        "path": "clients/python/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "258d184b81b43776e64daa103c7f4751b4a93ca8",
+        "size": 2554,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/258d184b81b43776e64daa103c7f4751b4a93ca8"
+      },
+      {
+        "path": "clients/python/setup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f1fa75fc45df398dad53841ec82141c1312375f",
+        "size": 1245,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/2f1fa75fc45df398dad53841ec82141c1312375f"
+      },
+      {
+        "path": "clients/python/test.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6587b9cef12852c06cc6a4490b58b1d0c27eb316",
+        "size": 2851,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/6587b9cef12852c06cc6a4490b58b1d0c27eb316"
+      },
+      {
+        "path": "clients/python/wcferry",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ad061d6ee02367e25fa6a2f5b7bcda9000378382",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/ad061d6ee02367e25fa6a2f5b7bcda9000378382"
+      },
+      {
+        "path": "clients/python/wcferry/DISCLAIMER.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "520a4ace3ffea8ff91c6f908af19be6f0692c28a",
+        "size": 1279,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/520a4ace3ffea8ff91c6f908af19be6f0692c28a"
+      },
+      {
+        "path": "clients/python/wcferry/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd76dfd1857200aace68e8c5e2689a0851cef19f",
+        "size": 101,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/dd76dfd1857200aace68e8c5e2689a0851cef19f"
+      },
+      {
+        "path": "clients/python/wcferry/client.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71675aefc0113188c9390567f8269aabd2fec106",
+        "size": 33924,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/71675aefc0113188c9390567f8269aabd2fec106"
+      },
+      {
+        "path": "clients/python/wcferry/wcf_pb2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36cf857444b85b2b510a72422dddd62d2b9fa48a",
+        "size": 12240,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/36cf857444b85b2b510a72422dddd62d2b9fa48a"
+      },
+      {
+        "path": "clients/python/wcferry/wxmsg.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "390f0bf4fb0a4d320dcc3faf85b0e2edae33a0c7",
+        "size": 2150,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/390f0bf4fb0a4d320dcc3faf85b0e2edae33a0c7"
+      },
+      {
+        "path": "clients/rust",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "140f556cf721284100c48ee2fd77cc19b341e505",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/140f556cf721284100c48ee2fd77cc19b341e505"
+      },
+      {
+        "path": "clients/rust/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1bbbce5bb8fbac4af25aaa52264fd2b72fa61b04",
+        "size": 33,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1bbbce5bb8fbac4af25aaa52264fd2b72fa61b04"
+      },
+      {
+        "path": "clients/rust/wcferry",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4cfa6a70acdafc6068addaa712bec0bf1a042186",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/4cfa6a70acdafc6068addaa712bec0bf1a042186"
+      },
+      {
+        "path": "clients/rust/wcferry/Cargo.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1bed567e0e158599780f8c5f32c77dd604db0aef",
+        "size": 364,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/1bed567e0e158599780f8c5f32c77dd604db0aef"
+      },
+      {
+        "path": "clients/rust/wcferry/build.rs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a843baa5d14937a58277f804f11d6b0fab0a2981",
+        "size": 302,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/a843baa5d14937a58277f804f11d6b0fab0a2981"
+      },
+      {
+        "path": "clients/rust/wcferry/lib",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "df8446eb653edede08c1fb6a482884fa06b75446",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/df8446eb653edede08c1fb6a482884fa06b75446"
+      },
+      {
+        "path": "clients/rust/wcferry/lib/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "973447c2775111a7a45bb88c0f49b851738e7034",
+        "size": 48,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/973447c2775111a7a45bb88c0f49b851738e7034"
+      },
+      {
+        "path": "clients/rust/wcferry/proto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1d6288840cc8226768349760008b39a1bf1e11ab",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/1d6288840cc8226768349760008b39a1bf1e11ab"
+      },
+      {
+        "path": "clients/rust/wcferry/proto/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f27403dbae8857a75a98a1ebd29d7889cac40b26",
+        "size": 48,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/f27403dbae8857a75a98a1ebd29d7889cac40b26"
+      },
+      {
+        "path": "clients/rust/wcferry/proto/roomdata.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0adec2c640d7c686273bec7755eeb6606e01c93",
+        "size": 388,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/f0adec2c640d7c686273bec7755eeb6606e01c93"
+      },
+      {
+        "path": "clients/rust/wcferry/proto/wcf.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e0bedd570c3335774ab67c53197b218f4608840",
+        "size": 5887,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/4e0bedd570c3335774ab67c53197b218f4608840"
+      },
+      {
+        "path": "clients/rust/wcferry/src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "36f0c5ac5f33d03714240339cb915b0fd02cdb31",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/36f0c5ac5f33d03714240339cb915b0fd02cdb31"
+      },
+      {
+        "path": "clients/rust/wcferry/src/main.rs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5da9b1fd27af8c3f3c7b7e662d6e0700f12d7c4a",
+        "size": 60,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/5da9b1fd27af8c3f3c7b7e662d6e0700f12d7c4a"
+      },
+      {
+        "path": "clients/rust/wcferry/src/proto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "29c8cf4f7afcb8b9bcad8ee250264501c7c4691d",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/29c8cf4f7afcb8b9bcad8ee250264501c7c4691d"
+      },
+      {
+        "path": "clients/rust/wcferry/src/proto/roomdata.rs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c62efc73f28a40ca59631e987534406b244881f1",
+        "size": 1040,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/c62efc73f28a40ca59631e987534406b244881f1"
+      },
+      {
+        "path": "clients/rust/wcferry/src/proto/wcf.rs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a981d1cedf118ca25c7c8c9064b2df77b27a170",
+        "size": 18840,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/8a981d1cedf118ca25c7c8c9064b2df77b27a170"
+      },
+      {
+        "path": "clients/rust/wcferry/src/wechat.rs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ccfba4c2f304223a5193c2699e52c873ccf3710",
+        "size": 50648,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/0ccfba4c2f304223a5193c2699e52c873ccf3710"
+      },
+      {
+        "path": "clients/wcferry-node",
+        "mode": "160000",
+        "type": "commit",
+        "sha": "2f0ff1584ff74efef6eeb6a20fb159837ed1bf7b"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "629747531fe662681df3cdd5257e37a2ee4bb5d5",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/629747531fe662681df3cdd5257e37a2ee4bb5d5"
+      },
+      {
+        "path": "docs/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0c3cbf1020d5c292abdedf27627c6abe25e2293",
+        "size": 638,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/d0c3cbf1020d5c292abdedf27627c6abe25e2293"
+      },
+      {
+        "path": "docs/make.bat",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "747ffb7b3033659bdd2d1e6eae41ecb00358a45e",
+        "size": 804,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/747ffb7b3033659bdd2d1e6eae41ecb00358a45e"
+      },
+      {
+        "path": "docs/requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12ecb4440106ec4478b383a937afc76446bc8cb6",
+        "size": 124,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/12ecb4440106ec4478b383a937afc76446bc8cb6"
+      },
+      {
+        "path": "docs/source",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0f93609ba85d13a94c3a2984d84b370089d55d81",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/0f93609ba85d13a94c3a2984d84b370089d55d81"
+      },
+      {
+        "path": "docs/source/_static",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f45c5065fc36041786a7635194267b7ffecd20ac",
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/trees/f45c5065fc36041786a7635194267b7ffecd20ac"
+      },
+      {
+        "path": "docs/source/_static/QRCodes.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff176ecbc41846c9e546b0e00096200a7665cefb",
+        "size": 259601,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ff176ecbc41846c9e546b0e00096200a7665cefb"
+      },
+      {
+        "path": "docs/source/conf.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54cd4045d8f568911aa6d96b5866374218e92dbe",
+        "size": 1735,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/54cd4045d8f568911aa6d96b5866374218e92dbe"
+      },
+      {
+        "path": "docs/source/index.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbaaf6ecb0779b76da61de9bddcc13fdcde91633",
+        "size": 470,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/dbaaf6ecb0779b76da61de9bddcc13fdcde91633"
+      },
+      {
+        "path": "docs/source/openapi.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea3d15ce109eefec477be449e4741cb13532198a",
+        "size": 136,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/ea3d15ce109eefec477be449e4741cb13532198a"
+      },
+      {
+        "path": "docs/source/readme_link.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f72a7af67e30f162f9ff9b6515e34992d4a12c34",
+        "size": 175,
+        "url": "https://api.github.com/repos/lich0821/WeChatFerry/git/blobs/f72a7af67e30f162f9ff9b6515e34992d4a12c34"
+      }
+    ],
+    "truncated": false
+  }
+}

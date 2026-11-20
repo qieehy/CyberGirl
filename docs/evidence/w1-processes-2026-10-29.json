@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-29T12:29:25.3277557+00:00",
+  "version": "4.2.0.9",
+  "processes": [
+    {
+      "pid": 30376,
+      "session_id": 1,
+      "path": "C:\\Program Files\\Tencent\\Weixin\\Weixin.exe",
+      "main_window_handle": 788988
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "Banan1cee/whale_girl",
+  "commit": "43a5d1db9e83dbfaf7f50be625d007b871869e72",
+  "purpose": "static_source_review_no_execution",
+  "files": [
+    {
+      "path": "bridge/bg_sender.py",
+      "sha256": "9f29c5cb09bd2a6c6ac86d739e575a95bf2ed6c198e52108fd785e41766e2670",
+      "bytes": 57346,
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/bridge/bg_sender.py"
+    },
+    {
+      "path": "bridge/uia_boot.py",
+      "sha256": "61e913da4d68976b01c961456f2372628198bcc4d187a9eae5b60dc8ed230732",
+      "bytes": 23435,
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/bridge/uia_boot.py"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3760fe7546511c9f28829167091fb12af7a89eb0d7a2d39c0db07fe5a8f09a1c",
+      "bytes": 36441,
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/LICENSE"
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "0c790ca907ee41808b4baafc652413f67b407454bb4f007ab22d2650c68c7a95",
+      "bytes": 3196,
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/NOTICE.md"
+    },
+    {
+      "path": "docs/微信消息后台发送.md",
+      "sha256": "1331a0c5d07db8d5ea0a061fc798fe95051fa343098d8c96745ac756ea5f2dbc",
+      "bytes": 38109,
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/docs/%E5%BE%AE%E4%BF%A1%E6%B6%88%E6%81%AF%E5%90%8E%E5%8F%B0%E5%8F%91%E9%80%81.md"
+    }
+  ]
+}

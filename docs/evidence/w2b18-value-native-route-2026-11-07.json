@@ -1,0 +1,108 @@
+{
+  "status": "standalone_identity_verified",
+  "input_posts": 0,
+  "submit_posts": 0,
+  "foreground_activations": 0,
+  "real_keyboard_or_mouse_calls": 0,
+  "ledger_writes": 0,
+  "model_requests": 0,
+  "diagnostics_only": true,
+  "window": {
+    "pid": 38140,
+    "hwnd": 15535624,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "exe_sha256": "5329ffc9afdeeb01db6dd5a68321277a8cf8d3f966873c070be3d04d7dfb1c0e",
+    "created_filetime": "134385222157060299",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x438",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "gate_before": 0,
+  "account_matched": true,
+  "value_routes": [
+    {
+      "method": "setText",
+      "slot": 12,
+      "function_rva": 10419184,
+      "code_sha256": "7623b5bd81943d891fae5770cf6706c7fd68fabca5628f64c8117689da5785de",
+      "code_hex": "56574883ec2883fa02752d4c89c64889cfe8da92ffff488d0da36eab084889c2e8fb058cff4889c1e853cb4c0184c074124883c4285f5ec34883c4285f5ee95d561c014889f9e8a592ffff488d0d6e6eab084889c2e8c6058cff4889c14889f24883c4285f5ee965154d01cccccccccc56574883ec284889d64889cf48b8aaaaaaaaaaaaaaaa488902e8a2467b014889f9e85a92ffff488d0d236eab084889c2e87b058cff4889c1e8d3ca4c0184c0b80001000048b90000000001000000480f45c848090e4889f04883c4285f5ec3cc83fa01741085d20f8573abffff4883c1204889c8c34883c1284889c8c3cccccc55415741565657534881ec68010000488dac248000000048c785e0000000feffffff4489c789d34989ce4c8d79e04c89f9e8ca91ffff488d0d936dab084889c2e8eb048cff4889c648b8aaaaaaaaaaaaaaaa488985d8000000498b46e04c8db5d80000004c89f94c89f2ff90a8000000904c89f189da4531c0e8728f1c01900f2805fad461080f2985c0000000488d95"
+    },
+    {
+      "method": "interface_cast",
+      "slot": 19,
+      "function_rva": 10419392,
+      "code_sha256": "46a3bba027f6429559537b73345e0ddcbc9f391b51c0c1010fee9c0ea28d97f8",
+      "code_hex": "83fa01741085d20f8573abffff4883c1204889c8c34883c1284889c8c3cccccc55415741565657534881ec68010000488dac248000000048c785e0000000feffffff4489c789d34989ce4c8d79e04c89f9e8ca91ffff488d0d936dab084889c2e8eb048cff4889c648b8aaaaaaaaaaaaaaaa488985d8000000498b46e04c8db5d80000004c89f94c89f2ff90a8000000904c89f189da4531c0e8728f1c01900f2805fad461080f2985c0000000488d95c00000004c8d85d80000004889f1e8dd0a4d0190488d8dd800000089fa4531c0e83b8f1c0190488dbda00000004c8d85d80000004889f14889fae8b10a4d0190488b85a8000000488985c8000000448bb5c40000004889f1e8f3063400904889c1e88a8b7b019089c3448bbdc00000004889f1e8c8073400904889c1e86f8b7b01904401f34401f80f57c0f20f2ac0f20f1185a00000000f57c0f20f2ac3f20f1185a8000000f30f7e85c0000000660f6ec8660f6ed3660f62ca660ffac8f30f7e95c8000000660ffeca660f7e8dc800"
+    }
+  ],
+  "native": {
+    "canonical_conversation_verified": true,
+    "native_input_verified": true,
+    "root_class": "mmui::ChatSingleWindow",
+    "root_meta_object_rva": 152341752,
+    "root_vtable_rva": 160048360,
+    "same_window_page_lineage": true,
+    "lookup_bytes": 2198,
+    "stable": true
+  },
+  "both_patterns_empty": false,
+  "root_matches_filehelper": true,
+  "draft_diagnostics": {
+    "text_length": 34,
+    "text_empty": false,
+    "value_length": 34,
+    "value_sha256": "797799c105eed297a6909758b14cc56a1988d2a597c8d8117967fb9280074668",
+    "exact_equal": true,
+    "value_empty": false,
+    "text_status": "read",
+    "text_sha256": "797799c105eed297a6909758b14cc56a1988d2a597c8d8117967fb9280074668",
+    "trailing_linebreaks_only_difference": false
+  },
+  "draft_matches_control_marker": false,
+  "draft_matches_value_marker": true,
+  "qt_input_has_keyboard_focus": false,
+  "geometry_checks": {
+    "button_size_bounded": true,
+    "button_inside_client": true,
+    "center_has_margin": true,
+    "client_mapping_consistent": true,
+    "client_point_packable": true,
+    "foreground_matches": false,
+    "hit_root_matches": false,
+    "hit_process_matches": false,
+    "hit_button_matches": false,
+    "no_capture": true,
+    "input_focus_owned": false,
+    "no_hardware_interference": true,
+    "button_enabled": true,
+    "button_visible": true
+  },
+  "window_geometry": {
+    "button_bounds": [
+      961,
+      1082,
+      1021,
+      1115
+    ],
+    "client_bounds": [
+      299,
+      688,
+      1047,
+      1138
+    ],
+    "client_point": [
+      692,
+      410
+    ],
+    "dpi": 120,
+    "coordinate_space": "physical_per_monitor_v2",
+    "dpi_context_restored": true
+  },
+  "provider_restored": true,
+  "locks_released": true,
+  "gate_after": 0,
+  "recorded_at": "2026-11-07T11:15:11.666472+00:00"
+}

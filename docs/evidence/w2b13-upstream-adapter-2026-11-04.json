@@ -1,0 +1,64 @@
+{
+  "status": "offline_upstream_adapter_validated",
+  "recorded_at": 1793788769.9116683,
+  "stage_d_complete": false,
+  "new_cases": 33,
+  "pytest_result": {
+    "passed": 388,
+    "subtests_passed": 848,
+    "seconds": 159.77,
+    "junit": {
+      "tests": 1236,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "path": ".build\\w2b13-upstream-full-2026-11-04.xml"
+  },
+  "ruff": "passed",
+  "source_and_license_hashes": "matched",
+  "document_links": "passed",
+  "upstream_module_executed": false,
+  "production_posted_backend_registered": false,
+  "real_wechat_message_calls": 0,
+  "real_wechat_input_actions": 0,
+  "real_wechat_process_writes": 0,
+  "model_requests": 0,
+  "ledger_readonly_snapshot": {
+    "schema": 8,
+    "operations": 4,
+    "attempts": 4,
+    "reviews": 1,
+    "permissions": [
+      2,
+      2
+    ],
+    "manual_confirmations": 1,
+    "active_bindings": 0,
+    "blocked_reason": "submission_or_draft_requires_review",
+    "integrity": "ok"
+  },
+  "owned_window_experiment": "move_down_cancel_accepted_before_dispatch_then_received_in_order_after_barrier",
+  "real_wechat_compatibility_claimed": false,
+  "old_draft_modified_by_this_run": false,
+  "implementation_sha256": {
+    "src/wechat_agent/bridges/wechat/posted_click.py": "b7d2f1190a0b08fbd3727985e58ec63b158e8855235321cedf0241bb006a75d9",
+    "src/wechat_agent/bridges/wechat/directed_click.py": "f4d315686cd58a379a413c389a4bf45f368a980528171f602938344a08ce167d",
+    "src/wechat_agent/bridges/wechat/gesture_protocol.py": "1e6e91a8df584081f623e62f9fa7fc50a992a0bac720de8650b1b05c689b8fbf",
+    "src/wechat_agent/bridges/wechat/send_process.py": "e1f687e1aecf0704c511ac53089524b6df5d1fab32b461e7131cbb1929e4971b",
+    "src/wechat_agent/bridges/wechat/send_state.py": "7c0880c38adba4d306a3319dc0f3dcf1402432254798d4de61992edde2c7d2f4",
+    "src/wechat_agent/assets/licenses/whale_gril-MIT.txt": "a20ddb85ceb7235ac7955274453290233be5f0b448a71f7c1adaaa76e6310750",
+    "src/wechat_agent/assets/licenses/whale_gril-source.json": "f6c0d0b44e7215958e6af65d12b79c2056f7d634e815d9ffe3e1b08d023077aa",
+    "tests/test_wechat_posted_click.py": "dd5c486df22fbbd851c7682021032a9a123a22e43543c5c9048721424686be81",
+    "tests/test_wechat_gesture_journal.py": "b2c58259388488780ade8b8d774720fa91023aeb631f16b48f2b45245110e9dd",
+    "tests/wechat_gesture_worker.py": "bfc8f318d318dc1036b9febafa3ab59f721c51fe28f6da3acde03a302e1dae2c",
+    "tests/wechat_click_receiver.py": "6e0e19da98a987ea47c18709487787b19d075c8a7b2c29e37ed2bcad22b36e56",
+    "docs/W2B13_UPSTREAM_POSTED_ADAPTER.md": "7a09d8f91b52bb2f920164c93b25eaa526d807b3c7fba534314ea802b50ef1e6",
+    "docs/UPSTREAM_SEND_ADAPTATION_2026-11-04.md": "047c00b54734665557f79e3655ce91619630cea5c71e30ef5e0eddff0305447d",
+    "docs/WECHAT_OPERATION_SCOPE.md": "66aa4e05580d2382242e797942becd66358ca5a1a9ad1707ff0855410777effe",
+    "docs/WECHAT_BRIDGE_IMPLEMENTATION_PLAN.md": "1a3bf91ac68d98646725b384545a7de5d27345c5a9b6ac88a489d1cfe4889242",
+    "README.md": "ec696bed8286c70f41c93afd4f0c2f5b653c835f7b15e0faf0ba7e46baa8b6ff",
+    "PROJECT_PLAN.md": "e51208f419cf928a7182f724f24586ab75d387df9b1c483bb10d360740ed33e8",
+    ".build\\w2b13-upstream-full-2026-11-04.xml": "7be27407f94148bee5a661ef8dd10ca64ffac6e94dc6aa75e81627ed3b038617"
+  }
+}

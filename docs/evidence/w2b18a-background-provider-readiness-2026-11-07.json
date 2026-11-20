@@ -1,0 +1,52 @@
+{
+  "status": "background_readiness_observed",
+  "process_write_intents": 2,
+  "ledger_writes": 0,
+  "gate_write_intents": 2,
+  "pseudo_focus_posts": 0,
+  "input_posts": 0,
+  "submit_posts": 0,
+  "model_requests": 0,
+  "window_binding": {
+    "pid": 39072,
+    "hwnd": 396594,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "exe_sha256": "5329ffc9afdeeb01db6dd5a68321277a8cf8d3f966873c070be3d04d7dfb1c0e",
+    "created_filetime": "134385125945511854",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x410",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "account_matched": true,
+  "gate_before": 0,
+  "readiness": {
+    "account_and_filehelper_verified": true,
+    "same_editor_and_button": true,
+    "both_draft_patterns_empty": true,
+    "background_geometry_verified": true,
+    "button_not_pressed": true,
+    "foreground_or_input_focus_required": false,
+    "real_sender_available": false
+  },
+  "worker_reaped": true,
+  "provider_restored": true,
+  "writer_locks_released": true,
+  "observer_released": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 0,
+    "pointer_samples": 223,
+    "pointer_position_changes": 0,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 21.126,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "gate_after": 0,
+  "recorded_at": "2026-11-07T08:12:50.836550+00:00"
+}

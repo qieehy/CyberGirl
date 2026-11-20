@@ -1,0 +1,89 @@
+{
+  "status": "static_hypotheses_only",
+  "sha256": "afe3d02c58bada3c35009c0cd58ee1f57b2a00fe53237d0dce649107fddb9a20",
+  "classes": {
+    "mmui::ChatSingleWindow": [
+      {
+        "meta": 152407864,
+        "strings": 189862592,
+        "metadata": 152494824,
+        "methods": 0,
+        "dispatch": 44832,
+        "tables": [
+          {
+            "vtable": 160120888,
+            "getter": 9164320,
+            "rtti": null
+          }
+        ]
+      }
+    ],
+    "mmui::ChatMessagePage": [
+      {
+        "meta": 152412072,
+        "strings": 189868416,
+        "metadata": 152411600,
+        "methods": 14,
+        "dispatch": 9178208,
+        "tables": [
+          {
+            "vtable": 155625096,
+            "getter": 9179312,
+            "rtti": null
+          }
+        ]
+      }
+    ],
+    "mmui::XOutlineButton": [
+      {
+        "meta": 152543608,
+        "strings": 189984272,
+        "metadata": 152543216,
+        "methods": 6,
+        "dispatch": 9600256,
+        "tables": [
+          {
+            "vtable": 155930920,
+            "getter": 9601440,
+            "rtti": null
+          }
+        ]
+      }
+    ],
+    "mmui::ChatInputView": [
+      {
+        "meta": 152409528,
+        "strings": 189864144,
+        "metadata": 152409072,
+        "methods": 14,
+        "dispatch": 9169888,
+        "tables": [
+          {
+            "vtable": 155597704,
+            "getter": 9171408,
+            "rtti": null
+          }
+        ]
+      }
+    ],
+    "mmui::ChatInputField": [
+      {
+        "meta": 152409016,
+        "strings": 189863568,
+        "metadata": 152408800,
+        "methods": 5,
+        "dispatch": 9168160,
+        "tables": [
+          {
+            "vtable": 156273544,
+            "getter": 9169120,
+            "rtti": null
+          }
+        ]
+      }
+    ]
+  },
+  "cache_candidates": [],
+  "process_memory_accessed": false,
+  "profile_enabled": false
+}

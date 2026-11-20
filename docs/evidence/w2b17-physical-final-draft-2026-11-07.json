@@ -1,0 +1,42 @@
+{
+  "status": "draft_patterns_observed",
+  "mode": "ui",
+  "input_actions": 0,
+  "submit_actions": 0,
+  "focus_actions": 0,
+  "model_requests": 0,
+  "sender_ledger_writes": 0,
+  "keys_written": 0,
+  "plaintext_database_files_written": 0,
+  "comparison": {
+    "text_length": 0,
+    "text_empty": true,
+    "value_length": 0,
+    "value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exact_equal": true,
+    "value_empty": true,
+    "text_status": "read",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "trailing_linebreaks_only_difference": false
+  },
+  "send_enabled": false,
+  "native_identity_verified": true,
+  "worker_reaped": true,
+  "restore_verified": true,
+  "recorded_at": "2026-11-07T06:24:47.381697+00:00",
+  "implementation_sha256": {
+    "scripts/probe_wechat_post_submit.py": "9907e6bd91532e28ee594576097eef726226ffdd2851c6e59096cb5d342575c6",
+    "scripts/wechat_native_worker.py": "7662b2b03068af15da9ffdc2556216595a8016cff446c020867a9fa9c612b36c",
+    "scripts/wechat_native_ui.ps1": "d3e99a482faa80154de07fe775b7ac262fa5e11d5072ada0e6b11aab0e594f93",
+    "scripts/wechat_input_metadata.ps1": "85ea62ebabfbd0438226f84699a333618a90c9ef95afd098e2a8a6be207845a8",
+    "scripts/wechat_click_geometry.ps1": "9b4d7418273d1f8a0372cf2a2802901dff19cba851451c56871bbaae608e6096",
+    "scripts/wechat_filehelper_source.py": "6dd88a48867372387a73f0c4bc3dbf4364bb17d3eb1bdddd2f724288ff90d984",
+    "src/wechat_agent/bridges/wechat/click_geometry.py": "26df5f50e837ed88e241198069bd2db05aedb090dbc9ad3d4558127e80e4124c",
+    "src/wechat_agent/bridges/wechat/directed_click.py": "30cdcb4784035a8fc58efabe6e33aad7a2cb6c56cc09aa6c799d6b8610835f07",
+    "src/wechat_agent/bridges/wechat/qt_connections.py": "ea08c0476fb00f2f7e118de3ce638d74e15ee28e38f99f9c14b45ac5b7de2037",
+    "src/wechat_agent/bridges/wechat/native_sender.py": "3bd435ac149bbcef366343234fe548ba4a7e8f599fcfeb8aae5c1c8df5856308",
+    "src/wechat_agent/bridges/wechat/send_worker.py": "8d5eb62af9fd098d1b1f18ceeff31afa85c0de3ba740d7881320e711a1eea403",
+    "src/wechat_agent/bridges/wechat/qt_memory.py": "6d94ec1a147cb623893b097c719f6e0417f6e3ff8743bd0c1728ba68cf3bb3ce",
+    "scripts/verify_wechat_accessibility.py": "d0931ebe8dfaf6b5e3db5b75b62ec0035141794b60f2594ca8fac5fe10ebb9e1"
+  }
+}

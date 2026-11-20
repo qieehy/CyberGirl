@@ -1,0 +1,1565 @@
+{
+  "repository": "T7moris/GPT-Niang",
+  "commit": "0f43bb54ee413d4fc8e95f03b4248834b468d6b5",
+  "recorded_at": "2026-10-29T15:48:13.484722+00:00",
+  "tree_truncated": false,
+  "purpose": "static source review only; no upstream execution",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/T7moris/GPT-Niang/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/README.md",
+      "bytes": 40549,
+      "sha256": "23df67c01456655496aff18f628bb950a3f2ded4a164e630bb7a3e48dd36cebd"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/T7moris/GPT-Niang/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/LICENSE",
+      "bytes": 1289,
+      "sha256": "259d12b976d418d9b65a1b612c14a23ebd175e39054851376cb54f0543bf28ff"
+    },
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/.agents/plugins/marketplace.json",
+      "bytes": 311,
+      "sha256": "948b2f8592d9b5ce9b5dab0846f186c78efd60f3fd19239a153612ad34008841",
+      "git_blob_sha1": "89b98baec31161d629ac29e2787453dbe2daa016"
+    },
+    {
+      "path": ".codex/environments/environment.toml",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/.codex/environments/environment.toml",
+      "bytes": 133,
+      "sha256": "c6acbd743f38f38401ec713bad5060bbb7d6af17416dbd3d200e9d2913a59b0c",
+      "git_blob_sha1": "2092392bd2c213a7a27550af30256634e6d82128"
+    },
+    {
+      "path": ".gitattributes",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/.gitattributes",
+      "bytes": 117,
+      "sha256": "308617bb24d7deca67092043fb8f46b7e49d3bf8195b56a7bbdb4e5be2cbf416",
+      "git_blob_sha1": "4afad284d44d8ce1a3d8739d772659a2bbd0add8"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/.github/workflows/release.yml",
+      "bytes": 6262,
+      "sha256": "93371bcd1fcc016fc06b774211b7a5a66c149d7aaa218aff4f8c504baee993ad",
+      "git_blob_sha1": "bb36409843d6a838475037f69dcbe8680c56eded"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/.github/workflows/test.yml",
+      "bytes": 1612,
+      "sha256": "b365f582ea6b9e60fa00e0578dfeba5077e24afd7e4cee1044cdc6e2a8c56a77",
+      "git_blob_sha1": "87a5e0587891f190de76c77cd5010e133545fde5"
+    },
+    {
+      "path": ".gitignore",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/.gitignore",
+      "bytes": 385,
+      "sha256": "c58325f26fa5eca1372d4611f4eccd7bc972e8e5811d0d1d0a63f4fd2dcbdbdb",
+      "git_blob_sha1": "e0933e83de29ad98e630d43d4fe68cb986499298"
+    },
+    {
+      "path": "docs/development-alignment.md",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/docs/development-alignment.md",
+      "bytes": 4607,
+      "sha256": "72bff9be3058daa72c6717b5cd91eb00adb4affbbd20496305f5072a198e70bb",
+      "git_blob_sha1": "6d42e3d86fe8bcf4b052297aa65de484b8a6ec91"
+    },
+    {
+      "path": "docs/windows-character-menu.md",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/docs/windows-character-menu.md",
+      "bytes": 2569,
+      "sha256": "3ee6e44a554f6de6ecfcfc82fa6a76897e69f0e240e3b96dfd15ac369f787956",
+      "git_blob_sha1": "c7f0a462324a9ebe2412a0bfe5984cf1cb10de18"
+    },
+    {
+      "path": "gpt-niang-usage/.codex-plugin/plugin.json",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/.codex-plugin/plugin.json",
+      "bytes": 1440,
+      "sha256": "b21890d203add3b34abd4296b134b0cb0d19a13362c501c7399d8aa29f73ea4f",
+      "git_blob_sha1": "314025e6debd1554611e9799b4f7f7c76d995e78"
+    },
+    {
+      "path": "gpt-niang-usage/.mcp.json",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/.mcp.json",
+      "bytes": 103,
+      "sha256": "a4f6d90652e6fb7dd5d98e90812de1d53aa8b5dc9d6682e20e946747ccb8795e",
+      "git_blob_sha1": "d5c3d1badfecdaad6d92e3e68ed0fa663c69e2ce"
+    },
+    {
+      "path": "gpt-niang-usage/DSH功能对照.md",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/DSH功能对照.md",
+      "bytes": 4309,
+      "sha256": "ee353637f5a92364711beaed231b966f04625adcd0c98517d4b26e66e4794a35",
+      "git_blob_sha1": "78478716b2b62d152f85c6d75663a49b739ddac4"
+    },
+    {
+      "path": "gpt-niang-usage/Detect-Plan.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/Detect-Plan.ps1",
+      "bytes": 627,
+      "sha256": "225deec01ec9975240ad6ca62c8127ebaa8b2a4b1c79cde45a8738d25387219c",
+      "git_blob_sha1": "c3fb7f71a5d03e7694a58e987ea9933f80288323"
+    },
+    {
+      "path": "gpt-niang-usage/Install.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/Install.ps1",
+      "bytes": 2352,
+      "sha256": "f32a56846d8b1d705437f78e835fc0c036154b8e240bc96ff6ab6ae1a5bef709",
+      "git_blob_sha1": "ee7ed4c6e3faffe277d58f5551e7abc2c0f933f6"
+    },
+    {
+      "path": "gpt-niang-usage/LICENSE",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/LICENSE",
+      "bytes": 1289,
+      "sha256": "259d12b976d418d9b65a1b612c14a23ebd175e39054851376cb54f0543bf28ff",
+      "git_blob_sha1": "77b4dfe71a13b23cacf66cdf0838a044ceac2256"
+    },
+    {
+      "path": "gpt-niang-usage/README.md",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/README.md",
+      "bytes": 2650,
+      "sha256": "4d6b3b576e160398344140aac5cbec246b3bfb89681cfc44e95163da9d5b5633",
+      "git_blob_sha1": "df0c2aac11e2b062b4cd25c6ddf9291f0b4d9d39"
+    },
+    {
+      "path": "gpt-niang-usage/Uninstall.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/Uninstall.ps1",
+      "bytes": 1759,
+      "sha256": "e1bddf3dfa448c1fb68cffcbbc2bf2e4ea0426553d3ca545232d54c24b19ac47",
+      "git_blob_sha1": "a3a5a304a550aa4020c964ae8f81f091c24fb5b8"
+    },
+    {
+      "path": "gpt-niang-usage/assets/CHARACTER-NOTICE.txt",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/assets/CHARACTER-NOTICE.txt",
+      "bytes": 1930,
+      "sha256": "7eab05ebad20731f2c02e7a196f9345fd3d031e71e0134b6901f38d379447528",
+      "git_blob_sha1": "93003907e22333553676256f55d80bf3c96755df"
+    },
+    {
+      "path": "gpt-niang-usage/assets/characters.json",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/assets/characters.json",
+      "bytes": 125,
+      "sha256": "2f468693c9c0cc9ea48791e2750d146192d15b181c9d2366f868e73b4d209735",
+      "git_blob_sha1": "d0bb5a5b322427a65183309736c93b2f35e741b2"
+    },
+    {
+      "path": "gpt-niang-usage/assets/quote-layouts.json",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/assets/quote-layouts.json",
+      "bytes": 7253,
+      "sha256": "faafce79c8d099339b142590d41b0dcb2d31b9dea8825128f17fd252223f98a4",
+      "git_blob_sha1": "89a15a3dcde1314562d4569236269e89d3a34c59"
+    },
+    {
+      "path": "gpt-niang-usage/assets/quotes-LICENSE.txt",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/assets/quotes-LICENSE.txt",
+      "bytes": 1743,
+      "sha256": "1b3dd1aaab0e1e25528b0c7b3a91b2e440d192882532b5c135ec0c31171237dd",
+      "git_blob_sha1": "81d80c89b7a7c4db862daa1b0c2aba6723fa6abe"
+    },
+    {
+      "path": "gpt-niang-usage/assets/quotes.json",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/assets/quotes.json",
+      "bytes": 3657,
+      "sha256": "7043ce15c073e784d57b743d6c3e9c1755a73ee412ce25cd2e6df7671b1914d2",
+      "git_blob_sha1": "61d18a85514885d971230849387b761e02849d68"
+    },
+    {
+      "path": "gpt-niang-usage/assets/生成说明.md",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/assets/生成说明.md",
+      "bytes": 1912,
+      "sha256": "83d2f49fc5c1ba3eef3eb99d8bba45a3503772668de71fe4b6ac1d6842206876",
+      "git_blob_sha1": "cd47e1bf364f3bd6b4bce8869a97e1208b386cef"
+    },
+    {
+      "path": "gpt-niang-usage/launch.vbs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/launch.vbs",
+      "bytes": 537,
+      "sha256": "c2db2f7ec9653869e39d7733cc6a67a5cc9177f1a5e0fac0a3c51687c4401875",
+      "git_blob_sha1": "8e23580028071dbc1ac08866cb68627817bf7ef8"
+    },
+    {
+      "path": "gpt-niang-usage/local-build.json",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/local-build.json",
+      "bytes": 735,
+      "sha256": "1cfa6aed8341b39f652277cede6a0688446038b43eb596d50c7a8251711d3542",
+      "git_blob_sha1": "4f7db5a7712b3ef2dc3aa201bb582db36b926c58"
+    },
+    {
+      "path": "gpt-niang-usage/package.json",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/package.json",
+      "bytes": 495,
+      "sha256": "5c2bb5be94076b18b8160f75b8ba1b2b58b65a75413d3de691fb3425df4fb3ad",
+      "git_blob_sha1": "1c45b55180e5919ac5d779aadafc0004102bfdd0"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/agent-launch.vbs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/agent-launch.vbs",
+      "bytes": 433,
+      "sha256": "25a644b4f0c35b116e4db06cfdce96e9e4640c709de724bf889f7d8aaee50a51",
+      "git_blob_sha1": "62818a88824ec8c2bc049054405a2b052a2f0491"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/agent-supervisor.vbs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/agent-supervisor.vbs",
+      "bytes": 482,
+      "sha256": "68ae74f9559c4ac1ec6cd8cb4e22d672e3e9b15897b851f0ba7ce933dad2b7fb",
+      "git_blob_sha1": "ac21061ef024a5082701f7d75ee87724a33e3bb0"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/audio-import.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/audio-import.mjs",
+      "bytes": 5295,
+      "sha256": "730d8d8daf95cb0203d032a94285f635a15cf2c4d5bfd724e5f9a1365b660aa7",
+      "git_blob_sha1": "de39c8a8e2f263802e8e23e157ad17c52d1cc98d"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/audio.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/audio.ps1",
+      "bytes": 21462,
+      "sha256": "fa8ec306b58def0d06c13d7882325823bb7d33a823bd09720550f4d2f5e398ef",
+      "git_blob_sha1": "9ff4c7420edadb75e8b4261ca18fae15b87f0d42"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/character-gallery.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/character-gallery.ps1",
+      "bytes": 15689,
+      "sha256": "403c0f9a3d6621b2f0b8b398d18d5c08ab3c036c594ffa159e36fd5db02bf14a",
+      "git_blob_sha1": "740ad0055bea27d15bce38b4bd67467c5a31deb6"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/characters.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/characters.ps1",
+      "bytes": 12853,
+      "sha256": "d8642c976b86ee700354c1796884f793592952956e72a955ed2aa8cca56e3329",
+      "git_blob_sha1": "b146c77f45e8e075e9e41cb932d78be82023ef5e"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/color-theme.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/color-theme.ps1",
+      "bytes": 15242,
+      "sha256": "af615aa6c12337446443f274610342c233b1c24799c4dc108be7ec59a7d04c4a",
+      "git_blob_sha1": "4ef5ae2064f01fdcd180e8a24114e3b2d7a9849e"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/completion-monitor.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/completion-monitor.mjs",
+      "bytes": 14608,
+      "sha256": "8df15dbbd75956feb998e547706e17ffc1cbcf3eec349aba3509c96ce83d4e95",
+      "git_blob_sha1": "c38d2daa82ea5d6614586668fb3eab831cb708f9"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/completion-notifications.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/completion-notifications.ps1",
+      "bytes": 14242,
+      "sha256": "b94359f36b3803b8c0e11cc1d3ee1d8726b073953faf3e170940071c04901a43",
+      "git_blob_sha1": "ab979677740174bd6b80984232cecb9c215abed8"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/control.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/control.mjs",
+      "bytes": 1732,
+      "sha256": "36700a1344095a6a8e86534930ccc8b9d6570c42d493f2cf8603ea2ed3886f85",
+      "git_blob_sha1": "3805533abf605bd043ff29ac441083fd33d14be7"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/detect-plan.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/detect-plan.mjs",
+      "bytes": 1231,
+      "sha256": "67b11625a2c9ca7800ff22a4232442f638f259c330ecf051eb4fa1dddb9ee48a",
+      "git_blob_sha1": "674cf184665d98b2eaaba284c8f12d67805a1bdb"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/host-follow.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/host-follow.ps1",
+      "bytes": 10349,
+      "sha256": "59fee393b18478294652bf28339714a67bff41a6b13082d9b84f259c6e72862a",
+      "git_blob_sha1": "98c5abd17daa9368c23a3eedeec7e63353c12e09"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/host-layer.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/host-layer.ps1",
+      "bytes": 6088,
+      "sha256": "f9e56a5956ad740fbca8c812a75233917d2d3585cce65c4d46386879ff70fe2f",
+      "git_blob_sha1": "cd6717f3d52d96ba9b187e17d3390f7d395e6776"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/host-occlusion.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/host-occlusion.ps1",
+      "bytes": 8492,
+      "sha256": "ccd567d6bf727cad3d7fab35e6815d8cabdc48ed5b41931b50cfba799cc67226",
+      "git_blob_sha1": "febdf4e45f974f1ea86eab486c037868d06aa1e2"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/host-ready.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/host-ready.ps1",
+      "bytes": 3351,
+      "sha256": "8d7d616aea4880a47afcb3786080ce04ba061fdb74ae41cdd8497dc42bd58a99",
+      "git_blob_sha1": "a758bdcf9356173c5340e3ff3aa36fb885349ad5"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/install-files.json",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/install-files.json",
+      "bytes": 1581,
+      "sha256": "4d0e8fd1850d021abefa9ee84370ed9b31a3e83f86e1937d567719d26dfac1bc",
+      "git_blob_sha1": "8676c2ccfea5e3d78404ca3c3f6b17a92f645659"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/install-preflight.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/install-preflight.ps1",
+      "bytes": 9059,
+      "sha256": "946bb872ea22a81a576c5cfcc5db9d9573addeb7f2ee210a8fee9094bc63aa71",
+      "git_blob_sha1": "d2b755f51643f589a920814c79a5270756e2b56e"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/mcp.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/mcp.mjs",
+      "bytes": 2993,
+      "sha256": "6a2b5acadc2bb49079a241ffc77b4a5b5e7b2a814d101f47681538bebf8482ff",
+      "git_blob_sha1": "f00dd86c986d4ff7b1b7296b136a062132eea764"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/metadata.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/metadata.mjs",
+      "bytes": 288,
+      "sha256": "4b8904d340607b2a71d448103a5c5bd1f8c53a5a2bd2c7b5ef249a2557faee24",
+      "git_blob_sha1": "a7bff2d7600946d3acaa6490b0028db360a35eb4"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/music-audio.cs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/music-audio.cs",
+      "bytes": 41452,
+      "sha256": "dc8e5e753fe263a77537e5cb96cc4f69e0a0c0ed3a3928bebd9453e422aeda36",
+      "git_blob_sha1": "2690cf10d543284abe59c63a3aae30f91b5dfdf2"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/music-visual.cs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/music-visual.cs",
+      "bytes": 35769,
+      "sha256": "72b9d38320d068d8f0ab903d0b0ed9ba91ba3538e1efc9e59ad7e66f538155fb",
+      "git_blob_sha1": "fe411964afd592d0214588ff57137edb6ba30322"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/music.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/music.ps1",
+      "bytes": 6593,
+      "sha256": "02f3686a1bb8604cf2360a7b363aed41b29db6abd124f23a16796dcbecce17eb",
+      "git_blob_sha1": "c16e209914d0582b7ddb8611a8cd9aa08eaf941f"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/plan.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/plan.mjs",
+      "bytes": 1099,
+      "sha256": "9a4f4ea356924e914d3ee56dc3966799419d043a1057efbfb3766c3a83bb0ebe",
+      "git_blob_sha1": "645872606574417f0c9ba438641889a26e36a77e"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/quote-layout.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/quote-layout.ps1",
+      "bytes": 6073,
+      "sha256": "a1513122b8643cc92c54765246d9b9396a6cffb1a428696dccb19661b1a2b9f9",
+      "git_blob_sha1": "91078969e4c2b0f17112fbb3f0d5709d96e1d6d5"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/quotes.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/quotes.ps1",
+      "bytes": 6642,
+      "sha256": "635287af71ec89d3489b77864c018abcb280c3fecdd3a39628f5c5939e435d76",
+      "git_blob_sha1": "b3957d13d56e2e4dc55bd7f73746b4df662fa69c"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/refresh-client.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/refresh-client.mjs",
+      "bytes": 5328,
+      "sha256": "2d669fe902df50e1ae421bc6aeeef410fb6ab7e780ca8fd692f0f9685e514eb0",
+      "git_blob_sha1": "3052d37e75affb4c50fce89c489ffadd8de5db1b"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/refresh-queue.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/refresh-queue.mjs",
+      "bytes": 1596,
+      "sha256": "0d5bd3aca94e386d2d5af9b2b588c921b1e49a502ff5f38effdb1cffd1d6a499",
+      "git_blob_sha1": "2a483cb9f6445db5de7bcf68af965caf173d8a1a"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/start-supervisor.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/start-supervisor.ps1",
+      "bytes": 829,
+      "sha256": "52fe9e83b0d39c7893cc3aa9e8c67934b9dec152546d42cb6f1dcd26d014ad35",
+      "git_blob_sha1": "48c53277adc16f76874404242070f446e9829d69"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/start-widget.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/start-widget.ps1",
+      "bytes": 403,
+      "sha256": "186d71908b3b1139256a4af8443d648ac2d41b78865a1de293f712b3dfbd6697",
+      "git_blob_sha1": "8a804a5c5f74b0ad5f5b395c44104ce4de62be12"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/supervisor-task.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/supervisor-task.ps1",
+      "bytes": 20680,
+      "sha256": "4d37cb899b2dacee6b2234580a9093bc4d3b1c62cb7180ca8b668d0461acfc68",
+      "git_blob_sha1": "fc9f028c62b897b753b741ef02280970c1efffb4"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/supervisor.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/supervisor.ps1",
+      "bytes": 8605,
+      "sha256": "21ee857467506e135581733fa85b71d7a2f8546d4f6680d599f45f7bc90da2d0",
+      "git_blob_sha1": "cb889993b20c6486fa338ea7dcacc34e1374e2f0"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/thread-speed.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/thread-speed.mjs",
+      "bytes": 6106,
+      "sha256": "221a1d4a3d3b9562f7f9a31b4fb545772cb11c024fc5298ff10fdfa8613d10e1",
+      "git_blob_sha1": "283947b4e20638c4a42865920d0f4624946ccf58"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/ui-settings.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/ui-settings.ps1",
+      "bytes": 38856,
+      "sha256": "bfbd7551fe022c523c7814e38ae26886c8b9b88d6a8000ae7be4fe672c10cdbf",
+      "git_blob_sha1": "f91a889ae8cb976c1f5aad7ab6cb531a0f6cb76b"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/update-agent.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/update-agent.ps1",
+      "bytes": 1287,
+      "sha256": "7be5eed53887e693a3ee2d7c62b4cb2a3d45d8a73cf9d167c4d3197842dbbd84",
+      "git_blob_sha1": "f055b06d4c0b442f49f104f74119c80ed398f354"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/update-common.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/update-common.ps1",
+      "bytes": 6817,
+      "sha256": "a3edbadc18e3210e19b5d389fb74094f9b1295a243376f9f1c9f6cee0fe7f9f5",
+      "git_blob_sha1": "0517061c6c2d13e1e91604e2c5350f178abe8cfb"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/update-helper.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/update-helper.ps1",
+      "bytes": 20744,
+      "sha256": "b7fadfa6f6744f2c4adc90a328a722088fb2d29a939dd7cf2c25dc4338bb3ae0",
+      "git_blob_sha1": "fafa87cdb7b27aaa5c11339a4127f1bad1c5a282"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/update-lock.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/update-lock.ps1",
+      "bytes": 702,
+      "sha256": "5b27b4035e6672d7163dc1ef7d73bbf9a6badcf65833c3dc6b47972372b2ffe7",
+      "git_blob_sha1": "415446ab6ef4f86cb23e5077a3a5a6fb98872d9b"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/update-ui.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/update-ui.ps1",
+      "bytes": 4405,
+      "sha256": "05463afc9cf0f4c3a547f5a5528c6fdc872c76adcce8cc0759dd20fe8858c869",
+      "git_blob_sha1": "cb75de81327af63ce424e04eb66b185eb0ac6cf9"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/update.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/update.mjs",
+      "bytes": 24317,
+      "sha256": "c4563a0fbe9fd21c1cb55cbee2c13217bed8de079aac94c711aa487243cef64a",
+      "git_blob_sha1": "ab51874ae33c2489de6082bd192905a625bb6262"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/usage.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/usage.mjs",
+      "bytes": 12113,
+      "sha256": "e0dc6fcb90882b3b82e145f75b41880217c0f566740a1e9d8ccfc4683aecdb99",
+      "git_blob_sha1": "7ef479493ad9f07addcc3b9b11f7145d52a7a3f8"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/watch.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/watch.mjs",
+      "bytes": 5936,
+      "sha256": "c65bba44324ab35c0a83ac19d5b06bc8c2b70eef8294416b5833b1bbe7a1176d",
+      "git_blob_sha1": "fecae65cd12adc3e7c938f50123df39168f183bb"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/worker-ipc.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/worker-ipc.mjs",
+      "bytes": 2999,
+      "sha256": "b017a3cafb0ef98f30312361590ca5441ddbf813239de217b1d23f732bee9f44",
+      "git_blob_sha1": "da6f27503759a97fc35c72bbc56c2c94ef5bafaf"
+    },
+    {
+      "path": "gpt-niang-usage/runtime/worker-state.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/runtime/worker-state.mjs",
+      "bytes": 3649,
+      "sha256": "d6c72f7a148b347d80ebb345f1b97bf844ad1b15d50fb4c14bfbd47ab4ca5d53",
+      "git_blob_sha1": "52f53fcdb81afd621b1e3919425b4be18b6f61cd"
+    },
+    {
+      "path": "gpt-niang-usage/supervisor.vbs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/supervisor.vbs",
+      "bytes": 644,
+      "sha256": "817a14249cf63fa335d11102dc339e8652705618d01ecc9b25b291f9401eae09",
+      "git_blob_sha1": "6a0ad31c0fe6e99ed94ff2bfbf2eddcf33dbf778"
+    },
+    {
+      "path": "gpt-niang-usage/tests/audio-import.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/audio-import.test.mjs",
+      "bytes": 5324,
+      "sha256": "837f2e78bf1c0a7c7b9d33a00da0f8460365869cebe5a4c840c29a9514e35ac6",
+      "git_blob_sha1": "0350cb4fec68ec7453c7c51ac83c98610d86791b"
+    },
+    {
+      "path": "gpt-niang-usage/tests/audio-import.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/audio-import.test.ps1",
+      "bytes": 10017,
+      "sha256": "693dd2881fc6631bd199b4dfe759eb704fbfcc3ba0dac6305c11e86975abc722",
+      "git_blob_sha1": "59a500bcf9cde10b96d6044bfb8bdb72ce23ede6"
+    },
+    {
+      "path": "gpt-niang-usage/tests/auto-quotes.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/auto-quotes.test.ps1",
+      "bytes": 13482,
+      "sha256": "f83779b0eef8c7bd981243bc9f0059d75462d76a8868f15fea3ad83aad65919a",
+      "git_blob_sha1": "ef94e6cbae989cc1e24cd9a20edca0e6c7eb2a93"
+    },
+    {
+      "path": "gpt-niang-usage/tests/character-rendering.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/character-rendering.test.ps1",
+      "bytes": 7849,
+      "sha256": "a68ae668104bafbbacb7413a6f22ff8eb1e332567c87b7d2187ecbaa36d24c91",
+      "git_blob_sha1": "bc44515a2e973388cc6d0aa154d8c845a1b4fdbf"
+    },
+    {
+      "path": "gpt-niang-usage/tests/character-startup.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/character-startup.test.ps1",
+      "bytes": 8601,
+      "sha256": "94c19128c973ce6289033f265f68514c9195432b73d1f93d19c1f58ba31809cc",
+      "git_blob_sha1": "037e1f4c20ab146ad8965a1d871e7b7b042b3d92"
+    },
+    {
+      "path": "gpt-niang-usage/tests/characters.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/characters.test.ps1",
+      "bytes": 32294,
+      "sha256": "fc8084b357bbf31a155efd1c46439fb5fdba9b3d0f692c3002dbfca4cf109085",
+      "git_blob_sha1": "9b1e1277e7af81b9d0eaa8130c5a6d9d86f5ac70"
+    },
+    {
+      "path": "gpt-niang-usage/tests/codex-path-macos.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/codex-path-macos.test.mjs",
+      "bytes": 5021,
+      "sha256": "c6452df3c642f57f973743c2d0f489959ad64ecf43d1f4ed4ecdd7ebeeb80cf2",
+      "git_blob_sha1": "f66bf3fd8a70ddfceb5c66ec342cf5ea5d761cb2"
+    },
+    {
+      "path": "gpt-niang-usage/tests/codex-path.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/codex-path.test.mjs",
+      "bytes": 4245,
+      "sha256": "8337f7d84cec272154c38b8327f01f122809e833cb1e52ae62e0ff0ad1af9e63",
+      "git_blob_sha1": "ccd0278471baf3e5c9c148add2274954739eb0d9"
+    },
+    {
+      "path": "gpt-niang-usage/tests/completion-current-position.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/completion-current-position.test.ps1",
+      "bytes": 11974,
+      "sha256": "ae560e7aadfbeb3f5c74a0204538e7e1e199584d0d9ddfdf8d07dfd5f2f4087c",
+      "git_blob_sha1": "c839d2ff57d970a4eadffb914d4e6df541874ed2"
+    },
+    {
+      "path": "gpt-niang-usage/tests/completion-layer-restore.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/completion-layer-restore.test.ps1",
+      "bytes": 8659,
+      "sha256": "9840791df037f36536d911c5195a5746a12644e0b96c6bd640ef0fe85273609e",
+      "git_blob_sha1": "7841de90ebc358782f740fdaaa0cfe3896c4b8af"
+    },
+    {
+      "path": "gpt-niang-usage/tests/completion-monitor.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/completion-monitor.test.mjs",
+      "bytes": 24005,
+      "sha256": "26994d2c50ac5b09d8a69a778301d8d58df8770c904bc837a28ce17675dc78db",
+      "git_blob_sha1": "0c971a1ef1630bd54222fcfe5ed981f7521a63d4"
+    },
+    {
+      "path": "gpt-niang-usage/tests/completion-notifications.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/completion-notifications.test.ps1",
+      "bytes": 14694,
+      "sha256": "56ec623b0d233c3efd3b9acf94ccc1b365640ed912c8941976a51742ec7feb61",
+      "git_blob_sha1": "8b8ceab547c7536b5f6d87ff8eef02a229e4f9aa"
+    },
+    {
+      "path": "gpt-niang-usage/tests/completion-pipe.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/completion-pipe.test.ps1",
+      "bytes": 4591,
+      "sha256": "2bc0802d97390736dfaa2b15d667e06d1adfc99beff69a7d2212e26deccd5c0e",
+      "git_blob_sha1": "e8f26c933b17aa8e367aff2b0559ac4c391a8f27"
+    },
+    {
+      "path": "gpt-niang-usage/tests/desktop-cold-start.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/desktop-cold-start.test.ps1",
+      "bytes": 4300,
+      "sha256": "9fa8cf5fddd65179ba1c1326dba3b97fa8f7c9450578c2b56bbdc9aa6892c174",
+      "git_blob_sha1": "36acca968ac1ab6c2c81fc09ef57de0edb2b0e0c"
+    },
+    {
+      "path": "gpt-niang-usage/tests/desktop-mode.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/desktop-mode.test.ps1",
+      "bytes": 5263,
+      "sha256": "8c44e34db8c8ad567eb3afc6d746596a0d21929d6afc0becdc6288fae2d501ce",
+      "git_blob_sha1": "fb849564a10c825a4003b5a170cfd39cef7597cb"
+    },
+    {
+      "path": "gpt-niang-usage/tests/display.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/display.test.ps1",
+      "bytes": 3894,
+      "sha256": "6a45034ce0c9b882fe8925cac535c65b344eff34f9dcd205f616ab945f85076c",
+      "git_blob_sha1": "8ce46292342409eb074b879fc0009d06c2c1fc30"
+    },
+    {
+      "path": "gpt-niang-usage/tests/drag-facing.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/drag-facing.test.ps1",
+      "bytes": 5196,
+      "sha256": "559f550f6357f3d740932a65313ad2db303fea294a7cac0d1b33706b2198481b",
+      "git_blob_sha1": "58b99467be834cda3bf236e0f3a7aafda5f4abaa"
+    },
+    {
+      "path": "gpt-niang-usage/tests/drag-horizontal.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/drag-horizontal.test.ps1",
+      "bytes": 11696,
+      "sha256": "081fec9bdf133fcc6ddd60c29fde14efc1538e96652cfda3dfe37514eae0692a",
+      "git_blob_sha1": "63b7255cf6e6aa0b983e8c5770549a3498d64e6e"
+    },
+    {
+      "path": "gpt-niang-usage/tests/drag-sizing.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/drag-sizing.test.ps1",
+      "bytes": 7380,
+      "sha256": "0d5dd9bec8d8e39a930af899f54fcf640b51e1e00790bf804fe5b69d6c4e9d75",
+      "git_blob_sha1": "3dadb25a85a6028bcdfbf92be35ef8827efbfbd0"
+    },
+    {
+      "path": "gpt-niang-usage/tests/drag-vertical.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/drag-vertical.test.ps1",
+      "bytes": 7925,
+      "sha256": "9918cacda084b11a3ad866af2edae7dcd5ce49e6428bddd2bd167e1951a5f5a2",
+      "git_blob_sha1": "ca4517659ec7fd5bc9d5ba694c46aa2125a1080e"
+    },
+    {
+      "path": "gpt-niang-usage/tests/entrypoint.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/entrypoint.test.ps1",
+      "bytes": 5151,
+      "sha256": "8bb092c2e213acb3a56fc5585f41964fdf0f52154be59729c1712fd00a093f85",
+      "git_blob_sha1": "147363eb9cdba3ba3c539efbf8f51047d24105f4"
+    },
+    {
+      "path": "gpt-niang-usage/tests/fixed-relative-position.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/fixed-relative-position.test.ps1",
+      "bytes": 9914,
+      "sha256": "3b03fef16882544c511978a820193c7710d1d5fc341fa48894083278b19e3b58",
+      "git_blob_sha1": "285137f7c41a51895b7d7848b08d2580f9fc4f7e"
+    },
+    {
+      "path": "gpt-niang-usage/tests/fixtures/inherited-cli-pipes.cs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/fixtures/inherited-cli-pipes.cs",
+      "bytes": 2114,
+      "sha256": "34e4cdbe39f7b5efebb658e57c6a16289b82ff22e7f1775bba203fe0315ee6f8",
+      "git_blob_sha1": "5947fc5413293cba38c4615fe34e3b84a8d32582"
+    },
+    {
+      "path": "gpt-niang-usage/tests/fixtures/occlusion-cover.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/fixtures/occlusion-cover.ps1",
+      "bytes": 2209,
+      "sha256": "def48b8817da6db11ae3e301944ebb9339e605c72bed8b72a56935c733dc1908",
+      "git_blob_sha1": "508be24d08bd929710032a3b3ada30e42ac5d10c"
+    },
+    {
+      "path": "gpt-niang-usage/tests/fixtures/watch-v1.3.4.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/fixtures/watch-v1.3.4.mjs",
+      "bytes": 4666,
+      "sha256": "35952a8093b28f5ea0b9a60fb38af80fc7f5c838d61f48d375c30c9cf005f9a0",
+      "git_blob_sha1": "983260b60976a8bce9fe8f780850761f2ca35c21"
+    },
+    {
+      "path": "gpt-niang-usage/tests/host-identity.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/host-identity.test.ps1",
+      "bytes": 8981,
+      "sha256": "d3a393875a4eeb7225f4799aef445479a1922f21aed2b984c04aecf38c0c193b",
+      "git_blob_sha1": "d08b3323fe2be99eab5fd7be1abb9233e4b8fb91"
+    },
+    {
+      "path": "gpt-niang-usage/tests/host-occlusion.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/host-occlusion.test.ps1",
+      "bytes": 12561,
+      "sha256": "290598c80d9c4cb5a59d494e5af502d5b79dfbb3f3feecc2acd8f77d29f0a13e",
+      "git_blob_sha1": "188497abe963fc671ecad36a7d80b01263dd17f5"
+    },
+    {
+      "path": "gpt-niang-usage/tests/host-ready-bounded.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/host-ready-bounded.test.ps1",
+      "bytes": 2345,
+      "sha256": "6fcdb7ad4f4c7eaa205fc6cc8b70a90f48328f3ce757fd8dfd45dd7c94f5f33e",
+      "git_blob_sha1": "12bc5bb455fb2825df062454d31aec9276f65fd8"
+    },
+    {
+      "path": "gpt-niang-usage/tests/host-ready.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/host-ready.test.ps1",
+      "bytes": 3605,
+      "sha256": "0c9eb479fd60ec5c842b872d4acad130a32a1c03b3f7de29a7b7fd764b16b8d6",
+      "git_blob_sha1": "b86461dcdc704cdb689994929d0117ccb119e40c"
+    },
+    {
+      "path": "gpt-niang-usage/tests/host-resize-placement.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/host-resize-placement.test.ps1",
+      "bytes": 8173,
+      "sha256": "c9b1f0ccc8a2bc653de0c71231d17e15f925f2031e040323c5ef7672881171f2",
+      "git_blob_sha1": "6cde82e9157fa7aca16468d44a21f9cbf32bd098"
+    },
+    {
+      "path": "gpt-niang-usage/tests/independent-size.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/independent-size.test.ps1",
+      "bytes": 9541,
+      "sha256": "76dd4c8ce647ea0cdf737b49ecffe1315d84fba9131bf91c0f1daba60d3f90bf",
+      "git_blob_sha1": "60a24c4d25f66f1a2250761bf27db94629fea619"
+    },
+    {
+      "path": "gpt-niang-usage/tests/install-cli-compatibility.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/install-cli-compatibility.test.ps1",
+      "bytes": 4472,
+      "sha256": "f14f6529c055bd8b2831c26e2a1b07f16366bebe77d24562c06f5ebdfc7618e6",
+      "git_blob_sha1": "c2e8586d371d5bd21028520bd02a7db141b4487f"
+    },
+    {
+      "path": "gpt-niang-usage/tests/installation.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/installation.test.ps1",
+      "bytes": 14852,
+      "sha256": "5cb25a3ccf7ef8f2a2f769ac7ec43ce1e059c8612ca8fb4c5084f42d08e1a895",
+      "git_blob_sha1": "ed2ae6d30b3ac9cff6421c92284e9c2157584920"
+    },
+    {
+      "path": "gpt-niang-usage/tests/lifecycle.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/lifecycle.test.ps1",
+      "bytes": 7965,
+      "sha256": "fa016299ad9e87e340928a5a5459f842814870440a84a9f888a27bcee2db87a2",
+      "git_blob_sha1": "07533deb06bd0487e9e91ad42a17647194e3a67f"
+    },
+    {
+      "path": "gpt-niang-usage/tests/menu-dismiss.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/menu-dismiss.test.ps1",
+      "bytes": 7406,
+      "sha256": "92e4463592f88c00e927bc71f6db83125fd9eeddb74b9b342f2d3e39ace491cc",
+      "git_blob_sha1": "79ca673748e45d68df8edb252dd03ea95346ff85"
+    },
+    {
+      "path": "gpt-niang-usage/tests/menu-icon.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/menu-icon.test.ps1",
+      "bytes": 2176,
+      "sha256": "ef105b0677ebe2dcf366e9ec91c1393b49b6804d2d09d510f5c5124e586ad55a",
+      "git_blob_sha1": "1d46d51781cdcd46141be6fc2fa397a72a1aa6c2"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-audio.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-audio.test.ps1",
+      "bytes": 5188,
+      "sha256": "88c500c38703705c1d08f4f2d69dce7b7635c4ca532dd42601aa315ebfe8b249",
+      "git_blob_sha1": "cc0d0f03befc4fcd059a22e6f29058c40b28963e"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-background-lifecycle.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-background-lifecycle.test.ps1",
+      "bytes": 7105,
+      "sha256": "4f918210981181a9bc29da4be05143fe803f5ebda420dba21bf0414417f30bee",
+      "git_blob_sha1": "33ee6e94b790fd8b8937e7980eee45193453d194"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-beat-clock.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-beat-clock.test.ps1",
+      "bytes": 3352,
+      "sha256": "da39d41f4bd6aa2d7ff9362c28750a53efb7cededf7eaf2fc9349b5b446a7f58",
+      "git_blob_sha1": "feb6e6fcaf9892143887203836a63e09afe4c308"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-color.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-color.test.ps1",
+      "bytes": 1704,
+      "sha256": "60ff71aed10d636ab4224f4378377c0748dfdbc133bae5e94e6adc2c1d22f408",
+      "git_blob_sha1": "ef405277ee35628981e0d1f7f083e2516e82b224"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-drag-delivery.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-drag-delivery.test.ps1",
+      "bytes": 8913,
+      "sha256": "91fc2aa111ed9101890f5b3603f3de189c7bfae290667f1da32832b3815cf214",
+      "git_blob_sha1": "6eff1930a0f787fe185660232fe987e78d33159f"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-envelope.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-envelope.test.ps1",
+      "bytes": 3260,
+      "sha256": "9c51c36de87955563479659418dcd7c104acfd3fafc37c6d289cd5e764671bad",
+      "git_blob_sha1": "5a24dd1550f21cb2082e706958e9cdb4560c1ec8"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-first-motion.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-first-motion.test.ps1",
+      "bytes": 3898,
+      "sha256": "663cbf324a87a071309b2e92f3c9ed6d1650aa634e41359ece0daf8bb3d34c07",
+      "git_blob_sha1": "337f1d29ce2782c41b326371afb1f804cb243bdb"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-follow.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-follow.test.ps1",
+      "bytes": 3923,
+      "sha256": "4faf7654e430b4613eae055cb31ac5349cea535b066f3cedeaed459aa31b16e2",
+      "git_blob_sha1": "23961a9d721c47467f853d037aeb89508ccd2c2b"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-frame-clock.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-frame-clock.test.ps1",
+      "bytes": 3470,
+      "sha256": "5f9c3c80c8efe532f6510a63c0681ca2c39b29bb3c8fed24e103430d6c617e9b",
+      "git_blob_sha1": "a2d2517f5980a2c3b1e37741e54ca12183edefdf"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-interaction.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-interaction.test.ps1",
+      "bytes": 7006,
+      "sha256": "cbdb519cd31ee03e314bf07c87ea9b8b29b784fbd2101edcd81a86a0f7c16470",
+      "git_blob_sha1": "f1cba5b83ef1ada4bb0bf08097723c223b6d9317"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-layer.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-layer.test.ps1",
+      "bytes": 1899,
+      "sha256": "0a7a1edadb602f8e1502b79f67a041845932ccdd651bee53886fa0d54a760fd5",
+      "git_blob_sha1": "828d3c783d46753fc8da2c5580bb4a02a6190ced"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-motion.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-motion.test.ps1",
+      "bytes": 2450,
+      "sha256": "fd0a6568288dbd6fa0da5e1f30a69b6581e4d4dd3bbfadafa219d53d07733555",
+      "git_blob_sha1": "0789a32138fc37935a19aff170abb4754e6e69ce"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-native-position.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-native-position.test.ps1",
+      "bytes": 3900,
+      "sha256": "133ad7c0bec12a06cc13c483121d368cf75e3112526c03d1f9feb7b5cca6c65d",
+      "git_blob_sha1": "d1dbb754e9f68df0e29253cdf70d005c4bd9ccd2"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-player-capture.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-player-capture.test.ps1",
+      "bytes": 6206,
+      "sha256": "6ac1ce52a403daf0fb4a0c5e65eb76dbf792788588012a2d2a6f6a8828698624",
+      "git_blob_sha1": "8f82637efdf6e7db8188dfa7f6c78ece7712ec62"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-player-probe.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-player-probe.ps1",
+      "bytes": 1516,
+      "sha256": "377ec0a2e9d5d0e2a9c44ffcc165b07335ebf7a9d0c43098b185d26f2ba0c45f",
+      "git_blob_sha1": "911b3ec8d31d193bfc298d23ac5566265c62127e"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-position-dispatch.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-position-dispatch.test.ps1",
+      "bytes": 8022,
+      "sha256": "9f6caae467b60cab4d6c39f3218805aa7fec0fea479009c8d99fd45b1535b584",
+      "git_blob_sha1": "6660c69a267e81cb3e396adc24108046acc3a66f"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-quiet-startup.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-quiet-startup.test.ps1",
+      "bytes": 3961,
+      "sha256": "bfe967ba6e7cb14acad9991d1da13338526083623a41d90e9a290e31bc2fdc02",
+      "git_blob_sha1": "3fa6c1861dd00d6c2a651c8e5c5b6ae6bf9629f0"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-rhythm-probe.cs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-rhythm-probe.cs",
+      "bytes": 2970,
+      "sha256": "49c11809fd939ac71bcf1a80f54c3faba91a2a15dd8020c6d222582b5aa7bb83",
+      "git_blob_sha1": "8e1af2e64acbd144c21449233fc854490fa4fce3"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-rhythm.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-rhythm.test.ps1",
+      "bytes": 1919,
+      "sha256": "5931689082e080d7708240d64faea8c0f82da16095bbd35c671d94f6e60b0f32",
+      "git_blob_sha1": "27dc909d0283cae737a6fa5d2e4c473276590a0f"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-startup-response.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-startup-response.test.ps1",
+      "bytes": 4318,
+      "sha256": "33ad8a741ab3b3abe506ce716985708f65ef753af6e32522d7c0ff72eec83278",
+      "git_blob_sha1": "6882e314f34afae210c7a58de8f7feab51a493f1"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-tempo-recheck.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-tempo-recheck.test.ps1",
+      "bytes": 3649,
+      "sha256": "160ce56c9f5a494c885e8912b59e22efa4af3e9a5ad43a27bd2b71d4a2d598af",
+      "git_blob_sha1": "f45df840136ab1fd8fb65402560ce1cc19d525c3"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-throw-release.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-throw-release.test.ps1",
+      "bytes": 2329,
+      "sha256": "5280bc48134ec08c95eefbdb0839f24b25567aa06d84a0127707d2a9be404f39",
+      "git_blob_sha1": "a5a0f1ec0188a0a9faccb2ddbee95f6975953623"
+    },
+    {
+      "path": "gpt-niang-usage/tests/music-visual.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/music-visual.test.ps1",
+      "bytes": 10939,
+      "sha256": "c741adfd6140cfdc716478f22820bc67665ecde4250fed8a3f1488683730f0cc",
+      "git_blob_sha1": "9b7b4c2025a03c34b7faeff02a2b413485ac53fb"
+    },
+    {
+      "path": "gpt-niang-usage/tests/occlusion-reminder.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/occlusion-reminder.test.ps1",
+      "bytes": 12427,
+      "sha256": "f8c2dd39f7f1e9bbefb20145faee2031bbbd044b09e91cc9c8956f0ec7a486b6",
+      "git_blob_sha1": "0476e54939d449cd5b6dd8f977675da33f323f1e"
+    },
+    {
+      "path": "gpt-niang-usage/tests/peer-layer.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/peer-layer.test.ps1",
+      "bytes": 9959,
+      "sha256": "3165bde1adfaab5270794c90d0bb4687321f545c6183924249268b78b9eeb006",
+      "git_blob_sha1": "5e4a394cbed4fba96291c3a5a047a9d80a77e2bc"
+    },
+    {
+      "path": "gpt-niang-usage/tests/placement-settings.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/placement-settings.test.ps1",
+      "bytes": 3326,
+      "sha256": "89fc3f0979c6e1e5ecbd14b29ae9fd361269a1246541991eaeeee3f71548758a",
+      "git_blob_sha1": "7424e6848474cd9534947b4e6e14c8cdc625d6cf"
+    },
+    {
+      "path": "gpt-niang-usage/tests/plan.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/plan.test.mjs",
+      "bytes": 6574,
+      "sha256": "d00d5af55eebd172f55e44fa71af16ea63679d329ac40247c7f9a12702f01b9d",
+      "git_blob_sha1": "0a847f2d752f0c90f357d6317974d301c39ef89a"
+    },
+    {
+      "path": "gpt-niang-usage/tests/quota-fallback-integration.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/quota-fallback-integration.test.mjs",
+      "bytes": 4830,
+      "sha256": "fa73748caf0866be995d2b534ccf993c920fae8550d87ef3903a5d164fa36f2d",
+      "git_blob_sha1": "8f62c329a9d19db636adb1a2bdfd52f3e5b3bd9a"
+    },
+    {
+      "path": "gpt-niang-usage/tests/quota-memory.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/quota-memory.test.ps1",
+      "bytes": 3323,
+      "sha256": "75c42369e2a24762244661d56bcf8b3f0e4a31234062261fc5904ba4491eb530",
+      "git_blob_sha1": "d4c4d89c29cae12add312749fc6d2fefc88716c0"
+    },
+    {
+      "path": "gpt-niang-usage/tests/quota-selection.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/quota-selection.test.ps1",
+      "bytes": 3530,
+      "sha256": "7f33e5fc8b12baad03f467160079573b23cbbd52810939f4674904538d1d9313",
+      "git_blob_sha1": "e1ace6fc06c7c38aadfb000ee5e87cdcbb22c26b"
+    },
+    {
+      "path": "gpt-niang-usage/tests/quote-layout.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/quote-layout.test.ps1",
+      "bytes": 8575,
+      "sha256": "fbf15c312b00ce8140bcc3217915d5fa4c942d21b772a2d0800fea880333a7c5",
+      "git_blob_sha1": "891fcc4dadbcc992c70053bbb4d0f20d21f26623"
+    },
+    {
+      "path": "gpt-niang-usage/tests/refresh-client.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/refresh-client.test.mjs",
+      "bytes": 12433,
+      "sha256": "26caa0122d7f9527770a283ba0443c735bcd1532edc36f58346d186eed282600",
+      "git_blob_sha1": "e46045781c05dd80b1006afeba4eea57afdbf94c"
+    },
+    {
+      "path": "gpt-niang-usage/tests/refresh-recovery.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/refresh-recovery.test.mjs",
+      "bytes": 2679,
+      "sha256": "7605c589ee101039b238485cf6581e6c5f495fbc9adfdb2e2b5f4ea26e248924",
+      "git_blob_sha1": "9e65a6debf56a286f507b78dc5f9d75a64abcb4a"
+    },
+    {
+      "path": "gpt-niang-usage/tests/refresh-update-marker.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/refresh-update-marker.test.mjs",
+      "bytes": 3627,
+      "sha256": "eda46875158c0eacb12670359ddd3ba3cb566a9fc5b3551602802a0d4a09f084",
+      "git_blob_sha1": "69c3beb31817720c5f720834d57a8c0c18cae0b3"
+    },
+    {
+      "path": "gpt-niang-usage/tests/run-windows-tests.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/run-windows-tests.ps1",
+      "bytes": 3099,
+      "sha256": "55ce2ca4fe172445ee3b9543c669220e28ed0f60c75e8c798990a1ef84dea051",
+      "git_blob_sha1": "e4cd8771198c6f9943edba8bfbbf7e3c6edcbd92"
+    },
+    {
+      "path": "gpt-niang-usage/tests/settings-menu.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/settings-menu.test.ps1",
+      "bytes": 15464,
+      "sha256": "997d5024b217f16e6525adb6f45a5e27817d48fd0cb24566160f5ad5040ea1d5",
+      "git_blob_sha1": "0e72f06076537825be2aa602cbafdf17d1c4bd32"
+    },
+    {
+      "path": "gpt-niang-usage/tests/size.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/size.test.ps1",
+      "bytes": 5160,
+      "sha256": "871a0f34e391bcdbb9c6a01fd3b88de2f0479ea1362500c7913c46b5bad754ef",
+      "git_blob_sha1": "352672331d4a5710c2e354b7ab876a9ae4123c8e"
+    },
+    {
+      "path": "gpt-niang-usage/tests/sound-player.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/sound-player.test.ps1",
+      "bytes": 10057,
+      "sha256": "81dabf4a2fdf3bef4757943527eac9c4a1bcd351d129c97b00c75e0c7a31b68d",
+      "git_blob_sha1": "44c2a4c9a69ee57cdafac286b8364fc3ecc73183"
+    },
+    {
+      "path": "gpt-niang-usage/tests/supervisor-entry.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/supervisor-entry.test.ps1",
+      "bytes": 4099,
+      "sha256": "565709b616d57f91f444c3ba884ee4899acadd79e5091cfa641303136b8248c0",
+      "git_blob_sha1": "eb30029aeef2397479f59f94c7260952345d4680"
+    },
+    {
+      "path": "gpt-niang-usage/tests/thread-speed-paths.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/thread-speed-paths.test.mjs",
+      "bytes": 4500,
+      "sha256": "1049f519e9ac6dbdf1d6ccf82bf1fcd65a26acfa2f1d5ce4c42f1608bd242f22",
+      "git_blob_sha1": "1f14acb48c94a0b648e74407e8f4735975a56da5"
+    },
+    {
+      "path": "gpt-niang-usage/tests/thread-speed.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/thread-speed.test.mjs",
+      "bytes": 3491,
+      "sha256": "60dd9c01935fbee1ee07fcf08ba3ac5c6e0e3c329d28332c37925f8aeb15ee79",
+      "git_blob_sha1": "284640b943fc4d94a34c57dcae8e67312b020dcf"
+    },
+    {
+      "path": "gpt-niang-usage/tests/update-health.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/update-health.test.ps1",
+      "bytes": 4636,
+      "sha256": "6a72713395a509953d8f3f29304d3a896d546222a487541f438c61be4d0a110b",
+      "git_blob_sha1": "46e0be2d55c29466d48eb3bce7d8d8dc22ede95f"
+    },
+    {
+      "path": "gpt-niang-usage/tests/update-integration.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/update-integration.ps1",
+      "bytes": 14009,
+      "sha256": "805c7bc9ec18a306e9d2d0c89cabafcaaf642d2f2bef0019341f9ff8f348308f",
+      "git_blob_sha1": "14892ef9bbacb129cd9f9be5bee0e004e4daa075"
+    },
+    {
+      "path": "gpt-niang-usage/tests/update.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/update.test.mjs",
+      "bytes": 20186,
+      "sha256": "028c6bd818f01f77d0a52bee39e1a8cc4594b5c19dce5ece19cb3b693ac19edb",
+      "git_blob_sha1": "f74767a611cc7761628da985a1b5d9ebd29c9114"
+    },
+    {
+      "path": "gpt-niang-usage/tests/update.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/update.test.ps1",
+      "bytes": 22212,
+      "sha256": "c04f670079c33a377e4b29d3c3c9463196be39f0633fa2b0eaf7128e385fc7b0",
+      "git_blob_sha1": "154d2360046e6bf7854bd5acd90edf9a5af14b69"
+    },
+    {
+      "path": "gpt-niang-usage/tests/usage.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/usage.test.mjs",
+      "bytes": 18975,
+      "sha256": "c696dbdab7a533b9d6b83eed70664497a4dc6a462e2ea6ac87379fabba93b3bf",
+      "git_blob_sha1": "051fae6bdb1b4ae137032df930f5232ed1146575"
+    },
+    {
+      "path": "gpt-niang-usage/tests/watch.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/watch.test.mjs",
+      "bytes": 2475,
+      "sha256": "4852366f983a8a0b53c1976ccc0c9019b9f4ec03a76d1180c21c84e552a01e4e",
+      "git_blob_sha1": "32c53b9eb771926125d6365636046f8286e89952"
+    },
+    {
+      "path": "gpt-niang-usage/tests/wave-fixtures.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/wave-fixtures.mjs",
+      "bytes": 2571,
+      "sha256": "a573f3cf559810836b013a02d5d94c0ed913a9b852d027c0998ee9b6069f8e13",
+      "git_blob_sha1": "e9da920d786ac71ac4696b538858db6f6b034ea4"
+    },
+    {
+      "path": "gpt-niang-usage/tests/widget.test.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/widget.test.ps1",
+      "bytes": 25163,
+      "sha256": "2f81d75e653ff278895428b4bcd695afbe34eb347fe135e65bd204b4024e34d5",
+      "git_blob_sha1": "0e6212be820cb9b22a50b0a5d6307b37e277c952"
+    },
+    {
+      "path": "gpt-niang-usage/tests/worker-health.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/worker-health.test.mjs",
+      "bytes": 3676,
+      "sha256": "715b68a718a28e39c330bd8b59d54cf8520891ffaf4b810e6e6bcfd0f23ee0d6",
+      "git_blob_sha1": "c13cd53d851fd2175fa94c916e109a0020f023d5"
+    },
+    {
+      "path": "gpt-niang-usage/tests/worker-ipc.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/worker-ipc.test.mjs",
+      "bytes": 3064,
+      "sha256": "436c63ff3ca700366476028dc074e735755fc2df6a5c8a46094ec4e3bc64830b",
+      "git_blob_sha1": "277ad286ed819b8268ba3b4b068c808581f843d8"
+    },
+    {
+      "path": "gpt-niang-usage/tests/worker-liveness.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/worker-liveness.test.mjs",
+      "bytes": 4674,
+      "sha256": "03193477c2f7b7e2ae77ad6f743bba708e7e6ccc07275ececa8869b5f62e2523",
+      "git_blob_sha1": "52eaa7ed3786b4f4a4a09d270848c35dedecee66"
+    },
+    {
+      "path": "gpt-niang-usage/tests/worker-stop.test.mjs",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/tests/worker-stop.test.mjs",
+      "bytes": 12187,
+      "sha256": "b5dd85aba3e5c93a50be46d0ca54b094c542787b3700585d6451fd995a9d2d60",
+      "git_blob_sha1": "36ddc7520eacc98c3811bcfa0f9154cf48624379"
+    },
+    {
+      "path": "gpt-niang-usage/widget.ps1",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/widget.ps1",
+      "bytes": 76650,
+      "sha256": "f4b95d4c983c36bc72c0c0fc4fe1289b950b9b7599d86f9123addeb4dacd62f2",
+      "git_blob_sha1": "2fe72eb7a10269f19f1785788d655ede456c83a9"
+    },
+    {
+      "path": "gpt-niang-usage/widget.xaml",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/widget.xaml",
+      "bytes": 7418,
+      "sha256": "5a223e430be13af45731d80ed12baecc980c1fe18c4c2282031ccf05d9206f0e",
+      "git_blob_sha1": "af29fa93e60b60b10fac767362dce4cb5888a3b0"
+    },
+    {
+      "path": "gpt-niang-usage/停用GPT娘.cmd",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/停用GPT娘.cmd",
+      "bytes": 93,
+      "sha256": "01865187986fd4387c8bd275dc7df63a5ae4fed924d96515ab7f6fec21ce580b",
+      "git_blob_sha1": "70c54840abbe7bc55018b297400897bb8ceaa363"
+    },
+    {
+      "path": "gpt-niang-usage/安装GPT娘.cmd",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/安装GPT娘.cmd",
+      "bytes": 96,
+      "sha256": "1c1dcf19ab33c03d3451a7facc7062bef4b0a7750a38c30d51f517cf02d9c139",
+      "git_blob_sha1": "9b9a5e051c81d436101b06f3d0d7d1d31daa76cd"
+    },
+    {
+      "path": "gpt-niang-usage/打开GPT娘.cmd",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/gpt-niang-usage/打开GPT娘.cmd",
+      "bytes": 40,
+      "sha256": "e4837cde5a3ddcc13f41407425dee0efbb92a1527ac1562bbef07083806b19a3",
+      "git_blob_sha1": "3f8ccb1e863d6ad0a8bab9e19df47e48cd56089e"
+    },
+    {
+      "path": "macos/Package.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Package.swift",
+      "bytes": 893,
+      "sha256": "6c79e17dfa08888c18086ddcc2ba0c823e791b684c6878fcf3dd889bcc1a7050",
+      "git_blob_sha1": "af19e016e336e4902296656ceed1631dc86357a6"
+    },
+    {
+      "path": "macos/README.md",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/README.md",
+      "bytes": 12872,
+      "sha256": "d427152892404a9026045583244c49973c9f31a3e9e52d829e3500b2f6b3255a",
+      "git_blob_sha1": "b63b4113ec6da2e80ce696987b07e4774477a072"
+    },
+    {
+      "path": "macos/Sources/GPTNiangCore/Appearance.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangCore/Appearance.swift",
+      "bytes": 2836,
+      "sha256": "5d98926701c1b2b846a0080b42cb89d94f8508eb6995a7aaff17f0984e61265b",
+      "git_blob_sha1": "13a6453c7cb4018242232b3d6a7a3c94c352c41f"
+    },
+    {
+      "path": "macos/Sources/GPTNiangCore/AudioPreferences.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangCore/AudioPreferences.swift",
+      "bytes": 1344,
+      "sha256": "b20bbcaef6d772e28d70b290ba3c566933be5c3d38aa594d8aae1f9654512352",
+      "git_blob_sha1": "ccab72fbcd6d868ffd20b2bf299b16c22e25c80b"
+    },
+    {
+      "path": "macos/Sources/GPTNiangCore/CompletionReminder.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangCore/CompletionReminder.swift",
+      "bytes": 897,
+      "sha256": "4594276d266f1104b866197605d06f24664a69c0a4c84667117791e638d87f11",
+      "git_blob_sha1": "999e8113eddc8464ae9711b25394763cb1301bc4"
+    },
+    {
+      "path": "macos/Sources/GPTNiangCore/InterfaceLanguage.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangCore/InterfaceLanguage.swift",
+      "bytes": 2275,
+      "sha256": "08f317a16f13e8b2dd0628e7dbba254b2b8b1e797ef0aa5a41297330e664e0f7",
+      "git_blob_sha1": "6041763814d53e402324e9d94c4ecc57cf35d923"
+    },
+    {
+      "path": "macos/Sources/GPTNiangCore/Placement.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangCore/Placement.swift",
+      "bytes": 3396,
+      "sha256": "a56613dd3df76600bd034f7080aa971c507b858cbc6d42c7a0e80aca0c1ea5c4",
+      "git_blob_sha1": "5a72a994ff22de138880a38c5a63c5b0c29b48f2"
+    },
+    {
+      "path": "macos/Sources/GPTNiangCore/Resources/zh-Hans.lproj/Localizable.strings",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangCore/Resources/zh-Hans.lproj/Localizable.strings",
+      "bytes": 9497,
+      "sha256": "b9988e4105c5ffbb879f2ba23934103a9be24ebe13a4263c2925a3e2fd5acacd",
+      "git_blob_sha1": "18387d7549ba044cc4643ebb88aa6ce6c3342b53"
+    },
+    {
+      "path": "macos/Sources/GPTNiangCore/Resources/zh-Hant.lproj/Localizable.strings",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangCore/Resources/zh-Hant.lproj/Localizable.strings",
+      "bytes": 9488,
+      "sha256": "ed8f2ec4c8370ddfeb5b18c82ebbe45a3295f35f19c3f7e33b7e4cf77eddd3db",
+      "git_blob_sha1": "f7ae91fcb17a704942f21c4eb61cb6ce95065d67"
+    },
+    {
+      "path": "macos/Sources/GPTNiangCore/Usage.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangCore/Usage.swift",
+      "bytes": 8589,
+      "sha256": "e5b78a550670dc3be3f6ff6774ce2ef0090f6d722defe895a6a04e1bab771f65",
+      "git_blob_sha1": "2d4714460a16baa17710f11db4ba96160b522333"
+    },
+    {
+      "path": "macos/Sources/GPTNiangCore/WindowFollowCadence.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangCore/WindowFollowCadence.swift",
+      "bytes": 985,
+      "sha256": "f579df20f1ba9b6996de850e2d99d0a7369d5d1a73a890f03506d31d7f586e61",
+      "git_blob_sha1": "356b9fcd536f2ac47327ab48af8d9a74bd04a92f"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/App.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/App.swift",
+      "bytes": 30351,
+      "sha256": "5f11d014873e713cc2148b16f348c6c49410162224ad50eb54148da03a7234d2",
+      "git_blob_sha1": "88f5c677b4f7747e737dc035423b32d1412ce3ec"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/AudioImport.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/AudioImport.swift",
+      "bytes": 12588,
+      "sha256": "4856e807b0ad6890c167c06677997f1a93f604cb52948071d485440045867fa3",
+      "git_blob_sha1": "d3f47e342b47ff1cdce7ecbe1bc8452ebd102d30"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/CharacterInteraction.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/CharacterInteraction.swift",
+      "bytes": 1930,
+      "sha256": "1756f0e189273f073937e806287f6b736ec9b6cd0536cc32c3579569908d4159",
+      "git_blob_sha1": "f76833ded7ba9c71fcc835e4f0ffdb8e981cf9b0"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/CompletionNotifications.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/CompletionNotifications.swift",
+      "bytes": 8157,
+      "sha256": "54ea876bb906859088c77df648b169742a51465eccbf9bf739d43cca8838f39b",
+      "git_blob_sha1": "722fa1591b119f4628bb0d0ccb05019ff15525f7"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/NativeUpdater.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/NativeUpdater.swift",
+      "bytes": 11922,
+      "sha256": "9ca9e459a7f16de90d1bee4d91b8ffd992c4de923d9824c52529eeb7ad5dd837",
+      "git_blob_sha1": "62ad88e854831ec07f16cf5c47afa73b9847c659"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/OriginalBubbleShape.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/OriginalBubbleShape.swift",
+      "bytes": 1662,
+      "sha256": "382e2d92e9f82c9123984b4edeb4ee1ad83e09d55b57f114811ced313513b975",
+      "git_blob_sha1": "621b7bdada0e68d0e55f64cfb4d50a3e619071db"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/SettingsView.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/SettingsView.swift",
+      "bytes": 9047,
+      "sha256": "a31f4db23433615bf3c46c6685d0d809669808d36f5fe30e674ec6d5f8e0fc23",
+      "git_blob_sha1": "422f73f69565516a7f23c1899052ab9f7312d523"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/ThreadSpeed.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/ThreadSpeed.swift",
+      "bytes": 5787,
+      "sha256": "b9f76b61dcaab3bc711caaa810641ba536146c8c34865c82f0df5eeff57f589b",
+      "git_blob_sha1": "fd6d78f4a45ee1cef60b342c041c11df8aa3568c"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/WidgetModel.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/WidgetModel.swift",
+      "bytes": 27682,
+      "sha256": "76ed972f8f77adbfb4e5258722c4950d6c6568055389d1f0f6c744131b63a0be",
+      "git_blob_sha1": "b03c8b59a418f518cad86ef77c17bf28736cee94"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/WidgetPanel.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/WidgetPanel.swift",
+      "bytes": 1577,
+      "sha256": "120c4c3d267beec26e8531b28e502dd3a1526562bd2d482d8973d7033da83a7e",
+      "git_blob_sha1": "b1bf11a25c62e137ffd1bacb921879921bd25788"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/WidgetView.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/WidgetView.swift",
+      "bytes": 16326,
+      "sha256": "8fce662991b740dffc61efdc50e0da49d45ec45e7180c29d810ce8efae9f0c4f",
+      "git_blob_sha1": "8db6d32d860b2273b1b47fbedced5b7a73283585"
+    },
+    {
+      "path": "macos/Sources/GPTNiangMac/WindowFollowPolicy.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangMac/WindowFollowPolicy.swift",
+      "bytes": 5622,
+      "sha256": "c9568f253c281a6f54103ded9dd7bfe37039adc8f6085cf55bc4b24f0f7cc301",
+      "git_blob_sha1": "72bbbe6622b43e7cf1964cf513f5a48eb2a44f85"
+    },
+    {
+      "path": "macos/Sources/GPTNiangUpdate/UpdateArchive.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangUpdate/UpdateArchive.swift",
+      "bytes": 8072,
+      "sha256": "aa19f9af5083641e9c4642590a4090456f5651816cc0e25c01a785b2e17d516a",
+      "git_blob_sha1": "eef10148b69561742004bb6498514d1cfbaf671f"
+    },
+    {
+      "path": "macos/Sources/GPTNiangUpdate/UpdatePolicy.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangUpdate/UpdatePolicy.swift",
+      "bytes": 7120,
+      "sha256": "2bf2b3c9189defb21d40874a6614e3c49f3708e0ac14fe0cac7c222ad1a3ed52",
+      "git_blob_sha1": "0a159fd77da29c446527037baf9580c1b798aaee"
+    },
+    {
+      "path": "macos/Sources/GPTNiangUpdate/UpdateTransaction.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangUpdate/UpdateTransaction.swift",
+      "bytes": 12720,
+      "sha256": "c9155084fb6bd95c7ae253751d722b9504a86de3ec6638d964a44d8cda0499e8",
+      "git_blob_sha1": "258afde125081c92cb73807deeccdd24c0084f1d"
+    },
+    {
+      "path": "macos/Sources/GPTNiangUpdater/UpdaterMain.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Sources/GPTNiangUpdater/UpdaterMain.swift",
+      "bytes": 5346,
+      "sha256": "22584bef66067f13403f0c0365cd130842d1b4b6695802578e0b335e28aa9232",
+      "git_blob_sha1": "478360420230c1a689e060e97acf3fb9c254ddc9"
+    },
+    {
+      "path": "macos/Tests/GPTNiangCoreTests/AudioPreferencesTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangCoreTests/AudioPreferencesTests.swift",
+      "bytes": 1131,
+      "sha256": "8aa3f0c8eba016eee573a040f920ae9ad30889b79b67e7f03420bc357adea9f4",
+      "git_blob_sha1": "fb874251645fce8ef5d25ad9d565f46951928e0b"
+    },
+    {
+      "path": "macos/Tests/GPTNiangCoreTests/BusinessAndLanguageTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangCoreTests/BusinessAndLanguageTests.swift",
+      "bytes": 4385,
+      "sha256": "aae01c84d9281523386504ea3a7709e7909298176ac1a060708af9dee8927e5f",
+      "git_blob_sha1": "47177d7ae2ef9d0badd76e4073035ff4a0237937"
+    },
+    {
+      "path": "macos/Tests/GPTNiangCoreTests/CompletionReminderTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangCoreTests/CompletionReminderTests.swift",
+      "bytes": 1002,
+      "sha256": "963a7710b7e9cfaa173f5a08aaacb49bb5aaa7600b46d7196a8ca99d0d18ed26",
+      "git_blob_sha1": "f88b576c6fc157b11aac2da0e294f9fae847e191"
+    },
+    {
+      "path": "macos/Tests/GPTNiangCoreTests/CoreTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangCoreTests/CoreTests.swift",
+      "bytes": 6675,
+      "sha256": "a8914a33e352102e1d8619467ad3ef8baffd5f30d1f9e3d59de7e4c9a2dad22c",
+      "git_blob_sha1": "2360f747a44d5f5633cda52e54cee7e7ca0da208"
+    },
+    {
+      "path": "macos/Tests/GPTNiangCoreTests/FollowPlacementTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangCoreTests/FollowPlacementTests.swift",
+      "bytes": 4730,
+      "sha256": "057146efb0fed983bab149d3213e8b03eafec75359d906a1a5e320b3132746c4",
+      "git_blob_sha1": "550eff9a7865518194a76cdbbfccaaf1505a7cec"
+    },
+    {
+      "path": "macos/Tests/GPTNiangCoreTests/WindowFollowCadenceTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangCoreTests/WindowFollowCadenceTests.swift",
+      "bytes": 1411,
+      "sha256": "89ebabec6e894c072c75e3baf82f5051923ec9052d419e0e0295d8649c4dc659",
+      "git_blob_sha1": "e9e8b93105293064b20953f3b612072069b4231e"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/AudioImportTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/AudioImportTests.swift",
+      "bytes": 2907,
+      "sha256": "2910b28b11c8d813e8a6aedba0d453259a18f6b63f22a3caba0218b15f7327f9",
+      "git_blob_sha1": "1037117fe65ac308f2490cfeaedc54efb5c1b60c"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/CompletionNotificationTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/CompletionNotificationTests.swift",
+      "bytes": 2137,
+      "sha256": "625ee5a3cc818a93cd1b4cad03f38e1e5f4eaa9ed19dba73335254ebf19efee8",
+      "git_blob_sha1": "2c241a3b2aaa3451dcf3229c47bbcee411f85d70"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/NativeInteractionTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/NativeInteractionTests.swift",
+      "bytes": 10716,
+      "sha256": "d02b3bc961a6e8ccffacfd34e5646f90457352d8a18c57dc75ac958aeed7aa8b",
+      "git_blob_sha1": "5676b62dba1d7b10b4aa006a7a7a77a33b127e00"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/UpdateIdleTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/UpdateIdleTests.swift",
+      "bytes": 7792,
+      "sha256": "e9611d280603a39f4a8a8a43734b89354f961f8c695e2bc9f752c66b521924b4",
+      "git_blob_sha1": "5e82d25635ed07f5d48169de7b8b6a441587cded"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/UpdateReadinessTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/UpdateReadinessTests.swift",
+      "bytes": 8974,
+      "sha256": "af692a9b82b0d971f6fdb699a963d1cab412404e001da945c62282fe4f351ec0",
+      "git_blob_sha1": "b8566484f4f03b9636fb58f055b7577f34f9842c"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/WidgetPanelTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/WidgetPanelTests.swift",
+      "bytes": 5731,
+      "sha256": "6363455a74e2660f670369c852a3fbbf6c8ee5dba6d755e67a4a9213451de37c",
+      "git_blob_sha1": "77ffb46577aec273183799da08cc7f2d0602d737"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/WindowFollowTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/WindowFollowTests.swift",
+      "bytes": 11090,
+      "sha256": "2835bd107958c0e142cf2c21837d49ebef738f99579e41c6c30174892759f444",
+      "git_blob_sha1": "72c1113925cdfaf1a332ca6c717877f73c7204ee"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/WorkerConfigurationTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/WorkerConfigurationTests.swift",
+      "bytes": 6541,
+      "sha256": "f5848515cb967430660bb29e2fe66794d2007506b807f29500b490912001ffe0",
+      "git_blob_sha1": "fa11b8cf4c5a77ff1e2ced564e961722b7f7f7e3"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/WorkerHandoffTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/WorkerHandoffTests.swift",
+      "bytes": 11299,
+      "sha256": "7a1add53126f2e21cd4fddb174b7b16236a21788fc923018cb7989d97d9ddd8a",
+      "git_blob_sha1": "0d761d132e1a201d031cdc2d4786456be90936c4"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/WorkerRecoveryTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/WorkerRecoveryTests.swift",
+      "bytes": 14833,
+      "sha256": "415ce27e6db057d0db0db9db8c40e6c39f6b5f720d133d748ac46d4ed9187ad8",
+      "git_blob_sha1": "085078ef0b1002c134ad8d5b5add8be0707ce249"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/WorkerRetryTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/WorkerRetryTests.swift",
+      "bytes": 5836,
+      "sha256": "ba649abe5b8c3f32e8af94482290ebfc8592cc54dd93860291017c6eaf240a9a",
+      "git_blob_sha1": "82c38296566726c8a52fc6678cb2b5e6e885d33f"
+    },
+    {
+      "path": "macos/Tests/GPTNiangMacTests/WorkerStopRequestTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangMacTests/WorkerStopRequestTests.swift",
+      "bytes": 6654,
+      "sha256": "defecb01584e8d4649c138cb192c6669d550e2b65c5dfea5b76dc996e5bc5dbf",
+      "git_blob_sha1": "783d3325c9471cac7056bd0b6142804fe2b95107"
+    },
+    {
+      "path": "macos/Tests/GPTNiangUpdateTests/UpdateTests.swift",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/macos/Tests/GPTNiangUpdateTests/UpdateTests.swift",
+      "bytes": 12695,
+      "sha256": "c790772c7882b131fcc914b56cb3c1e6c0bfc8fa7f3b3b5db295343bac645072",
+      "git_blob_sha1": "63b077b727f4e80660c6b43752d9b4c2026a74f4"
+    },
+    {
+      "path": "script/build_and_run.sh",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/script/build_and_run.sh",
+      "bytes": 4496,
+      "sha256": "1db79b735f314811b8ed7d29432990100caf3fa2293d35105f974a838d7138ba",
+      "git_blob_sha1": "9055cabe375301f8d197d45d459e70bc4610f6c9"
+    },
+    {
+      "path": "script/test_window_follow.sh",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/script/test_window_follow.sh",
+      "bytes": 642,
+      "sha256": "32248880804005fa69179eeaf1348b79b5cb260ec31932621add2d25946331e5",
+      "git_blob_sha1": "18f1e6b5c87f6a6a9030c6e67f03b2454306dd0c"
+    },
+    {
+      "path": "scripts/build-release.py",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/scripts/build-release.py",
+      "bytes": 5400,
+      "sha256": "2b7ebd075b22af427dd2b019700dd38fd5a2004405c13324cdfb568894d97ab9",
+      "git_blob_sha1": "3de55a6f685d4dc25fbbcd2504781d05c7f26efb"
+    },
+    {
+      "path": "scripts/prepare-release.py",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/scripts/prepare-release.py",
+      "bytes": 5288,
+      "sha256": "f52a650b4521929dfb71b2223b1da1c68cd0da1f73ce9f36496b4b0dbf537dc2",
+      "git_blob_sha1": "9496ca7f3355eb31c88bb95de7904ce33231cc03"
+    },
+    {
+      "path": "停用GPT娘.cmd",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/停用GPT娘.cmd",
+      "bytes": 109,
+      "sha256": "a04077818d6830126ccf3647d4b6bd9c80966f41832961655373f550afcfc1b2",
+      "git_blob_sha1": "cb66bca80ab636984357750c4b8d605d05b64ea3"
+    },
+    {
+      "path": "安装GPT娘.cmd",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/安装GPT娘.cmd",
+      "bytes": 112,
+      "sha256": "35952eadc77cf4f5cc907307d61d0f63cd6e59c298ec8feab82c5525bf76651a",
+      "git_blob_sha1": "5cdb091fa56befcbab95c5615b57a9a263410e49"
+    },
+    {
+      "path": "打开GPT娘.cmd",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/打开GPT娘.cmd",
+      "bytes": 56,
+      "sha256": "c76461b75048304cb990f87e019da607505540d8ce12519aa3b6b09b23dcb633",
+      "git_blob_sha1": "c691f421a903ac94dd6da778015a238f3ab23945"
+    },
+    {
+      "path": "更新记录.md",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/更新记录.md",
+      "bytes": 12331,
+      "sha256": "6ea9e576afd19bb5d6609833dfb2ad69d2ff9a78a2410c7f8eca8fe86fccefb2",
+      "git_blob_sha1": "c3f453e524da0a10fbbb864ae77356b77f3f81f4"
+    },
+    {
+      "path": "本机修订-20261025.md",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/本机修订-20261025.md",
+      "bytes": 4096,
+      "sha256": "2d22ff61bc4fee93ad9b090c0f4cfe889be680672c31396f55da1430f207fb13",
+      "git_blob_sha1": "c299947567913dcf5215fdbc2c0d1619b5451d02"
+    },
+    {
+      "path": "检测套餐.cmd",
+      "url": "https://github.com/T7moris/GPT-Niang/blob/0f43bb54ee413d4fc8e95f03b4248834b468d6b5/检测套餐.cmd",
+      "bytes": 111,
+      "sha256": "f9cdf669b2dd1dbddb8daf153efa5bedfb05391bf255dd1501f58d1b127f8bba",
+      "git_blob_sha1": "3db076f46c923d17f4ad5e299666944c254276f7"
+    }
+  ],
+  "archive": {
+    "url": "https://codeload.github.com/T7moris/GPT-Niang/zip/0f43bb54ee413d4fc8e95f03b4248834b468d6b5",
+    "bytes": 2347089,
+    "sha256": "8eaf4ccc3ec962e5975c59d935b92cdf9935e6f8ca853d2ddfbb85044e1d222f"
+  },
+  "all_text_blobs_verified_against_tree": true,
+  "skipped_binary_assets": [
+    "gpt-niang-usage/assets/gpt-dragon-niang-bust.png",
+    "gpt-niang-usage/assets/press.wav",
+    "gpt-niang-usage/assets/release.wav"
+  ]
+}

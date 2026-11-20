@@ -1,0 +1,47 @@
+{
+  "status": "r2_tray_current_window_contract_refused",
+  "windows": {
+    "31721126": {
+      "exists": false,
+      "visible": false,
+      "minimized": false
+    },
+    "329642": {
+      "exists": true,
+      "visible": false,
+      "minimized": true
+    }
+  },
+  "independent_readonly_preflight": {
+    "31721126": "selected_window_not_visible_in_target_process",
+    "329642": "selected_window_not_visible_in_target_process"
+  },
+  "reader_error": "reader_source_failed",
+  "readers_reaped": true,
+  "tray_marker_rows": 0,
+  "new_drafts": 0,
+  "new_model_traces": 0,
+  "new_native_preparations": 0,
+  "send_counts": [
+    17,
+    15,
+    11
+  ],
+  "original_send_history_unchanged": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true
+  },
+  "unknown_ids_unchanged": true,
+  "active_operations": 0,
+  "active_bindings": 0,
+  "integrity_ok": true,
+  "process_writes": 0,
+  "ui_effects": 0,
+  "hidden_window_preflight_not_relaxed": true,
+  "gate_not_reverified_due_to_unqualified_window": true,
+  "prior_minimized_probe_gate": 0
+}

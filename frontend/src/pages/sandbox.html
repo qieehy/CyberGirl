@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>小禾 · 本地工作台</title><link rel="stylesheet" href="/assets/styles/base.css"><script type="module" src="/assets/sandbox/app.js"></script></head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="小禾工作台"><span class="brandmark">禾</span><span>小禾<span class="brand-sub">WeChatAgent Studio</span></span></a>
+    <div class="sidebar-label">你的工作空间</div>
+    <nav aria-label="主导航">
+      <button class="nav-item active" data-view="desk" aria-pressed="true"><span>◈</span>工作台</button>
+      <button class="nav-item" data-view="persona" aria-pressed="false"><span>✦</span>人格设定</button>
+      <button class="nav-item" data-view="replay" aria-pressed="false"><span>↺</span>消息回放</button>
+      <button class="nav-item" data-view="groups" aria-pressed="false"><span>♧</span>群沙盒</button>
+    </nav>
+    <div class="sidebar-note"><span class="status-dot"></span> 本机沙盒<p>在这里练习，不向外部发送。</p></div>
+    <div class="sidebar-bottom">S4 · 群沙盒<span id="connection">正在连接…</span></div>
+  </aside>
+  <main>
+    <header class="topbar"><div class="breadcrumb">工作空间 <span>/</span> <strong id="page-label">工作台</strong></div><div class="header-actions"><span id="mode-badge" class="mode-badge">离线模拟</span><button id="refresh" class="button quiet">刷新</button><button id="pause" class="button outline">暂停沙盒</button></div></header>
+    <div id="notice" class="notice hidden" role="status" aria-live="polite"></div>
+    <section id="desk" class="view">
+      <div class="intro"><div class="eyebrow">A LITTLE ROOM TO EXPERIMENT</div><h1>把想法，先在这里试一试。</h1><p>设定人格，预演对话，看看每条消息最后去了哪里。</p></div>
+      <div class="metrics"><div class="metric"><span>沙盒消息</span><strong id="count-events">—</strong><small>最近 100 条</small></div><div class="metric"><span>等待确认</span><strong id="count-queued">—</strong><small>草稿尚未模拟投递</small></div><div class="metric"><span>已确认投递</span><strong id="count-confirmed">—</strong><small>仅为本机模拟回执</small></div></div>
+      <div class="desk-grid"><section class="card compose-card"><div class="card-heading"><h2>开始一段练习</h2><span class="small-tag">主人私聊 · 合成场景</span></div><p class="muted">输入练习内容，先生成草稿，再决定是否模拟投递。</p><form id="message-form"><label for="message">练习消息</label><textarea id="message" maxlength="4000" rows="5" placeholder="今天有点累，想找你聊两句。" required></textarea><div class="suggestions"><button type="button" data-suggestion="你好，介绍一下自己吧。">打个招呼</button><button type="button" data-suggestion="这条练习不需要回复。">测试沉默</button></div><div class="compose-footer"><small>内容仅在本地保存</small><button id="generate" class="button primary" type="submit">生成模拟草稿 <span>↗</span></button></div></form><div id="last-result" class="result-note hidden"></div></section>
+      <aside class="card persona-preview"><div class="eyebrow">CURRENT PERSONA</div><div class="avatar">禾</div><h2 id="preview-name">小禾</h2><span id="preview-version" class="small-tag">人格版本 —</span><p id="preview-style">正在读取人格设定…</p><div class="preview-line" id="preview-greeting"></div><small>配置预览，非模型生成</small><button class="button outline" data-view="persona">编辑人格设定 →</button></aside></div>
+      <section class="card"><div class="card-heading"><h2>最近的练习</h2><button class="text-button" data-view="replay">查看全部回放 →</button></div><div id="recent" class="event-list"></div></section>
+      <p class="footnote">当前使用固定模拟回复验证配置和投递流程；真实模型预演请前往人格设定；微信连接与群回复尚未开放。</p>
+    </section>
+    <section id="persona" class="view hidden">
+      <div class="intro"><div class="eyebrow">A VOICE OF ITS OWN</div><h1>让表达，有自己的样子。</h1><p>每次保存都会创建新版本，过往设定和消息依据仍可回看。</p></div>
+      <div class="persona-grid"><section class="card"><div class="card-heading"><h2>人格偏好</h2><span id="editing-version" class="small-tag">版本 —</span></div><form id="persona-form"><label for="persona-name">名字</label><input id="persona-name" maxlength="40" required><label for="persona-style">表达方式</label><textarea id="persona-style" rows="4" maxlength="500" required placeholder="温和、简洁，先倾听，再给建议。"></textarea><label for="persona-notes">背景与偏好 <span class="muted">可选</span></label><textarea id="persona-notes" rows="4" maxlength="1500" placeholder="喜欢聊的话题、称呼习惯、希望避免的表达。"></textarea><div class="hint">身份始终是透明的 AI 助手。人格设定不会改变联系人、权限或发送规则。</div><div class="form-actions"><button type="button" id="reload-persona" class="button outline">载入最新版本</button><button type="submit" id="save-persona" class="button primary">保存为新版本</button></div></form></section><section class="card versions-card"><h2>版本历史</h2><p class="muted">载入旧设定后保存，将创建新版本。</p><div id="versions"></div></section></div>
+      <section class="card"><div class="card-heading"><h2>真实模型 · 单轮人格预演</h2><span id="live-model" class="small-tag">尚未启用</span></div>
+        <p class="muted">点击下方按钮会把已保存的人格和本次文本提交给订阅模型，并使用订阅额度。每次独立预演，不携带沙盒聊天历史；结果仅供本机预览，不进入发送队列。</p>
+        <form id="preview-form"><label for="preview-text">预演文本</label><textarea id="preview-text" maxlength="4000" rows="3" required placeholder="请用一句话介绍自己。"></textarea><div class="form-actions"><span id="preview-status" class="muted">启动时需指定 --live-model</span><button id="run-preview" class="button primary" disabled>调用真实模型预演</button></div></form>
+        <div id="preview-runs" class="event-list"></div>
+      </section>
+    </section>
+    <section id="replay" class="view hidden">
+      <div class="intro"><div class="eyebrow">EVERY MESSAGE HAS A TRAIL</div><h1>每一步，都有迹可循。</h1><p>查看原消息、人格版本、候选回复和最终状态；验证去重不会重新生成或发送。</p></div>
+      <div class="filter-row"><label for="state-filter">筛选状态</label><select id="state-filter"><option value="all">全部记录</option><option value="QUEUED">等待确认</option><option value="CONFIRMED">已确认投递</option><option value="SILENT">保持沉默</option><option value="CANCELLED">已取消</option><option value="UNCONFIRMED">结果未确认</option><option value="FAILED">失败</option><option value="EXPIRED">已过期</option></select><span class="muted">最近 100 条 · 从新到旧</span></div>
+      <div id="replay-list" class="event-list replay-list"></div>
+    </section>
+    <section id="groups" class="view hidden">
+      <div class="intro"><div class="eyebrow">A SMALL GROUP, A CLEAR BOUNDARY</div><h1>群里的回应，先练习好。</h1><p>固定合成群 · 模拟模型 · 不连接微信，也不使用真实预演模型。</p></div>
+      <section class="card"><h2>合成群消息</h2><p class="muted">连续消息安静 3 秒后合并，最长等待 10 秒。只有明确 @ 或回复本群已确认的模拟消息才触发判断；普通聊天不会调用模型。</p>
+        <form id="group-form"><label for="group-sender">发言成员</label><select id="group-sender"><option value="member-a">成员 A</option><option value="member-b">成员 B</option></select>
+          <label for="group-trigger">消息类型</label><select id="group-trigger"><option value="none">普通群消息</option><option value="mention">明确 @ 助手</option><option value="reply">回复最近已确认的助手消息</option></select>
+          <label for="group-text">练习文本</label><textarea id="group-text" maxlength="3000" rows="3" required placeholder="大家好，今天想聊些什么？"></textarea>
+          <div class="form-actions"><span class="muted">30 秒冷却 · 每 10 分钟 3 次 · 每日 10 次</span><button id="group-submit" class="button primary">加入模拟群消息</button></div>
+        </form><p class="footnote">模型调用和发送分别计数；沉默也占用调用预算。草稿只在你点击“模拟投递”后提交。</p>
+      </section><div id="group-events" class="event-list replay-list"></div>
+    </section>
+  </main>
+</div>
+</body></html>

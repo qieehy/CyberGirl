@@ -1,0 +1,20 @@
+{
+  "status": "r1_final_offline_validation_passed",
+  "passed": 812,
+  "skipped": 9,
+  "subtests_passed": 848,
+  "elapsed_seconds": 285.27,
+  "ruff": "passed",
+  "workbench_javascript_syntax": "passed",
+  "related_tests_before_lifecycle_additions": 40,
+  "lifecycle_and_marker_tests": 11,
+  "initial_full_run": "interrupted_after_existing_group_test_async_wait_over_60_seconds",
+  "group_combination_diagnosis": "5 passed in 5.87s; no production group-code changes",
+  "runtime_source_separate_from_final_source": true,
+  "sha256": {
+    "scripts/probe_wechat_workbench_receive_soak.py": "1dc77916c92287a01d0387ab50780832405c2d95ea4826341f045201132c3cb3",
+    "tests/test_workbench_receive_soak.py": "48144cd0d5f1f7b341a9727e2530ed793e59649972049ea83cad3c41a614e63b",
+    ".build/r1-observation-attempt3-source.py": "244fd82f543df9c71132a0cf9283c09719edf5ad34920b61c32ffb953f42dfd1",
+    ".build/r1-workbench-full-regression-verbose.log": "48d19692be75c648d8fe643641dce4d339f54cb7766a56a80ad5905359ccec07"
+  }
+}

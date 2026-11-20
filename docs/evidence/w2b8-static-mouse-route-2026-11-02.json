@@ -1,0 +1,65 @@
+{
+  "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+  "class_name": "mmui::XOutlineButton",
+  "vtable_rva": 155857432,
+  "signals": [
+    "clicked",
+    "stateChanged",
+    "pressed",
+    "released",
+    "entered",
+    "leaved"
+  ],
+  "event_branches": [
+    {
+      "qevent_type": 2,
+      "branch_rva": 6101940,
+      "virtual_slot": 18
+    },
+    {
+      "qevent_type": 3,
+      "branch_rva": 6101956,
+      "virtual_slot": 19
+    }
+  ],
+  "functions": {
+    "event": {
+      "virtual_slot": 4,
+      "function_rva": 6100352,
+      "code_bytes": 3567,
+      "sha256": "34bf933fdbfb5dc16c6a8331a670b1c0ca9b0fa92b659fea0ec64036927abc3c"
+    },
+    "mouse_press": {
+      "virtual_slot": 18,
+      "function_rva": 32123472,
+      "code_bytes": 352,
+      "sha256": "ba033c78c7ee14cb91a17a3517266db899514c31bbfbad81e2c95ec96f633b84"
+    },
+    "mouse_release": {
+      "virtual_slot": 19,
+      "function_rva": 32123824,
+      "code_bytes": 384,
+      "sha256": "b2675b3b0a6404d55271845053c08587ea244e1cad52a0df6cac99dde5620bf2"
+    }
+  },
+  "state_offset": 320,
+  "press_sets_mask": 2,
+  "release_clears_mask": 2,
+  "press_signal": "pressed",
+  "release_signals": [
+    "released",
+    "stateChanged",
+    "clicked"
+  ],
+  "in_bounds_left_release_has_no_prior_pressed_bit_guard": true,
+  "uses_historical_live_vtable_binding": true,
+  "live_button_event_bytes_rechecked": false,
+  "cancellation_verified": false,
+  "native_window_to_widget_route_verified": false,
+  "submission_enabled": false,
+  "process_memory_accessed": false,
+  "methods_executed": 0,
+  "interpretation": "Pinned widget event-to-signal branch only; no proof that WM_CANCELMODE clears custom state or queued Qt events.",
+  "recorded_at": "2026-11-02T13:00:15.244777+00:00",
+  "script_sha256": "045b58a47e13d9952ffea288ea6f0366c9dd7996bdd1236b9488c0cb0b11b86a"
+}

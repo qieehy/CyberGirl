@@ -1,0 +1,69 @@
+{
+  "status": "e7_filehelper_workbench_acceptance_passed",
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "scope": "original_account_filehelper_weixin_4.2.0.13_nonminimized_covered_manual_confirmation",
+  "source_message_id": "47c36cccc426a99f33b59d5dad44e5b52ee8019ef7d42df7792369a0ac48b26c",
+  "draft_id": "ac50cf99745714adb7a3f295a0b4475cd173617bf8dd0adf7857c1582a6450ac",
+  "action_id": "742188c0a8723119ad2b296752315eaafc1e4aa061526fe6d5f498fa807177e0",
+  "final_content_sha256": "161fce233787b19cf2b1712fcf13bac68d3a8dd5898a4ae93858a14478aae228",
+  "final_utf16_units": 26,
+  "revisions": [
+    {
+      "version": 1,
+      "sha256": "63477214a4d478982bf8e9ffc140df39d55d70d6bb54e2fa8491872b14bb7014",
+      "origin": "model"
+    },
+    {
+      "version": 2,
+      "sha256": "161fce233787b19cf2b1712fcf13bac68d3a8dd5898a4ae93858a14478aae228",
+      "origin": "operator"
+    }
+  ],
+  "model_trace": {
+    "phase": "complete",
+    "inference_calls": 1,
+    "model_http_attempts": 1,
+    "finished_at": 1794811562.0581257
+  },
+  "input_permits": 1,
+  "submit_permits": 1,
+  "operation": {
+    "operation_id": "71ef068203f743fcaa783d1a1a35d7b9",
+    "input_permitted": 1,
+    "submit_permitted": 1,
+    "finished": 1,
+    "worker_reaped": 1,
+    "restore_verified": 1
+  },
+  "unique_local_echo": true,
+  "independent_phone_confirmation": true,
+  "action_state": "CONFIRMED",
+  "restart_no_replay": true,
+  "both_input_patterns_empty": true,
+  "button_released": true,
+  "gate_after": 0,
+  "historical_send_rows_preserved": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true
+  },
+  "historical_unknown_ids_unchanged": true,
+  "historical_unknown_count": 8,
+  "active_operations": 0,
+  "active_bindings": 0,
+  "final_send_counts": [
+    17,
+    15,
+    11
+  ],
+  "workers_reaped": true,
+  "blocked_reason": "submission_or_draft_requires_review",
+  "integrity_ok": true,
+  "prior_catalog_failure_preserved": true,
+  "auto_reply_accepted": false,
+  "minimized_accepted": false
+}

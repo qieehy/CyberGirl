@@ -1,0 +1,35 @@
+{
+  "status": "readiness_observed",
+  "mode": "physical_readiness_only",
+  "marker_sha256": "cdec45843e81f640a6aed6f8003820eafc953f26360b9709d9d8ae5c5a56e7ab",
+  "model_requests": 0,
+  "readiness": {
+    "account_and_filehelper_verified": true,
+    "both_draft_patterns_empty": false,
+    "same_editor_and_button": true,
+    "foreground_hit_and_focus": false,
+    "no_capture_or_hardware_input": true,
+    "button_not_pressed": true,
+    "class_entry_matches_pinned_code": true,
+    "per_window_procedure_observed": false,
+    "eligibility": "explicit_physical_click_trial",
+    "submission_enabled": false,
+    "class_function_rva": 40568048,
+    "transport": "SendInput",
+    "snapshot_observation_ms": 453,
+    "snapshot_phases_ms": {
+      "initial_identity": 140.0,
+      "class_validation": 0.0,
+      "geometry": 141.0,
+      "connection_and_press": 31.0,
+      "final_identity": 141.0,
+      "press_read_window_start": 281.0,
+      "press_read_window_end": 312.0,
+      "total": 453.0
+    },
+    "queue_drain_verified": false,
+    "mouse_will_move": true,
+    "first_snapshot_observation_ms": 6360,
+    "observed_at": 1794031338.9845426
+  }
+}

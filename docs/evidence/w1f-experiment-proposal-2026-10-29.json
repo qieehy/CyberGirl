@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-29T15:33:14.383337+00:00",
+  "status": "prepared_pending_explicit_authorization",
+  "pid": 30376,
+  "hwnd": 460506,
+  "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+  "candidate_rva": 189758472,
+  "expected_original": 0,
+  "temporary_value": 1,
+  "restore_to": 0,
+  "script_sha256": "55c6e773d204cdba1cfeba69fa1ba99d789cd4f1b59f7b658fd005a99ad02008",
+  "preflight_evidence": "docs/evidence/w1f-restored-main-preflight-2026-10-29.json",
+  "experiment_executed": false,
+  "message_sending": false,
+  "model_calls": false,
+  "system_settings_changes": false,
+  "requested_scope": "one temporary byte experiment; bounded structural observation and restoration readback"
+}

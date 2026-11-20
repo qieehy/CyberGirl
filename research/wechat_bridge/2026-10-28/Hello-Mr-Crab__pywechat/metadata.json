@@ -1,0 +1,1120 @@
+{
+  "repo": "Hello-Mr-Crab/pywechat",
+  "default_branch": "main",
+  "commit": "8589baa049bb91d3a500602c167f07b2f8397a13",
+  "commit_date": "2026-09-26T07:27:04Z",
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  },
+  "archived": false,
+  "tree": {
+    "sha": "8589baa049bb91d3a500602c167f07b2f8397a13",
+    "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/8589baa049bb91d3a500602c167f07b2f8397a13",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93d56f4eaf9e1d1329dd708f7638577e190cb6bf",
+        "size": 158,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/93d56f4eaf9e1d1329dd708f7638577e190cb6bf"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b6e30313936d022f00995e9885d9e5891a4598f",
+        "size": 27420,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/9b6e30313936d022f00995e9885d9e5891a4598f"
+      },
+      {
+        "path": "Mcp",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5ce27b7d5b8fea7c673d6874456508ecfbdf8f7d",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/5ce27b7d5b8fea7c673d6874456508ecfbdf8f7d"
+      },
+      {
+        "path": "Mcp/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95d34b1cf292036e99b50c55e3e65fc127c48e19",
+        "size": 901,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/95d34b1cf292036e99b50c55e3e65fc127c48e19"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b17969766c4481d6f60e38191f405d9aeb131b1f",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/b17969766c4481d6f60e38191f405d9aeb131b1f"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eb9ac817b5e21107cbe0d305b0f40cd9fcfab533",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/eb9ac817b5e21107cbe0d305b0f40cd9fcfab533"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/server.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd2bb7ef3191bbdded025b9f71ebad397123ea9c",
+        "size": 215,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/fd2bb7ef3191bbdded025b9f71ebad397123ea9c"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bc46707d5420370403952a7731d6cd3ca8d5098f",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/bc46707d5420370403952a7731d6cd3ca8d5098f"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/tools/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/tools/autoreply.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/tools/contacts.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/tools/messaging.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab5a6d87a651946456865bb6d24c7c8a3f993b9c",
+        "size": 3613,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ab5a6d87a651946456865bb6d24c7c8a3f993b9c"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/tools/moments.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/tools/monitor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/mcp_server/tools/navigator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fbdff8506eb99b269ae07603680d2d2df2db033d",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/fbdff8506eb99b269ae07603680d2d2df2db033d"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin/Config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c48caa1753eba6ed918749ab3b5e19b1475b5228",
+        "size": 8270,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/c48caa1753eba6ed918749ab3b5e19b1475b5228"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin/Errors.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3cfeef56b7aef8524d0439f0bce32575d1ac446",
+        "size": 1907,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/b3cfeef56b7aef8524d0439f0bce32575d1ac446"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin/Uielements.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0673cd12323bf76a4cf525585eb23814edc988bb",
+        "size": 107715,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/0673cd12323bf76a4cf525585eb23814edc988bb"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin/Warnings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "023e0232762389e0e4e6d062e570d78a8178e8a6",
+        "size": 422,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/023e0232762389e0e4e6d062e570d78a8178e8a6"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin/WeChatAuto.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14ccfca11d351255dee84e2fd6cdd00f0babbca7",
+        "size": 232905,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/14ccfca11d351255dee84e2fd6cdd00f0babbca7"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin/WeChatTools.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eaa3808eb1088f44a87d2c0d7937be76daebea38",
+        "size": 79682,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/eaa3808eb1088f44a87d2c0d7937be76daebea38"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin/WinSettings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5788ce94e2bdc6515ea97981c70a8794b88a55ef",
+        "size": 10561,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/5788ce94e2bdc6515ea97981c70a8794b88a55ef"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b822c0e935ef3d2d271845d9a164304dd6964ed2",
+        "size": 2064,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/b822c0e935ef3d2d271845d9a164304dd6964ed2"
+      },
+      {
+        "path": "Mcp/pyweixin_rpa/pyweixin/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4a826c8ea32e2c78f62bae1b37bc9e3fc71590c",
+        "size": 43012,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/b4a826c8ea32e2c78f62bae1b37bc9e3fc71590c"
+      },
+      {
+        "path": "QuickStart.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3fb8eaf6f5dcd57686c5affa4ee41b66aaa437a9",
+        "size": 2622,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/3fb8eaf6f5dcd57686c5affa4ee41b66aaa437a9"
+      },
+      {
+        "path": "README(3.9).MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97d453a6ef68828d51d50b767771520f2b2659a4",
+        "size": 5959,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/97d453a6ef68828d51d50b767771520f2b2659a4"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db9341ac6f1b9a996edefb0a06b47b089306b01f",
+        "size": 10726,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/db9341ac6f1b9a996edefb0a06b47b089306b01f"
+      },
+      {
+        "path": "Skill",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3cf938a32811fbfa4e4a6ef3fab8de803bba08d8",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/3cf938a32811fbfa4e4a6ef3fab8de803bba08d8"
+      },
+      {
+        "path": "Skill/OpenClaw",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9683d4c65428e199c1ab8a4c60da394a05659874",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/9683d4c65428e199c1ab8a4c60da394a05659874"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "efc763997c4acf1446eb492fbd2bb78b7cf5949e",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/efc763997c4acf1446eb492fbd2bb78b7cf5949e"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/LICENSE.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b6e30313936d022f00995e9885d9e5891a4598f",
+        "size": 27420,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/9b6e30313936d022f00995e9885d9e5891a4598f"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b43672b76e4181374b8254a017f93b7b98892515",
+        "size": 13784,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/b43672b76e4181374b8254a017f93b7b98892515"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/metadata.openclaw.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51ccf381df282510709e3341fc8ccc852c8a1b9a",
+        "size": 4105,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/51ccf381df282510709e3341fc8ccc852c8a1b9a"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ff53534bbc1d1dbbab3270e9c82449ee7ba95e97",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/ff53534bbc1d1dbbab3270e9c82449ee7ba95e97"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/references/Weixin4.0.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a74be54be439a86b9584e4761ce99527ed0c24c2",
+        "size": 1737,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/a74be54be439a86b9584e4761ce99527ed0c24c2"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/references/api_reference.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a67327926773e10eb9a741ceff02d02ee5ce113",
+        "size": 50553,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/1a67327926773e10eb9a741ceff02d02ee5ce113"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "553a775948bf24142da0061c2490bd3b9e6042da",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/553a775948bf24142da0061c2490bd3b9e6042da"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/check_requirements.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c67ec47ac525adee496f4b4505e4b4a91e3b38a9",
+        "size": 768,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/c67ec47ac525adee496f4b4505e4b4a91e3b38a9"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/check_running_state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92741edd7f20aaa52bd70aeaeffaffa685d3b159",
+        "size": 489,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/92741edd7f20aaa52bd70aeaeffaffa685d3b159"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/check_visibility.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ccf18234b1aa7f5d36f15e9a0f965389be3943e",
+        "size": 1275,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/3ccf18234b1aa7f5d36f15e9a0f965389be3943e"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dd15a0cd2054adefadf2078c397a7b038600ce20",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/dd15a0cd2054adefadf2078c397a7b038600ce20"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/Config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c48caa1753eba6ed918749ab3b5e19b1475b5228",
+        "size": 8270,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/c48caa1753eba6ed918749ab3b5e19b1475b5228"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/Errors.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddafba6d94794669d335bc98c9aa3929feb98b63",
+        "size": 1941,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ddafba6d94794669d335bc98c9aa3929feb98b63"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/Notes2MD.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59e6c8cd9225c5f9aa337d7b5c93d66d81ce6068",
+        "size": 9014,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/59e6c8cd9225c5f9aa337d7b5c93d66d81ce6068"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/Uielements.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bc5c8eee5f51b1d5bb1e86f909d1dea79cf2576",
+        "size": 113690,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/9bc5c8eee5f51b1d5bb1e86f909d1dea79cf2576"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/Warnings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "023e0232762389e0e4e6d062e570d78a8178e8a6",
+        "size": 422,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/023e0232762389e0e4e6d062e570d78a8178e8a6"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/WeChatAuto.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e34af6684866b65b45f08321fbb63fdac6107f50",
+        "size": 268404,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e34af6684866b65b45f08321fbb63fdac6107f50"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/WeChatTools.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8fbf3cc9fd10a7324367ab79b2605308130f9d2",
+        "size": 85298,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e8fbf3cc9fd10a7324367ab79b2605308130f9d2"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/WinSettings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a55a776fff985a193bd13987b2a489abec1af4df",
+        "size": 12278,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/a55a776fff985a193bd13987b2a489abec1af4df"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3e5d2dd69bef8771f2298352e82552a36f1cdcb",
+        "size": 2052,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/d3e5d2dd69bef8771f2298352e82552a36f1cdcb"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/pyweixin/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "245ef99ac924740407585bd9c7ae67af7469e7d2",
+        "size": 45352,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/245ef99ac924740407585bd9c7ae67af7469e7d2"
+      },
+      {
+        "path": "Skill/OpenClaw/pyweixin-rpa/scripts/requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff7a15f7b4156617a0f2efd77fa3dea2ebb2f543",
+        "size": 211,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ff7a15f7b4156617a0f2efd77fa3dea2ebb2f543"
+      },
+      {
+        "path": "Skill/OtherPlatforms",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7d0a786152c4a8bf984b8cde11b57b5fc10b23a5",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/7d0a786152c4a8bf984b8cde11b57b5fc10b23a5"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a49adad30df14cdccad28927f3d506f4239691fe",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/a49adad30df14cdccad28927f3d506f4239691fe"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/LICENSE.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b6e30313936d022f00995e9885d9e5891a4598f",
+        "size": 27420,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/9b6e30313936d022f00995e9885d9e5891a4598f"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a09a6562c3c79170c0a56edfa4e4dc898bcada49",
+        "size": 13417,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/a09a6562c3c79170c0a56edfa4e4dc898bcada49"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "887f6d6dccbca13bccbf9ce6d7ff4c38df9b8046",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/887f6d6dccbca13bccbf9ce6d7ff4c38df9b8046"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/references/Weixin4.0.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a74be54be439a86b9584e4761ce99527ed0c24c2",
+        "size": 1737,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/a74be54be439a86b9584e4761ce99527ed0c24c2"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/references/api_reference.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2510d5a5f1b240f7a60f871e0113d7071c414bc5",
+        "size": 49967,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/2510d5a5f1b240f7a60f871e0113d7071c414bc5"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a1d0cc3566c37ac95fbbf0ee22c53ce119b20524",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/a1d0cc3566c37ac95fbbf0ee22c53ce119b20524"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/check_requirements.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c67ec47ac525adee496f4b4505e4b4a91e3b38a9",
+        "size": 768,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/c67ec47ac525adee496f4b4505e4b4a91e3b38a9"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/check_running_state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92741edd7f20aaa52bd70aeaeffaffa685d3b159",
+        "size": 489,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/92741edd7f20aaa52bd70aeaeffaffa685d3b159"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/check_visibility.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78b1640d71cb812eab146d181ce8c776363edd97",
+        "size": 958,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/78b1640d71cb812eab146d181ce8c776363edd97"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dd15a0cd2054adefadf2078c397a7b038600ce20",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/dd15a0cd2054adefadf2078c397a7b038600ce20"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/Config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c48caa1753eba6ed918749ab3b5e19b1475b5228",
+        "size": 8270,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/c48caa1753eba6ed918749ab3b5e19b1475b5228"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/Errors.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddafba6d94794669d335bc98c9aa3929feb98b63",
+        "size": 1941,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ddafba6d94794669d335bc98c9aa3929feb98b63"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/Notes2MD.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59e6c8cd9225c5f9aa337d7b5c93d66d81ce6068",
+        "size": 9014,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/59e6c8cd9225c5f9aa337d7b5c93d66d81ce6068"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/Uielements.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bc5c8eee5f51b1d5bb1e86f909d1dea79cf2576",
+        "size": 113690,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/9bc5c8eee5f51b1d5bb1e86f909d1dea79cf2576"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/Warnings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "023e0232762389e0e4e6d062e570d78a8178e8a6",
+        "size": 422,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/023e0232762389e0e4e6d062e570d78a8178e8a6"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/WeChatAuto.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e34af6684866b65b45f08321fbb63fdac6107f50",
+        "size": 268404,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e34af6684866b65b45f08321fbb63fdac6107f50"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/WeChatTools.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8fbf3cc9fd10a7324367ab79b2605308130f9d2",
+        "size": 85298,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e8fbf3cc9fd10a7324367ab79b2605308130f9d2"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/WinSettings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a55a776fff985a193bd13987b2a489abec1af4df",
+        "size": 12278,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/a55a776fff985a193bd13987b2a489abec1af4df"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3e5d2dd69bef8771f2298352e82552a36f1cdcb",
+        "size": 2052,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/d3e5d2dd69bef8771f2298352e82552a36f1cdcb"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/pyweixin/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "245ef99ac924740407585bd9c7ae67af7469e7d2",
+        "size": 45352,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/245ef99ac924740407585bd9c7ae67af7469e7d2"
+      },
+      {
+        "path": "Skill/OtherPlatforms/pyweixin-rpa/scripts/requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff7a15f7b4156617a0f2efd77fa3dea2ebb2f543",
+        "size": 211,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ff7a15f7b4156617a0f2efd77fa3dea2ebb2f543"
+      },
+      {
+        "path": "Weixin4.0.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "307fd9aabb4f28249cb64a13da51da8b1d39f0e1",
+        "size": 1955,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/307fd9aabb4f28249cb64a13da51da8b1d39f0e1"
+      },
+      {
+        "path": "features_list.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e5cabce8554115902a720a166dcdd34e94b2874",
+        "size": 525,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/7e5cabce8554115902a720a166dcdd34e94b2874"
+      },
+      {
+        "path": "inspect",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "169a99a6a872167fa6ec677f9b2b8bd2d927eaa2",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/169a99a6a872167fa6ec677f9b2b8bd2d927eaa2"
+      },
+      {
+        "path": "inspect/inspect_x64.exe",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e463f95476199909c4ca019af138fc3c7d3ba1d",
+        "size": 306640,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/9e463f95476199909c4ca019af138fc3c7d3ba1d"
+      },
+      {
+        "path": "inspect/inspect_x86.exe",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08710cca143399ab89dd9a77381b6e939cfa16b9",
+        "size": 245216,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/08710cca143399ab89dd9a77381b6e939cfa16b9"
+      },
+      {
+        "path": "pics",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d78ff401846cccfc292a018bb9f58e542cf42130",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/d78ff401846cccfc292a018bb9f58e542cf42130"
+      },
+      {
+        "path": "pics/auto_reply_to_group.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d71d3a4e7aa5505a1ecfb885acd2958263af36cf",
+        "size": 132295,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/d71d3a4e7aa5505a1ecfb885acd2958263af36cf"
+      },
+      {
+        "path": "pics/check_new_message.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab0533b07d77cea17cf1f76dd1d6953f81c622d5",
+        "size": 1430743,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ab0533b07d77cea17cf1f76dd1d6953f81c622d5"
+      },
+      {
+        "path": "pics/claude导入自定义skill.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b05d691ddb13d015628f164b7207ad206882fe3",
+        "size": 188506,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/4b05d691ddb13d015628f164b7207ad206882fe3"
+      },
+      {
+        "path": "pics/claude接入pyweixin-rpa.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecaf833385b5035c089b6079286207d077d13851",
+        "size": 195065,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ecaf833385b5035c089b6079286207d077d13851"
+      },
+      {
+        "path": "pics/claude选择skill.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04c89875c5f6f5eb70cdf612a5ce31a9e1188e04",
+        "size": 17848,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/04c89875c5f6f5eb70cdf612a5ce31a9e1188e04"
+      },
+      {
+        "path": "pics/decorator.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4fa570320b924ce86f1276c5af24a823fdabe9f",
+        "size": 157925,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/b4fa570320b924ce86f1276c5af24a823fdabe9f"
+      },
+      {
+        "path": "pics/dump_moments.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cefdc930022fb7cf5bb7e4d4e9e13679da30643",
+        "size": 591281,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/9cefdc930022fb7cf5bb7e4d4e9e13679da30643"
+      },
+      {
+        "path": "pics/listen_on_chat多线程.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84800fd9167d2c342dc62f9b8794704267048f2f",
+        "size": 121425,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/84800fd9167d2c342dc62f9b8794704267048f2f"
+      },
+      {
+        "path": "pics/moments_images.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24d799dea2ad759ea9e19af5358aefd1454c4028",
+        "size": 488022,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/24d799dea2ad759ea9e19af5358aefd1454c4028"
+      },
+      {
+        "path": "pics/openclaw测试案例.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d94fa8d20dbe72c2a665a692380c3a62e2e451c1",
+        "size": 64507,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/d94fa8d20dbe72c2a665a692380c3a62e2e451c1"
+      },
+      {
+        "path": "pics/openclaw评价.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a73a79681f4cc84a2b6abc8b04af28b906eb7107",
+        "size": 23589,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/a73a79681f4cc84a2b6abc8b04af28b906eb7107"
+      },
+      {
+        "path": "pics/pywechat结构图.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1df6c638da26811d63be56eb4836bcd05b169a07",
+        "size": 426424,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/1df6c638da26811d63be56eb4836bcd05b169a07"
+      },
+      {
+        "path": "pics/pyweixin-rpa测试.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "091b8f7a3d9622790675d42b7b632ef9d8daf646",
+        "size": 15856,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/091b8f7a3d9622790675d42b7b632ef9d8daf646"
+      },
+      {
+        "path": "pics/pyweixin结构.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f37dad99673091cdfca25a99471527a40afa1d2",
+        "size": 85417,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/8f37dad99673091cdfca25a99471527a40afa1d2"
+      },
+      {
+        "path": "pics/wechat.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6d66116c98b3c8e2b0ff8447e5d7827639813be",
+        "size": 80950,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/f6d66116c98b3c8e2b0ff8447e5d7827639813be"
+      },
+      {
+        "path": "pics/公众号文章url获取.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90faf2e9dd9d493105c03570bfd4ece26eb5423d",
+        "size": 319535,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/90faf2e9dd9d493105c03570bfd4ece26eb5423d"
+      },
+      {
+        "path": "pics/发朋友圈.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d255238ed6dc752d97b7e1dc546e18e3eb216e69",
+        "size": 45242,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/d255238ed6dc752d97b7e1dc546e18e3eb216e69"
+      },
+      {
+        "path": "pics/好友朋友圈内容.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fded208689636597ec28578ada7967b24eac2d08",
+        "size": 191670,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/fded208689636597ec28578ada7967b24eac2d08"
+      },
+      {
+        "path": "pics/好友朋友圈内容导出.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8744d8dc148ecca8acc7f9c89e3c9933cc4356e1",
+        "size": 62357,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/8744d8dc148ecca8acc7f9c89e3c9933cc4356e1"
+      },
+      {
+        "path": "pics/微信基本信息.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ccf68c185cdf5dd5675654cc0b7b36ead2750828",
+        "size": 64382,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ccf68c185cdf5dd5675654cc0b7b36ead2750828"
+      },
+      {
+        "path": "pics/微信收藏笔记.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97b0ab295fb5ac3229d4bf5993c6672b5c330fd6",
+        "size": 1156991,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/97b0ab295fb5ac3229d4bf5993c6672b5c330fd6"
+      },
+      {
+        "path": "pics/支持Skill平台.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fa664703005d421d85120d73d1a3bf85b2b58ad",
+        "size": 47377,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/4fa664703005d421d85120d73d1a3bf85b2b58ad"
+      },
+      {
+        "path": "pics/朋友圈内容导出.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea87e108642f97f71f7bf07a9c626f69a1858f60",
+        "size": 298750,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ea87e108642f97f71f7bf07a9c626f69a1858f60"
+      },
+      {
+        "path": "pics/朋友圈数据获取.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "783df6c74dc4dde89fa4984388ccb558ae99ee83",
+        "size": 49376,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/783df6c74dc4dde89fa4984388ccb558ae99ee83"
+      },
+      {
+        "path": "pics/监听会话列表.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec26c61d5549a0bb01ebe4cc882b827142527b4a",
+        "size": 44365,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ec26c61d5549a0bb01ebe4cc882b827142527b4a"
+      },
+      {
+        "path": "pics/监听会话列表结果.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "516642726c18aa14a75090579791ea68461b4705",
+        "size": 97540,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/516642726c18aa14a75090579791ea68461b4705"
+      },
+      {
+        "path": "pics/自动回复会话列表新消息.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "864f772b012a76687eafcbd4ac8425179b6dca1e",
+        "size": 250319,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/864f772b012a76687eafcbd4ac8425179b6dca1e"
+      },
+      {
+        "path": "pywechat操作手册.docx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8594f923f70d1be012f8cf75f088daa5074f1775",
+        "size": 545085,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/8594f923f70d1be012f8cf75f088daa5074f1775"
+      },
+      {
+        "path": "pyweixin操作手册.docx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23db4fd344c3212ff7e684096250de59cfe1c9fc",
+        "size": 752961,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/23db4fd344c3212ff7e684096250de59cfe1c9fc"
+      },
+      {
+        "path": "pywinauto使用方法.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be9d93b9812642dffdc438f3a630b7a940b464f8",
+        "size": 84873,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/be9d93b9812642dffdc438f3a630b7a940b464f8"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7dff93a66f6559163af1fc92380dc6489249c6c2",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/7dff93a66f6559163af1fc92380dc6489249c6c2"
+      },
+      {
+        "path": "src/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8558ab8993597166c4f3a64ef4734313603c82c3",
+        "size": 11770,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/8558ab8993597166c4f3a64ef4734313603c82c3"
+      },
+      {
+        "path": "src/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f80f5212b366007f84422821bac07815fa35e23d",
+        "size": 1133,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/f80f5212b366007f84422821bac07815fa35e23d"
+      },
+      {
+        "path": "src/pywechat",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eed4ee38d73b7ea7fb96cc2064c2a45a715ae17a",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/eed4ee38d73b7ea7fb96cc2064c2a45a715ae17a"
+      },
+      {
+        "path": "src/pywechat/Config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a96254335aa130a8bef74eda63516f30d0f67f8a",
+        "size": 3064,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/a96254335aa130a8bef74eda63516f30d0f67f8a"
+      },
+      {
+        "path": "src/pywechat/Errors.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efe58349ff81e786d699ff2ef14457ac4f7a0749",
+        "size": 3742,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/efe58349ff81e786d699ff2ef14457ac4f7a0749"
+      },
+      {
+        "path": "src/pywechat/Uielements.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c431fe965747824312fed60392708e23c19906f",
+        "size": 105175,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/2c431fe965747824312fed60392708e23c19906f"
+      },
+      {
+        "path": "src/pywechat/Warnings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46250a9da67d81c1f5a8e01ee2f672561dfb65b5",
+        "size": 253,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/46250a9da67d81c1f5a8e01ee2f672561dfb65b5"
+      },
+      {
+        "path": "src/pywechat/WeChatAuto.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87a943f217cbb3a25de119e8dae45f021073f860",
+        "size": 370890,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/87a943f217cbb3a25de119e8dae45f021073f860"
+      },
+      {
+        "path": "src/pywechat/WeChatTools.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb83e297d429c8b7b21afb398aa5d561eade8854",
+        "size": 93478,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/bb83e297d429c8b7b21afb398aa5d561eade8854"
+      },
+      {
+        "path": "src/pywechat/WinSettings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd54cfd7bd743d5c7fa741df6a7da384f2ae2f22",
+        "size": 8463,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/dd54cfd7bd743d5c7fa741df6a7da384f2ae2f22"
+      },
+      {
+        "path": "src/pywechat/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59aa6d0352d59c58e97586643c41a10d67cffecf",
+        "size": 2289,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/59aa6d0352d59c58e97586643c41a10d67cffecf"
+      },
+      {
+        "path": "src/pywechat/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "88cc997a663495b9e4154961054e3205c50def60",
+        "size": 16720,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/88cc997a663495b9e4154961054e3205c50def60"
+      },
+      {
+        "path": "src/pyweixin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dd15a0cd2054adefadf2078c397a7b038600ce20",
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/trees/dd15a0cd2054adefadf2078c397a7b038600ce20"
+      },
+      {
+        "path": "src/pyweixin/Config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c48caa1753eba6ed918749ab3b5e19b1475b5228",
+        "size": 8270,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/c48caa1753eba6ed918749ab3b5e19b1475b5228"
+      },
+      {
+        "path": "src/pyweixin/Errors.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddafba6d94794669d335bc98c9aa3929feb98b63",
+        "size": 1941,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ddafba6d94794669d335bc98c9aa3929feb98b63"
+      },
+      {
+        "path": "src/pyweixin/Notes2MD.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59e6c8cd9225c5f9aa337d7b5c93d66d81ce6068",
+        "size": 9014,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/59e6c8cd9225c5f9aa337d7b5c93d66d81ce6068"
+      },
+      {
+        "path": "src/pyweixin/Uielements.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bc5c8eee5f51b1d5bb1e86f909d1dea79cf2576",
+        "size": 113690,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/9bc5c8eee5f51b1d5bb1e86f909d1dea79cf2576"
+      },
+      {
+        "path": "src/pyweixin/Warnings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "023e0232762389e0e4e6d062e570d78a8178e8a6",
+        "size": 422,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/023e0232762389e0e4e6d062e570d78a8178e8a6"
+      },
+      {
+        "path": "src/pyweixin/WeChatAuto.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e34af6684866b65b45f08321fbb63fdac6107f50",
+        "size": 268404,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e34af6684866b65b45f08321fbb63fdac6107f50"
+      },
+      {
+        "path": "src/pyweixin/WeChatTools.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8fbf3cc9fd10a7324367ab79b2605308130f9d2",
+        "size": 85298,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/e8fbf3cc9fd10a7324367ab79b2605308130f9d2"
+      },
+      {
+        "path": "src/pyweixin/WinSettings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a55a776fff985a193bd13987b2a489abec1af4df",
+        "size": 12278,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/a55a776fff985a193bd13987b2a489abec1af4df"
+      },
+      {
+        "path": "src/pyweixin/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3e5d2dd69bef8771f2298352e82552a36f1cdcb",
+        "size": 2052,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/d3e5d2dd69bef8771f2298352e82552a36f1cdcb"
+      },
+      {
+        "path": "src/pyweixin/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "245ef99ac924740407585bd9c7ae67af7469e7d2",
+        "size": 45352,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/245ef99ac924740407585bd9c7ae67af7469e7d2"
+      },
+      {
+        "path": "src/requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff7a15f7b4156617a0f2efd77fa3dea2ebb2f543",
+        "size": 211,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/ff7a15f7b4156617a0f2efd77fa3dea2ebb2f543"
+      },
+      {
+        "path": "src/setup.cfg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d3f8f95b603dbe50e3383d2c7c435209f6855a0",
+        "size": 37,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/7d3f8f95b603dbe50e3383d2c7c435209f6855a0"
+      },
+      {
+        "path": "src/setup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f71ec309f4eb5be7b666ecdb380aaea2767fe599",
+        "size": 986,
+        "url": "https://api.github.com/repos/Hello-Mr-Crab/pywechat/git/blobs/f71ec309f4eb5be7b666ecdb380aaea2767fe599"
+      }
+    ],
+    "truncated": false
+  }
+}

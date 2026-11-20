@@ -1,0 +1,12 @@
+{
+  "status": "background_phone_confirmation_recorded",
+  "mode": "standalone_background_return",
+  "model_requests": 0,
+  "marker_sha256": "44bda1b9b349a6bebd1cdd59df8afbab3655d4335d631fe3608928df5f990cb0",
+  "evidence_added": true,
+  "action_id": "218b7db1a667c73019a6d2c913e37dde46ccbb1347a65b78fdc5468e821fc6c7",
+  "delivery_state": "CONFIRMED",
+  "background_acceptance": false,
+  "original_control_result_preserved": true,
+  "confirmation_scope": "delivery_only"
+}

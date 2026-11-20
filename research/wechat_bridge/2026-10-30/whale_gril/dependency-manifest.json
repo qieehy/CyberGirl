@@ -1,0 +1,18 @@
+{
+  "commit": "6e603974bbac3bda93d88bbd6995510ae2547f5c",
+  "note": "Previously reviewed reference commit; whale_gril does not pin this dependency commit. No claim about actual installed wheel.",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/6e603974bbac3bda93d88bbd6995510ae2547f5c/pyproject.toml",
+      "sha256": "97b3b10abe722e76c1dbb697a8e20682ea596d3a7aad4e392a75116c570d1d10",
+      "bytes": 2176
+    },
+    {
+      "path": "wechatauto/db.py",
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/6e603974bbac3bda93d88bbd6995510ae2547f5c/wechatauto/db.py",
+      "sha256": "e5455808f8b7dd56f933c8ae6a2e551862e128d07e1c030d1ef457509ae47db9",
+      "bytes": 143905
+    }
+  ]
+}

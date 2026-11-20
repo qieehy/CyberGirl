@@ -1,0 +1,110 @@
+{
+  "status": "standalone_identity_verified",
+  "input_posts": 0,
+  "submit_posts": 0,
+  "foreground_activations": 0,
+  "real_keyboard_or_mouse_calls": 0,
+  "ledger_writes": 0,
+  "model_requests": 0,
+  "diagnostics_only": false,
+  "window": {
+    "pid": 7512,
+    "hwnd": 158139274,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "exe_sha256": "5329ffc9afdeeb01db6dd5a68321277a8cf8d3f966873c070be3d04d7dfb1c0e",
+    "created_filetime": "134385246767682066",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x438",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "gate_before": 0,
+  "account_matched": true,
+  "native": {
+    "canonical_conversation_verified": true,
+    "native_input_verified": true,
+    "root_class": "mmui::ChatSingleWindow",
+    "root_meta_object_rva": 152341752,
+    "root_vtable_rva": 160048360,
+    "same_window_page_lineage": true,
+    "lookup_bytes": 2198,
+    "stable": true
+  },
+  "both_patterns_empty": false,
+  "root_matches_filehelper": true,
+  "draft_diagnostics": {
+    "text_length": 37,
+    "text_empty": false,
+    "value_length": 37,
+    "value_sha256": "541a1a6bb8d20bf2fa50171d10ad4210fa7f94ae15b2b48c63a540591fe0998e",
+    "exact_equal": true,
+    "value_empty": false,
+    "text_status": "read",
+    "text_sha256": "541a1a6bb8d20bf2fa50171d10ad4210fa7f94ae15b2b48c63a540591fe0998e",
+    "trailing_linebreaks_only_difference": false
+  },
+  "draft_matches_control_marker": false,
+  "draft_matches_value_marker": false,
+  "qt_input_has_keyboard_focus": true,
+  "geometry_checks": {
+    "button_size_bounded": true,
+    "button_inside_client": true,
+    "center_has_margin": true,
+    "client_mapping_consistent": true,
+    "client_point_packable": true,
+    "foreground_matches": false,
+    "hit_root_matches": false,
+    "hit_process_matches": false,
+    "hit_button_matches": false,
+    "no_capture": true,
+    "input_focus_owned": false,
+    "no_hardware_interference": false,
+    "button_enabled": true,
+    "button_visible": true
+  },
+  "window_geometry": {
+    "button_bounds": [
+      961,
+      1082,
+      1021,
+      1115
+    ],
+    "client_bounds": [
+      299,
+      688,
+      1047,
+      1138
+    ],
+    "client_point": [
+      692,
+      410
+    ],
+    "dpi": 120,
+    "coordinate_space": "physical_per_monitor_v2",
+    "dpi_context_restored": true
+  },
+  "provider_restored": true,
+  "observer_released": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 0,
+    "pointer_samples": 176,
+    "pointer_position_changes": 51,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 16.839,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [],
+    "target_detection_sources": [],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "locks_released": true,
+  "gate_after": 0,
+  "recorded_at": "2026-11-07T11:59:56.285759+00:00"
+}

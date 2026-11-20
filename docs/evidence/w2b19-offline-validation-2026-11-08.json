@@ -1,0 +1,16 @@
+{
+  "status": "b19_offline_validated_pending_phone_and_batch_review",
+  "at": 1794067414.8570664,
+  "wechat_tests": 632,
+  "wechat_test_seconds": 90.31,
+  "ruff": "passed",
+  "real_send_operations": 14,
+  "input_permits": 12,
+  "submit_permits": 8,
+  "active_operations": 0,
+  "old_unknowns_preserved": 8,
+  "covered_phone_pending": true,
+  "admission_check": "background_current_generation_unreconciled",
+  "new_integration_messages": 0,
+  "model_requests": 0
+}

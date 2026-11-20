@@ -1,0 +1,66 @@
+{
+  "status": "Amadues_exact_peer_marker_readonly_restart_http_verified",
+  "model_calls": 0,
+  "program_sends": 0,
+  "target_sha256": "e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734",
+  "request_time_range": {
+    "earliest": 1794819471.0,
+    "latest": 1794821301.0
+  },
+  "candidate_limit_per_shard": 32,
+  "maximum_shards": 2,
+  "replacement": {
+    "previous_target_sha256": "0fdd4a5512d739fac24024c4695615c6a8a631b4e2f5dd7944d5a72c825e2723",
+    "target_sha256": "e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734",
+    "operator_reference": "explicit-user-Amadues-switch-already-sent-PEER-20261116",
+    "old_selection_retired": true
+  },
+  "reader_pid": 22712,
+  "initial_adopted_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 0,
+        "local_id": 0
+      },
+      "local_fence": 0
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794820853000,
+        "local_id": 1
+      },
+      "local_fence": 2
+    }
+  },
+  "poll": {
+    "fresh": 1,
+    "replay": 0,
+    "pages": 1,
+    "more": false
+  },
+  "source_message_id": "6173bcd772b0ab2dbd9752048d18fb7c00092bf18f2359c4f4887d7f6d6c2571",
+  "sender_matches_selected_peer": true,
+  "source_text_sha256": "c287b0175956df7612f8235382b3188e3adcc1cd44b528cbc6a3fb6abac913e6",
+  "disposition": "stale_event",
+  "receipt_lag_seconds": 840.7380526065826,
+  "same_batch_replay_not_fresh": true,
+  "first_reader_reaped": true,
+  "resumed_reader_pid": 43360,
+  "restart_checkpoints_unchanged": true,
+  "restart_generation_unchanged": true,
+  "restart_poll": {
+    "fresh": 0,
+    "replay": 0,
+    "pages": 0,
+    "more": false
+  },
+  "http_target_sender_text_verified": true,
+  "source_rows": 1,
+  "all_readers_reaped": true,
+  "protected_send_models_filehelper_unchanged": true,
+  "retired_LFY_plan_and_cursors_unchanged": true,
+  "active_bindings": 0,
+  "integrity_ok": true
+}

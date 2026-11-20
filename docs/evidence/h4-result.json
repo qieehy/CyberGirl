@@ -1,0 +1,320 @@
+{
+  "stage": "H4",
+  "recorded_at_utc": "2026-10-27T06:25:01.737390+00:00",
+  "user_timezone": "Asia/Shanghai",
+  "status": "h4a_passed_real_refresh_not_observed",
+  "h4a": "passed",
+  "h4b": "not_observed",
+  "historical_initial_record": "docs/evidence/h4-initial-auth-result.json",
+  "proxy": {
+    "client_confirmed_by_user": "Hiddify",
+    "endpoint": "http://127.0.0.1:12334",
+    "configuration": "WECHAT_AGENT_PROXY in invoking process; not persisted globally",
+    "system_proxy_was_enabled": true,
+    "original_clients_ignored_system_proxy": true,
+    "routes": [
+      "device_login",
+      "token_exchange",
+      "refresh",
+      "catalog",
+      "inference"
+    ],
+    "direct_fallback": false,
+    "tls_verification": true
+  },
+  "authentication": {
+    "independent_login_completed": true,
+    "state": "ready",
+    "storage": "application-owned Windows DPAPI vault",
+    "other_application_credentials_used": false
+  },
+  "catalog": {
+    "source": "live_account_catalog",
+    "client_version": "0.164.0",
+    "fetched_at": "2026-10-27T06:11:31.920824+00:00",
+    "request_id": null,
+    "models": [
+      {
+        "slug": "gpt-6.1-sol",
+        "priority": 1
+      },
+      {
+        "slug": "gpt-6-astra",
+        "priority": 2
+      },
+      {
+        "slug": "gpt-6.1-terra",
+        "priority": 3
+      },
+      {
+        "slug": "gpt-6-sol",
+        "priority": 4
+      },
+      {
+        "slug": "gpt-6-luna",
+        "priority": 5
+      },
+      {
+        "slug": "gpt-5.6-sol",
+        "priority": 6
+      },
+      {
+        "slug": "gpt-5.6-terra",
+        "priority": 8
+      },
+      {
+        "slug": "gpt-5.6-luna",
+        "priority": 9
+      }
+    ],
+    "note": "Directory visibility is not proof of a successful inference request."
+  },
+  "selected_model": "gpt-6.1-sol",
+  "compatibility_fixes": [
+    "Missing Content-Type accepted only through bounded SSE and completed-result checks",
+    "response.metadata treated as passive with response identity checks",
+    "x-oai-request-id accepted as request ID fallback"
+  ],
+  "acceptance": {
+    "matching_source_model_and_login_epoch": true,
+    "distinct_sequential_processes": true,
+    "successful_logical_model_calls": 3,
+    "successful_model_http_attempts": 3,
+    "records": [
+      {
+        "schema": 1,
+        "stage": "provider",
+        "status": "passed",
+        "process_id": 33568,
+        "run_id": "8db9a0a4f096478186d34418e03f4ec3",
+        "started_at": "2026-10-27T06:20:41.102275+00:00",
+        "application_version": "0.1.0",
+        "framework_version": "0.3.0",
+        "application_source_sha256": "7b869aa91527a97435a2d5d254ec217e024abe34a994780ce53f13adeab445a3",
+        "checks": {
+          "nonempty_text": true,
+          "chinese_text": true,
+          "expected_marker": true,
+          "short_response": true
+        },
+        "selected_model": "gpt-6.1-sol",
+        "returned_model": "gpt-6.1-sol",
+        "response_status": "completed",
+        "request_id": "9fa5ab8d-3743-4780-86a4-e659529e64f8",
+        "elapsed_seconds": 3.141,
+        "usage": {
+          "input_tokens": 45,
+          "output_tokens": 6,
+          "total_tokens": 51
+        },
+        "runtime": null,
+        "logical_model_calls": 1,
+        "model_http_attempts": 1,
+        "catalog_request_id": null,
+        "catalog_fetched_at": "2026-10-27T06:20:44.185240+00:00",
+        "auth_state_at_start": "ready",
+        "auth_state_at_end": "ready",
+        "token_expiry_advanced": false,
+        "real_refresh_acceptance": "not_established_by_this_probe",
+        "delivery": "local_acceptance_sink",
+        "chat_history_persisted": false,
+        "finished_at": "2026-10-27T06:20:47.343709+00:00",
+        "local_source_record": ".state/h4/provider-v3.json",
+        "local_source_sha256": "514f3a4cd769f21062b0f2cd8457d07336e7a9bdb7d73308ea459dc0534613b0"
+      },
+      {
+        "schema": 1,
+        "stage": "runtime",
+        "status": "passed",
+        "process_id": 35476,
+        "run_id": "bbb58492324c4db3845358a3d15bddfd",
+        "started_at": "2026-10-27T06:21:03.617639+00:00",
+        "application_version": "0.1.0",
+        "framework_version": "0.3.0",
+        "application_source_sha256": "7b869aa91527a97435a2d5d254ec217e024abe34a994780ce53f13adeab445a3",
+        "checks": {
+          "nonempty_text": true,
+          "chinese_text": true,
+          "expected_marker": true,
+          "short_response": true,
+          "runtime_finished_once": true
+        },
+        "selected_model": "gpt-6.1-sol",
+        "returned_model": "gpt-6.1-sol",
+        "response_status": "completed",
+        "request_id": "f4edc6cb-8f8a-4878-81db-50e047e1cbb4",
+        "elapsed_seconds": 4.781,
+        "usage": {
+          "input_tokens": 54,
+          "output_tokens": 24,
+          "total_tokens": 78
+        },
+        "runtime": {
+          "class": "runtime.runtime.Runtime",
+          "status": "finished",
+          "steps": 1,
+          "model_calls": 1,
+          "sink_confirmed": true
+        },
+        "logical_model_calls": 1,
+        "model_http_attempts": 1,
+        "catalog_request_id": null,
+        "catalog_fetched_at": "2026-10-27T06:21:06.287788+00:00",
+        "auth_state_at_start": "ready",
+        "auth_state_at_end": "ready",
+        "token_expiry_advanced": false,
+        "real_refresh_acceptance": "not_established_by_this_probe",
+        "delivery": "local_acceptance_sink",
+        "chat_history_persisted": false,
+        "finished_at": "2026-10-27T06:21:11.071792+00:00",
+        "local_source_record": ".state/h4/runtime.json",
+        "local_source_sha256": "3a7a4db39ce0df4536e714217cfef8dd6374cef5a0e98c3a3c7975466b610199"
+      },
+      {
+        "schema": 1,
+        "stage": "restart",
+        "status": "passed",
+        "process_id": 32724,
+        "run_id": "ff5cac7e428c48d69067d5708f9a6ae1",
+        "started_at": "2026-10-27T06:21:21.423068+00:00",
+        "application_version": "0.1.0",
+        "framework_version": "0.3.0",
+        "application_source_sha256": "7b869aa91527a97435a2d5d254ec217e024abe34a994780ce53f13adeab445a3",
+        "checks": {
+          "nonempty_text": true,
+          "chinese_text": true,
+          "expected_marker": true,
+          "short_response": true,
+          "runtime_finished_once": true
+        },
+        "selected_model": "gpt-6.1-sol",
+        "returned_model": "gpt-6.1-sol",
+        "response_status": "completed",
+        "request_id": "db233418-b4f4-4fb3-8032-b894d7e6f6eb",
+        "elapsed_seconds": 2.843,
+        "usage": {
+          "input_tokens": 54,
+          "output_tokens": 6,
+          "total_tokens": 60
+        },
+        "runtime": {
+          "class": "runtime.runtime.Runtime",
+          "status": "finished",
+          "steps": 1,
+          "model_calls": 1,
+          "sink_confirmed": true
+        },
+        "logical_model_calls": 1,
+        "model_http_attempts": 1,
+        "catalog_request_id": null,
+        "catalog_fetched_at": "2026-10-27T06:21:24.217325+00:00",
+        "auth_state_at_start": "ready",
+        "auth_state_at_end": "ready",
+        "token_expiry_advanced": false,
+        "real_refresh_acceptance": "not_established_by_this_probe",
+        "delivery": "local_acceptance_sink",
+        "chat_history_persisted": false,
+        "finished_at": "2026-10-27T06:21:27.064785+00:00",
+        "local_source_record": ".state/h4/restart.json",
+        "local_source_sha256": "40992dd4cde33dbc05050f8f9b3240136641d4638cd75c5473c10166c6b36d1f"
+      }
+    ]
+  },
+  "diagnostic_history": {
+    "confirmed_model_http_attempts_including_successes": 6,
+    "earliest_failed_provider_additional_attempts": {
+      "minimum": 0,
+      "maximum": 1,
+      "reason": "Original failed probe did not record phase or attempt count; not retroactively invented"
+    },
+    "files": {
+      ".state/h4/provider.json": "cea509cb6364a38c3e38b5a6cfe04486fed722cc5bfc8495f30294dc06cf5e6e",
+      ".state/h4/protocol-diagnostic.json": "91fc6a90f33c8a0cdd78451f19aed099fdf0b3b075882a30a1f92c6db6f0606d",
+      ".state/h4/http-shape.json": "b2df129dc2ea39cbeb67362b6497c72d23cfd6b4753b5ac0162c0180ed8a4b3e",
+      ".state/h4/provider-v2.json": "03fe808182df018ab611b1d50500ad06cd2fb8fa44691b7b4f019d1fba8bc189",
+      ".state/h4/provider-v2-shape.json": "1bb6bf8fefcf634a901f9ec709a591a3dbaf039be06225bc7e7a31514a2e025c",
+      ".state/h4/provider-v3-shape.json": "d9681edf70e1db2bbaaca9585a651fd824431a8a9d322d708d68777d60c4e8a3"
+    },
+    "successful_probe_repeated": false
+  },
+  "key_test_runs": [
+    {
+      "path": ".build/h4-critical.xml",
+      "sha256": "7012072c1fa020b0b1a54cf62d7a039b79e89e01acc84a542a6926389a3a03a9",
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "6",
+      "time": "7.091",
+      "timestamp": "2026-10-27T13:37:38.865579+08:00",
+      "hostname": "Qze"
+    },
+    {
+      "path": ".build/h4-proxy-critical.xml",
+      "sha256": "6f92a02ce44ad5bec1b2f7051ea08c9542ea13a6fcec18fd4b70f9b34e64415f",
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "3",
+      "time": "6.480",
+      "timestamp": "2026-10-27T14:02:10.269102+08:00",
+      "hostname": "Qze"
+    },
+    {
+      "path": ".build/h4-protocol-critical.xml",
+      "sha256": "8ad8d18b91a792a56db5e5cbc3cf33401358b40dc9cb601ae5abf1581c3eaf33",
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "1",
+      "time": "2.712",
+      "timestamp": "2026-10-27T14:20:33.377638+08:00",
+      "hostname": "Qze"
+    }
+  ],
+  "full_regression_rerun": false,
+  "ruff": "passed",
+  "application_source_sha256": "7b869aa91527a97435a2d5d254ec217e024abe34a994780ce53f13adeab445a3",
+  "framework_source_sha256": "5af9d2875abca7598e2539af1e281f9271d8cb51f482c0b5b109f335ba9b02cc",
+  "installed_framework_python_files_match_lock": 61,
+  "dependency_and_build_locks_unchanged": true,
+  "project_wheel": {
+    "path": ".build/h4-proxy-wheels/wechat_agent-0.1.0-py3-none-any.whl",
+    "sha256": "8d12233312f8cfa101033119675b0173c5ddd4215d384d23e1155c9d11d40fd5",
+    "bytes": 823834,
+    "all_package_python_sources_and_tokenizer_assets_match": true
+  },
+  "prior_wheels_preserved": [
+    {
+      "path": ".build/h4-wheels/wechat_agent-0.1.0-py3-none-any.whl",
+      "sha256": "49f970cfd8194dc0adf79b93697af667aae471a83055cb88d9c6eb1551430103",
+      "bytes": 822399
+    },
+    {
+      "path": ".build/project-wheels/wechat_agent-0.1.0-py3-none-any.whl",
+      "sha256": "a5cf237f85d83b7767c9dfe55ef5956cae155f891da9d6406970b38fea80f895"
+    }
+  ],
+  "remaining": [
+    "Observe a natural real-token refresh, durable rotation and subsequent process restart (H4b)",
+    "Independent WeChat bridge and group-response end-to-end acceptance",
+    "Social message ledger, policy and persona/UI development"
+  ],
+  "raw_prompts_answers_or_credentials_recorded": false,
+  "file_sha256": {
+    "src/wechat_agent/providers/codex/network.py": "9d57427b7ac9a66e796e359afc241f9b60b3d08dc9ded293de7de6f52f437188",
+    "src/wechat_agent/providers/codex/auth.py": "20289e942fcfb441b66bc289b25a19031a4e6fe28ca065082850d8f1a93e14d0",
+    "src/wechat_agent/providers/codex/catalog.py": "ef68f977a872d0a8c88f9ab83a52488c3679611d6bd9a08aeee90b41d355a6e0",
+    "src/wechat_agent/providers/codex/transport.py": "8300011875115c8744ff0af81e9ca37d7b6430a1698f4ad0af07c2208eafcd08",
+    "src/wechat_agent/providers/codex/response.py": "5d4a6486e9f31223dae8ec721f60b0cba36544a36353137716b528839662834b",
+    "tests/test_h4.py": "7301e724d29a75de22dd0afbfa46368658a816198e44678a46d77c4a0f3bd3a4",
+    "README.md": "edcad856ba8c1eb439ae8f361b2067068b300474fec282d2f42cfce31c5b29ba",
+    "PROJECT_PLAN.md": "d8b569e77703fc7c2497e132cd0e0c59262937009468bbb78bca53a0a75ef596",
+    "docs/H4_IMPLEMENTATION.md": "e5461f36c3a368dff655235474f3e372ed0b1a861848a0703a1426d27e80a776",
+    "docs/HERMES_CODEX_PLAN.md": "f6ee931b229e46b28e75b5e2877d936bd64e7e15cc1aa76e1d6b3d7dd8efd018",
+    "docs/FEASIBILITY_AND_EXECUTION.md": "ee3dd7812d77628c362929946908e3ecf915c35312565f7fed9862e7cc5e6d30"
+  }
+}

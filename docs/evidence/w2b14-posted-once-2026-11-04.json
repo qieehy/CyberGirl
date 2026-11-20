@@ -1,0 +1,9 @@
+{
+  "status": "stopped",
+  "mode": "send_posted_reviewed_once",
+  "marker_sha256": "d9d9817662d8282ef2c0ef9ba210429d85775e931d875a877a2a9f71d72d4f4b",
+  "model_requests": 0,
+  "reader_stopped": true,
+  "outer_restore_verified": true,
+  "reason": "directed_operator_ready_timeout"
+}

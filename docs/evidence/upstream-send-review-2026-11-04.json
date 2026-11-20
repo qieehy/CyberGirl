@@ -1,0 +1,31 @@
+{
+  "status": "upstream_source_difference_reviewed",
+  "recorded_at": 1793785350.2093086,
+  "source_files_hash_verified": 11,
+  "upstream_click_sequence": [
+    "WM_MOUSEMOVE",
+    "WM_LBUTTONDOWN",
+    "wait",
+    "WM_LBUTTONUP"
+  ],
+  "upstream_transport": "PostMessageW",
+  "current_transport": "SendMessageTimeoutW",
+  "missing_move_is_confirmed_root_cause": false,
+  "upstream_reported_version_test": "4.2.0.9",
+  "local_version_acceptance_claimed": false,
+  "upstream_modules_imported_or_executed": 0,
+  "live_ui_actions": 0,
+  "new_send_attempts": 0,
+  "ledger_readonly_snapshot": {
+    "operations": 4,
+    "attempts": 4,
+    "reviews": 1,
+    "permissions": [
+      2,
+      2
+    ],
+    "blocked_reason": "submission_or_draft_requires_review"
+  },
+  "next_implementation": "minimal_upstream_based_click_sequence_adapter_offline_first",
+  "review_document_sha256": "d1e48c1ff7660bbd41bad6894aa164acb241813b43ee231f2e22a224eee5f98c"
+}

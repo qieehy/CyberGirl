@@ -1,0 +1,28 @@
+{
+  "status": "proposal_only_not_authorization",
+  "date": "2026-11-07",
+  "target": "original_authenticated_account_native_filehelper",
+  "marker": "W2B-20261107-physical-once",
+  "request": "w2b-physical-20261107-single",
+  "ledger": ".state/social/wechat-sender-poc.sqlite3",
+  "max_input_attempts": 1,
+  "max_submit_attempts": 1,
+  "sendinput_calls": 1,
+  "mouse_events_in_batch": 2,
+  "mouse_will_move": true,
+  "keyboard_input": false,
+  "retry": false,
+  "clear_draft": false,
+  "requires_explicit_new_behavior_approval": true,
+  "operator_manual_draft_handling_and_restart_required": true,
+  "prior_unknowns": [
+    "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+    "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa",
+    "e3917a17916f4156c3ed706951c4ec63adb0b5092ce9ea13eeda8643a2bb6cc1"
+  ],
+  "additional_uncertainty_acceptance_required_for": "e3917a17916f4156c3ed706951c4ec63adb0b5092ce9ea13eeda8643a2bb6cc1",
+  "prior_states_unchanged": true,
+  "phone_confirmation_required": true,
+  "new_review_created": false,
+  "new_action_created": false
+}

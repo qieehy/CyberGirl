@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/Banan1cee/whale_gril",
+  "commit": "0af4dcd5596192e0fa4d3938ea93b404771d6e02",
+  "path": "bridge/bg_sender.py",
+  "source_sha256": "ce988a096bcd9c05181e3c9994f0f767ecf5fc64173be4b2099b71615c84b7d9",
+  "source_region": "WeChatSender.click_screen, lines 421-446; clickSettle default 0.07 seconds",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 鲸鲸 / whale-girl contributors",
+  "license_file": "whale_gril-MIT.txt",
+  "license_sha256": "a20ddb85ceb7235ac7955274453290233be5f0b448a71f7c1adaaa76e6310750",
+  "reuse": "modified sequence and client-coordinate packing",
+  "implementation": "wechat_agent/bridges/wechat/posted_click.py; posted_native.py provides guarded integration; shared pack_client_point in directed_click.py enforces stricter bounds; posted_sequence.py and sequence_native.py add the opt-in complete-gesture trial",
+  "runtime_dependencies_added": [],
+  "modifications": [
+    "Inject IO; do not load or execute the upstream Win32 module.",
+    "Use already verified physical client coordinates; reject unverified DPI conversion.",
+    "Commit every MOVE/DOWN/UP intention through the existing parent-owned ledger.",
+    "Observe current pressed state with bounded polling before UP, and recheck after parent ACK.",
+    "Report queued requests and queued cancellation separately from execution or delivery acknowledgement.",
+    "No text input, draft clearing, screen-reader settings, navigation, encoding probes, retries or fallback.",
+    "Separate opt-in complete-sequence trial: precommit all effect intents, fresh full preflight, native binding checks during MOVE/DOWN/settle/UP, strict postflight; no intermediate pressed polling or UIA roundtrips. Default and original polled candidate remain unchanged."
+  ],
+  "acceptance_tests": [
+    "tests/test_wechat_posted_click.py",
+    "tests/test_wechat_posted_native.py",
+    "tests/test_wechat_gesture_journal.py",
+    "tests/test_wechat_posted_sequence.py"
+  ]
+}

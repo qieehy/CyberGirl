@@ -1,0 +1,42 @@
+{
+  "status": "physical_trial_unique_echo_and_delayed_empty_phone_pending",
+  "action": {
+    "action_id": "866b1291579f48a91c032e3a718f2470b6975210c79b7a42ef03dad17a7d9a0d",
+    "operation_id": "5c2101b59fb045d799bcfda45edc3600",
+    "finished": 1,
+    "worker_reaped": 1,
+    "restore_verified": 1,
+    "reason": "filehelper_candidate_0_1_1_1",
+    "state": "UNCONFIRMED"
+  },
+  "operations": 7,
+  "reviews": 4,
+  "permits": [
+    5,
+    5
+  ],
+  "manual_confirmations": 1,
+  "new_local_echo_evidence": 1,
+  "active_bindings": 0,
+  "blocked_reason": "submission_or_draft_requires_review",
+  "integrity": "ok",
+  "gate_value": 0,
+  "model_requests": 0,
+  "approval_consumed": true,
+  "actual_input_attempts": 1,
+  "actual_submit_attempts": 1,
+  "phone_confirmed": false,
+  "historical_unknowns_unchanged": true,
+  "delayed_dual_patterns_empty": true,
+  "delayed_button_released": true,
+  "source_sha256": {
+    "src/wechat_agent/bridges/wechat/physical_native.py": "fe95d28757d8b34cc847ce23d977a394543e04d9a3fa1a26a95ad1d722bf5888",
+    "src/wechat_agent/bridges/wechat/sequence_native.py": "358e1b3e05eb8bb8014585c2810179b5f688e7629b32ea686a12dcffe799fa2e",
+    "src/wechat_agent/bridges/wechat/posted_sequence.py": "f7e0b13e0f0c0b635ac35cd63e863125d2b5e8a3d0c13018a9c61b1ca5fa8d6b",
+    "src/wechat_agent/bridges/wechat/directed_click.py": "30cdcb4784035a8fc58efabe6e33aad7a2cb6c56cc09aa6c799d6b8610835f07",
+    "src/wechat_agent/bridges/wechat/send_state.py": "1afcf85817901cf0cd73ebe34e40320f24ad7e1020eeed8be83263dc8495e11e",
+    "scripts/probe_wechat_directed_trial.py": "7d323b353fa133d56dd05548c9c087840290ae47a3f4724415578be44a2e627a",
+    "scripts/wechat_native_worker.py": "7662b2b03068af15da9ffdc2556216595a8016cff446c020867a9fa9c612b36c",
+    "scripts/wechat_native_ui.ps1": "d3e99a482faa80154de07fe775b7ac262fa5e11d5072ada0e6b11aab0e594f93"
+  }
+}

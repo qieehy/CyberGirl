@@ -1,0 +1,622 @@
+{
+  "status": "observed",
+  "input_actions": 0,
+  "external_messages": 0,
+  "model_requests": 0,
+  "mode": "activate_once",
+  "pid": 34044,
+  "hwnd": 68894,
+  "created_filetime": "134380654003431728",
+  "observation": {
+    "complete": true,
+    "node_count": 151,
+    "errors": 0,
+    "input_count": 1,
+    "inputs": [
+      {
+        "name_is_canonical_filehelper": false,
+        "focused": false,
+        "type": "ControlType.Edit",
+        "selected": false,
+        "class_name": "mmui::ChatInputField",
+        "item_type_is_canonical_filehelper": false,
+        "pattern_ids": [
+          10000,
+          10002,
+          10014
+        ],
+        "draft_source": "ValuePattern",
+        "item_status_is_canonical_filehelper": false,
+        "runtime_token": "b2b3a568746d047eb77aeaad603e90d87151db576fbd9388db74a830552e6394",
+        "automation_id_present": true,
+        "value_read_only": false,
+        "parent": 94,
+        "name_contains_filehelper_label": true,
+        "depth": 18,
+        "index": 102,
+        "automation_id_filehelper_md5": false,
+        "display_is_filehelper": true,
+        "role": "chat_input",
+        "offscreen": false,
+        "enabled": true,
+        "help_is_canonical_filehelper": false,
+        "automation_id_filehelper_token": false,
+        "draft": {
+          "status": "read",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "empty": true
+        }
+      }
+    ],
+    "send_button_candidates": [
+      {
+        "focused": false,
+        "type": "ControlType.Button",
+        "selected": false,
+        "class_name": "mmui::XOutlineButton",
+        "pattern_ids": [
+          10000,
+          10002
+        ],
+        "automation_id_present": false,
+        "parent": 114,
+        "index": 126,
+        "automation_id_filehelper_md5": false,
+        "display_is_filehelper": false,
+        "role": "send_button_candidate",
+        "offscreen": false,
+        "enabled": false,
+        "depth": 20,
+        "automation_id_filehelper_token": false
+      }
+    ],
+    "selected_sessions": [
+      {
+        "name_is_canonical_filehelper": false,
+        "focused": false,
+        "type": "ControlType.ListItem",
+        "session_payload_shape": {
+          "hex": false,
+          "non_ascii_count": 6,
+          "ascii_separator_count": 0,
+          "length": 6,
+          "decimal": false,
+          "has_wxid_prefix": false,
+          "canonical_word_present": false
+        },
+        "selected": true,
+        "class_name": "mmui::ChatSessionCell",
+        "item_type_is_canonical_filehelper": false,
+        "pattern_ids": [
+          10000,
+          10002,
+          10010
+        ],
+        "item_status_is_canonical_filehelper": false,
+        "automation_id_present": true,
+        "parent": 74,
+        "name_contains_filehelper_label": true,
+        "depth": 15,
+        "index": 86,
+        "automation_id_filehelper_md5": false,
+        "canonical_word_anywhere": false,
+        "display_is_filehelper": false,
+        "role": "other",
+        "offscreen": false,
+        "session_item_marker_present": true,
+        "enabled": true,
+        "value_is_canonical_filehelper": false,
+        "help_is_canonical_filehelper": false,
+        "automation_id_filehelper_token": false
+      }
+    ],
+    "chat_info_candidates": [],
+    "message_identity_shapes": [
+      {
+        "index": 96,
+        "class_name": "mmui::ChatItemView",
+        "message_id_shape": "empty",
+        "numeric_component_lengths": []
+      },
+      {
+        "index": 97,
+        "class_name": "mmui::ChatTextItemView",
+        "message_id_shape": "other",
+        "numeric_component_lengths": []
+      },
+      {
+        "index": 98,
+        "class_name": "mmui::ChatItemView",
+        "message_id_shape": "empty",
+        "numeric_component_lengths": []
+      },
+      {
+        "index": 99,
+        "class_name": "mmui::ChatImageItemView",
+        "message_id_shape": "other",
+        "numeric_component_lengths": []
+      }
+    ],
+    "identity_hint_indexes": [],
+    "canonical_md5_hint_indexes": [],
+    "canonical_identity_verified": true,
+    "native_send_enabled": false,
+    "native_object": {
+      "native_object_class": "mmui::ChatSessionCell",
+      "lookup_bytes": 7411,
+      "object_getter_rva": 29053504,
+      "stable": true,
+      "canonical_conversation_verified": true,
+      "parent_chains": {
+        "selected_row": {
+          "complete": true,
+          "stop": "window_root",
+          "entries": [
+            {
+              "class_name": "mmui::ChatSessionCell",
+              "meta_object_rva": 152347752,
+              "meta_getter_rva": 9167536,
+              "qobject_vtable_rva": 164083592,
+              "named_properties": {
+                "property_count": 1,
+                "identity_fields": [],
+                "property_shapes": [
+                  {
+                    "name_sha256": "04035e01ae7a05331cedb2010f9824da9b65dbcb0fb568f468bb6d6b07174a56",
+                    "variant_type": 1
+                  }
+                ]
+              }
+            },
+            {
+              "class_name": "QWidget",
+              "meta_object_rva": 151988888,
+              "meta_getter_rva": 6128816,
+              "qobject_vtable_rva": 151991288,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "QWidget",
+              "meta_object_rva": 151988888,
+              "meta_getter_rva": 6128816,
+              "qobject_vtable_rva": 151991288,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XTableView",
+              "meta_object_rva": 152484792,
+              "meta_getter_rva": 9609216,
+              "qobject_vtable_rva": 155745048,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::ChatSessionList",
+              "meta_object_rva": 152348088,
+              "meta_getter_rva": 9168976,
+              "qobject_vtable_rva": 164075928,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XView",
+              "meta_object_rva": 152488040,
+              "meta_getter_rva": 9629968,
+              "qobject_vtable_rva": 155470936,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XView",
+              "meta_object_rva": 152488040,
+              "meta_getter_rva": 9629968,
+              "qobject_vtable_rva": 155470936,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XVBoxView",
+              "meta_object_rva": 152491456,
+              "meta_getter_rva": 9629216,
+              "qobject_vtable_rva": 155887144,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::ChatMasterView",
+              "meta_object_rva": 152347552,
+              "meta_getter_rva": 9167168,
+              "qobject_vtable_rva": 160243208,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XView",
+              "meta_object_rva": 152488040,
+              "meta_getter_rva": 9629968,
+              "qobject_vtable_rva": 155470936,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XSplitterView",
+              "meta_object_rva": 152490224,
+              "meta_getter_rva": 9627568,
+              "qobject_vtable_rva": 159972600,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XSplitterView",
+              "meta_object_rva": 152490224,
+              "meta_getter_rva": 9627568,
+              "qobject_vtable_rva": 159972600,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::MainView",
+              "meta_object_rva": 152384336,
+              "meta_getter_rva": 9297920,
+              "qobject_vtable_rva": 160223352,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "QWidget",
+              "meta_object_rva": 151988888,
+              "meta_getter_rva": 6128816,
+              "qobject_vtable_rva": 151991288,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::MainView",
+              "meta_object_rva": 152384336,
+              "meta_getter_rva": 9297920,
+              "qobject_vtable_rva": 160223352,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "QStackedWidget",
+              "meta_object_rva": 154010384,
+              "meta_getter_rva": 21198864,
+              "qobject_vtable_rva": 154010440,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "QWidget",
+              "meta_object_rva": 151988888,
+              "meta_getter_rva": 6128816,
+              "qobject_vtable_rva": 151991288,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::MainWindow",
+              "meta_object_rva": 152384520,
+              "meta_getter_rva": 9298160,
+              "qobject_vtable_rva": 160737976,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            }
+          ]
+        },
+        "chat_input": {
+          "complete": true,
+          "stop": "window_root",
+          "entries": [
+            {
+              "class_name": "mmui::ChatInputField",
+              "meta_object_rva": 152342904,
+              "meta_getter_rva": 9150992,
+              "qobject_vtable_rva": 156200152,
+              "named_properties": {
+                "property_count": 2,
+                "identity_fields": [],
+                "property_shapes": [
+                  {
+                    "name_sha256": "7c52422038d7f07f98b40e9e6d9033d7bd6a1f6082af9222f6ab699401afbd75",
+                    "variant_type": 64
+                  },
+                  {
+                    "name_sha256": "980c022df7b72280f1e61c17a78e0799e8d77987424b12c4f4b372097686514f",
+                    "variant_type": 1
+                  }
+                ]
+              }
+            },
+            {
+              "class_name": "mmui::XHBoxView",
+              "meta_object_rva": 152489616,
+              "meta_getter_rva": 9625136,
+              "qobject_vtable_rva": 155882872,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XVBoxView",
+              "meta_object_rva": 152491456,
+              "meta_getter_rva": 9629216,
+              "qobject_vtable_rva": 155887144,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::ChatInputView",
+              "meta_object_rva": 152343416,
+              "meta_getter_rva": 9153280,
+              "qobject_vtable_rva": 155520888,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XView",
+              "meta_object_rva": 152488040,
+              "meta_getter_rva": 9629968,
+              "qobject_vtable_rva": 155470936,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XSplitterView",
+              "meta_object_rva": 152490224,
+              "meta_getter_rva": 9627568,
+              "qobject_vtable_rva": 159972600,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::ChatMessagePage",
+              "meta_object_rva": 152345960,
+              "meta_getter_rva": 9161184,
+              "qobject_vtable_rva": 155548280,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XStackedWidget",
+              "meta_object_rva": 152491272,
+              "meta_getter_rva": 9628832,
+              "qobject_vtable_rva": 155885848,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XSplitterView",
+              "meta_object_rva": 152490224,
+              "meta_getter_rva": 9627568,
+              "qobject_vtable_rva": 159972600,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::ChatDetailView",
+              "meta_object_rva": 152342592,
+              "meta_getter_rva": 9149312,
+              "qobject_vtable_rva": 156345112,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XStackedWidget",
+              "meta_object_rva": 152491272,
+              "meta_getter_rva": 9628832,
+              "qobject_vtable_rva": 155885848,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XSplitterView",
+              "meta_object_rva": 152490224,
+              "meta_getter_rva": 9627568,
+              "qobject_vtable_rva": 159972600,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::XSplitterView",
+              "meta_object_rva": 152490224,
+              "meta_getter_rva": 9627568,
+              "qobject_vtable_rva": 159972600,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::MainView",
+              "meta_object_rva": 152384336,
+              "meta_getter_rva": 9297920,
+              "qobject_vtable_rva": 160223352,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "QWidget",
+              "meta_object_rva": 151988888,
+              "meta_getter_rva": 6128816,
+              "qobject_vtable_rva": 151991288,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::MainView",
+              "meta_object_rva": 152384336,
+              "meta_getter_rva": 9297920,
+              "qobject_vtable_rva": 160223352,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "QStackedWidget",
+              "meta_object_rva": 154010384,
+              "meta_getter_rva": 21198864,
+              "qobject_vtable_rva": 154010440,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "QWidget",
+              "meta_object_rva": 151988888,
+              "meta_getter_rva": 6128816,
+              "qobject_vtable_rva": 151991288,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            },
+            {
+              "class_name": "mmui::MainWindow",
+              "meta_object_rva": 152384520,
+              "meta_getter_rva": 9298160,
+              "qobject_vtable_rva": 160737976,
+              "named_properties": {
+                "property_count": 0,
+                "identity_fields": [],
+                "property_shapes": []
+              }
+            }
+          ]
+        },
+        "shared_ancestor_classes": [
+          "mmui::XSplitterView",
+          "mmui::XSplitterView",
+          "mmui::MainView",
+          "QWidget",
+          "mmui::MainView",
+          "QStackedWidget",
+          "QWidget",
+          "mmui::MainWindow"
+        ]
+      },
+      "business_session_key": {
+        "source": "ChatMessagePage.OnNewSessionDataLoaded.key",
+        "field_offset": 464,
+        "matches_filehelper": true,
+        "canonical_username": "filehelper"
+      },
+      "account_fingerprint": "7899795f940e3a76be6036711f126ecfdc733ca26557aefe3c21d0c1d50b9100",
+      "matched_database_account": true
+    }
+  },
+  "collector_reaped": true,
+  "restore_verified": true,
+  "original": 0,
+  "recorded_at": "2026-11-02T06:56:40.048940+00:00",
+  "implementation_sha256": {
+    "scripts/probe_wechat_input.py": "445ad8ba14f7e15e1cc7d6cb2e3f2fc441a57e710583db9fa1199b5f0730f7e3",
+    "scripts/probe_wechat_input.ps1": "728d501e2a982a6f355d3dfe65e1ac1b5cec2152225308ad7bb15936df8a14ac",
+    "scripts/wechat_input_metadata.ps1": "f87983d456277c94178d45bc5cc5ba95d5a4b0575ac5899569f4e5b6d0835b25",
+    "scripts/uia_tree.ps1": "27c7750a347f3769c971fa0cc67d1c74b4aa9126d12201db6000be31c8a1661f",
+    "scripts/verify_wechat_accessibility.py": "0d664efd1c9aa397bada5ea2f56f69d1e53453acd5f9a4ed3c99ccc90e8b06b9",
+    "src/wechat_agent/bridges/wechat/sender.py": "c4416feb8ccc54f13a4ebafec24fd9446687a5a6cd5db6fce1810d6019177ccb",
+    "src/wechat_agent/bridges/wechat/qt_memory.py": "76efe79563b028c9324eaac1efbeb7e15f99f6c690c07765e089e72eaf465df4",
+    "scripts/probe_wechat_account.py": "c88e64d5875f65ec5607459c1ee8312a7cb9765974722765afe044170c529295",
+    "scripts/probe_wechat_database.py": "5d924d564475593c9ebe271dd7aef71a37b4ff88738045530058ee48434d523f",
+    "src/wechat_agent/bridges/wechat/keyprobe.py": "be5f2a89f97c3cf317c444b06142b1c548205ef0440c46bf38fd7d32256a48cf"
+  }
+}

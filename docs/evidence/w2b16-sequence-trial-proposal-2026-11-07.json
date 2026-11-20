@@ -1,0 +1,24 @@
+{
+  "status": "proposal_only_not_authorization",
+  "date": "2026-11-07",
+  "target": "original_authenticated_account_native_filehelper",
+  "marker": "W2B-20261107-sequence-once",
+  "request": "w2b-sequence-20261107-single",
+  "ledger": ".state/social/wechat-sender-poc.sqlite3",
+  "max_input_attempts": 1,
+  "max_submit_attempts": 1,
+  "retry": false,
+  "clear_draft": false,
+  "global_keyboard_or_mouse": false,
+  "requires_new_explicit_approval": true,
+  "prior_unknowns_to_accept": [
+    "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+    "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa"
+  ],
+  "prior_delivery_states_unchanged": true,
+  "gesture": "precommit_intents_then_full_preflight_then_MOVE_DOWN_settle_UP_with_native_guards_then_strict_completion",
+  "policy_change": "no_intermediate_pressed_polling_or_UIA_roundtrip",
+  "phone_confirmation_required": true,
+  "new_review_created": false,
+  "new_action_created": false
+}

@@ -1,0 +1,1085 @@
+{
+  "repository": "Banan1cee/whale_gril",
+  "commit": "e14a8c2fbf0b751ae3a9478f94688ea954d974db",
+  "recorded_at": "2026-10-29T16:13:47.348063+00:00",
+  "tree_truncated": false,
+  "purpose": "static source review only; upstream code never executed",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/.gitattributes",
+      "bytes": 323,
+      "sha256": "e7aad10a99d42315c23df94d2eab64c1966c8c831171379e4eb04b25f38b7d30",
+      "git_blob_sha1": "8286b6e26414ac534d7f3e080f613d4bc31d9283"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/.github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 572,
+      "sha256": "8fa0914876a2edb511464e5e145bbf0f56c9210d5caac3788a0ba54ed346576d",
+      "git_blob_sha1": "a0e75d5260060e7d223f4f43cb0cd8e8f42594f4"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/.github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 708,
+      "sha256": "18cb890afe9a40ccb6263f8782c98e738a7315f46c40c684ac4a714f3cf0cf01",
+      "git_blob_sha1": "bcca94d6c838aeca0680cbb59e4eecff235c7d1a"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/.github/workflows/tests.yml",
+      "bytes": 546,
+      "sha256": "a94b22daeb077a4f88b3da86fed4b2ef355a0566bcd2501dab157e1a50a79450",
+      "git_blob_sha1": "888b27c0a0af922ec818d2d95e836db64acf75df"
+    },
+    {
+      "path": ".gitignore",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/.gitignore",
+      "bytes": 582,
+      "sha256": "4029cfee61facbc131524263d87190c29b5861a4d36613bfb69585b31dc8bb42",
+      "git_blob_sha1": "77392a907ec2b31f8ff6ce64690e5b5a27c63542"
+    },
+    {
+      "path": "BUGS.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/BUGS.md",
+      "bytes": 20140,
+      "sha256": "324bd47317f79d6537121bb91c4a07ee526f6caac7b25f472d5049ebe4890457",
+      "git_blob_sha1": "b3907befba13c7e83b04b4101f94e8c2acf68173"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/CHANGELOG.md",
+      "bytes": 55288,
+      "sha256": "eac885ca50dce220e6788d8605359871b4960f327466bf53064103bd67f08ca5",
+      "git_blob_sha1": "2ee3830b3cfab0f50fc7ff7dc55dce55e038e3e3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/CONTRIBUTING.md",
+      "bytes": 2347,
+      "sha256": "0ad6d311727f495b678405c9cc8814ceda31bc9c2af0be0e28e722378f1aff47",
+      "git_blob_sha1": "93e5eaac69d70e25d2e0945a7fe97bf05feb51fe"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/LICENSE",
+      "bytes": 1089,
+      "sha256": "a20ddb85ceb7235ac7955274453290233be5f0b448a71f7c1adaaa76e6310750",
+      "git_blob_sha1": "b51fded64a34bb35fbe1c7344f87544ed4cfa7d4"
+    },
+    {
+      "path": "README.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/README.md",
+      "bytes": 24810,
+      "sha256": "b9f60c4c793191c97c439f4770b34ed552889abe84c01736a699dc175d683e26",
+      "git_blob_sha1": "612b07f71aa30292b5af3fa5189ca311955d7b51"
+    },
+    {
+      "path": "config.example.json",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/config.example.json",
+      "bytes": 9040,
+      "sha256": "db209a0bd50287c5c06410e1e2389942f03182c69b345f361a4cc77d641def43",
+      "git_blob_sha1": "96caf608d6fae067e8957be42da89a5648513ecb"
+    },
+    {
+      "path": "docs/GATEWAY.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/docs/GATEWAY.md",
+      "bytes": 6669,
+      "sha256": "8c465d70045e7995e2bdd10f937d8d54c465dd56590ff302344743d6410996ed",
+      "git_blob_sha1": "af6ae1afccbfe0cf5de6b9ae87fb7638415e891a"
+    },
+    {
+      "path": "docs/接入微信.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/docs/接入微信.md",
+      "bytes": 14769,
+      "sha256": "0c283ff7859089ee9d81e7f8b596e2d84ce1e1eb108f32a8a3230182b5923d51",
+      "git_blob_sha1": "c6fff2648d8a31cef45d49a23acf36b3d289770a"
+    },
+    {
+      "path": "docs/接入抖音.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/docs/接入抖音.md",
+      "bytes": 5851,
+      "sha256": "c2fd99a172f3952bf3ca7df2fa7c0c9c3d323c5fde692d2ccd4d21f2e2e3cd90",
+      "git_blob_sha1": "5ef3d0c8b36c715dbb56482d8c2794350fe58c30"
+    },
+    {
+      "path": "docs/维护手册.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/docs/维护手册.md",
+      "bytes": 7390,
+      "sha256": "021097a9499891036820158f1b4f4afcae78e2fdb9b0d6f4790a9e3ba2d389ed",
+      "git_blob_sha1": "07b2f9eec0b7c0e3177cf419b42f5a517c618cb3"
+    },
+    {
+      "path": "docs/设置说明.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/docs/设置说明.md",
+      "bytes": 11843,
+      "sha256": "bc9ae79031ba7b14bede624144e2e1e48c863c2f39d20930bec7f271fd9951b3",
+      "git_blob_sha1": "2e1224c6280d709de071d3f4c2c2891bc9b76d8f"
+    },
+    {
+      "path": "examples/media_fallback.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/examples/media_fallback.py",
+      "bytes": 11746,
+      "sha256": "82f3c111d3234a31d7e2c8c7f02c8e2e2593e3479ccca38fd3f791ca3a02d0a0",
+      "git_blob_sha1": "326433db89acef80e5b6a605ce552c667e6a913a"
+    },
+    {
+      "path": "examples/sticker_transport.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/examples/sticker_transport.py",
+      "bytes": 24437,
+      "sha256": "878ac5aeb4ba51ea0645e7d3a531316bd5a6be2d321a48c392d1426521e80159",
+      "git_blob_sha1": "8ce62257ffd7ea455116011d59200fd998bdf59e"
+    },
+    {
+      "path": "examples/uia_compat.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/examples/uia_compat.py",
+      "bytes": 28304,
+      "sha256": "23be23629b863c4bd9a04de5b522ae61e721a8ca71f9c248d9964196aabb8cf2",
+      "git_blob_sha1": "b180d8ccf40c62a06a92ebb8622cec1f0c56ca90"
+    },
+    {
+      "path": "examples/uia_selftest.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/examples/uia_selftest.py",
+      "bytes": 19898,
+      "sha256": "b546e7a8ea73494879f4a76afaa795c18a2b032e99210109df0f3629b8917e03",
+      "git_blob_sha1": "9f641992196c6a5433c32139590fe151135f01d0"
+    },
+    {
+      "path": "examples/wechatauto_bridge.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/examples/wechatauto_bridge.py",
+      "bytes": 168174,
+      "sha256": "c37f3ca74ed8950a6043fa28033e1942253a074d8da772e310a02a5a28579ade",
+      "git_blob_sha1": "b83a0ac2510a1299fc5799912dd0636f8457c728"
+    },
+    {
+      "path": "examples/wechaty-bridge.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/examples/wechaty-bridge.js",
+      "bytes": 5838,
+      "sha256": "14a4233fa8f2312fb9186fba238d49911a69276b9ce5d48afa07d678a7088ab6",
+      "git_blob_sha1": "9a3acded56d085dfd28967afa14087f90499bb4d"
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/package.json",
+      "bytes": 965,
+      "sha256": "2a0563bb97ab1e8f780d8f216775b1e9184e254d12de50a555b89f02ac5e23b5",
+      "git_blob_sha1": "197eb046d2803edb341f19023d31f2440932326a"
+    },
+    {
+      "path": "personas/README.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/personas/README.md",
+      "bytes": 1879,
+      "sha256": "9f206692357925ee6bdf2008206ead05b280a9c40dab6b867cd59fd6ad49473d",
+      "git_blob_sha1": "89e5f0b3ee3dbdeecada1b12fdaac7cf34d51974"
+    },
+    {
+      "path": "personas/persona-v1.json",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/personas/persona-v1.json",
+      "bytes": 2111,
+      "sha256": "342c7ae652c79ad14b7865c59dba52b8d33535cd49e07c01959b8f72f71e5c64",
+      "git_blob_sha1": "0e7a84b967773693081896805d048b4c00becc50"
+    },
+    {
+      "path": "personas/persona-v2.json",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/personas/persona-v2.json",
+      "bytes": 3292,
+      "sha256": "7056be722d1e95e37b73c1f8f7e7a26fc694f3328d636dc975bf75ac1fd6dc99",
+      "git_blob_sha1": "0e037fc9ad0b38a80fc6530f256c8e1ea04968f4"
+    },
+    {
+      "path": "personas/persona-v3.json",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/personas/persona-v3.json",
+      "bytes": 3800,
+      "sha256": "37a26d15d46906e2f7779f5e575eae5f75a761abde9a3700a061976a9eb295d3",
+      "git_blob_sha1": "d048ea32c16677884e7a1a9630cfd022ea7dbeea"
+    },
+    {
+      "path": "personas/persona-v4-fight.json",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/personas/persona-v4-fight.json",
+      "bytes": 4217,
+      "sha256": "537c56dc9ca8e5107e97f7761c23f96929ac9788239fd0ad2711ca4059a2ce7c",
+      "git_blob_sha1": "6b46b3693f3c0b0c07a53a3df49a1e3ebfe9bf4c"
+    },
+    {
+      "path": "requirements.txt",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/requirements.txt",
+      "bytes": 159,
+      "sha256": "7baf22d18f32e6841e172635dd97d8ae8a7e50948b84646c0a705d58544a4162",
+      "git_blob_sha1": "9ef8fb4970b2b31129109b874d971908f373c4d1"
+    },
+    {
+      "path": "resources/abbrev.txt",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/resources/abbrev.txt",
+      "bytes": 819,
+      "sha256": "530cae60310ab89f4d8500a56937ad4428a416b891d77348178755ab4af59d4c",
+      "git_blob_sha1": "b5bfaab93b7d7181e7b073818fb6667c838a54df"
+    },
+    {
+      "path": "resources/clapback-fight.txt",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/resources/clapback-fight.txt",
+      "bytes": 3377,
+      "sha256": "17ef6ef647db8b59fc58e133c28292d5506ded5057a3040b7edc98d660da6e66",
+      "git_blob_sha1": "6423bb5fd50908b15491cc238eab7aaa90b12547"
+    },
+    {
+      "path": "resources/clapback.txt",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/resources/clapback.txt",
+      "bytes": 10301,
+      "sha256": "f23e3340e1f6104f918545e07a8e8392206a303b6a501db74aa71f9da07939e1",
+      "git_blob_sha1": "e41bf240dae1575723ffd4a476fd591917b47e41"
+    },
+    {
+      "path": "resources/slang.txt",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/resources/slang.txt",
+      "bytes": 13907,
+      "sha256": "4ab2e783ad90f05b1d2623916e537bd86a0a83407c63c3e4db4d64b4dd938bad",
+      "git_blob_sha1": "5d333677a4ad9eedaecb8110896ab2be3c4faad7"
+    },
+    {
+      "path": "scripts/bridge_loop.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/bridge_loop.bat",
+      "bytes": 2354,
+      "sha256": "f27c79659d4d7fe4aa20e052bc6bab5def963da16055ce9acf2f19d466668f81",
+      "git_blob_sha1": "e497547cbb584b2b88a2d0c55a64db3e0f8a2c04"
+    },
+    {
+      "path": "scripts/build-release.ps1",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/build-release.ps1",
+      "bytes": 8087,
+      "sha256": "00cb256aa6e8122a491461f46f827890bc79f383375e25474f690d73daba0f8d",
+      "git_blob_sha1": "dfdf8a10e2d460ba5f9f982621ed3f395507b3ca"
+    },
+    {
+      "path": "scripts/bump-version.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/bump-version.js",
+      "bytes": 2777,
+      "sha256": "059e0b7609b8f952cd3c4dfd4f5df29f163a33633634828a13b1676560d75fc3",
+      "git_blob_sha1": "386c4cd87258954ea4540b4c02034a33faffa427"
+    },
+    {
+      "path": "scripts/deploy.ps1",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/deploy.ps1",
+      "bytes": 3977,
+      "sha256": "6d1f394bb9e7768bc502fe6d83fcd020c2c40d8f707e765f25a93b0ad2144dfe",
+      "git_blob_sha1": "eeb29c9c157a33a01bbafd8ac4be419588b38cbd"
+    },
+    {
+      "path": "scripts/factory-reset.ps1",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/factory-reset.ps1",
+      "bytes": 6470,
+      "sha256": "af7a42f1d301c485dd91eb0ec89302045aa2da80d706e49a9b572f8fd2c1a40b",
+      "git_blob_sha1": "ce3fa926bf13c8ad960c14d13b28d4e8692568df"
+    },
+    {
+      "path": "scripts/fix-python-il.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/fix-python-il.bat",
+      "bytes": 2232,
+      "sha256": "9b38bba86e7f2e0b3efa43d9bbb7ea4ed9b1adb54e2b9c116884fdc4993a0177",
+      "git_blob_sha1": "2ccfa4973d4afb247ea81b7f95aba1cd717afbb9"
+    },
+    {
+      "path": "scripts/make_intro.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/make_intro.py",
+      "bytes": 13116,
+      "sha256": "7e6903574fe7c3541431dafbbd91eff8ac2d9b10542e2ae1861aec3c65e08309",
+      "git_blob_sha1": "9b1cb3162be54cf256b3522789f3e1576b802a27"
+    },
+    {
+      "path": "scripts/memory-tool.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/memory-tool.js",
+      "bytes": 4873,
+      "sha256": "38451b41de0ac18e5516b796f26b5d8b5e7540274ccdc8641d7e80a6128c9623",
+      "git_blob_sha1": "f017202697fb31d1e860603e22d647ed5536fb72"
+    },
+    {
+      "path": "scripts/migrate-data.ps1",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/migrate-data.ps1",
+      "bytes": 503,
+      "sha256": "7be0ca960f571594cc27c86ccfdb270b1cd484b539858a229b48775df87b6aaa",
+      "git_blob_sha1": "ddc8916a62812b6ba027a5cc2cb4f2e3790013cb"
+    },
+    {
+      "path": "scripts/mock-gateway.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/mock-gateway.js",
+      "bytes": 5708,
+      "sha256": "bfc5ac8749521cac2f03ff2f311542d40076cfe9f696ad38bee3b91d34cd8fb1",
+      "git_blob_sha1": "84d50fc2267eb1a37edebfb1d25da7d230d59784"
+    },
+    {
+      "path": "scripts/prepare-sticker-runtime.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/prepare-sticker-runtime.py",
+      "bytes": 2832,
+      "sha256": "0a98877eda008e489dbca329542c85b10bf46d376e17defb144ec002c70fdaee",
+      "git_blob_sha1": "e82f0d37fe03839bb81a2c9720859fd43fa49419"
+    },
+    {
+      "path": "scripts/release-check.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/release-check.js",
+      "bytes": 9007,
+      "sha256": "09d12dd3054a33b5a282e54dd9b47f33db9ffc20f26e287ffc7eb3f38cdbb504",
+      "git_blob_sha1": "eac36bdb24c06815de0f26e1c834dd0a89952d1c"
+    },
+    {
+      "path": "scripts/setup-runtime.ps1",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/setup-runtime.ps1",
+      "bytes": 3984,
+      "sha256": "d7a3b32246a586e5c066dd6c5e276dd2daceff5acfc7f6f899987b1232b170c9",
+      "git_blob_sha1": "f736e478b4eaab1ee9b3cb766292f58dbbf8af00"
+    },
+    {
+      "path": "scripts/smoke.ps1",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/smoke.ps1",
+      "bytes": 6558,
+      "sha256": "fba20a964f68cf54431f5356662e9d52a6b336d651366e2dc056789149048bf8",
+      "git_blob_sha1": "08149b96027b084b8eabe6551f7346d82abc2a54"
+    },
+    {
+      "path": "scripts/start.ps1",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/start.ps1",
+      "bytes": 6615,
+      "sha256": "d9a52b3457a010eb64fbb589990f322e01380f839e2c886eb98efe6e6a713e3f",
+      "git_blob_sha1": "1b7a3edacecf9d96a229372ef455aab203689c95"
+    },
+    {
+      "path": "scripts/stop-all.ps1",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/stop-all.ps1",
+      "bytes": 4320,
+      "sha256": "76c6d8dea5a12c56ca0bfa4c0fbc1a6ecbfc22224c94e8a132063a73d845967d",
+      "git_blob_sha1": "b84833ed6adb0d0b4a08e2fe2352907a5e80c186"
+    },
+    {
+      "path": "scripts/update.ps1",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/update.ps1",
+      "bytes": 80701,
+      "sha256": "d96b5aee7c1fcd9996e0776331dbf9a16b82abcaffa65640f09b366deaa7f5cd",
+      "git_blob_sha1": "3532189b4462988557142265eee77867e15af458"
+    },
+    {
+      "path": "scripts/voice-selftest.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/scripts/voice-selftest.py",
+      "bytes": 3502,
+      "sha256": "1859fffd2331aeaee8a1b59ebb2ff99a73ad98926f6ce0d98cbc7bbb4b73a8f7",
+      "git_blob_sha1": "812ced9ad707e913e02dd85c41bae5551f68c739"
+    },
+    {
+      "path": "server.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/server.js",
+      "bytes": 86893,
+      "sha256": "b0070c2b1d0a37ddfcf9fbaa95760825d1f44f86843ea80dfbe0c0b76f6c6d7f",
+      "git_blob_sha1": "503c7acb04ef1348c546806dbc0086f30b03d3c8"
+    },
+    {
+      "path": "src/adapters/gateway.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/adapters/gateway.js",
+      "bytes": 13069,
+      "sha256": "d291207f3f2c0b37f44d49148bfa36525b46ffd4aada1ff260709fc4084ee2c3",
+      "git_blob_sha1": "ce12d205bee1bbb58183d868a18eee10727674d8"
+    },
+    {
+      "path": "src/bilibili.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/bilibili.js",
+      "bytes": 5526,
+      "sha256": "6cbd926df473f33e6c4713ca564b2cb51819b5658b2af0f68d12752e0b9185e4",
+      "git_blob_sha1": "2ec9bbc1a73607e30bd57fa7e62b70a233145dc5"
+    },
+    {
+      "path": "src/bot.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/bot.js",
+      "bytes": 94955,
+      "sha256": "a8dfbfcab615eb06e7a14586cce7278c76b6dbc9c32b48052f47a71a9b5eacbe",
+      "git_blob_sha1": "49068ccd4ad4ce9fbef98ba01b7dd0b8e9ee805b"
+    },
+    {
+      "path": "src/care.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/care.js",
+      "bytes": 9035,
+      "sha256": "41ef3c0c888f9ee599b475d88ad324161c912a6adfc096c93a31aba83483dfad",
+      "git_blob_sha1": "28e040f9b7505e93c896bd793fbe3c830a83d8df"
+    },
+    {
+      "path": "src/config.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/config.js",
+      "bytes": 20731,
+      "sha256": "7c461ef7ed44b248d2876f6a34e1962b1c8520e6d280f9cacaf481bb435f3ad7",
+      "git_blob_sha1": "7e8d18733ad7dc18cc04f92ca1dba04aa51f881f"
+    },
+    {
+      "path": "src/features.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/features.js",
+      "bytes": 5046,
+      "sha256": "ca738dbf57eefcc6688a1c7804ee6d3df7fbf4e3049e6450d5335cc59c740568",
+      "git_blob_sha1": "71924ec9778cbc5b046f13dbd2f707df520392b8"
+    },
+    {
+      "path": "src/links.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/links.js",
+      "bytes": 10899,
+      "sha256": "d3735d28df0f77cf113f0a2d0a43b6c988818fdd94ae915e843719b4c9b8e465",
+      "git_blob_sha1": "78f0cf968eb3c7d84422d36e927dba78de14c5b3"
+    },
+    {
+      "path": "src/llm.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/llm.js",
+      "bytes": 19785,
+      "sha256": "123ecd775ee5ad4da74c0f1bd97e4e4bd7fd4c68ad441ec2b255e7db9c9b86da",
+      "git_blob_sha1": "87fff0c08648c3b19523307a892aab4b9451652f"
+    },
+    {
+      "path": "src/logger.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/logger.js",
+      "bytes": 1803,
+      "sha256": "15ddc1253dd7ccbccb3112a437b42afd6428d2b2ff63a84e448c6a591728a966",
+      "git_blob_sha1": "12a5e28b7312588832308d8c3818268ed6d46c3a"
+    },
+    {
+      "path": "src/master.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/master.js",
+      "bytes": 3990,
+      "sha256": "7b8ee69c1f23f71771542d3cb8abd3cde881e78716bd477d24c019362db4b1aa",
+      "git_blob_sha1": "dd0420f0614c9f96b462fc4cea8b173ac77db487"
+    },
+    {
+      "path": "src/mediaCache.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/mediaCache.js",
+      "bytes": 2246,
+      "sha256": "eeb5abf386f8918e2597212c0fa503d66543e0e9dae86f1748f96f98df622276",
+      "git_blob_sha1": "cdb2be55245935c327346f9d66b290fd32b93ff0"
+    },
+    {
+      "path": "src/memory.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/memory.js",
+      "bytes": 11448,
+      "sha256": "947c7bcf39540942f2ae05be4a38268782ce7df0d6033b5887da7748b70f45c7",
+      "git_blob_sha1": "d4a87dfef84ab21ac687fcc5256eb1c7e9dc0861"
+    },
+    {
+      "path": "src/memoryBackup.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/memoryBackup.js",
+      "bytes": 7950,
+      "sha256": "e528d457c485d14b032a312b4514b8f3c4ba203e1657bbc901d060614f4897ba",
+      "git_blob_sha1": "d165918243a764009ff1d4087ecae399f05908ad"
+    },
+    {
+      "path": "src/persona.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/persona.js",
+      "bytes": 59997,
+      "sha256": "298d5626f3ec84f8a9c8811c78c3a647da3e9fe73de8cf75c062d15c7c71cd0c",
+      "git_blob_sha1": "782cceab5298c54c9b2703ad3319de86d50c300d"
+    },
+    {
+      "path": "src/personaStore.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/personaStore.js",
+      "bytes": 8632,
+      "sha256": "119a4a5f77f0cec8f5966fe1d2f558da93ce78572282896c8045acf5f04662a8",
+      "git_blob_sha1": "a43180d83e4fbf4378d73df0b0d2ad5cb2378774"
+    },
+    {
+      "path": "src/presets.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/presets.js",
+      "bytes": 3698,
+      "sha256": "3c56a370a7275388b4c7a05a85fc334054b40c84e45a5589c47f54a83a7a7b82",
+      "git_blob_sha1": "c67de6c900b9c308236bef875679a04e04d31584"
+    },
+    {
+      "path": "src/stickerService.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/stickerService.js",
+      "bytes": 6822,
+      "sha256": "549a05f12d0c649aa2dd4ec846c812f6bd11cc306173a37615b2cc9e7087f2a2",
+      "git_blob_sha1": "9c04cbc6d98097d7aa8d59d31350fa79b2c122d3"
+    },
+    {
+      "path": "src/stickers.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/stickers.js",
+      "bytes": 15138,
+      "sha256": "6099bfbbe0f00c49bfc02ce7a6e674e32bb394748fec1c13f3bf1ec02a828615",
+      "git_blob_sha1": "9437821582934287867c8ab289bb978ba52c666a"
+    },
+    {
+      "path": "src/vision.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/vision.js",
+      "bytes": 9040,
+      "sha256": "1852854f07c5ce9d18d7e0ec32fcc8a130416f254473983904e0dd7b2d9579c8",
+      "git_blob_sha1": "0b29af6c586d2083d5fb53e382474bf9f02ca590"
+    },
+    {
+      "path": "src/websearch.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/src/websearch.js",
+      "bytes": 17247,
+      "sha256": "bb96e5b5c60123a42cf02619ebf3dd33f55954149c4375e30a2f1a51c185991e",
+      "git_blob_sha1": "895c686600453e0c6a991094b5a1946e62d3c709"
+    },
+    {
+      "path": "tests/addressing.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/addressing.test.js",
+      "bytes": 3987,
+      "sha256": "3a25717ed3b247d0c182284217af90644fd78097033959d3e06936140aa7f85a",
+      "git_blob_sha1": "0f82f27fdeea15a2c1f8d0c86399942811569af5"
+    },
+    {
+      "path": "tests/audit-fixes.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/audit-fixes.test.js",
+      "bytes": 5626,
+      "sha256": "603d158dbcad3e29e002829490157161dcf6ef93b990b155d2ce60770412ba00",
+      "git_blob_sha1": "ef8ec7a1bba36b3a8d6049e0959ffdad9030051d"
+    },
+    {
+      "path": "tests/bot.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/bot.test.js",
+      "bytes": 21573,
+      "sha256": "6b0395941c189d9072abf387686bc720155bc23dcbc7feb48e05e75deef75d84",
+      "git_blob_sha1": "d31dc37324d9617ec2bd355c9bebb20221c764a1"
+    },
+    {
+      "path": "tests/bridge-crash.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/bridge-crash.test.js",
+      "bytes": 5269,
+      "sha256": "fa264b294e839fde0bcda36851a38d638aafbb2cf5c92dc68e05128d399cdb9c",
+      "git_blob_sha1": "7ba5892996498fe66734ac5943dad2ef9c7086c5"
+    },
+    {
+      "path": "tests/bridge-recovery.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/bridge-recovery.test.js",
+      "bytes": 9519,
+      "sha256": "24629aad3289e0d91f57ef100ce5aa4052721ed63e0c58a0b566f0d0b544675b",
+      "git_blob_sha1": "546d25c8acf876e1a521fd7a85bbdaf89728ccd0"
+    },
+    {
+      "path": "tests/bridge-window-restore.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/bridge-window-restore.test.js",
+      "bytes": 1572,
+      "sha256": "3e540e5063133c174a8d5779cab7e5a29cd9eb65d78f808e58a3edafd2e69c8d",
+      "git_blob_sha1": "0af2be07d8efd5f34cf97f95237e0afea8cad338"
+    },
+    {
+      "path": "tests/c1c2c3.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/c1c2c3.test.js",
+      "bytes": 5500,
+      "sha256": "aafcd6a1f54100e755ac91e6a81cfc618450300b0ebb9272ee79ec6b7b0517f1",
+      "git_blob_sha1": "383a10d152e6ae580a9c980e641f8d246c817f00"
+    },
+    {
+      "path": "tests/care.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/care.test.js",
+      "bytes": 11480,
+      "sha256": "c07bcda0b419e51cd3915bc33436c0e806545879d3c54a448e4b5f3e3f706a04",
+      "git_blob_sha1": "daa83df39e3cf505498816ccd8b12b06c4bf51da"
+    },
+    {
+      "path": "tests/clapback.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/clapback.test.js",
+      "bytes": 9441,
+      "sha256": "9c87fbdb0de3165838adfa4fd4a28444d32a7dc6b8fbbae9e206211b683f6b8e",
+      "git_blob_sha1": "40411610ee69e58a5c511df6d47c39994567ac80"
+    },
+    {
+      "path": "tests/context.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/context.test.js",
+      "bytes": 6758,
+      "sha256": "23d70ff80a6496c143bf996a86e05222be8a7dc915ee080a9b92e1df667933a4",
+      "git_blob_sha1": "a7bbe3a4564147afca525d93f0187f5dc7f37e48"
+    },
+    {
+      "path": "tests/db-dir.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/db-dir.test.js",
+      "bytes": 5552,
+      "sha256": "53935dfb4a81e2d2e8e253ab573b2839030c4e5f4212fe1c08df688e7235cd69",
+      "git_blob_sha1": "d23dcba43acd1ecb8e95b08f3b733c2fb4ebe1ee"
+    },
+    {
+      "path": "tests/debug-console.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/debug-console.test.js",
+      "bytes": 6540,
+      "sha256": "e54e7e1beccf10615b211a35519188c49f19c0f2c88f2328b6bced0a2c5cd876",
+      "git_blob_sha1": "48ca3b304f600153fa8be216ba3a42d73ead8197"
+    },
+    {
+      "path": "tests/defend-master.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/defend-master.test.js",
+      "bytes": 2888,
+      "sha256": "992e4930320aa8fdc267bdf1fcf773f8611a723b8b828dfc8927b4253a8cec9d",
+      "git_blob_sha1": "42fc01baf0de3d94faeb985de4ecf111333f4c48"
+    },
+    {
+      "path": "tests/echo.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/echo.test.js",
+      "bytes": 3855,
+      "sha256": "1eccaf52742a8900c511bd29eed28cfed797d6ad0f935e6b1069375405450ca6",
+      "git_blob_sha1": "6bbcb4194963889320339a0a416f70355a202144"
+    },
+    {
+      "path": "tests/emoji.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/emoji.test.js",
+      "bytes": 3806,
+      "sha256": "c4d73834afb22c076abe5520edc52f69b662e163ff9788f1748770085d223231",
+      "git_blob_sha1": "0c4d8b32d2ea7b86c0280de95870c5de671e4b3a"
+    },
+    {
+      "path": "tests/group-l1l3.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/group-l1l3.test.js",
+      "bytes": 8365,
+      "sha256": "0619f0b9a960ef7041605caa8ce3320ee4afd367aa32b10b82949317b1b811c2",
+      "git_blob_sha1": "e779e5c4a0c098af50bbccef3fb8f03710925d1c"
+    },
+    {
+      "path": "tests/image-dir.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/image-dir.test.js",
+      "bytes": 3204,
+      "sha256": "98d42f5ff6abfe011cc97e5e4cc67c46c5863584b87587d7a491b364cc8ed0a3",
+      "git_blob_sha1": "81aeb4d7018915dbc2fdd52d35a94496ed45cdcf"
+    },
+    {
+      "path": "tests/links.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/links.test.js",
+      "bytes": 3321,
+      "sha256": "70c1dda5a79bc361110b52ca5bea923a751294bffa859ee7aae41ff6c80e488b",
+      "git_blob_sha1": "94b89b74f0e2b7e4196d0cd5e796be02781bb02e"
+    },
+    {
+      "path": "tests/llm.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/llm.test.js",
+      "bytes": 4513,
+      "sha256": "390dde47751542aeb187c3a7237525a86db83b5b5f8789d3d0ca8f6f10e1914d",
+      "git_blob_sha1": "6469ab3802468093418989d87f8364d67af44d76"
+    },
+    {
+      "path": "tests/local-api.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/local-api.test.js",
+      "bytes": 11636,
+      "sha256": "31f8b1a6ceb98a87d6a9526cd21f56bed0458b95c11651a664f759c95ef1923e",
+      "git_blob_sha1": "e6c62a4944ab8409f07630895793725bc23f4785"
+    },
+    {
+      "path": "tests/master-match.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/master-match.test.js",
+      "bytes": 3405,
+      "sha256": "30e271760d2a8815015171f7a988066adad3ed678585f30be29d76a37b66d171",
+      "git_blob_sha1": "a93b1c226f84c7dff3b55ac50d01743d69b0ce9d"
+    },
+    {
+      "path": "tests/master-mouth.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/master-mouth.test.js",
+      "bytes": 3663,
+      "sha256": "662fbd729298a61a73bbf7b49ef2ed49e0913cb9a9656c4c114f8038b1303db5",
+      "git_blob_sha1": "b8b086a14aad6a5c9d44d57d8989b572ffa1ff1e"
+    },
+    {
+      "path": "tests/master.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/master.test.js",
+      "bytes": 7403,
+      "sha256": "ccd017429b7099a670573e8eb75e677f3bcb34fedd727e8ef4e7e143aedd885a",
+      "git_blob_sha1": "206a6643147308a3295797c9eb265a4a3d90e5dc"
+    },
+    {
+      "path": "tests/memory-backup.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/memory-backup.test.js",
+      "bytes": 11614,
+      "sha256": "1dd41adeb08641c62c5218807d1d6f3027092adeec38bdda23da0f28baee1986",
+      "git_blob_sha1": "c5930245e324a1d3bf9300f36c8e27296d99f4b7"
+    },
+    {
+      "path": "tests/memory.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/memory.test.js",
+      "bytes": 4251,
+      "sha256": "cd4a4314bc86aa6b435d62f80e6ff7a4b5a23d3f7862d950958148c093caaaea",
+      "git_blob_sha1": "65610eee9ef8ceef08171e6a2fa29cc93e79e153"
+    },
+    {
+      "path": "tests/owner-name-sync.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/owner-name-sync.test.js",
+      "bytes": 3334,
+      "sha256": "c6573aa3ded30a20b62cc658a7156a003ccd217e78b8c8275a2ff4d1826fa376",
+      "git_blob_sha1": "a77ecb96d3361328fbbafe02f7d313be485a20b1"
+    },
+    {
+      "path": "tests/owner-name.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/owner-name.test.js",
+      "bytes": 2415,
+      "sha256": "9b60d4eeaedcbdc1ba43828cfa417f5a32bbc4984704cfb61d686f723fbd6493",
+      "git_blob_sha1": "fc023edcf1133ad19aa107ad4a3cda5db3a4cde3"
+    },
+    {
+      "path": "tests/persona-preset.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/persona-preset.test.js",
+      "bytes": 10115,
+      "sha256": "b847c93bf1c148ff65c1565d082ceecf01f62d3d285b2ad53daf45135a0c1323",
+      "git_blob_sha1": "a3b24d1deb90dbb43537ec03621aab4fa0fc6384"
+    },
+    {
+      "path": "tests/persona.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/persona.test.js",
+      "bytes": 15047,
+      "sha256": "948355659f89119d54a1e5e1ec4d25df53195dffad05ddf6833c55faaaadf370",
+      "git_blob_sha1": "efa555299a3b5eeb10125216ba882f387e360706"
+    },
+    {
+      "path": "tests/presets.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/presets.test.js",
+      "bytes": 3727,
+      "sha256": "3df7ad3106c11167dfee8a82c09abf4a9840b4ba441ec8e40eaf8ba326adb68b",
+      "git_blob_sha1": "8746556a3dd79592997ba47b5dcd61e0764ff501"
+    },
+    {
+      "path": "tests/providers.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/providers.test.js",
+      "bytes": 7992,
+      "sha256": "9dc43154e9f16d0e2a95e6634fd63d9582183799cf79c23800d11f29a2cbaaa7",
+      "git_blob_sha1": "fb8d510a6f6d5f6618edaeff72b1b1be0ad20d7d"
+    },
+    {
+      "path": "tests/sampling.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/sampling.test.js",
+      "bytes": 10455,
+      "sha256": "6f8143fd1102fb4323b694d9ecc958bcbd0b6be6b95f1af0d1cded3e0a73aa57",
+      "git_blob_sha1": "268ec4454154387c8bf728cdc5ad9ab8a86cfc3b"
+    },
+    {
+      "path": "tests/scripts.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/scripts.test.js",
+      "bytes": 14721,
+      "sha256": "15f0428b25eebdd1c87d061eea399ab7f4c9a398ed49bc05d0ad382fe76bd57a",
+      "git_blob_sha1": "d6d47d0df2815522cd51255d0b162fa174e1fe19"
+    },
+    {
+      "path": "tests/security-and-owner-reset.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/security-and-owner-reset.test.js",
+      "bytes": 3219,
+      "sha256": "d23d2e693219f5a410920be0e454f463b22aadaa69b4c1bac2003d779f300ea4",
+      "git_blob_sha1": "c1b908ece46d521921f0f5faae15ecd31d72474d"
+    },
+    {
+      "path": "tests/security-csrf.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/security-csrf.test.js",
+      "bytes": 4528,
+      "sha256": "33332a38523a350cc8d22c384374f91a365afe3e15b5f21f530f6a447a9c33f1",
+      "git_blob_sha1": "19d02c2ae53345167c0034fc2ec287613523cbd9"
+    },
+    {
+      "path": "tests/server.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/server.test.js",
+      "bytes": 20910,
+      "sha256": "98c5a6f50ee5000f2d3fa93919232bd68f74e97df81aacb729027ae0bf3a17e3",
+      "git_blob_sha1": "3bae5ab46037cc5602490fedf30f8d5efb84067c"
+    },
+    {
+      "path": "tests/silence.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/silence.test.js",
+      "bytes": 7068,
+      "sha256": "0036b5c5bff284105f54e12dd8798c5b6daab99c53a5ccbbfae49cca3611e0c8",
+      "git_blob_sha1": "a7c26bdf660461f658d083782e522d78835dc423"
+    },
+    {
+      "path": "tests/smart.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/smart.test.js",
+      "bytes": 3877,
+      "sha256": "5145f6ad4446739f1c09e202a99fd7e5ec69fbf215af16eea45a39260fa32e0f",
+      "git_blob_sha1": "9f2e193d9f9c7233a3e843beacafb3f35866db79"
+    },
+    {
+      "path": "tests/status-mention.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/status-mention.test.js",
+      "bytes": 2685,
+      "sha256": "52d27ed2a57bac052b5e9f234afb8da7089ab84a79de224950d2ad145a29006b",
+      "git_blob_sha1": "dcb788d132f1d06bfa873693eee22671bc127963"
+    },
+    {
+      "path": "tests/sticker-capability.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/sticker-capability.test.js",
+      "bytes": 2712,
+      "sha256": "1d34de97f18b681e7598d2ed98ecb51c88c75dcba63b46c997d86c88453f83ed",
+      "git_blob_sha1": "eed0c7246688cfeb58bbe9fd61a932a0808b60be"
+    },
+    {
+      "path": "tests/sticker-runtime.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/sticker-runtime.test.js",
+      "bytes": 729,
+      "sha256": "d2fda129707301138a34095ad668a03c839772ac107f91fb74726c0e4e16a112",
+      "git_blob_sha1": "14494e0b240c8860ace4d05c22afdfa957eb1106"
+    },
+    {
+      "path": "tests/sticker-service.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/sticker-service.test.js",
+      "bytes": 16798,
+      "sha256": "86d9d97bf5e9e28d84214cc33e43ca23bc82b4faada588714fc376e798eb3ed9",
+      "git_blob_sha1": "b9fa908793ae71a725717def49313a714713eaf2"
+    },
+    {
+      "path": "tests/sticker-three-categories.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/sticker-three-categories.test.js",
+      "bytes": 12481,
+      "sha256": "aa2783d0ef8a75c5aee8a9bb029062ea8e8a64aa748ecf2dafdf20c86a859ec0",
+      "git_blob_sha1": "d3d16c7832d7f553dfd6fccc6d71f56424952ffc"
+    },
+    {
+      "path": "tests/sticker-ui.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/sticker-ui.test.js",
+      "bytes": 26034,
+      "sha256": "ba88190f1d0957df8a08c957f10fdd056b29a59f5941e73cf0321edf34e1587f",
+      "git_blob_sha1": "1454b434cbd00050bfa6354c9a3df660af962eed"
+    },
+    {
+      "path": "tests/stickers.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/stickers.test.js",
+      "bytes": 7170,
+      "sha256": "31c67ca4730931fa524b741a5991ceb49fd38ff8db2b8b6168ff8edf0e09f68a",
+      "git_blob_sha1": "5b78681dfcf4fa067a558be563189ab74ad1bcdc"
+    },
+    {
+      "path": "tests/system-notice.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/system-notice.test.js",
+      "bytes": 3174,
+      "sha256": "2f3a066517e2da5154bac1bdf109454be7f622276b7e0c0fd359723010be7dec",
+      "git_blob_sha1": "c355100ed892e9544b2a89c13404562b53b503ce"
+    },
+    {
+      "path": "tests/test_sticker_runtime.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/test_sticker_runtime.py",
+      "bytes": 3402,
+      "sha256": "40789c9028db5abd0362034ea15f034cb64c558bda970a9d59d7fe6efc20a105",
+      "git_blob_sha1": "e57cff9c5b1a50c8ce2c4d3e490d1fd3601724b0"
+    },
+    {
+      "path": "tests/test_sticker_transport.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/test_sticker_transport.py",
+      "bytes": 42334,
+      "sha256": "cbe06fd131202bb97543cb1318b24af3e8ae74c0a547f28d2323f55932ead009",
+      "git_blob_sha1": "17c0bb49779fd80142d3aac8066b44c25367b987"
+    },
+    {
+      "path": "tests/uia-diag.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/uia-diag.test.js",
+      "bytes": 1863,
+      "sha256": "447218f7a631307da310af28e2bd389f028de8052892c9842035106e68a2315a",
+      "git_blob_sha1": "2827338234d19fed97df1b3cc1d937e61549b4c6"
+    },
+    {
+      "path": "tests/update-script.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/update-script.test.js",
+      "bytes": 12473,
+      "sha256": "4147cd58c6a0c5364b2dea9f5a30f4b8e53d6dcfc22efb2868d65bf19cc36c67",
+      "git_blob_sha1": "07226b8936d77eb66c0c9705e7077eea56bb8338"
+    },
+    {
+      "path": "tests/vision.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/vision.test.js",
+      "bytes": 6258,
+      "sha256": "21afa46b463ef71ecccf9bf02be2fcb10896ced8f5007d9eddf1bde0256529b9",
+      "git_blob_sha1": "b69ecf768cb303095f842beece1cfc4f2d71a33f"
+    },
+    {
+      "path": "tests/voice.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/voice.test.js",
+      "bytes": 2507,
+      "sha256": "1621981aa303366b0f9e0e1eee74b42b40781bc6f715431772be70a61bded859",
+      "git_blob_sha1": "8583b2e394ccaa99c259a843b0986d9927e81820"
+    },
+    {
+      "path": "tests/weather.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/weather.test.js",
+      "bytes": 6144,
+      "sha256": "6c3586751dc1dec4265feda6da213c447f99ed5208af379c74e8f889d42f59dc",
+      "git_blob_sha1": "ed837b0e18c1f7c95b27842a567b6bdc44e5414d"
+    },
+    {
+      "path": "tests/websearch-relevance.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/websearch-relevance.test.js",
+      "bytes": 3429,
+      "sha256": "e1736763ebbb618350b231dd6df98f2db549525299041c9cc4fbc95545729bb2",
+      "git_blob_sha1": "fd0509d72eb1f05c8f5ed5ad158697bc840273a3"
+    },
+    {
+      "path": "tests/wechat-account.test.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tests/wechat-account.test.js",
+      "bytes": 7195,
+      "sha256": "379217c9f9622c36f05a10d406f0a31a63d8422b17cf820809d0edd61aaecfbe",
+      "git_blob_sha1": "bb56f7a762302586bdbf9aff2a6089ecb894826b"
+    },
+    {
+      "path": "tools/uia-check.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tools/uia-check.py",
+      "bytes": 2006,
+      "sha256": "5334a490630f9d3efc394198e216e7a387639ea4a0aec6ff67ccd59c440092bf",
+      "git_blob_sha1": "cf407d3baef8ff2933a3d8855f4a00bf929d0867"
+    },
+    {
+      "path": "tools/uia-diag.py",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/tools/uia-diag.py",
+      "bytes": 6324,
+      "sha256": "4802c9ce39b94da648452589afee3fd1a795a160ae8e40194caba064c50e4bc6",
+      "git_blob_sha1": "9e93a3733b63d2d58ef8a7ea912d4292e7025b8c"
+    },
+    {
+      "path": "web/assets/app.js",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/web/assets/app.js",
+      "bytes": 39939,
+      "sha256": "e11a0eb2247a3ea29fed94766b39ca802c40228d1b1434558565a78ff9c488b5",
+      "git_blob_sha1": "5f22a427ed8a9e78a0242aae10f8485a56682f54"
+    },
+    {
+      "path": "web/assets/style.css",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/web/assets/style.css",
+      "bytes": 21281,
+      "sha256": "b4928dc21da4d25c371d93ead19afbfbcfa0fb81b2e91f2c22cd316b2d997cc4",
+      "git_blob_sha1": "0103268e39785a22b0598449a1004db9918034f5"
+    },
+    {
+      "path": "web/debug.html",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/web/debug.html",
+      "bytes": 71343,
+      "sha256": "0c66188f5eaf187f41944825747ad63dd029bec83144e8abefc0d51014a208d3",
+      "git_blob_sha1": "ba5951cf51371c57af54bab37637469a131e3288"
+    },
+    {
+      "path": "web/index.html",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/web/index.html",
+      "bytes": 10657,
+      "sha256": "87af942430a0752d956dd1d3a334a9f0cd07bc5c5632c438f7fef8c30b70a0fb",
+      "git_blob_sha1": "0ba44eee584264ca96c59e37a54f23e467c92f26"
+    },
+    {
+      "path": "web/persona.html",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/web/persona.html",
+      "bytes": 18107,
+      "sha256": "2a02fcb40a5f5b1b2864958be2cbd49df6ed931d03e273066419b540a73e6c78",
+      "git_blob_sha1": "b9422d254507a3b078dd45f1ff81aec037bbec02"
+    },
+    {
+      "path": "一键修复并自检.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/一键修复并自检.bat",
+      "bytes": 1466,
+      "sha256": "4c9a301a7108ef4933d91e1cd377081182cd0373d74d67c9e8fbe6a2e009610c",
+      "git_blob_sha1": "7b57d05ced3bdeea2c452fcea4d7d833832ad044"
+    },
+    {
+      "path": "一键更新.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/一键更新.bat",
+      "bytes": 342,
+      "sha256": "4bf83b0ccdfd9bbc9cb739065f9c88acbb1c27635bd453ae5fe71c1df80a83cb",
+      "git_blob_sha1": "58925815ccbada087b22ed2610d38a19abef3693"
+    },
+    {
+      "path": "一键终止.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/一键终止.bat",
+      "bytes": 274,
+      "sha256": "2faeb63234016e6783421c20581a62fde239e149f733c9e86ea0e248f58c3d1a",
+      "git_blob_sha1": "0f318dd8a604b97f240e4c03bbc9f65cbf62f363"
+    },
+    {
+      "path": "一键装运行环境.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/一键装运行环境.bat",
+      "bytes": 470,
+      "sha256": "a840b5b9962418bcd915e5a67745e47af7de4f35e7e92fd8353c3ee06170dace",
+      "git_blob_sha1": "7ca7945e40a405db53757f5feb349a5e004f355c"
+    },
+    {
+      "path": "一键诊断UIA.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/一键诊断UIA.bat",
+      "bytes": 620,
+      "sha256": "4ff1699cb66ea29ed855d220a3326b252d9a69f154dbcd46e6807103aafd6f64",
+      "git_blob_sha1": "c11345821e0aadfe985321b5427e7f25c0ab91c6"
+    },
+    {
+      "path": "先点启动鲸鱼娘再点启动桥接/1 先点这个 启动鲸鱼娘.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/先点启动鲸鱼娘再点启动桥接/1 先点这个 启动鲸鱼娘.bat",
+      "bytes": 302,
+      "sha256": "56e4d246094fd91b4d45424083054337219c0585eb9d0ba5b59859c68e39dc1c",
+      "git_blob_sha1": "905528d41a72f8a3fe5cac5360a7478e3d581f8d"
+    },
+    {
+      "path": "先点启动鲸鱼娘再点启动桥接/2 再点这个 启动微信桥接.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/先点启动鲸鱼娘再点启动桥接/2 再点这个 启动微信桥接.bat",
+      "bytes": 359,
+      "sha256": "dd7d94f5d184e2803310e9821a115b12bcc2889f250ae0f44305305f11ad004e",
+      "git_blob_sha1": "26c73c7e54d1d113aa5ddfc8c702494d65f8b4aa"
+    },
+    {
+      "path": "协作指南.md",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/协作指南.md",
+      "bytes": 4785,
+      "sha256": "2ae9b2f096f83791b76d15cf118fbd398088831ec4a85fa54725d75f2503e178",
+      "git_blob_sha1": "717c46c6b4c5b828b94e19e2af4663db562019a8"
+    },
+    {
+      "path": "启动微信桥接.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/启动微信桥接.bat",
+      "bytes": 2354,
+      "sha256": "544fca46bac92a90ca4bc5c4dc82ef4b17b36ad815df5a17aed3356fcc44047d",
+      "git_blob_sha1": "c5538b8139f8c4285fb63689f34e8e84961efde9"
+    },
+    {
+      "path": "启动鲸鱼娘.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/启动鲸鱼娘.bat",
+      "bytes": 347,
+      "sha256": "ed3187452d2f49b9ca346a4f91fb346559112e6c1b642ba189d4292decd3743e",
+      "git_blob_sha1": "dc921082720b2bbbe9287592f4a18eb52478d525"
+    },
+    {
+      "path": "备份记忆.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/备份记忆.bat",
+      "bytes": 536,
+      "sha256": "2fb9a0d4f9a595e6b3ba679575e094235813316063937d0d87c8afb97316f6ef",
+      "git_blob_sha1": "f03165a2d421bd557cb19dd9f3cd2e2f1c6b9807"
+    },
+    {
+      "path": "恢复记忆.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/恢复记忆.bat",
+      "bytes": 578,
+      "sha256": "81b47a4f08c0d605c755ef37ea6c6e50531231a267934930fafc3ac263b4d2c1",
+      "git_blob_sha1": "1a2b81c1afc4d99b049d7132fb6230525d81dcfe"
+    },
+    {
+      "path": "打开调试台.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/打开调试台.bat",
+      "bytes": 70,
+      "sha256": "3a508a9575957e3f3645e37dc8693af47aa2ddf20407aacc848b77edbd5ce27a",
+      "git_blob_sha1": "7a21bba48a4d63404b53c398f0c5b7f9a6c9fe3d"
+    },
+    {
+      "path": "重启鲸鱼娘.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/重启鲸鱼娘.bat",
+      "bytes": 588,
+      "sha256": "eca716a76284b0cc38a8406dc1971aa4e352051f812d57de82eeea1dc1cd58ff",
+      "git_blob_sha1": "aadfb77bb70e68ae9a70ef53293a815d19d41a11"
+    },
+    {
+      "path": "重置全部.bat",
+      "url": "https://github.com/Banan1cee/whale_gril/blob/e14a8c2fbf0b751ae3a9478f94688ea954d974db/重置全部.bat",
+      "bytes": 492,
+      "sha256": "d8eed4365d8e2a8bd5efbdd5dae05329ad987d0210766c61adf81ecda4627860",
+      "git_blob_sha1": "31482880f521eb077e178daad05926c415092e26"
+    }
+  ],
+  "archive": {
+    "url": "https://codeload.github.com/Banan1cee/whale_gril/zip/e14a8c2fbf0b751ae3a9478f94688ea954d974db",
+    "bytes": 653460,
+    "sha256": "97d0886d5c741b549a48dadb2c665703a3531572240d4dcea0ecae7fd2a9a117"
+  },
+  "all_blobs_verified_against_tree": true,
+  "archive_crlf_normalized_to_git_blobs": [
+    "scripts/bridge_loop.bat",
+    "scripts/build-release.ps1",
+    "scripts/deploy.ps1",
+    "scripts/factory-reset.ps1",
+    "scripts/fix-python-il.bat",
+    "scripts/migrate-data.ps1",
+    "scripts/setup-runtime.ps1",
+    "scripts/smoke.ps1",
+    "scripts/start.ps1",
+    "scripts/stop-all.ps1",
+    "scripts/update.ps1",
+    "一键修复并自检.bat",
+    "一键更新.bat",
+    "一键终止.bat",
+    "一键装运行环境.bat",
+    "一键诊断UIA.bat",
+    "先点启动鲸鱼娘再点启动桥接/1 先点这个 启动鲸鱼娘.bat",
+    "先点启动鲸鱼娘再点启动桥接/2 再点这个 启动微信桥接.bat",
+    "启动微信桥接.bat",
+    "启动鲸鱼娘.bat",
+    "备份记忆.bat",
+    "恢复记忆.bat",
+    "打开调试台.bat",
+    "重启鲸鱼娘.bat",
+    "重置全部.bat"
+  ]
+}

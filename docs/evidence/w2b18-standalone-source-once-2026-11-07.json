@@ -1,0 +1,61 @@
+{
+  "status": "background_source_diagnostic_unconfirmed",
+  "mode": "standalone_background_source",
+  "model_requests": 0,
+  "marker_sha256": "8cd0a33ab93455170aa808c034d7f3ef2ccce1d625cfd0d6925385ca865294e5",
+  "action_id": "9c48e9d7cf1aa63f33be69bc8f65661cb9af1cc534bc01955838706869d17758",
+  "review_id": "dd3f3c70ec5dc11b230e9d3d6b099b6d8ca8d5b9836a0a5a49a047832dcabc9b",
+  "operation_id": "f2cb96e5d0ed4e1bab15d137976c5440",
+  "control_result": {
+    "state": "UNKNOWN",
+    "reason": "background_target_became_foreground",
+    "input_possible": true,
+    "submit_possible": false,
+    "focus_cleanup_verified": false,
+    "input_units_attempted": 35,
+    "posts_attempted": 0,
+    "upstream_ok": null,
+    "delivery_verified": false
+  },
+  "worker_local_cleanup_verified": false,
+  "observation": {
+    "foreground_target_seen": true,
+    "foreground_events": 1,
+    "pointer_samples": 51,
+    "pointer_position_changes": 0,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 114.571,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [
+      "value_input"
+    ],
+    "target_detection_sources": [
+      "event_current",
+      "event",
+      "sample"
+    ],
+    "target_foreground_sampled": true,
+    "target_foreground_events": [
+      {
+        "phase": "value_input",
+        "object_id": 0,
+        "child_id": 0,
+        "window_self_event": true,
+        "current_foreground_is_target": true,
+        "event_window_is_current": true
+      }
+    ],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "worker_reaped": true,
+  "provider_restored": true,
+  "input_permitted": 1,
+  "submit_permitted": 0,
+  "reader_reaped": true,
+  "locks_released": true,
+  "delivery_state": "UNCONFIRMED",
+  "phone_confirmation_required": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "background_phone_confirmation_recorded",
+  "mode": "integrated_background_bmp",
+  "model_requests": 0,
+  "marker_sha256": "16dd2b42e74c3c4f2890aeab3e5d5c5ed4972a55a55c1837e771da75c9ec8354",
+  "evidence_added": true,
+  "action_id": "a9a4bf9e17d71ffdcbf97885577495736fa7a59607e3f8ba089e674dc0b3974f",
+  "delivery_state": "CONFIRMED"
+}

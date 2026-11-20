@@ -1,0 +1,48 @@
+{
+  "status": "r2_window_state_investigation_completed",
+  "minimized_read_verified": true,
+  "minimized_preparation_denied": true,
+  "tray_read_supported": false,
+  "tray_current_contract_refused": true,
+  "manually_restored_window": {
+    "pid": 7872,
+    "hwnd": 14617104,
+    "dll_sha256": "afe3d02c58bada3c35009c0cd58ee1f57b2a00fe53237d0dce649107fddb9a20",
+    "exe_sha256": "eaaa1c6c6123ce9887e5c67b60d905d22f09fac091058f27d2d819e9ff26fc69",
+    "created_filetime": "134392115523127861",
+    "candidate_rva": 189836232,
+    "image_size": 206430208,
+    "requested_process_access": "0x438",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "recovered_tray_source_id": "a5cb5d1e7bdcfd48a269e810df7a6e0e011e2e71067e826cc17f14ecdff2abfa",
+  "recovered_tray_source_rows": 1,
+  "recovered_without_resending": true,
+  "resumed_from_committed_minimized_source_cursor": true,
+  "restart_fresh": 0,
+  "restart_checkpoints_unchanged": true,
+  "new_drafts": 0,
+  "new_model_traces": 0,
+  "send_counts": [
+    17,
+    15,
+    11
+  ],
+  "original_send_history_preserved": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true
+  },
+  "unknown_ids_unchanged": true,
+  "active_operations": 0,
+  "active_bindings": 0,
+  "e7_action_state": "CONFIRMED",
+  "readers_reaped": true,
+  "integrity_ok": true,
+  "gate_after": 0
+}

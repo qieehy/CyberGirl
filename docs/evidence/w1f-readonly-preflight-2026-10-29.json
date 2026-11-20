@@ -1,0 +1,10 @@
+{
+  "mode": "read_only",
+  "status": "failed",
+  "model_requests": 0,
+  "external_messages": 0,
+  "system_settings_changed": false,
+  "error_type": "ValueError",
+  "script_sha256": "fde31539084245575e061da4b17b83271c0630fb716fcbb3d5090761bdf0e53c",
+  "recorded_at": "2026-10-29T13:59:16.400764+00:00"
+}

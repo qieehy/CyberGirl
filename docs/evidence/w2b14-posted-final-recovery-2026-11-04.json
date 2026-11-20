@@ -1,0 +1,70 @@
+{
+  "status": "single_trial_consumed_not_received_draft_preserved",
+  "recorded_at": 1793794816.0302784,
+  "stage_d_complete": false,
+  "approval_reference": "user-bbe24a5ff9be49628ffcda50b0a16344",
+  "approval_consumed": true,
+  "new_action_id": "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa",
+  "new_operation_id": "d9d623f51a5244629db1f3ce95033aec",
+  "gate_value": 0,
+  "original_account_matches": true,
+  "current_new_draft_hash_matches": true,
+  "draft_changed_by_program_after_trial": false,
+  "button_not_pressed_at_later_observation": true,
+  "later_unpressed_state_is_cancellation_proof": false,
+  "ledger": {
+    "operations": 5,
+    "attempts": 5,
+    "reviews": 2,
+    "permissions": [
+      3,
+      3
+    ],
+    "manual_confirmations": 1,
+    "active_bindings": 0,
+    "blocked_reason": "submission_or_draft_requires_review",
+    "new_action_state": "UNCONFIRMED",
+    "new_attempt_state": "UNCONFIRMED",
+    "old_uncertain_state": "UNCONFIRMED",
+    "integrity": "ok"
+  },
+  "actual_trial_source_sha256": {
+    "src/wechat_agent/bridges/wechat/posted_native.py": "d09ef205808236d08bf129d402fcb6c5f91b621292201afd3d2a868a75614acd",
+    "src/wechat_agent/bridges/wechat/posted_click.py": "b7d2f1190a0b08fbd3727985e58ec63b158e8855235321cedf0241bb006a75d9",
+    "src/wechat_agent/bridges/wechat/directed_native.py": "49f7ef4b77b2abdf2eb15578a24d00e7c50d805340eb6f5e9fffa9e6575931ea",
+    "src/wechat_agent/bridges/wechat/directed_click.py": "f4d315686cd58a379a413c389a4bf45f368a980528171f602938344a08ce167d",
+    "src/wechat_agent/bridges/wechat/native_sender.py": "3bd435ac149bbcef366343234fe548ba4a7e8f599fcfeb8aae5c1c8df5856308",
+    "src/wechat_agent/bridges/wechat/channel_review.py": "340964137e2045539d795dd45d64066245145b259d87efab6e61d021c6875d30",
+    "src/wechat_agent/bridges/wechat/send_state.py": "7c0880c38adba4d306a3319dc0f3dcf1402432254798d4de61992edde2c7d2f4",
+    "src/wechat_agent/bridges/wechat/send_process.py": "e1f687e1aecf0704c511ac53089524b6df5d1fab32b461e7131cbb1929e4971b",
+    "src/wechat_agent/bridges/wechat/gesture_protocol.py": "1e6e91a8df584081f623e62f9fa7fc50a992a0bac720de8650b1b05c689b8fbf",
+    "src/wechat_agent/bridges/wechat/sender.py": "f2d85ef655a941d3f3e9a70cfb1b7a1491f98b416a47cf3d2857ad0a9ff20154",
+    "scripts/wechat_native_worker.py": "2358feb85e2a6a94fb5e66c1ceb4bc112574554ce728b8c748ef1812b5a4a510",
+    "scripts/probe_wechat_directed_trial.py": "44ca52c2a245e5f807b263b5807e7da5bdd76341fba5febcc9409218b6a7e549",
+    "scripts/wechat_native_ui.ps1": "79af82f79e20a4a78cbf1f024e52158f1bedc575d697c5b2857cfbf544f9011c",
+    "scripts/wechat_input_metadata.ps1": "85ea62ebabfbd0438226f84699a333618a90c9ef95afd098e2a8a6be207845a8",
+    "scripts/wechat_click_geometry.ps1": "9b4d7418273d1f8a0372cf2a2802901dff19cba851451c56871bbaae608e6096",
+    "scripts/verify_wechat_accessibility.py": "d0931ebe8dfaf6b5e3db5b75b62ec0035141794b60f2594ca8fac5fe10ebb9e1",
+    "src/wechat_agent/assets/licenses/whale_gril-source.json": "5dcd4e94fac2972c1b9903cbaac436426885295da1a8f7b2b6f0f1ebede4f3b0",
+    "src/wechat_agent/assets/licenses/whale_gril-MIT.txt": "a20ddb85ceb7235ac7955274453290233be5f0b448a71f7c1adaaa76e6310750"
+  },
+  "phone_observation": {
+    "reference": "user-26dc15eb9fe8455d853843f11c0ab0b1",
+    "phone_full_marker_seen": false,
+    "computer_draft_present": true
+  },
+  "new_trial_input_attempts": 1,
+  "new_trial_submit_permits": 1,
+  "up_intent_recorded": false,
+  "no_retry": true,
+  "model_requests": 0,
+  "preparation_focus_once_performed": true,
+  "preparation_focus_evidence": "docs/evidence/w2b14-bound-focus-preparation-2026-11-04.json",
+  "evidence_sha256": {
+    "w2b14-posted-after-focus-once-2026-11-04.json": "18dd570323e4e782f24547a24e988bfd360a0dc8cc0a6705d87082535b6d2dfa",
+    "w2b14-posted-consumed-trial-audit-2026-11-04.json": "62a20184a1876a147df2fe967cf253e9904d8255650a5932b7536c454508cc58",
+    "w2b14-posted-posttrial-readonly-2026-11-04.json": "0b11eab344ba2a94a9468edc0a3269006b5d56f4a3275f07e3631fa33d3f32eb",
+    "w2b14-posted-final-draft-hash-2026-11-04.json": "80c87cf3f9415b54eee36bc549d9fb2167ed56a6eb8d4a0834bd8fc270ba9402",
+    "w2b14-bound-focus-preparation-2026-11-04.json": "c16f9e4f02c347cda821e88f09d006e8a24a04a6e198133955f852d78bc6e7f5"
+  }
+}

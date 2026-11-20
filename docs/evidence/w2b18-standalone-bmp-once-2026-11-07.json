@@ -1,0 +1,60 @@
+{
+  "status": "background_control_unconfirmed",
+  "mode": "standalone_background_bmp",
+  "model_requests": 0,
+  "marker_sha256": "8ad96efbf2ca78b0ce50ae6d98e1385e96f364f8dc24a24541be4f2576dfe642",
+  "action_id": "8070d04d139e6f15ce906a4631ff87471ea1c8daa2542c6aac1c91777496329a",
+  "review_id": "d54b9f2f48c3f9b5012c7595a1238c20144230cc15e2b52596f73f5a85f5cde4",
+  "operation_id": "74d17a8c79404234a94a4a1b971f4eec",
+  "control_result": {
+    "state": "UNKNOWN",
+    "reason": "background_target_became_foreground",
+    "input_possible": true,
+    "submit_possible": true,
+    "focus_cleanup_verified": false,
+    "input_units_attempted": 30,
+    "posts_attempted": 34,
+    "upstream_ok": false,
+    "delivery_verified": false
+  },
+  "worker_local_cleanup_verified": false,
+  "observation": {
+    "foreground_target_seen": true,
+    "foreground_events": 1,
+    "pointer_samples": 220,
+    "pointer_position_changes": 0,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 88.978,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [
+      "mouse_up"
+    ],
+    "target_detection_sources": [
+      "event"
+    ],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [
+      {
+        "phase": "mouse_up",
+        "object_id": 0,
+        "child_id": 0,
+        "window_self_event": true,
+        "current_foreground_is_target": false,
+        "event_window_is_current": false
+      }
+    ],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "worker_reaped": true,
+  "provider_restored": true,
+  "input_permitted": 1,
+  "submit_permitted": 1,
+  "unique_local_echo": false,
+  "reader_reaped": true,
+  "locks_released": true,
+  "delivery_state": "UNCONFIRMED",
+  "phone_confirmation_required": true
+}

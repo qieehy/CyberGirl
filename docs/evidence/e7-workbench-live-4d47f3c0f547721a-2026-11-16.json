@@ -1,0 +1,60 @@
+{
+  "status": "e7_live_draft_verified_no_send",
+  "run_id": "4d47f3c0f547721a",
+  "started_at": 1794806097.7811756,
+  "input_permits_consumed": 0,
+  "submit_permits_consumed": 0,
+  "live_model_calls_before": 0,
+  "starting_audit": {
+    "operations_and_permits": [
+      16,
+      14,
+      10
+    ],
+    "unknown": 8,
+    "active_operations": 0
+  },
+  "model_approval_reference": "user-call_5bd816e9-new63728-gpt6.1-sol-once",
+  "approved_persona_version": 1,
+  "approved_model": "gpt-6.1-sol",
+  "reviewed_unknown_action_ids": [
+    "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+    "1b72f580238f6f27751f496f17c44ba8dd13b06dc9a5ce9a564f7d2cd7d3973a",
+    "6d36507fd615c85a28711e994ebf1d43d3dc1e1cf1429a172b5b50568b96d391",
+    "8070d04d139e6f15ce906a4631ff87471ea1c8daa2542c6aac1c91777496329a",
+    "9c48e9d7cf1aa63f33be69bc8f65661cb9af1cc534bc01955838706869d17758",
+    "cc9c6a179071690b704ee97d3811e09b011e9c6d26948ee651538d0ca7a3a1b7",
+    "e3917a17916f4156c3ed706951c4ec63adb0b5092ce9ea13eeda8643a2bb6cc1",
+    "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa"
+  ],
+  "source_message_id": "e5732a42566e6fa977abe6f1e6c48a67b847c99201c34d6f83f331f18c63660f",
+  "generation_request": {
+    "request_id": "e7-live-generate-4d47f3c0f547721a",
+    "source_message_id": "e5732a42566e6fa977abe6f1e6c48a67b847c99201c34d6f83f331f18c63660f",
+    "expected_message_revision": 5,
+    "expected_persona_version": 1
+  },
+  "draft_id": "4b1379cc964d4aeea8b6358e05002918ae9bd16b40401b7187ebd17bd80b6dbd",
+  "generation_state": "READY",
+  "logical_model_calls": 1,
+  "expires_at": 1794806227.0963945,
+  "model_trace": {
+    "phase": "complete",
+    "inference_calls": 1,
+    "model_http_attempts": 1,
+    "finished_at": 1794806129.001735
+  },
+  "model_original_sha256": "2dd3add442b8c914f7de241d3ae0b915e5b78eb71b6137e240e838c9861363ab",
+  "ending_audit": {
+    "operations_and_permits": [
+      16,
+      14,
+      10
+    ],
+    "unknown": 8,
+    "active_operations": 0
+  },
+  "integrity_ok": true,
+  "reader_reaped": true,
+  "finished_at": 1794806129.0457006
+}

@@ -1,0 +1,5 @@
+{
+  "status": "stopped",
+  "supported_version": "4.2.0.9",
+  "reason": "background_supported_version_missing"
+}

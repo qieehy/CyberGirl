@@ -1,0 +1,37 @@
+{
+  "recorded_at": 1793784856.566461,
+  "stage_d_complete": false,
+  "test_result": {
+    "command": ".venv\\Scripts\\python.exe -m pytest -q",
+    "passed": 355,
+    "subtests_passed": 848,
+    "elapsed_seconds": 135.98,
+    "real_wechat_effects_during_tests": 0
+  },
+  "ruff_result": "passed",
+  "local_document_links": "passed",
+  "trial_result_immutable": "docs/evidence/w2b12-directed-ready-reply-2026-11-04.json",
+  "post_trial_audit": "docs/evidence/w2b12-post-trial-audit-2026-11-04.json",
+  "source_hash_context": "final_source_after_diagnostic_and_status_fixes_no_further_live_trial",
+  "sha256": {
+    "scripts/probe_wechat_directed_trial.py": "5c00dfd41d9a230b8ffe23bd91d03a3b8ca8a26bb58ac1cec6d9b629d8686e38",
+    "scripts/probe_wechat_window_proc.py": "3486aeeb7988ccef02459584e1b81f94c298ea98e1dafdc454d2dbb4cef6c79d",
+    "scripts/wechat_native_worker.py": "3becc55bd9bedc301e03e5de6ccdba192e01b9711c9de895e09bbb06e822bd62",
+    "scripts/wechat_native_ui.ps1": "79af82f79e20a4a78cbf1f024e52158f1bedc575d697c5b2857cfbf544f9011c",
+    "scripts/wechat_input_metadata.ps1": "85ea62ebabfbd0438226f84699a333618a90c9ef95afd098e2a8a6be207845a8",
+    "src/wechat_agent/bridges/wechat/window_proc.py": "60c920857af327d3dff9cbb2a42e378d6a7811a96bfdec1374d83ae9b845be46",
+    "src/wechat_agent/bridges/wechat/channel_review.py": "061291e44e59d76d5ae61b2ce76d2745ae2ce8093a97f6eb537beb19f83a5593",
+    "src/wechat_agent/bridges/wechat/directed_native.py": "2428798b891f29bd679f9ad3266b0f9976868f28efe2e570828c79a6e18df6af",
+    "src/wechat_agent/bridges/wechat/send_state.py": "0c1c0d6f63f31da25d64b7ba7d9cd04f0da6dbc6418ed44affe1c312a68b5c8f",
+    "src/wechat_agent/bridges/wechat/send_worker.py": "8d5eb62af9fd098d1b1f18ceeff31afa85c0de3ba740d7881320e711a1eea403",
+    "src/wechat_agent/social/ledger.py": "ada2f4febe3b4d2f7d1b00addf9490b98af36dddc380e8761c1200762ce378b0",
+    "tests/test_wechat_directed_native.py": "01da24ae7d91a69289c74d35d616220a8c39956cbe87308b5be66ee3e73d05af",
+    "tests/test_wechat_directed_trial.py": "1baff4f56bbd0477698c1894f0bb1d5eb1afa4e4e17e8c97b57c5b089aac6048",
+    "tests/test_wechat_channel_review.py": "efaf144ef72fd04d24f1331d7290f0bd5c5a244902a8d36ea838b46efc807e14",
+    "docs/W2B12_REVIEWED_TRIAL.md": "ee553530a7732f0ab8c9f6ee80457653f3d9e7b6bae0f238815c746e90cdb4fd",
+    "docs/WECHAT_OPERATION_SCOPE.md": "ce3fd95936770a0d81e9a4b4ec100bd2533e17ea1debe8c7fef3d66ba4ea2bc5",
+    "docs/WECHAT_BRIDGE_IMPLEMENTATION_PLAN.md": "9c2607f2d3ad38ad524c5c7e4a4a64610966c151c6aa8ee449b0504918601a94",
+    "PROJECT_PLAN.md": "a0bae42521c74cc837b445fa9741bd284a9e09cd73c3fb18f224bab72494149d",
+    "README.md": "fee4cff1858dba9de82ef878513dc282be9035276ec9814d79081b71cdda7269"
+  }
+}

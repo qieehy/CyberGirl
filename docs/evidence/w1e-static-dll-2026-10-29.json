@@ -1,0 +1,150 @@
+{
+  "machine": "x64",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "virtual_size": 126252231,
+      "raw_size": 126252544,
+      "file_offset": 1024,
+      "characteristics": 1610612768
+    },
+    {
+      "name": ".rdata",
+      "rva": 126259200,
+      "virtual_size": 62459904,
+      "raw_size": 62459904,
+      "file_offset": 126253568,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".data",
+      "rva": 188719104,
+      "virtual_size": 9921816,
+      "raw_size": 9448448,
+      "file_offset": 188713472,
+      "characteristics": 3221225536
+    },
+    {
+      "name": ".pdata",
+      "rva": 198643712,
+      "virtual_size": 6236196,
+      "raw_size": 6236672,
+      "file_offset": 198161920,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".gxfg",
+      "rva": 204881920,
+      "virtual_size": 16032,
+      "raw_size": 16384,
+      "file_offset": 204398592,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".qtmetad",
+      "rva": 204898304,
+      "virtual_size": 749,
+      "raw_size": 1024,
+      "file_offset": 204414976,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".qtmimed",
+      "rva": 204902400,
+      "virtual_size": 336838,
+      "raw_size": 336896,
+      "file_offset": 204416000,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".tls",
+      "rva": 205242368,
+      "virtual_size": 6901,
+      "raw_size": 7168,
+      "file_offset": 204752896,
+      "characteristics": 3221225536
+    },
+    {
+      "name": "_RDATA",
+      "rva": 205250560,
+      "virtual_size": 500,
+      "raw_size": 512,
+      "file_offset": 204760064,
+      "characteristics": 1073741888
+    },
+    {
+      "name": "malloc_h",
+      "rva": 205254656,
+      "virtual_size": 398,
+      "raw_size": 512,
+      "file_offset": 204760576,
+      "characteristics": 1610612768
+    },
+    {
+      "name": ".rsrc",
+      "rva": 205258752,
+      "virtual_size": 114140,
+      "raw_size": 114176,
+      "file_offset": 204761088,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".reloc",
+      "rva": 205373440,
+      "virtual_size": 978876,
+      "raw_size": 978944,
+      "file_offset": 204875264,
+      "characteristics": 1107296320
+    }
+  ],
+  "image_size": 206352384,
+  "core_string_rvas": [
+    152292296
+  ],
+  "core_reference_rvas": [
+    8870205,
+    8870206,
+    8876737,
+    8876738,
+    8876810,
+    8876811,
+    8877797,
+    8877798,
+    8877870,
+    8877871
+  ],
+  "signature_candidates": [
+    {
+      "instruction_rva": 8872546,
+      "candidate_rva": 189758472,
+      "target_section": ".data",
+      "nearest_core_xref_distance": 2340
+    },
+    {
+      "instruction_rva": 68750642,
+      "candidate_rva": 198433592,
+      "target_section": ".data",
+      "nearest_core_xref_distance": 59872771
+    }
+  ],
+  "near_core_candidates": [
+    {
+      "instruction_rva": 8872546,
+      "candidate_rva": 189758472,
+      "target_section": ".data",
+      "nearest_core_xref_distance": 2340
+    }
+  ],
+  "distinct_near_targets": [
+    189758472
+  ],
+  "runtime_verified": false,
+  "process_memory_accessed": false,
+  "interpretation": "Static candidates only; do not use as a write authorization or proof of compatibility.",
+  "recorded_at": "2026-10-29T13:35:28.131239+00:00",
+  "dll": "C:\\Program Files\\Tencent\\Weixin\\4.2.0.9\\Weixin.dll",
+  "sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+  "bytes": 205865000,
+  "script_sha256": "5c84fa742bd388e65d51ce302e29b989ea6e0864132d4f010de674006428c64f"
+}

@@ -1,0 +1,15 @@
+{
+  "at": 1794366587.0394204,
+  "reference": "user-batch-8b732c4a52b747fdb99e0b2609aaf85f",
+  "covered_phone_confirmed": true,
+  "authorized_messages": [
+    "W2B-20261107-background-integrated-\u4e2d\u6587",
+    "W2B-20261107-background-restart-\u4e2d\u6587"
+  ],
+  "each_at_most_once": true,
+  "continuous_receive_seconds": 1800,
+  "target": "original-account:filehelper:standalone",
+  "background_no_hardware_no_draft_clear_no_retry": true,
+  "reviewed_old_unknown_count": 8,
+  "old_delivery_states_unchanged": true
+}

@@ -1,0 +1,113 @@
+{
+  "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+  "input_class": "mmui::ChatInputField",
+  "input_vtable_rva": 156200152,
+  "event_filter_rva": 35332016,
+  "return_helper_rva": 35326864,
+  "return_branches": [
+    {
+      "qt_key": 16777220,
+      "branch_rva": 35326563
+    },
+    {
+      "qt_key": 16777221,
+      "branch_rva": 35326563
+    }
+  ],
+  "input_send_signal": {
+    "index": 0,
+    "name": "send",
+    "argc": 1,
+    "flags": 6,
+    "types": [
+      43,
+      2147483651
+    ],
+    "type_names": [
+      "metatype:43",
+      "SendActionType"
+    ]
+  },
+  "input_send_signal_rva": 9150592,
+  "view_send_method": "ChatInputView::Send(SendActionType)",
+  "view_send_rva": 29585072,
+  "key_modifiers_and_preferences_affect_return": true,
+  "return_send_argument_values": [
+    1,
+    2
+  ],
+  "wm_char_qt_events": [
+    {
+      "type": 6,
+      "key": 0
+    },
+    {
+      "type": 7,
+      "key": 0
+    }
+  ],
+  "native_receiver_can_use_key_grabber": true,
+  "keydown_has_key_record_store_path": true,
+  "keyup_uses_prior_key_record": true,
+  "candidates": [
+    {
+      "message": "WM_KEYDOWN",
+      "qualified": false,
+      "reason": "key_record_cleanup_and_queue_unproven"
+    },
+    {
+      "message": "WM_CHAR",
+      "qualified": false,
+      "reason": "key_zero_does_not_match_traced_return_branch"
+    },
+    {
+      "message": "WM_KEYUP",
+      "qualified": false,
+      "reason": "prior_record_not_an_independent_press"
+    }
+  ],
+  "code_windows": {
+    "input_event_filter": {
+      "rva": 35332016,
+      "size": 192,
+      "sha256": "3b3ee3cadd6d93e617d0b81730e778e43c980e605f7501aa1a790b2af008ae30"
+    },
+    "return_dispatch": {
+      "rva": 35326336,
+      "size": 368,
+      "sha256": "4c831ac8a66b2cca24a3ef002f7cccd3bdd2656422a519987d21726bcd86e506"
+    },
+    "return_helper": {
+      "rva": 35326864,
+      "size": 488,
+      "sha256": "3a6c26199689b8374d62fb011b2d88545b76be84c1fb884270768a1de55459bc"
+    },
+    "typed_connection": {
+      "rva": 29547961,
+      "size": 157,
+      "sha256": "9d9af190885a773e2276d3d801435beef57f8ded9f9f2be1d9211cd77c64c8c1"
+    },
+    "char_key_events": {
+      "rva": 40790988,
+      "size": 144,
+      "sha256": "ba060873b681be5508d14fb26c3cc28bf85bd78b976b0c986fb4c81350f9e2e8"
+    },
+    "key_record_store": {
+      "rva": 40795680,
+      "size": 160,
+      "sha256": "81c6cc0fa8399b86fb8b38870af6b2f580da76eed1f6502b23d89d572b66a71a"
+    }
+  },
+  "uses_historical_live_input_binding": true,
+  "live_process_accessed": false,
+  "current_filter_registration_observed": false,
+  "current_input_send_connection_observed": false,
+  "current_send_preference_observed": false,
+  "live_native_route_verified": false,
+  "submission_enabled": false,
+  "native_methods_executed": 0,
+  "window_messages_sent": 0,
+  "interpretation": "No qualified single-message keyboard submission. Static input signal route is conditional; runtime policy and native event state are unobserved.",
+  "recorded_at": "2026-11-03T05:01:43.119516+00:00",
+  "script_sha256": "3c030dd810b09c7018d94a8977b0f2c79c6c4ed65a6746dede553716232ac69d"
+}

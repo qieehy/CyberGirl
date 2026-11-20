@@ -1,0 +1,62 @@
+{
+  "status": "r1_workbench_readonly_acceptance_passed",
+  "continuous_seconds": 1800.0,
+  "midrun_restart": {
+    "at_seconds": 900.2190000000119,
+    "prior_reader_pid": 33836,
+    "new_reader_pid": 46420,
+    "checkpoints_unchanged": true,
+    "generation_unchanged": true
+  },
+  "markers": [
+    {
+      "label": "A",
+      "message_id": "c311e38b5fbf6ce5cf879ede2fda8336abe17c45957b41e571725baec46f5122",
+      "sha256": "82786b97b67f56ef8dd7f8c2e950ba20f6a93dd0073f64844748774281aa8261",
+      "rows": 1,
+      "at_seconds": 199.34400000001187,
+      "after_restart": false
+    },
+    {
+      "label": "B",
+      "message_id": "204e9ac0597e68bba9e572c3521c13c9ac7946b43f2072a66fa261fadc98fd26",
+      "sha256": "13bad0ebf0c6652b838bb273c0d831917585d23ce528fb89bf988e650723a6cb",
+      "rows": 1,
+      "at_seconds": 861.8120000000054,
+      "after_restart": false
+    },
+    {
+      "label": "C",
+      "message_id": "072322316e396079c851964685641e3da8a8e83bcb9f682fac6a6c4d92e76f11",
+      "sha256": "d847be328e696c8c45d4bc5ee7c468400be2f5d2657b834c5e1ff48126b6bb54",
+      "rows": 1,
+      "at_seconds": 993.7810000000172,
+      "after_restart": true
+    }
+  ],
+  "http_checks": 60,
+  "new_drafts": 0,
+  "new_model_traces": 0,
+  "new_send_operations": 0,
+  "original_send_history_preserved": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true
+  },
+  "unknown_ids_unchanged": true,
+  "send_counts": [
+    17,
+    15,
+    11
+  ],
+  "active_operations": 0,
+  "active_bindings": 0,
+  "prior_e7_action_state": "CONFIRMED",
+  "integrity_ok": true,
+  "all_readers_reaped": true,
+  "runtime_source_sha256": "244fd82f543df9c71132a0cf9283c09719edf5ad34920b61c32ffb953f42dfd1",
+  "gate_after": 0
+}

@@ -1,0 +1,231 @@
+{
+  "stage": "H3",
+  "status": "passed_local_runtime_and_critical_acceptance",
+  "recorded_at_utc": "2026-10-27T05:21:09.297473+00:00",
+  "user_timezone": "Asia/Shanghai",
+  "python": "3.12.9",
+  "platform": "win32",
+  "architecture": "",
+  "versions": {
+    "wechat-agent": "0.1.0",
+    "ai-agent": "0.3.0",
+    "httpx": "0.28.1",
+    "tiktoken": "0.14.0",
+    "pytest": "9.1.1",
+    "ruff": "0.16.1",
+    "pip": "24.3.1"
+  },
+  "verification_policy": "Six H3 acceptance scenarios only. One prior full H1-H3 regression; after the final credential snapshot refinement, reran only these six. No further functional reruns during packaging/documentation.",
+  "prior_full_regression": {
+    "tests_passed": 93,
+    "subtests_passed": 848,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "reported_elapsed_seconds": 48.47,
+    "junit_suite_time_seconds": 48.377,
+    "recorded_at": "2026-10-26T23:41:26.753573+08:00",
+    "junit_cases": 941,
+    "junit_file": ".build/h3-tests.xml",
+    "junit_sha256": "d3889fb8a9037a32f2968fa5fbff3f4ed49fbca90a1393fdebe04fda0cb83d8f"
+  },
+  "final_critical_acceptance": {
+    "tests_passed": 6,
+    "subtests_passed": 2,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "reported_elapsed_seconds": 12.29,
+    "junit_suite_time_seconds": 12.154,
+    "recorded_at": "2026-10-27T00:13:13.152504+08:00",
+    "junit_cases": 8,
+    "junit_file": ".build/h3-critical.xml",
+    "junit_sha256": "933a25319e900b1f365ab668db997edca39322d27912d94218fdae861ac87a74"
+  },
+  "final_refinement": {
+    "reason": "Identify a rotated credential pair even if access_token remains unchanged; stale HTTP 401 cannot consume the new refresh grant or invalidate the new pair.",
+    "changed_since_full_regression": [
+      "src/wechat_agent/providers/codex/config.py",
+      "src/wechat_agent/providers/codex/token_manager.py",
+      "tests/test_chat.py"
+    ],
+    "revalidated": "all six H3 scenarios, including same-access-token rotation and stale rejection in the existing HTTP 401 scenario",
+    "full_suite_rerun_after_refinement": false
+  },
+  "checks": {
+    "ruff": "All checks passed on final Python sources",
+    "pip_check": "No broken requirements found at prior full-regression stage; dependency locks unchanged since H2",
+    "project_wheel": "offline build --no-index --no-deps --no-build-isolation; packaged Python files and tokenizer/license checked"
+  },
+  "critical_scenarios": [
+    "Actual Runtime, native DPAPI synthetic auth, HTTP multi-turn, confirmed-only history, login/scope isolation, no extra clients/workers/tools or raw-input logs",
+    "Same-scope queue cancellation, independent scope execution, cancelled logout waiter does not cancel owned logout, resource and temporary vault release",
+    "HTTP 401 -> refresh -> success versus second HTTP 401 -> reauthentication; max one refresh and two inference requests; stale same-access-token rejection ignored",
+    "Identity changes before session acquisition: zero model HTTP requests containing old context",
+    "Unexpected tool result rejected before tool execution or another logical model call",
+    "Cold offline Runtime import and installed UTF-8 CLI multi-turn/reset/exit"
+  ],
+  "framework": {
+    "name": "ai-agent",
+    "version": "0.3.0",
+    "source_sha256": "5af9d2875abca7598e2539af1e281f9271d8cb51f482c0b5b109f335ba9b02cc",
+    "installed_python_files_checked": 61,
+    "installed_python_files_match_lock": true,
+    "wheel": ".build/wheels/ai_agent-0.3.0-py3-none-any.whl",
+    "wheel_sha256": "29f4efabbe67294d4c575a393d9088be145124f466470d15bf97bdb56130837e",
+    "wheel_matches_lock": true,
+    "original_checkout_modified_by_this_task": false,
+    "original_checkout_current_drift": {
+      "README.md": {
+        "locked_sha256": "f5897202e503f8fac6ec291a2467230122c3b4ffcdc4bdb40eb2cce142a682d1",
+        "current_sha256": "4624eff04b618a3c9c83041c0366ac25b0ed3dbeae4151ff569c510d64e0861c"
+      },
+      "config/settings.py": {
+        "locked_sha256": "cfa1515757941cc5818c7507333eef597dd66cbc913179cc5af36e36a0c7a589",
+        "current_sha256": "165428b308862377ab3fb26f2390b250a072290bb099d94bb4144fdaac82913e"
+      },
+      "llm/client.py": {
+        "locked_sha256": "6cc20c44315918ac9abdb0caaccd4fe32212b7b17c09065bee940a5a6b858f6d",
+        "current_sha256": "20d557b5347eeaacd38f3eb4cf248f0ca0b5052d89cb38ed591f885175696576"
+      },
+      "llm/models.py": {
+        "locked_sha256": "636a30c38bcfe5492d8f8f5c18dc389790951362dea9b299660721d6d585d393",
+        "current_sha256": "c78894d0cf534a7ac52027d4f5a51ecc0dfa80bae5735b772f25e5f324e597c4"
+      },
+      "observability/operations.py": {
+        "locked_sha256": "7b52d547df609d9e4eef0eb558497c9838e4f599ec8b056b24c3ddcf8bf6416f",
+        "current_sha256": "96ba437ccc9f1e9c146fcebe1f3bc1e163a36156c5c0b66074f88ea67008754d"
+      },
+      "observability/recorder.py": {
+        "locked_sha256": "450e829067966c87ae325644aa86f5c02a5667b11bfcba0b07f070c52ec98070",
+        "current_sha256": "94974d68188512108ae8ab952be5215baf03fc934cfbc218f3b8fa05c5d8caea"
+      },
+      "pyproject.toml": {
+        "locked_sha256": "dbc21183cdeefb17d6ea4e94f99adc198becd17f59ce165b13a257028ec2af97",
+        "current_sha256": "89277f45c38e0e8ea7ae440b9b352d10fb95d57a77ca3e3cbdf80e814ec030a4"
+      },
+      "runtime/runtime.py": {
+        "locked_sha256": "93b6d4f74a394709ca09a7ff1d45cfe658f26fcd988b3a1bc256f4218776c534",
+        "current_sha256": "1ae1dfd823082c367e50f607868cd89d96f0f3705a3e35417779f31dbdd7ecd5"
+      },
+      "runtime/usage.py": {
+        "locked_sha256": "e57c78048f09cf070ae57f81b05477cb26a622b17919aafb5ef838e4af982431",
+        "current_sha256": "36897b24a4cf128a904eb9610616140a45daf5bed722cda01a519f45fe6a9eb9"
+      }
+    },
+    "note": "The adjacent source checkout now differs from the H1 snapshot. H3 uses the installed locked wheel, not that newer checkout. No automatic source upgrade or lock rewrite."
+  },
+  "dependency_locks_unchanged_since_h2": true,
+  "project_wheel": {
+    "path": ".build/project-wheels/wechat_agent-0.1.0-py3-none-any.whl",
+    "sha256": "a5cf237f85d83b7767c9dfe55ef5956cae155f891da9d6406970b38fea80f895",
+    "bytes": 816743,
+    "packaged_python_modules": 21,
+    "source_files_match_current": true,
+    "tokenizer_sha256": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7",
+    "tokenizer_bytes": 1681126,
+    "tokenizer_license_packaged": true
+  },
+  "network_scope": {
+    "auth_and_inference_acceptance": "loopback and synthetic tokens only",
+    "public_asset_download": "cl100k_base tokenizer, fixed SHA-256, no inference",
+    "real_oauth_login": "not run",
+    "real_model": "not run",
+    "wechat": "not run"
+  },
+  "limitations": [
+    "H4 model catalog and real subscription requests remain unverified",
+    "Chat history is acknowledged RAM pairs, not durable inbox/outbox or all received social messages",
+    "No WeChat adapter, group reply acceptance, graphical management UI or long-term unattended claim"
+  ],
+  "prior_full_regression_file_sha256": {
+    "pyproject.toml": "2bcd777e84995e09059ff5e8df8aa242db7b330751b6bb37c0c47e3da2c9de8a",
+    "requirements.lock": "5a6bf03c53170bac0696e27f510e2eefde3c97ec33c3a7d78beec9f2a8a92e0a",
+    "requirements-build.lock": "fbf492e05a8d5e81cfdf2f609d2e9c1b716d8b0136fc00145922296cee1c10e2",
+    "framework.lock.json": "cfbe3f390b2a9d90ebdf0302aec97367229c54a1113e4b482e9e57d4135c40e1",
+    "src/wechat_agent/__init__.py": "ce72db04d6d81c8b2160c26f37d41d9289f238a34c27bfd7b78a855a867aaab2",
+    "src/wechat_agent/bootstrap.py": "376b3e86279ea1cdb40ce46da732df19e8a634716abe6a768db78c39cbba9810",
+    "src/wechat_agent/chat.py": "60eb18c1eb7f3501b6a10bfc64ad1872e9a341e38d25f45e1fd128331f0b81f4",
+    "src/wechat_agent/cli.py": "59f86f6d440817d6c46223d438fa7f293c7856ddc5aeb69ac6e4a6f9bed12f9e",
+    "src/wechat_agent/context.py": "0de58b9314ac3833c3895651dbde7fb7392435ae70b6c7625a91237214a594f2",
+    "src/wechat_agent/demo.py": "30966f526c1d232d846dc756e4483b6b201a55ed61bb19e08b61409fd12315e1",
+    "src/wechat_agent/framework.py": "f3255e2927eab82961bf64820f4ab066f899d83b0e2f6e8fe1f919b7931d1d80",
+    "src/wechat_agent/mock_backend.py": "b88dfd0631418eea9cdc74b8777e1120bef238e1cd2af6540fdc6c50e9129c46",
+    "src/wechat_agent/providers/__init__.py": "6b79b1ad6f408d57b533df486d816b363d63fd467f089b80e13c5ca10b325b84",
+    "src/wechat_agent/providers/codex/__init__.py": "e72f5f9cb4671de2d4aa908e9ae27ecac1bb7746240839cb82ce9c09a4b95834",
+    "src/wechat_agent/providers/codex/auth.py": "5e228a7d45ea109a172e261be8b1b0b7d78e911fb20fe023f04fae3d5b8d19cd",
+    "src/wechat_agent/providers/codex/auth_models.py": "5b255b6d36d8c6a43b97a67f6a1f7e6550cd91a5fc79b37a34e291e078769f94",
+    "src/wechat_agent/providers/codex/config.py": "e5cab7943628699ca15d0b6b866a98c09ae12f9cf6438dfb3ab4bcc024a45cfe",
+    "src/wechat_agent/providers/codex/credentials.py": "705c7b8d720636bbfdd3cac5878be539b1a187d9adffab67cd53b0566536375d",
+    "src/wechat_agent/providers/codex/errors.py": "718289e10e2b5e1284d3da6dc5dd38c40bbe8ad9d1b1db0e7f67fcce00371044",
+    "src/wechat_agent/providers/codex/protection.py": "6f1c3f39f9a262604d84e018e0e8d2124da577364c892c1c8c32d430d440a7d8",
+    "src/wechat_agent/providers/codex/provider.py": "dca04619e5d0394f19042ffeb2736d3690cf31943e05b92d26760257b695b284",
+    "src/wechat_agent/providers/codex/response.py": "241ece6cd832c479b1a2addaac0985f2075ab838984ba90131351ece21a682b0",
+    "src/wechat_agent/providers/codex/sse.py": "fc5f6a33bedf56637d997277b7004a5821b604d3dc6205b961d17b2a281cf1af",
+    "src/wechat_agent/providers/codex/token_manager.py": "1aa5aac51dadb7a05091b97a996af904e77d7069d59e7b60c75109bba6afe713",
+    "src/wechat_agent/providers/codex/transport.py": "6aa2fa5b320498ce102238d1a0cecedb04351411f8a7be9f4063d79fd053d70f",
+    "tests/__init__.py": "f81f2e7c3f4b0c6b1c1c84e975fdbac0a718f4b9638c9b3c4f424438a2b04d79",
+    "tests/auth_support.py": "86a7b565e81bf101d115bcd6c5ba4e540766491d14711dfac6af618c759250d0",
+    "tests/support.py": "28835dfc6735d5aca3befa0437d15bb8a3d43d5203d3cf6ea4ee0696bbebec18",
+    "tests/test_auth_cli.py": "417141553ad92ef61d6f9a1e596c72da1036692f9ef7a83c779244d870a8e4c1",
+    "tests/test_auth_http.py": "ed17f8c12ba19f17e5b496f61a876dc32db18f58c4e5390ff045e2d171a16bf8",
+    "tests/test_chat.py": "f885ecac9e2afd8db2e4cff89e0c7218c7dec57024087fcdfc6570b00264d18d",
+    "tests/test_cli.py": "4c1e5c4d228a5de2431297b7572195342d46ef9c5046b338a2c019def833088f",
+    "tests/test_credentials.py": "61291b0b9074800cc2c24925763cba1c766891d83c5d1c78d73a9836093dc3e9",
+    "tests/test_http.py": "6d421451c20371215a0172ea49f620a8853d7c13b5140d608102a5eda789c29c",
+    "tests/test_protocol.py": "4e7406ebdae092d6ecd8743c0bdf00db5fee885d127065003b4b820f77236233",
+    "tests/test_token_manager.py": "b37c618622c947209e6b9b8f32a5dbd507026dc546ed454be5562228782baf44",
+    "scripts/build_framework.py": "d36cbae2c5a3d325a7db12885e44bfadff3025a0d67a0226502d91b39da37591",
+    "scripts/fetch_tokenizer.py": "bb96a14b7632f6a6adc3e05b5abc8906389e2412f1884203ae1c0ddeff463d1c",
+    "scripts/lock_dependencies.py": "851224f43cba4dc62c7d13201341831beb245aa0e9b526f4bed1af27b67305ae"
+  },
+  "final_file_sha256": {
+    "pyproject.toml": "2bcd777e84995e09059ff5e8df8aa242db7b330751b6bb37c0c47e3da2c9de8a",
+    "requirements.lock": "5a6bf03c53170bac0696e27f510e2eefde3c97ec33c3a7d78beec9f2a8a92e0a",
+    "requirements-build.lock": "fbf492e05a8d5e81cfdf2f609d2e9c1b716d8b0136fc00145922296cee1c10e2",
+    "framework.lock.json": "cfbe3f390b2a9d90ebdf0302aec97367229c54a1113e4b482e9e57d4135c40e1",
+    "src/wechat_agent/__init__.py": "ce72db04d6d81c8b2160c26f37d41d9289f238a34c27bfd7b78a855a867aaab2",
+    "src/wechat_agent/bootstrap.py": "376b3e86279ea1cdb40ce46da732df19e8a634716abe6a768db78c39cbba9810",
+    "src/wechat_agent/chat.py": "60eb18c1eb7f3501b6a10bfc64ad1872e9a341e38d25f45e1fd128331f0b81f4",
+    "src/wechat_agent/cli.py": "59f86f6d440817d6c46223d438fa7f293c7856ddc5aeb69ac6e4a6f9bed12f9e",
+    "src/wechat_agent/context.py": "0de58b9314ac3833c3895651dbde7fb7392435ae70b6c7625a91237214a594f2",
+    "src/wechat_agent/demo.py": "30966f526c1d232d846dc756e4483b6b201a55ed61bb19e08b61409fd12315e1",
+    "src/wechat_agent/framework.py": "f3255e2927eab82961bf64820f4ab066f899d83b0e2f6e8fe1f919b7931d1d80",
+    "src/wechat_agent/mock_backend.py": "b88dfd0631418eea9cdc74b8777e1120bef238e1cd2af6540fdc6c50e9129c46",
+    "src/wechat_agent/providers/__init__.py": "6b79b1ad6f408d57b533df486d816b363d63fd467f089b80e13c5ca10b325b84",
+    "src/wechat_agent/providers/codex/__init__.py": "e72f5f9cb4671de2d4aa908e9ae27ecac1bb7746240839cb82ce9c09a4b95834",
+    "src/wechat_agent/providers/codex/auth.py": "5e228a7d45ea109a172e261be8b1b0b7d78e911fb20fe023f04fae3d5b8d19cd",
+    "src/wechat_agent/providers/codex/auth_models.py": "5b255b6d36d8c6a43b97a67f6a1f7e6550cd91a5fc79b37a34e291e078769f94",
+    "src/wechat_agent/providers/codex/config.py": "9e7af5e1e860281b41ec2948a6c93f8d2ad9f0ade15d930bfbeb738be377485a",
+    "src/wechat_agent/providers/codex/credentials.py": "705c7b8d720636bbfdd3cac5878be539b1a187d9adffab67cd53b0566536375d",
+    "src/wechat_agent/providers/codex/errors.py": "718289e10e2b5e1284d3da6dc5dd38c40bbe8ad9d1b1db0e7f67fcce00371044",
+    "src/wechat_agent/providers/codex/protection.py": "6f1c3f39f9a262604d84e018e0e8d2124da577364c892c1c8c32d430d440a7d8",
+    "src/wechat_agent/providers/codex/provider.py": "dca04619e5d0394f19042ffeb2736d3690cf31943e05b92d26760257b695b284",
+    "src/wechat_agent/providers/codex/response.py": "241ece6cd832c479b1a2addaac0985f2075ab838984ba90131351ece21a682b0",
+    "src/wechat_agent/providers/codex/sse.py": "fc5f6a33bedf56637d997277b7004a5821b604d3dc6205b961d17b2a281cf1af",
+    "src/wechat_agent/providers/codex/token_manager.py": "d51a16cc48f5f66c06bf989307b525af3489a37aa41c998dde5858c13a3377fe",
+    "src/wechat_agent/providers/codex/transport.py": "6aa2fa5b320498ce102238d1a0cecedb04351411f8a7be9f4063d79fd053d70f",
+    "tests/__init__.py": "f81f2e7c3f4b0c6b1c1c84e975fdbac0a718f4b9638c9b3c4f424438a2b04d79",
+    "tests/auth_support.py": "86a7b565e81bf101d115bcd6c5ba4e540766491d14711dfac6af618c759250d0",
+    "tests/support.py": "28835dfc6735d5aca3befa0437d15bb8a3d43d5203d3cf6ea4ee0696bbebec18",
+    "tests/test_auth_cli.py": "417141553ad92ef61d6f9a1e596c72da1036692f9ef7a83c779244d870a8e4c1",
+    "tests/test_auth_http.py": "ed17f8c12ba19f17e5b496f61a876dc32db18f58c4e5390ff045e2d171a16bf8",
+    "tests/test_chat.py": "9a49b99eba71001c1fa4b7ea1320f6ee5f4263cdebd65916ae70848f14f4fb1c",
+    "tests/test_cli.py": "4c1e5c4d228a5de2431297b7572195342d46ef9c5046b338a2c019def833088f",
+    "tests/test_credentials.py": "61291b0b9074800cc2c24925763cba1c766891d83c5d1c78d73a9836093dc3e9",
+    "tests/test_http.py": "6d421451c20371215a0172ea49f620a8853d7c13b5140d608102a5eda789c29c",
+    "tests/test_protocol.py": "4e7406ebdae092d6ecd8743c0bdf00db5fee885d127065003b4b820f77236233",
+    "tests/test_token_manager.py": "b37c618622c947209e6b9b8f32a5dbd507026dc546ed454be5562228782baf44",
+    "scripts/build_framework.py": "d36cbae2c5a3d325a7db12885e44bfadff3025a0d67a0226502d91b39da37591",
+    "scripts/fetch_tokenizer.py": "bb96a14b7632f6a6adc3e05b5abc8906389e2412f1884203ae1c0ddeff463d1c",
+    "scripts/lock_dependencies.py": "851224f43cba4dc62c7d13201341831beb245aa0e9b526f4bed1af27b67305ae"
+  },
+  "documentation_sha256": {
+    "README.md": "fd9d3170ea79585ed0e4443d16e278db441a095772cf6ab6a00b020697adea37",
+    "PROJECT_PLAN.md": "c8452b2425bf4507e6ad3ec9f2598042f654e8cc1a97b2a220d5040d818b6f8c",
+    "docs/H3_IMPLEMENTATION.md": "d4dd998a8af3614441e709023de5d9aa7f2532f545a65424dd0e35957641cd13",
+    "docs/HERMES_CODEX_PLAN.md": "f28173993650be609a20b03834ac47cddc041b5de3bbc0049d2225c9c7f6e37b",
+    "docs/FEASIBILITY_AND_EXECUTION.md": "6ff703b126126ca8e6a512fd5e4e055f711be6e1a558a9c6fb495fe72540e2e8",
+    "docs/H2_IMPLEMENTATION.md": "edb363287d3a7f65eb76e112a2df08caf46361e5ed443e3e3c9f52361de47d79"
+  }
+}

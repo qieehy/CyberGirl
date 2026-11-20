@@ -1,0 +1,116 @@
+{
+  "status": "observed",
+  "input_actions": 0,
+  "external_messages": 0,
+  "model_requests": 0,
+  "mode": "activate_once",
+  "pid": 34044,
+  "hwnd": 68894,
+  "created_filetime": "134380654003431728",
+  "observation": {
+    "complete": true,
+    "node_count": 147,
+    "errors": 0,
+    "input_count": 1,
+    "inputs": [
+      {
+        "name_is_canonical_filehelper": false,
+        "focused": false,
+        "type": "ControlType.Edit",
+        "selected": false,
+        "class_name": "mmui::ChatInputField",
+        "item_type_is_canonical_filehelper": false,
+        "help_is_canonical_filehelper": false,
+        "draft_source": "ValuePattern",
+        "item_status_is_canonical_filehelper": false,
+        "runtime_token": "b2b3a568746d047eb77aeaad603e90d87151db576fbd9388db74a830552e6394",
+        "automation_id_present": true,
+        "value_read_only": false,
+        "parent": 92,
+        "name_contains_filehelper_label": true,
+        "pattern_ids": [
+          10000,
+          10002,
+          10014
+        ],
+        "index": 98,
+        "display_is_filehelper": true,
+        "role": "chat_input",
+        "offscreen": false,
+        "enabled": true,
+        "depth": 18,
+        "automation_id_filehelper_token": false,
+        "draft": {
+          "status": "read",
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "empty": true
+        }
+      }
+    ],
+    "send_button_candidates": [
+      {
+        "focused": false,
+        "type": "ControlType.Button",
+        "selected": false,
+        "class_name": "mmui::XOutlineButton",
+        "pattern_ids": [
+          10000,
+          10002
+        ],
+        "automation_id_present": false,
+        "parent": 110,
+        "index": 122,
+        "display_is_filehelper": false,
+        "role": "send_button_candidate",
+        "offscreen": false,
+        "enabled": false,
+        "depth": 20,
+        "automation_id_filehelper_token": false
+      }
+    ],
+    "selected_sessions": [
+      {
+        "name_is_canonical_filehelper": false,
+        "focused": false,
+        "type": "ControlType.ListItem",
+        "selected": true,
+        "class_name": "mmui::ChatSessionCell",
+        "item_type_is_canonical_filehelper": false,
+        "help_is_canonical_filehelper": false,
+        "item_status_is_canonical_filehelper": false,
+        "automation_id_present": true,
+        "parent": 74,
+        "name_contains_filehelper_label": true,
+        "pattern_ids": [
+          10000,
+          10002,
+          10010
+        ],
+        "index": 84,
+        "display_is_filehelper": false,
+        "role": "other",
+        "offscreen": false,
+        "enabled": true,
+        "value_is_canonical_filehelper": false,
+        "depth": 15,
+        "automation_id_filehelper_token": false
+      }
+    ],
+    "identity_hint_indexes": [],
+    "canonical_identity_verified": false,
+    "native_send_enabled": false
+  },
+  "collector_reaped": true,
+  "restore_verified": true,
+  "original": 0,
+  "recorded_at": "2026-11-02T05:00:38.012867+00:00",
+  "implementation_sha256": {
+    "scripts/probe_wechat_input.py": "c171729c1db80f53254305f4359c791e7252e66fee6209e0d9ea91b833e71489",
+    "scripts/probe_wechat_input.ps1": "41449047b7ce8d7f58e3a4c700254b5e5ff0d7e4cc4345938e3cd7ed270a4eb1",
+    "scripts/wechat_input_metadata.ps1": "c3908ff29b3561e96d41fd9201f27e7b2f9150fc8a56678f3968b92c0a5690c2",
+    "scripts/uia_tree.ps1": "27c7750a347f3769c971fa0cc67d1c74b4aa9126d12201db6000be31c8a1661f",
+    "scripts/verify_wechat_accessibility.py": "0d664efd1c9aa397bada5ea2f56f69d1e53453acd5f9a4ed3c99ccc90e8b06b9",
+    "src/wechat_agent/bridges/wechat/sender.py": "c4416feb8ccc54f13a4ebafec24fd9446687a5a6cd5db6fce1810d6019177ccb"
+  }
+}

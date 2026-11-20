@@ -1,0 +1,168 @@
+{
+  "status": "stopped",
+  "mode": "restarted_background_bmp",
+  "marker_sha256": "9e74bfe8257d73d120834f841a89d0363fb2270e4413c3a865c261f3ac2cef72",
+  "service_pid": 48324,
+  "model_requests": 0,
+  "start_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794366702000,
+        "local_id": 163
+      },
+      "local_fence": 163
+    }
+  },
+  "reader_start_pid": 35228,
+  "starting_counts": {
+    "operations": 15,
+    "inputs": 13,
+    "submits": 9
+  },
+  "binding_generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+  "background_revalidation": {
+    "source_generation": "96dba0cb0ff1e650fe490b105761420f3698f7e8e3b105617cb8e81a821ef81f",
+    "generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+    "observed_at": 1794366881.727234,
+    "other_input_generations_exited": true,
+    "build_transition_verified": true
+  },
+  "readiness": {
+    "account_and_filehelper_verified": true,
+    "both_draft_patterns_empty": true,
+    "same_editor_and_button": true,
+    "standalone_identity_verified": true,
+    "background_observer_active": true,
+    "no_capture": true,
+    "button_not_pressed": true,
+    "class_entry_matches_pinned_code": true,
+    "covered_by_other_app": true,
+    "observed_at": 1794366881.729301,
+    "binding_generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+    "prior_input_context_reconciled": true,
+    "background_admission_verified": true
+  },
+  "prior_service_pid": 32800,
+  "confirmed_replay_checks": 1,
+  "action_id": "02df81f6161509bc66ebd6946623df7f187bca7d840cdbf5b5e02cbf33e822cc",
+  "review_id": "7d184a0450e1a920a59832bce429b05a71a1a9e76db94b6f4c1b2de1fece7aa3",
+  "dispatch_state": "UNCONFIRMED",
+  "operation_id": "0288e84059dd42ecb87354bb4d3c46d2",
+  "control_result": {
+    "state": "REQUESTED",
+    "reason": "sent",
+    "input_possible": true,
+    "submit_possible": true,
+    "focus_cleanup_verified": true,
+    "input_units_attempted": 34,
+    "posts_attempted": 38,
+    "upstream_ok": true,
+    "delivery_verified": false
+  },
+  "worker_local_cleanup_verified": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 0,
+    "pointer_samples": 304,
+    "pointer_position_changes": 132,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 216.585,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [],
+    "target_detection_sources": [],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "input_permitted": 1,
+  "submit_permitted": 1,
+  "clean_control_recorded": true,
+  "worker_reaped": true,
+  "provider_restored": true,
+  "locks_released": true,
+  "reason": "background_target_became_foreground",
+  "unique_local_echo": true,
+  "phone_confirmation_required": true,
+  "receive_initial": {
+    "fresh": 1,
+    "replay": 0,
+    "pages": 1,
+    "more": false
+  },
+  "post_send_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794366892000,
+        "local_id": 164
+      },
+      "local_fence": 164
+    }
+  },
+  "post_send_counts": {
+    "operations": 16,
+    "inputs": 14,
+    "submits": 10
+  },
+  "reader_reaped": true,
+  "continuous_observer_stopped": true,
+  "continuous_observation": {
+    "foreground_target_seen": true,
+    "foreground_events": 16,
+    "pointer_samples": 5360,
+    "pointer_position_changes": 1891,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 20.729,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [
+      "prepare"
+    ],
+    "target_detection_sources": [
+      "event_current",
+      "event",
+      "sample"
+    ],
+    "target_foreground_sampled": true,
+    "target_foreground_events": [
+      {
+        "phase": "prepare",
+        "object_id": 0,
+        "child_id": 0,
+        "window_self_event": true,
+        "current_foreground_is_target": true,
+        "event_window_is_current": true
+      }
+    ],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "ending_counts": {
+    "operations": 16,
+    "inputs": 14,
+    "submits": 10
+  },
+  "active_operations": 0,
+  "integrity_ok": true
+}

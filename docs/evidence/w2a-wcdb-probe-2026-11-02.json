@@ -1,0 +1,42 @@
+{
+  "status": "header_key_verified",
+  "stage": "complete",
+  "pid": 34044,
+  "hwnd": 68894,
+  "created_filetime": "134380654003431728",
+  "process_write_attempts": 0,
+  "key_files_written": 0,
+  "plaintext_database_files_written": 0,
+  "chat_rows_read": 0,
+  "external_messages": 0,
+  "model_requests": 0,
+  "key_source": "wcdb",
+  "preflight": {
+    "pid": 34044,
+    "hwnd": 68894,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "created_filetime": "134380654003431728",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x410",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "active_account_matched": true,
+  "account_fingerprint": "7899795f940e3a76be6036711f126ecfdc733ca26557aefe3c21d0c1d50b9100",
+  "scan": {
+    "bytes_scanned": 8318976,
+    "regions_checked": 478,
+    "config_objects_checked": 1,
+    "candidate_count": 1,
+    "failed_reads": 0
+  },
+  "db_epoch_fingerprint": "0ae2af487f63239f8fe9df86c907135d45a75b60bece2a84bb56889d8db1e6ba",
+  "shard": "message_0.db",
+  "shard_size_bytes": 70938624,
+  "wal_present": true,
+  "header_hmac_verified": true,
+  "recorded_at": "2026-11-02T04:18:37.353933+00:00",
+  "script_sha256": "2d4c33d13957c30fed029792b76be256e08e87882abb10a051e0a5b50634a057"
+}

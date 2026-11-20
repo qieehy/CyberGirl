@@ -1,0 +1,13 @@
+{
+  "action_id": "0bd2aa2c1f1f1ee2402a2cbf5c3b0260d1510fb7ccc549d0bb383fa0af283bb3",
+  "state": "FAILED",
+  "reason": "background_observer_sampling_stalled",
+  "local_echo": false,
+  "client_date": "2026-11-17",
+  "request_id": "amadues-background-test-20261117-1",
+  "text_sha256": "ec2a9400d37488f01dbc5bb4a44163e34789c214647211150dbc5428938913c5",
+  "started_at": 1794899280.5325668,
+  "finished_at": 1794899292.4802089,
+  "background_request": true,
+  "automatic_retry": false
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-18",
+  "reading": true,
+  "read_error": null,
+  "model": "gpt-5.6-luna",
+  "auto_reply": true,
+  "companion_available": true,
+  "config": {
+    "memory_enabled": true,
+    "capture_enabled": true,
+    "recall_enabled": true,
+    "companion_enabled": true,
+    "summary_enabled": true,
+    "summary_batch": 20,
+    "recall_limit": 6,
+    "recall_chars": 1800,
+    "proactive_enabled": false,
+    "idle_minutes": 120,
+    "interval_minutes": 180,
+    "proactive_daily_limit": 2,
+    "unanswered_limit": 1,
+    "quiet_start": "23:00",
+    "quiet_end": "08:00"
+  },
+  "memories": 0,
+  "timeline_count": 0,
+  "jobs": 0,
+  "model_calls_today": 5,
+  "runtime": {
+    "busy": false,
+    "reason": "proactive_disabled",
+    "last_error": null,
+    "available": true,
+    "auto_reply_enabled": true,
+    "next_after": 1795003396.246845
+  },
+  "critical_tests_passed": 38,
+  "scope": "Amadues -> qieehy",
+  "test_models": 0,
+  "test_wechat_sends": 0,
+  "preview": {
+    "model_calls": 0,
+    "sends": 0,
+    "role_state_present": true
+  }
+}

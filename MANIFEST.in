@@ -1,0 +1,9 @@
+include README.md requirements.lock requirements-build.lock framework.lock.json
+include frontend/package.json frontend/package-lock.json
+recursive-include frontend/src *.html *.css *.js
+recursive-include frontend/tools *.mjs
+recursive-include backend/src/wechat_agent/assets *
+recursive-include backend/src/wechat_agent/companion_vendor LICENSE* NOTICE.md upstream.json
+prune research
+prune .state
+global-exclude *.py[cod] __pycache__

@@ -1,0 +1,21 @@
+{
+  "status": "bounded_visible_window_metadata",
+  "pid": 7548,
+  "windows": [
+    {
+      "hwnd": 4721634,
+      "thread": 14052,
+      "window_class": "Qt51514QWindowIcon",
+      "minimized": false
+    },
+    {
+      "hwnd": 198562,
+      "thread": 14052,
+      "window_class": "Qt51514QWindowIcon",
+      "minimized": false
+    }
+  ],
+  "window_titles_read": false,
+  "ui_input_actions": 0,
+  "process_writes": 0
+}

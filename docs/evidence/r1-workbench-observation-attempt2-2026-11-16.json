@@ -1,0 +1,93 @@
+{
+  "status": "stopped",
+  "model_assembled": false,
+  "sender_assembled": false,
+  "target_seconds": 1800,
+  "started_at": 1794814182.7082047,
+  "reader_start_pid": 22132,
+  "start_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794811625000,
+        "local_id": 177
+      },
+      "local_fence": 177
+    }
+  },
+  "generation": "cb3f7226f4846bc840b92b8c18b935487504d21beeea102fc3bc42a41d34d5d2",
+  "observer_stopped": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 0,
+    "pointer_samples": 95,
+    "pointer_position_changes": 0,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 20.046,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [],
+    "target_detection_sources": [],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true,
+    "no_foreground_window_queries": 0,
+    "maximum_no_foreground_ms": 0.0,
+    "no_foreground_policy": "read_only_known_null_at_most_250ms_nonzero_and_events_remain_strict",
+    "unattributed_window_contexts": []
+  },
+  "all_readers_reaped": true,
+  "read_metrics": [
+    {
+      "snapshot_retries": 0,
+      "snapshot_retry_exhausted": 0
+    }
+  ],
+  "protected_tables_and_model_counts_unchanged": true,
+  "active_bindings": 0,
+  "integrity_ok": true,
+  "reason": "AttributeError",
+  "failure_location": [
+    {
+      "file": "runners.py",
+      "line": 195,
+      "function": "run"
+    },
+    {
+      "file": "runners.py",
+      "line": 118,
+      "function": "run"
+    },
+    {
+      "file": "base_events.py",
+      "line": 691,
+      "function": "run_until_complete"
+    },
+    {
+      "file": "tasks.py",
+      "line": 520,
+      "function": "wait_for"
+    },
+    {
+      "file": "probe_wechat_workbench_receive_soak.py",
+      "line": 217,
+      "function": "run"
+    },
+    {
+      "file": "probe_wechat_workbench_receive_soak.py",
+      "line": 114,
+      "function": "observe"
+    }
+  ],
+  "finished_at": 1794814184.1817555
+}

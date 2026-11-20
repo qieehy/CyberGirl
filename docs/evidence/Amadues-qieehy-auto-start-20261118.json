@@ -1,0 +1,25 @@
+{
+  "status": "Amadues_auto_replies_qieehy_running",
+  "client_date": "2026-11-18",
+  "own_account_sha256": "e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734",
+  "peer_sha256": "7899795f940e3a76be6036711f126ecfdc733ca26557aefe3c21d0c1d50b9100",
+  "persona": "Cybergirl",
+  "model": "gpt-6.1-sol",
+  "reading": true,
+  "auto_reply": {
+    "enabled": true,
+    "phase": "waiting",
+    "last_error": null,
+    "last_action": null
+  },
+  "daily_generation_limit": 30,
+  "context_pairs_limit": 16,
+  "old_messages_excluded": true,
+  "original_qieehy_ledger_preserved": true,
+  "counts": {
+    "model_calls": 0,
+    "send_operations": 0
+  },
+  "critical_tests_passed": 12,
+  "permission_scope": "user explicitly approved qieehy new text + own conversation replied context + Cybergirl persona to gpt-6.1-sol; replies only to qieehy"
+}

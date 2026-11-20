@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-16T03:53:51.609753+00:00",
+  "status": "offline_workbench_implemented_live_e7_pending",
+  "full_regression": {
+    "passed": 796,
+    "skipped": 9,
+    "subtests_passed": 848,
+    "seconds": 249.84,
+    "log": ".build/workbench-full-regression.log"
+  },
+  "final_concurrency_hardening": {
+    "targeted_workbench_passed": 20,
+    "seconds": 13.05,
+    "after_full_run_started": true
+  },
+  "ruff": "passed",
+  "javascript_syntax": "passed",
+  "synthetic_browser_edit_prepare_dispatch_echo": "passed",
+  "wheel": {
+    "path": ".build\\workbench-wheel-final\\wechat_agent-0.1.0-py3-none-any.whl",
+    "sha256": "af4cc002b431c0660c6688022c288ef687491ac7019dbe94529f4eebdf7bff5f",
+    "source_files_compared": 9,
+    "native_resources_require_source_checkout": true
+  },
+  "original_ledger_readonly_audit": {
+    "schema": 8,
+    "operations": 16,
+    "input_permits": 14,
+    "submit_permits": 10,
+    "unknown": 8,
+    "active_operations": 0
+  },
+  "original_ledger_migrated": false,
+  "live_model_calls": 0,
+  "real_wechat_input_or_submit": 0,
+  "live_e7_accepted": false,
+  "next_step": "independent_filehelper_window_and_new_phone_source_then_bounded_e7",
+  "source_sha256": {
+    "src/wechat_agent/workbench/authorization.py": "92485e889afd9aa5a80f56390cb2d14200665cdfe3749afe06390f0590f994cf",
+    "src/wechat_agent/workbench/console.py": "7453708eaa9ce326d33f39badf9394b167a18629f5f7128e8cde3b288b0a85ae",
+    "src/wechat_agent/workbench/native.py": "e3b84832fa6b4b006a5b982fc38eca349035f8cb14ee6ba2fba4f862f06b2d27",
+    "src/wechat_agent/workbench/sender.py": "ad0166d8cb9b4b80f31f2d444b3e42bde148c346874ec3af4c7c079c590384a9",
+    "src/wechat_agent/workbench/service.py": "4f05fbce0892c6ad48b8492aea2a98a6e5383e274ea3eff00833659ddcae392f",
+    "src/wechat_agent/workbench/state.py": "b584c2ce059e69f229c425e8f0cdbce88058527d3219baf6f71baddab9e73eef",
+    "src/wechat_agent/workbench/__init__.py": "e044c3dde907565a9ab878a8b96c886e4e57f5ae62179898a649bfa60b9109db",
+    "src/wechat_agent/cli.py": "2def38c670cc13986ff3f1186be09c2d0e6370faae3a2b52880ed3f4296a638c",
+    "src/wechat_agent/console.py": "b9fd4350b4af2fe1f8f5fe87f9f8d4d02eed3b4bc09e58887c5cd40807cbb1eb",
+    "src/wechat_agent/social/ledger.py": "238e8046eb463a36987e9dfbf6bf968d109edc1d70a1250aaea37abb376a060f",
+    "src/wechat_agent/bridges/wechat/store.py": "2d3352ebea0ec300a6698183aaa498de771008f578e054e63466a9f2abd0fab5",
+    "src/wechat_agent/bridges/wechat/receive_state.py": "ee190f5024efdcd0c6ae2a0b657f26f082d70cdabffc21dc68219d419d703f4f",
+    "src/wechat_agent/bridges/wechat/receive_process.py": "1c261bfc62277e02e8f4f840ba7756db7aa50402c703d372e342760383cdffe8",
+    "src/wechat_agent/bridges/wechat/background_sender.py": "e59793bca181149765c1f8ca45d458d203854946c7d5e0fd70d9dce0eeccef10",
+    "src/wechat_agent/bridges/wechat/background_journal.py": "19323484dd3aa2fe2e4e68b62678b0828d14d670fa973df9061482540e9f440b",
+    "src/wechat_agent/bridges/wechat/background_completion.py": "3732ca5e328e8860a89197bde5b4d897888ec51f25daa580a6a5cb0bcc92ccc7",
+    "scripts/wechat_background_control.py": "81b21cb44a36a692c8d76c5656c1b73bc2dda077a0e512a3d2418a59450e07cd",
+    "scripts/wechat_background_native.py": "c4359697ffbfd63f014bd662c888536e658f91045576d2729ff75ebca36ce05c",
+    "scripts/wechat_standalone_worker.py": "8e29a8f832f7094428cb62da75c1365d1f0d58db84c6b8badd99dfddd4a108b7",
+    "scripts/wechat_workbench_worker.py": "e3af68978c60c79ab8c8ed936acde8eec114f5a806a3e1382d894e2e2a226afe",
+    "scripts/wechat_reader_source.py": "92b001e13eab4ff358c6bb18ef693de95440c6bb5f43a556707f9c7ccbabff5a",
+    "scripts/wechat_reader_worker.py": "392dbeb0d8fbf3c3ce4fe9530095dccd51e0101d86396374f7d95d81cf49177a",
+    "src/wechat_agent/assets/console/workbench.html": "202a6c05a248176d1a117deb72433969648bda8e7486d62b3c54c88e832c70fb",
+    "src/wechat_agent/assets/console/workbench.js": "e0655824acfe5870e838a9610789390f340d2a30f15dee4e56430e9a04138b0f",
+    "tests/test_workbench.py": "b298bae68f2281441296a5422bf13c911c54bbf5d5b866b30954a5cfd0290fcd"
+  }
+}

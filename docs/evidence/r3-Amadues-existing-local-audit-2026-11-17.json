@@ -1,0 +1,40 @@
+{
+  "status": "private_local_draft_independent_audit_passed",
+  "target_sha256": "e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734",
+  "draft_id": "6ba9d21503604a42651fe49a8d618eaf5dc15d6966aa46fb417230c1c109b30c",
+  "source_message_id": "91595ec893132bdab4eb37d793bf9dee2d64ccbfc0d77f04bfce14ed6f58808d",
+  "source_rows": 1,
+  "source_disposition": "OBSERVED",
+  "source_text_sha256": "b5d3ee6c67719d23c870155af027f9311a0b4f18f002509b671bbc11b25e8943",
+  "existing_source_selected": true,
+  "canonical_peer_matched": true,
+  "new_local_drafts": 1,
+  "versions": 2,
+  "final_state": "CANCELLED",
+  "original_tables_unchanged": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true,
+    "reader_accounts": true,
+    "reader_shards": true
+  },
+  "original_drafts_preserved": true,
+  "filehelper_cursors_unchanged": true,
+  "no_new_model_traces": true,
+  "send_counts": [
+    17,
+    15,
+    11
+  ],
+  "unknown_ids_unchanged": true,
+  "e7_state": "CONFIRMED",
+  "active_bindings": 0,
+  "active_operations": 0,
+  "schema": 10,
+  "integrity_ok": true,
+  "readers_reaped": true,
+  "gate_after": 0
+}

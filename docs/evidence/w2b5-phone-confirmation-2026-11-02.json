@@ -1,0 +1,12 @@
+{
+  "status": "phone_manually_confirmed",
+  "final_state": "CONFIRMED",
+  "evidence_added": true,
+  "marker_sha256": "8542470389d2a32d3c9960a196a5dceee7f7de2899eeb140cad4588e732d0e1b",
+  "confirmation_source": "User explicitly reported seeing the complete fixed marker in phone filehelper in this chat.",
+  "source_question_id": "call_8f89e75abc674b87b92fbe28645a987c",
+  "extra_attempts": 0,
+  "local_echo_verified": false,
+  "ui_channel_block": "submission_or_draft_requires_review",
+  "recorded_at": "2026-11-02T08:24:20.230805+00:00"
+}

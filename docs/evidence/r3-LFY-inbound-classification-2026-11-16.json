@@ -1,0 +1,24 @@
+{
+  "checked_at": 1794820343.6969109,
+  "marker_rows": [
+    {
+      "message_id": "79fa710fb0c5f2de86794f5ebe45829a9173ffbfcef0040845b2aecfda7b48e7",
+      "sender_matches_selected_peer": false,
+      "sender_matches_self": true,
+      "sender_sha256": "7899795f940e3a76be6036711f126ecfdc733ca26557aefe3c21d0c1d50b9100",
+      "disposition": "self_echo",
+      "occurred_at": 1794820269.0,
+      "received_at": 1794820271.3902972,
+      "receipt_lag_seconds": 2.3902971744537354,
+      "inbox_state": null,
+      "inbox_reason": null,
+      "source_verified": null
+    }
+  ],
+  "new_model_traces": 0,
+  "send_counts": [
+    17,
+    15,
+    11
+  ]
+}

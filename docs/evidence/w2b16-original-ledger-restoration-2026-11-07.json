@@ -1,0 +1,30 @@
+{
+  "operations": 5,
+  "attempts": 5,
+  "reviews": 2,
+  "blocked_reason": "submission_or_draft_requires_review",
+  "active_bindings": 0,
+  "unknowns": [
+    {
+      "action_id": "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+      "operation_id": "d115d5e2fc1d4183ab3d9127906cd6f4",
+      "finished": 1,
+      "worker_reaped": 1,
+      "restore_verified": 1,
+      "state": "UNCONFIRMED"
+    },
+    {
+      "action_id": "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa",
+      "operation_id": "d9d623f51a5244629db1f3ce95033aec",
+      "finished": 1,
+      "worker_reaped": 1,
+      "restore_verified": 1,
+      "state": "UNCONFIRMED"
+    }
+  ],
+  "integrity": "ok",
+  "gate_value": 0,
+  "mode": "readonly_original_ledger_and_restoration",
+  "model_requests": 0,
+  "wechat_messages": 0
+}

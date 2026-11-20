@@ -1,0 +1,33 @@
+{
+  "status": "private_readonly_baseline_ready",
+  "model_calls": 0,
+  "send_calls": 0,
+  "started_at": 1794820111.336282,
+  "starting_schema": 9,
+  "target_sha256": "0fdd4a5512d739fac24024c4695615c6a8a631b4e2f5dd7944d5a72c825e2723",
+  "reader_pid": 38940,
+  "baseline_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780487640000,
+        "local_id": 8645
+      },
+      "local_fence": 8645
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794798719000,
+        "local_id": 9964
+      },
+      "local_fence": 9964
+    }
+  },
+  "all_readers_reaped": true,
+  "protected_send_model_and_filehelper_cursors_unchanged": true,
+  "active_bindings": 0,
+  "ending_schema": 10,
+  "integrity_ok": true,
+  "finished_at": 1794820119.7047093
+}

@@ -1,0 +1,64 @@
+{
+  "recorded_at_utc": "2026-10-27T08:03:57.203412+00:00",
+  "status": "review_findings_fixed",
+  "findings": {
+    "R1": "fixed_and_isolated_build_failure_paths_verified",
+    "R2": "fixed_and_actual_runtime_history_continuation_verified",
+    "R3": "fixed_and_failed_cancelled_attempt_records_verified"
+  },
+  "application_source_sha256": "2f568b169e60509bec1abd326c569f857c49d816272a605b693abf7314e90aee",
+  "key_test_runs": [
+    {
+      "path": ".build/review-fixes-critical.xml",
+      "sha256": "04ee9e09a4044dc09b5e67845fc44b94957ea89340636f8cd4cc83bd35bc188e",
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "3",
+      "time": "1.158",
+      "timestamp": "2026-10-27T16:00:11.013439+08:00",
+      "hostname": "Qze"
+    },
+    {
+      "path": ".build/review-fixes-h4-compat.xml",
+      "sha256": "a65e24d4fd5f5139079ed4320c89ac8bfd3646a1f6501630c8258d515fba10eb",
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "1",
+      "time": "12.413",
+      "timestamp": "2026-10-27T16:01:05.707824+08:00",
+      "hostname": "Qze"
+    }
+  ],
+  "tests_passed": 4,
+  "ruff": "passed",
+  "real_model_requests": 0,
+  "full_regression_rerun": false,
+  "framework_wheel_preserved": true,
+  "installed_framework_files_match_lock": 61,
+  "dependency_locks_unchanged": true,
+  "project_wheel": {
+    "path": ".build/review-fixes-wheels/wechat_agent-0.1.0-py3-none-any.whl",
+    "sha256": "9e767b43c2c74689ec1bccdcdb2024e4deb1f86ef982fd91814f0714dadfb441",
+    "bytes": 825318,
+    "python_and_tokenizer_match": true,
+    "local_config_and_credentials_excluded": true
+  },
+  "historical_h4a_evidence_preserved": "docs/evidence/h4-result.json",
+  "h4b": "not_observed",
+  "file_sha256": {
+    "scripts/build_framework.py": "4b65ee6e55c714df826756f1b52dbf76e5b4b316421560190109b3c127915e70",
+    "src/wechat_agent/cli.py": "cb8e52e33f2a95d39f7a728606c6b20c52a0a43392322098d66baef4d3f73b73",
+    "src/wechat_agent/verification.py": "9f5592d29a62193029c436b46988c30f37d5b67850e084fd5047237f326388f2",
+    "src/wechat_agent/providers/codex/network.py": "bd86aec2b38b0be9d71024594f195f652cfe2123219642949174432d133e000f",
+    "tests/test_review_fixes.py": "1cf880ca653299e53cf9a004fa4676d6578e8f29221cc6e515ae418396fb86dd",
+    "tests/test_h4.py": "becb72f97332669b779abc56939f3b2a94c25fe14bef6cb2db60709a4abd7d0f",
+    "README.md": "c4b9d9395217317664dbec3d81375755de24affb75978ccbe69da5ab18927ea5",
+    "PROJECT_PLAN.md": "6b078b27a3d45aa37937ab24ebb0bc6088b31eb3cd6ad08fb3169ddf527ac721",
+    "docs/REVIEW_2026-10-27.md": "f10c8eaa5887ec7e936c7cb978d815cbd93a5774ee206f5f5efb5bffc79e9796",
+    "docs/H4_IMPLEMENTATION.md": "f2454508c9c3ee3fd474f143199e3853a3638b12826db9373c06b39310404ea6"
+  }
+}

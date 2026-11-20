@@ -1,0 +1,25 @@
+.venv/
+.build/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+node_modules/
+frontend/dist/
+backend/src/wechat_agent/assets/web/
+.env
+.env.*
+!.env.example
+*.log
+credentials/
+.state/
+wechat-agent.local.toml
+
+# Independent upstream checkouts
+/research/upstream/sourcepro5-WeChatAgent/
+/research/upstream/sourcepro5-WeChatAgent-openssl/

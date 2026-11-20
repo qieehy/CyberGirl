@@ -1,0 +1,50 @@
+{
+  "status": "final_grouped_coverage_passed_with_isolated_timeout_rerun",
+  "unique_tests_passed": 859,
+  "skipped": 9,
+  "subtests_passed": 848,
+  "single_uninterrupted_pass": false,
+  "main_group": {
+    "passed": 835,
+    "failed": 1,
+    "skipped": 9,
+    "subtests": 821,
+    "elapsed_seconds": 577.2
+  },
+  "http_group": {
+    "passed": 23,
+    "subtests": 27,
+    "elapsed_seconds": 32.47
+  },
+  "isolated_rerun": {
+    "test": "test_uia_probe.py::test_real_traversal_on_synthetic_tree_and_role_classification",
+    "passed": 1,
+    "elapsed_seconds": 0.98,
+    "original_failure": "synthetic PowerShell tree fixture exceeded existing 15 second subprocess timeout",
+    "production_timeout_changed": false
+  },
+  "prior_full_851_pass_preserved": true,
+  "prior_interrupted_full": "r3-Amadues-full-regression.log retained; existing async HTTP wait after cancellation case",
+  "ruff": "passed",
+  "javascript_syntax": "passed",
+  "identity_powershell_syntax": "passed",
+  "recent_and_switch_tests": 46,
+  "wheel": ".build\\r3-Amadues-wheel\\wechat_agent-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "75cfcfcc031f505f000b432d7044bfb2f7f424c697e599ffe48731c7be24b512",
+  "wheel_source_matches": {
+    "bridges/wechat/private_identity.py": true,
+    "bridges/wechat/private_receive.py": true,
+    "bridges/wechat/recent_marker.py": true,
+    "bridges/wechat/qt_memory.py": true,
+    "bridges/wechat/receive_process.py": true,
+    "social/ledger.py": true,
+    "workbench/private_native.py": true,
+    "workbench/service.py": true
+  },
+  "native_runtime_requires_complete_source_checkout": true,
+  "log_sha256": {
+    ".build\\r3-Amadues-regression-main.log": "e7ec37d281e65eac87b6ec5fa88ff189725a2f76daeb1d4b4e967a2cc72aa245",
+    ".build\\r3-Amadues-regression-http.log": "27fc9330644f40f8fa47a201801d5b29d1aec2cfe2a195847259202d1654847b",
+    ".build\\r3-Amadues-uia-isolated.log": "de67f88df1354ada21b3dfdbcbe0d768af0bebb1682286aaea6d5833dd4e786b"
+  }
+}

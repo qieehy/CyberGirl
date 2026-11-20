@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-07",
+  "stage": "W2-B15",
+  "scope": "offline_source_review_and_regression_only",
+  "upstream_source_sha256_verified": "ce988a096bcd9c05181e3c9994f0f767ecf5fc64173be4b2099b71615c84b7d9",
+  "validation": {
+    "targeted_passed": 113,
+    "full_passed": 461,
+    "subtests_passed": 848,
+    "full_seconds": 258.2,
+    "ruff": "passed"
+  },
+  "live_wechat_access": false,
+  "live_ledger_opened": false,
+  "model_requests": 0,
+  "wechat_message_posts": 0,
+  "historical_B14_root_cause_proven": false,
+  "D_V0_passed": false,
+  "files_sha256": {
+    "src/wechat_agent/bridges/wechat/posted_click.py": "96f15a0b40280eb77b8c05750b4e519ca6f5118ce94018559b8a7d8f2086e6d2",
+    "tests/test_wechat_posted_click.py": "eb6b5f82a8d156bb5220f26f9cca0d8b15e602ed45ea9c5ae39f5af2e5ad98a2",
+    "docs/W2B15_PRESS_OBSERVATION_DIAGNOSIS.md": "a41d6ad6cb5206ad100918b8b0de4c15229b6ecb29c62de979c08ac0010fd562",
+    "docs/evidence/w2b15-offline-regression-2026-11-07.xml": "d1e06a1784827f1b7c8a8f9e804ef07a0624b9f1ec4045caf31fab2dfc156da0"
+  },
+  "next_step": "prepare_bound_read_only_observation_phase_timing"
+}

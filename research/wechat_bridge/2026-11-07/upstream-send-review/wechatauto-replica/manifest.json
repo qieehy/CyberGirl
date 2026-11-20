@@ -1,0 +1,31 @@
+{
+  "repository": "fanyuantaier/wechatauto-replica",
+  "commit": "49ada3d89b3dd5f97d9af59be7158a0c6e8620e6",
+  "purpose": "static_source_review_no_execution",
+  "files": [
+    {
+      "path": "wechatauto/uia_driver.py",
+      "sha256": "140f7070ff9eef7e2588e569dc72e0a2d9a7c16f10ef6f3aa5c52e87ad17fafe",
+      "bytes": 83462,
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/49ada3d89b3dd5f97d9af59be7158a0c6e8620e6/wechatauto/uia_driver.py"
+    },
+    {
+      "path": "wechatauto/accessibility.py",
+      "sha256": "045bbf826a1bab8410886090988a3e32afdec403b4beec6b64c0406c47830f38",
+      "bytes": 29954,
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/49ada3d89b3dd5f97d9af59be7158a0c6e8620e6/wechatauto/accessibility.py"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/49ada3d89b3dd5f97d9af59be7158a0c6e8620e6/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "sha256": "acbb9af0b0b8dffdaacb6ce757ce845b765f74a1a9ac988f1d1df888c1a64c1f",
+      "bytes": 122138,
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/49ada3d89b3dd5f97d9af59be7158a0c6e8620e6/README.md"
+    }
+  ]
+}

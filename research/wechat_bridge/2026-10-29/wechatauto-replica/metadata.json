@@ -1,0 +1,930 @@
+{
+  "repo": "fanyuantaier/wechatauto-replica",
+  "commit": "6e603974bbac3bda93d88bbd6995510ae2547f5c",
+  "commit_date": "2026-10-25T13:49:51Z",
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "tree": {
+    "sha": "6e603974bbac3bda93d88bbd6995510ae2547f5c",
+    "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/6e603974bbac3bda93d88bbd6995510ae2547f5c",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8897295502e3f1ace73905d66b5ea4f8716f18fa",
+        "size": 349,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/8897295502e3f1ace73905d66b5ea4f8716f18fa"
+      },
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab2b5bd78942ab1d5bfdb5e4bba3ab4dc6664a73",
+        "size": 4075,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/ab2b5bd78942ab1d5bfdb5e4bba3ab4dc6664a73"
+      },
+      {
+        "path": "GUIDE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "603f31c7b4317e4fc8465b65b1d939d084a6046f",
+        "size": 85476,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/603f31c7b4317e4fc8465b65b1d939d084a6046f"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "size": 11357,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25a578accd71932cfcfca536176aa78d20a07b37",
+        "size": 117351,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/25a578accd71932cfcfca536176aa78d20a07b37"
+      },
+      {
+        "path": "README.zh-CN.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40a640979bf0ece0baf17e5403f8245e438600a1",
+        "size": 131105,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/40a640979bf0ece0baf17e5403f8245e438600a1"
+      },
+      {
+        "path": "README_pypi.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aea33865813d56c676937166644451b8d72b92e4",
+        "size": 237662,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/aea33865813d56c676937166644451b8d72b92e4"
+      },
+      {
+        "path": "demo_original_image.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5e37b2c52a1a5964a08c2dcee64a23448670bdf",
+        "size": 3428,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/e5e37b2c52a1a5964a08c2dcee64a23448670bdf"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9c324226f88b50198d81ef1827afebb3276d2ca8",
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/9c324226f88b50198d81ef1827afebb3276d2ca8"
+      },
+      {
+        "path": "docs/demo_db_files.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54930fe8e89c544de0a631b036dc825e0f75371f",
+        "size": 546546,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/54930fe8e89c544de0a631b036dc825e0f75371f"
+      },
+      {
+        "path": "docs/技术文档.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8ea87ca68a26c8ff69cb01c9edda4b62e730ff1",
+        "size": 28722,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/f8ea87ca68a26c8ff69cb01c9edda4b62e730ff1"
+      },
+      {
+        "path": "pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66cba1dfea0d3e0243381032fc86de7c4757ad45",
+        "size": 2176,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/66cba1dfea0d3e0243381032fc86de7c4757ad45"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6fbb1e43c21fc3f9044190312777140b05778c9e",
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/6fbb1e43c21fc3f9044190312777140b05778c9e"
+      },
+      {
+        "path": "tests/test_pure.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26cfe4dbfbf83d29ebae2bbb80e71d5bc566e021",
+        "size": 6683,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/26cfe4dbfbf83d29ebae2bbb80e71d5bc566e021"
+      },
+      {
+        "path": "tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "148b2e75c21b67ab57ecab09fe48fb1e5f92cb52",
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/148b2e75c21b67ab57ecab09fe48fb1e5f92cb52"
+      },
+      {
+        "path": "tools/selftest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62a17b479c94e01f337cbb683a9612efd2b9030c",
+        "size": 198261,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/62a17b479c94e01f337cbb683a9612efd2b9030c"
+      },
+      {
+        "path": "tools/test_chat_identity.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34197f7c2a82494c39ee6df16e79817398a04141",
+        "size": 5239,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/34197f7c2a82494c39ee6df16e79817398a04141"
+      },
+      {
+        "path": "tools/test_database_binding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89bdfd76f3c4428614acc1c55ec99a50eb9c3a38",
+        "size": 8784,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/89bdfd76f3c4428614acc1c55ec99a50eb9c3a38"
+      },
+      {
+        "path": "tools/test_db_path_root.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6655ce06131deeae0871d03aa49df23ca723a3f6",
+        "size": 8362,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/6655ce06131deeae0871d03aa49df23ca723a3f6"
+      },
+      {
+        "path": "tools/test_db_shard.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b178e8979c463ee2911449e975192fc932a9a68",
+        "size": 16096,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/1b178e8979c463ee2911449e975192fc932a9a68"
+      },
+      {
+        "path": "tools/test_forward.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ee5a26675840cb20f44fabc36d4eb64d8257bfa",
+        "size": 28223,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/2ee5a26675840cb20f44fabc36d4eb64d8257bfa"
+      },
+      {
+        "path": "tools/test_group_friend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81d9aed53b96f89eb3955d02af2fd5c522c23ba0",
+        "size": 12963,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/81d9aed53b96f89eb3955d02af2fd5c522c23ba0"
+      },
+      {
+        "path": "tools/test_input_box.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c55337c21d9a03b803693fcae95dd4e76d32eb7",
+        "size": 4498,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/2c55337c21d9a03b803693fcae95dd4e76d32eb7"
+      },
+      {
+        "path": "tools/test_labels.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68fc1eaee62315047803b8068ae53184529c25cf",
+        "size": 57249,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/68fc1eaee62315047803b8068ae53184529c25cf"
+      },
+      {
+        "path": "tools/test_ocr_send_gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24eaf827fc6c8bc834ba29799130b65c433bd6e4",
+        "size": 6191,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/24eaf827fc6c8bc834ba29799130b65c433bd6e4"
+      },
+      {
+        "path": "tools/test_ocr_switch.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "646293c178543435245f9f15b1ba16ea1b7e0e35",
+        "size": 5310,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/646293c178543435245f9f15b1ba16ea1b7e0e35"
+      },
+      {
+        "path": "tools/test_quote_target.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59fba7d4a42f889a1abbc432890477f79fa33817",
+        "size": 7616,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/59fba7d4a42f889a1abbc432890477f79fa33817"
+      },
+      {
+        "path": "tools/test_remark_target.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a3793afecad127a1608ecc3b20217b91a4ccd74a",
+        "size": 5062,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/a3793afecad127a1608ecc3b20217b91a4ccd74a"
+      },
+      {
+        "path": "tools/test_send_retry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f0b771087adcc3c3bbb71a1cf3411800d5063bb",
+        "size": 5088,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/3f0b771087adcc3c3bbb71a1cf3411800d5063bb"
+      },
+      {
+        "path": "tools/test_send_verify.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c01a5b25037307fe4708492f988dfec4e21c72a",
+        "size": 5187,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/6c01a5b25037307fe4708492f988dfec4e21c72a"
+      },
+      {
+        "path": "tools/test_sender_namespace.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb5c027688b33b1640f36061c5c597e50c9b6366",
+        "size": 12510,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/fb5c027688b33b1640f36061c5c597e50c9b6366"
+      },
+      {
+        "path": "tools/test_standalone_windows.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40f63d5592a3d508f78d36506150fa45b1f05d8c",
+        "size": 9824,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/40f63d5592a3d508f78d36506150fa45b1f05d8c"
+      },
+      {
+        "path": "tools/test_window_binding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2291bfb94049850d7c3088b367c893e22d065601",
+        "size": 6020,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/2291bfb94049850d7c3088b367c893e22d065601"
+      },
+      {
+        "path": "tools/wake_uia.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "edbdf0be24f9b33563dbc628f386111357eb277f",
+        "size": 19092,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/edbdf0be24f9b33563dbc628f386111357eb277f"
+      },
+      {
+        "path": "wechatauto",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2aed9b04bee72efaea9b4eea2e587c87ddc92fad",
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/2aed9b04bee72efaea9b4eea2e587c87ddc92fad"
+      },
+      {
+        "path": "wechatauto/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2fa0cd39a3254ec4b53f9493c3a25dbfbbffe94f",
+        "size": 2328,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/2fa0cd39a3254ec4b53f9493c3a25dbfbbffe94f"
+      },
+      {
+        "path": "wechatauto/__main__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "050b34789ce015b1df7c231515c0291431c9aa69",
+        "size": 358,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/050b34789ce015b1df7c231515c0291431c9aa69"
+      },
+      {
+        "path": "wechatauto/accessibility.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e2f717474acdb1f0220844be88f9ec7c381923e",
+        "size": 29954,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/5e2f717474acdb1f0220844be88f9ec7c381923e"
+      },
+      {
+        "path": "wechatauto/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6b9eb0192ce0de6c4ebd6c51b0c9db6a3d0949ed",
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/6b9eb0192ce0de6c4ebd6c51b0c9db6a3d0949ed"
+      },
+      {
+        "path": "wechatauto/assets/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b67b966a10d7bac4ffd2aa2b151db707c5086ca0",
+        "size": 81,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/b67b966a10d7bac4ffd2aa2b151db707c5086ca0"
+      },
+      {
+        "path": "wechatauto/assets/moments_more_dark.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff5d03d8edfe1f69ac30074d298afc389693ac25",
+        "size": 384,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/ff5d03d8edfe1f69ac30074d298afc389693ac25"
+      },
+      {
+        "path": "wechatauto/assets/moments_more_light.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa56f74248f5488d13f8c3db260f8068b8e2243e",
+        "size": 340,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/fa56f74248f5488d13f8c3db260f8068b8e2243e"
+      },
+      {
+        "path": "wechatauto/assets/moments_send.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "922298317aeb78e9a1e857da9c8a2359004bab50",
+        "size": 1923,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/922298317aeb78e9a1e857da9c8a2359004bab50"
+      },
+      {
+        "path": "wechatauto/cli.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "290f9e7cab2608fb8a336a9d40b010cc29392c5c",
+        "size": 41404,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/290f9e7cab2608fb8a336a9d40b010cc29392c5c"
+      },
+      {
+        "path": "wechatauto/db.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5b31e60a17e195e0dbe66854978083ec160eaa4",
+        "size": 143905,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/f5b31e60a17e195e0dbe66854978083ec160eaa4"
+      },
+      {
+        "path": "wechatauto/demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1eebe0afb8c78ee5ae9f16c83006518e7e09a388",
+        "size": 2004,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/1eebe0afb8c78ee5ae9f16c83006518e7e09a388"
+      },
+      {
+        "path": "wechatauto/demo_db.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9902ed3a3d328b9344d7b55791cf34f580e71f97",
+        "size": 2855,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/9902ed3a3d328b9344d7b55791cf34f580e71f97"
+      },
+      {
+        "path": "wechatauto/demo_emoji_capture.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "884d6c43fac4aa2872be4dc9d9195128b69ac0df",
+        "size": 3341,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/884d6c43fac4aa2872be4dc9d9195128b69ac0df"
+      },
+      {
+        "path": "wechatauto/demo_forward.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34704135fc16b12c5c3377ffd4333a54e4a5ef62",
+        "size": 18001,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/34704135fc16b12c5c3377ffd4333a54e4a5ef62"
+      },
+      {
+        "path": "wechatauto/demo_forward_voice.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4767210100a099f2445b6523b474b3344d5b96d0",
+        "size": 2668,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/4767210100a099f2445b6523b474b3344d5b96d0"
+      },
+      {
+        "path": "wechatauto/demo_group_messages.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e40a5ae8260d66b71d5672cdf02aebcbeff523d8",
+        "size": 15051,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/e40a5ae8260d66b71d5672cdf02aebcbeff523d8"
+      },
+      {
+        "path": "wechatauto/demo_guia.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41fa2dc16697a22bba6a27780ce60af286381c1d",
+        "size": 2520,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/41fa2dc16697a22bba6a27780ce60af286381c1d"
+      },
+      {
+        "path": "wechatauto/demo_labels.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9fa0c7611cbb016b1e09b4dd9a5430a5ba3903e3",
+        "size": 4216,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/9fa0c7611cbb016b1e09b4dd9a5430a5ba3903e3"
+      },
+      {
+        "path": "wechatauto/demo_listen.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65fad6c42b8ab6c42315960166004f0d871da2a6",
+        "size": 4458,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/65fad6c42b8ab6c42315960166004f0d871da2a6"
+      },
+      {
+        "path": "wechatauto/demo_media.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3fc628ea1a4007d4eaa02f7b1f9b1e5fc3a87476",
+        "size": 10728,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/3fc628ea1a4007d4eaa02f7b1f9b1e5fc3a87476"
+      },
+      {
+        "path": "wechatauto/demo_moment_cells.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c33a345efbf924e5d1a9717141cfd147d6fa647",
+        "size": 5184,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/5c33a345efbf924e5d1a9717141cfd147d6fa647"
+      },
+      {
+        "path": "wechatauto/demo_moment_comment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b40008cde943abd6c66b5f5fe200bbe4e87875c8",
+        "size": 2029,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/b40008cde943abd6c66b5f5fe200bbe4e87875c8"
+      },
+      {
+        "path": "wechatauto/demo_moment_comments.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ba0db9e5f140226687ca954e32993957981f721",
+        "size": 2511,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/3ba0db9e5f140226687ca954e32993957981f721"
+      },
+      {
+        "path": "wechatauto/demo_moment_dump.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d60cae6083808ace20e3b3f07fe7b9061f13562",
+        "size": 2311,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/2d60cae6083808ace20e3b3f07fe7b9061f13562"
+      },
+      {
+        "path": "wechatauto/demo_moment_find.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61ef09ca606e0fd087fc508caceef65094c95b5d",
+        "size": 2927,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/61ef09ca606e0fd087fc508caceef65094c95b5d"
+      },
+      {
+        "path": "wechatauto/demo_moment_like.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d62e1015ffb5c1dc1b75b7d491da0f5cde48abb1",
+        "size": 1682,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/d62e1015ffb5c1dc1b75b7d491da0f5cde48abb1"
+      },
+      {
+        "path": "wechatauto/demo_moment_more.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8fef8e22afd712a95642556fa86b046f196e521",
+        "size": 2167,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/d8fef8e22afd712a95642556fa86b046f196e521"
+      },
+      {
+        "path": "wechatauto/demo_moment_observe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ce048b904fbea85d52bd850be90598552374658",
+        "size": 2664,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/4ce048b904fbea85d52bd850be90598552374658"
+      },
+      {
+        "path": "wechatauto/demo_moment_reply.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "675a78e88223698b404fd5ed7f7f9df5a9ac25fb",
+        "size": 2550,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/675a78e88223698b404fd5ed7f7f9df5a9ac25fb"
+      },
+      {
+        "path": "wechatauto/demo_moments_download.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b3c25c6021e887ed36ecaa9a476e8156f09e33b",
+        "size": 4804,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/4b3c25c6021e887ed36ecaa9a476e8156f09e33b"
+      },
+      {
+        "path": "wechatauto/demo_moments_interact.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "645cc5515dab55686f6c979ca5180be17467509a",
+        "size": 3708,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/645cc5515dab55686f6c979ca5180be17467509a"
+      },
+      {
+        "path": "wechatauto/demo_quote.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c74928d97f4de6c57ae8033be6338f4568e5cbb2",
+        "size": 1874,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/c74928d97f4de6c57ae8033be6338f4568e5cbb2"
+      },
+      {
+        "path": "wechatauto/demo_recall.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6633da76ba3dc804ae5ffeb40b56ec0c96d299d0",
+        "size": 2428,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/6633da76ba3dc804ae5ffeb40b56ec0c96d299d0"
+      },
+      {
+        "path": "wechatauto/demo_reply_at.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1094f8710f294acc568b8fee8159a30b0f7b94e",
+        "size": 2415,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/e1094f8710f294acc568b8fee8159a30b0f7b94e"
+      },
+      {
+        "path": "wechatauto/demo_robust.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c10277095a97bedd18229f9ca9f0db00bee947a",
+        "size": 6174,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/7c10277095a97bedd18229f9ca9f0db00bee947a"
+      },
+      {
+        "path": "wechatauto/demo_send.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e054d17f4fc112c075627391d33d3fbbfe48fa6",
+        "size": 8358,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/7e054d17f4fc112c075627391d33d3fbbfe48fa6"
+      },
+      {
+        "path": "wechatauto/demo_send_verify.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3bc77f02f1285a3fe75695600d9707e206fa808",
+        "size": 7856,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/e3bc77f02f1285a3fe75695600d9707e206fa808"
+      },
+      {
+        "path": "wechatauto/demo_v109.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "815450af9959493af349470baa169dd282bf0351",
+        "size": 6371,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/815450af9959493af349470baa169dd282bf0351"
+      },
+      {
+        "path": "wechatauto/diagnose_keys.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4beee4f079db531cda4685f4c5c826b4355328d7",
+        "size": 12691,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/4beee4f079db531cda4685f4c5c826b4355328d7"
+      },
+      {
+        "path": "wechatauto/exceptions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35c57b19178da1db8229731466c0efebc1f885e8",
+        "size": 1702,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/35c57b19178da1db8229731466c0efebc1f885e8"
+      },
+      {
+        "path": "wechatauto/forward.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f00f0f4d9a6aacc2e746e4102f259283ef029e4",
+        "size": 16928,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/0f00f0f4d9a6aacc2e746e4102f259283ef029e4"
+      },
+      {
+        "path": "wechatauto/group_friend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa136f90d8d7c21cc51308d9741a9b4533e58de9",
+        "size": 20319,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/fa136f90d8d7c21cc51308d9741a9b4533e58de9"
+      },
+      {
+        "path": "wechatauto/guia.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c3900533a28df2c0ea6956edd1b7711212b30bd",
+        "size": 129053,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/9c3900533a28df2c0ea6956edd1b7711212b30bd"
+      },
+      {
+        "path": "wechatauto/labels.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d99e3239b2ec90fe5bad34adeb86b7e6a1982936",
+        "size": 62284,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/d99e3239b2ec90fe5bad34adeb86b7e6a1982936"
+      },
+      {
+        "path": "wechatauto/languages.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9f9cf3944679b3b228d7c107cd61c810b8bdbfd",
+        "size": 15707,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/b9f9cf3944679b3b228d7c107cd61c810b8bdbfd"
+      },
+      {
+        "path": "wechatauto/logger.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf2cb333532c773d09efe3ad6fc6bdaf6061cf5a",
+        "size": 4601,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/cf2cb333532c773d09efe3ad6fc6bdaf6061cf5a"
+      },
+      {
+        "path": "wechatauto/media.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "014f37e33ea45b89f3ea3b26d19f035a86e86c36",
+        "size": 112261,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/014f37e33ea45b89f3ea3b26d19f035a86e86c36"
+      },
+      {
+        "path": "wechatauto/moment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7397788463d73d7a47cee35016c06cf9bd875eb",
+        "size": 169330,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/e7397788463d73d7a47cee35016c06cf9bd875eb"
+      },
+      {
+        "path": "wechatauto/moment_observer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3473c49e6c6d38b3dcbd99cef7aa9e2a84417944",
+        "size": 10640,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/3473c49e6c6d38b3dcbd99cef7aa9e2a84417944"
+      },
+      {
+        "path": "wechatauto/msgs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c2270218e3d57877278c432f179627e766a8b219",
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/c2270218e3d57877278c432f179627e766a8b219"
+      },
+      {
+        "path": "wechatauto/msgs/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e0efd1a9f000bb3f20aed6d7120494dff53e920a",
+        "size": 1815,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/e0efd1a9f000bb3f20aed6d7120494dff53e920a"
+      },
+      {
+        "path": "wechatauto/msgs/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8310c5e01ce201e78b9f4eaa95ea1aa191e69653",
+        "size": 9067,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/8310c5e01ce201e78b9f4eaa95ea1aa191e69653"
+      },
+      {
+        "path": "wechatauto/msgs/friend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "154fee1913d087508cdf46002f87fbc8a243e35f",
+        "size": 3081,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/154fee1913d087508cdf46002f87fbc8a243e35f"
+      },
+      {
+        "path": "wechatauto/msgs/mattr.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e0b249576b4274aefb4cf8d6c2bd11c54d927c9d",
+        "size": 1804,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/e0b249576b4274aefb4cf8d6c2bd11c54d927c9d"
+      },
+      {
+        "path": "wechatauto/msgs/msg.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee6ec4550a8260cb2a08a24fc5b4a151a4b232b1",
+        "size": 3998,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/ee6ec4550a8260cb2a08a24fc5b4a151a4b232b1"
+      },
+      {
+        "path": "wechatauto/msgs/mtype.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2afab03033e2ad34d2377163e44b7112f7552024",
+        "size": 43548,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/2afab03033e2ad34d2377163e44b7112f7552024"
+      },
+      {
+        "path": "wechatauto/msgs/self.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b20a79bd536a85699083a7792cceae6c9fbf0b3f",
+        "size": 3037,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/b20a79bd536a85699083a7792cceae6c9fbf0b3f"
+      },
+      {
+        "path": "wechatauto/param.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d89c815205e96032d0225a907e97fb76278423e6",
+        "size": 4321,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/d89c815205e96032d0225a907e97fb76278423e6"
+      },
+      {
+        "path": "wechatauto/py.typed",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "wechatauto/recall.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8119bc2c2aed01bb216cf2d63beed35e20729434",
+        "size": 16573,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/8119bc2c2aed01bb216cf2d63beed35e20729434"
+      },
+      {
+        "path": "wechatauto/remark.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b95792f8474f8e5c82920440bfb626df31b89837",
+        "size": 24313,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/b95792f8474f8e5c82920440bfb626df31b89837"
+      },
+      {
+        "path": "wechatauto/rhythm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1d92379e8cc569c53da02eeee5af9eecc3d1ea6",
+        "size": 13539,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/b1d92379e8cc569c53da02eeee5af9eecc3d1ea6"
+      },
+      {
+        "path": "wechatauto/sender.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c253a8f6c96afa50425a65e0af97a13aca67dd47",
+        "size": 7165,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/c253a8f6c96afa50425a65e0af97a13aca67dd47"
+      },
+      {
+        "path": "wechatauto/ui",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "68bb7edf8bcb0deec0464a04a45b54bcd6c47ff6",
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/68bb7edf8bcb0deec0464a04a45b54bcd6c47ff6"
+      },
+      {
+        "path": "wechatauto/ui/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "149ecf7d138d8ad64a1998f767972e4d1160cd01",
+        "size": 674,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/149ecf7d138d8ad64a1998f767972e4d1160cd01"
+      },
+      {
+        "path": "wechatauto/ui/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d81200a37ea1905f7950cdca9b5e47b6e2deebfa",
+        "size": 1531,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/d81200a37ea1905f7950cdca9b5e47b6e2deebfa"
+      },
+      {
+        "path": "wechatauto/ui/chatbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef7916d278fbd58bb44e2b1fc80fed990c0861eb",
+        "size": 14288,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/ef7916d278fbd58bb44e2b1fc80fed990c0861eb"
+      },
+      {
+        "path": "wechatauto/ui/component.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d604005d8cd3a83241223969db1537e9576ae68",
+        "size": 10155,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/8d604005d8cd3a83241223969db1537e9576ae68"
+      },
+      {
+        "path": "wechatauto/ui/main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66edd722f90392ca9e62d6a7c1335fa48a40491e",
+        "size": 8955,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/66edd722f90392ca9e62d6a7c1335fa48a40491e"
+      },
+      {
+        "path": "wechatauto/ui/navigationbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f64423b9817b3dc8b32ccfa5e496c4a1f012195",
+        "size": 2148,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/5f64423b9817b3dc8b32ccfa5e496c4a1f012195"
+      },
+      {
+        "path": "wechatauto/ui/sessionbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e41949add9e5b9f5b95783e818cc777da08139da",
+        "size": 8211,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/e41949add9e5b9f5b95783e818cc777da08139da"
+      },
+      {
+        "path": "wechatauto/uia",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6c800182ea132859d0e978c04d0a0ff6d2f00e27",
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/6c800182ea132859d0e978c04d0a0ff6d2f00e27"
+      },
+      {
+        "path": "wechatauto/uia/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "315ae21492844ac63540110743af1420d05b89bb",
+        "size": 12800,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/315ae21492844ac63540110743af1420d05b89bb"
+      },
+      {
+        "path": "wechatauto/uia_driver.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0dcbb9bea48830816fcfb702e473bc1b167de828",
+        "size": 78494,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/0dcbb9bea48830816fcfb702e473bc1b167de828"
+      },
+      {
+        "path": "wechatauto/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9144959e3c41ac361c9f0b518210e8a29af75496",
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/trees/9144959e3c41ac361c9f0b518210e8a29af75496"
+      },
+      {
+        "path": "wechatauto/utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d895fc908340ad200b546550d9dc87ca2ecb4b4",
+        "size": 673,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/7d895fc908340ad200b546550d9dc87ca2ecb4b4"
+      },
+      {
+        "path": "wechatauto/utils/lock.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce40fccf61023a7f83b96d0e2273de5882e2faea",
+        "size": 3774,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/ce40fccf61023a7f83b96d0e2273de5882e2faea"
+      },
+      {
+        "path": "wechatauto/utils/tools.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28de353f4c71e96d86dee3d0ad2da1913a492c01",
+        "size": 11169,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/28de353f4c71e96d86dee3d0ad2da1913a492c01"
+      },
+      {
+        "path": "wechatauto/utils/win32.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "172cf9c145207693e095b85fe5e911ccbc77b08f",
+        "size": 11965,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/172cf9c145207693e095b85fe5e911ccbc77b08f"
+      },
+      {
+        "path": "wechatauto/wx.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82634e0f3e786d07de26828ab8f31b29e1e71d4e",
+        "size": 76572,
+        "url": "https://api.github.com/repos/fanyuantaier/wechatauto-replica/git/blobs/82634e0f3e786d07de26828ab8f31b29e1e71d4e"
+      }
+    ],
+    "truncated": false
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+  "current_connection_bound": true,
+  "clicked_signal_rva": 9583040,
+  "slot_functor_rva": 29659520,
+  "target_method": "ChatInputView::Send(SendActionType)",
+  "target_argument": 3,
+  "target_method_rva": 29585072,
+  "method_metadata": {
+    "index": 8,
+    "name": "Send",
+    "argc": 1,
+    "flags": 10,
+    "types": [
+      43,
+      2147483662
+    ],
+    "type_names": [
+      "metatype:43",
+      "SendActionType"
+    ]
+  },
+  "class_registration_procedure_rva": 40568048,
+  "class_registration_bound_to_live_hwnd": false,
+  "message_classifier_rva": 40575104,
+  "native_dispatcher_rva": 40575696,
+  "messages": [
+    {
+      "name": "WM_CANCELMODE",
+      "message": 31,
+      "classifier_branch_rva": 40575629,
+      "default_classification": 542
+    },
+    {
+      "name": "WM_CAPTURECHANGED",
+      "message": 533,
+      "classifier_branch_rva": 40575629,
+      "default_classification": 542
+    }
+  ],
+  "default_path_returns_unhandled": true,
+  "fallback_api": "DefWindowProcW",
+  "native_event_filters_not_observed": true,
+  "custom_state_reset_proven": false,
+  "cancellation_verified": false,
+  "submission_enabled": false,
+  "process_memory_accessed": false,
+  "methods_executed": 0,
+  "window_messages_sent": 0,
+  "code_windows": {
+    "connection_setup": {
+      "rva": 29551288,
+      "size": 131,
+      "sha256": "b4a122d3874df269fa3d0e138c60847027dfc0b0ad59e6dc4068adf6e9788ede"
+    },
+    "slot_functor": {
+      "rva": 29659520,
+      "size": 72,
+      "sha256": "ad6bcd7688242b640b47272fdbd88a4083da5134b25b2743577b55156bfc9525"
+    },
+    "send_slot_entry": {
+      "rva": 29585072,
+      "size": 128,
+      "sha256": "bdc0146e20027c033c87951ce9abcfff1e91628d8cb3271cc04515e97bd1e4b0"
+    },
+    "message_classifier": {
+      "rva": 40575104,
+      "size": 592,
+      "sha256": "969750eeeaf220e9571b390dcbb2685b2a4e737615ba7465a171e7e245d8c3b5"
+    },
+    "default_dispatch_branch": {
+      "rva": 40576355,
+      "size": 67,
+      "sha256": "d7c9099931efd1c8aac24ca88b547c1c7e98bed2de4cffe29a722ddb26ea5c32"
+    },
+    "class_procedure_entry": {
+      "rva": 40568048,
+      "size": 128,
+      "sha256": "cfec31d68a40751cd6d5fe7f2c69eda78d868ed0dc4f0333918ab59b768821ae"
+    }
+  },
+  "interpretation": "Connection reaches the named Send slot; default cancel routing has no dedicated state-reset handler. Live HWND entry and native filters remain unverified.",
+  "recorded_at": "2026-11-02T14:06:03.070667+00:00",
+  "script_sha256": "13ad862152abcb072712ed0b78a6695a4c022788cc4520eb1da6ab4b8b9f1dee"
+}

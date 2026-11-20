@@ -1,0 +1,18 @@
+{
+  "commit": "e82bf01eec9bb58848209b07f0bc7d8895a39f9b",
+  "purpose": "H4 catalog protocol inspection only; not executable or installed",
+  "files": [
+    {
+      "path": "agent/model_metadata.py",
+      "local_path": "model_metadata.py.source.txt",
+      "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/agent/model_metadata.py",
+      "sha256": "497f2342915b0c7f23e56c2ec7e191a122d6255a6d12e660e570a4013895ab3d",
+      "bytes": 146901
+    }
+  ],
+  "license": {
+    "path": "../sources/e82bf01eec9bb58848209b07f0bc7d8895a39f9b/LICENSE.source.txt",
+    "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6"
+  },
+  "implementation_note": "Uses a single explicit compatibility version 0.164.0, without Hermes synthetic models, credential cache adoption, 99.0.0 sentinel, or catalog fallback."
+}

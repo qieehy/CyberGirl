@@ -1,0 +1,8 @@
+{
+  "status": "stopped",
+  "mode": "send_physical_reviewed_once",
+  "marker_sha256": "cdec45843e81f640a6aed6f8003820eafc953f26360b9709d9d8ae5c5a56e7ab",
+  "model_requests": 0,
+  "outer_restore_verified": true,
+  "reason": "directed_trial_failed"
+}

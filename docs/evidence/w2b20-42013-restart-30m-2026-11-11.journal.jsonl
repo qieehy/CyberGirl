@@ -1,0 +1,8 @@
+{"event":"readiness_gate","at":1794366875.4596946,"stage":"GATE_CHECKED","original":0}
+{"event":"readiness_gate","at":1794366875.461695,"stage":"GATE_ENABLE_INTENT","original":0}
+{"event":"readiness_gate","at":1794366875.4626982,"stage":"GATE_ENABLED","original":0}
+{"event":"readiness_gate","at":1794366881.715008,"stage":"GATE_RESTORE_INTENT","original":0}
+{"event":"readiness_gate","at":1794366881.7170076,"stage":"GATE_RESTORED","original":0}
+{"event":"background_send_echo_observed","at":1794366893.6786969,"action_id":"02df81f6161509bc66ebd6946623df7f187bca7d840cdbf5b5e02cbf33e822cc","marker_sha256":"9e74bfe8257d73d120834f841a89d0363fb2270e4413c3a865c261f3ac2cef72"}
+{"event":"continuous_receive_started","at":1794366895.1789007,"duration_seconds":1800}
+{"event":"receive_progress","at":1794366945.094377,"elapsed_seconds":49.90599999995902,"polls":15,"fresh":0,"replay":0}

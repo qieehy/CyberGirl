@@ -1,0 +1,23 @@
+{
+  "status": "private_background_send_implemented_with_real_unique_echo",
+  "critical_initial_tests": 8,
+  "private_final_tests": 4,
+  "final_reconciliation_test": 1,
+  "full_suite_rerun": false,
+  "automatic_retry": false,
+  "model_calls_for_test": 0,
+  "scope": "selected canonical Amadues; background occluded non-minimized window",
+  "audit": "r3-Amadues-background-final-audit-2026-11-17.json",
+  "source_sha256": {
+    "src/wechat_agent/workbench/private_sender.py": "765f375a4d75cc0f0dd3cc064c5b99bd37d3d96eb3f18ce4e4eac15adad2930e",
+    "src/wechat_agent/bridges/wechat/private_send.py": "2cb687c2fbfeb52bbe6d8efe215830e255bfaaee62b86f10c7aabc750eb61599",
+    "scripts/wechat_private_send_worker.py": "03230d17b35ea91cb8d7cef2a22fb7781b8b340bef8094e8a36f89168c883ebe",
+    "scripts/wechat_private_send_surface.ps1": "cf27e1818c49ffe077dcd0fc91cda81682ad2c239328393cd507b8769ee6a640",
+    "src/wechat_agent/workbench/service.py": "17b346a2cb483107d36bd0b36e900dde4112ce8874f623d2e24bec463aadc768",
+    "src/wechat_agent/workbench/console.py": "f47ef10a5afec7c48ed2e3c61afaaf268b00b6fe6e0462a3fbe53496df3c4e9c",
+    "src/wechat_agent/cli.py": "108c847dff22bb764170d20fdd4db20d95c4c84930ee8f4949c984351ced3700",
+    "src/wechat_agent/bridges/wechat/sender.py": "a2e6d18b98ec2769ca186c5569a18e15051e419220abd12f2a87c25d4fe40f4a",
+    "scripts/wechat_standalone_backend.py": "43e6220464d0a533dd42b9b4b71e6b14bc35db8cae4b0dbf9a866ba654a9fc21",
+    "src/wechat_agent/assets/console/workbench.js": "9a6f6de54af893123548877eae84160feca3c95b4cd9f241020360e5581881a8"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-11-07T13:32:44.535640+00:00",
+  "operations": 11,
+  "permits": [
+    9,
+    5
+  ],
+  "unknown_count": 7,
+  "active_operations": 0,
+  "blocked_reason": "submission_or_draft_requires_review",
+  "integrity": "ok",
+  "latest_operation": {
+    "operation_id": "f2cb96e5d0ed4e1bab15d137976c5440",
+    "action_id": "9c48e9d7cf1aa63f33be69bc8f65661cb9af1cc534bc01955838706869d17758",
+    "input_permitted": 1,
+    "submit_permitted": 0,
+    "finished": 1,
+    "worker_reaped": 1,
+    "restore_verified": 1,
+    "reason": "background_target_became_foreground"
+  },
+  "latest_stages": [
+    "BG_VALUE_INPUT_INTENT"
+  ],
+  "ledger_writes": 0
+}

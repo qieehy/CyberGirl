@@ -1,0 +1,81 @@
+{
+  "stage": "W2-B3",
+  "status": "active_account_and_native_selected_object_verified_business_identity_unresolved",
+  "recorded_at": "2026-11-02T06:21:04.002910+00:00",
+  "tests": {
+    "tests": 14,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "post_review_guard_check": {
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "new_comprehensive_scenarios": 5,
+  "ruff": "passed",
+  "active_account_rechecks": 2,
+  "matched_w2a_account": true,
+  "activation_runs": 9,
+  "all_restore_readbacks_verified": true,
+  "final_gate_value": 0,
+  "final_readonly_nodes": 3,
+  "native_object": {
+    "class": "mmui::ChatSessionCell",
+    "first_pass_bytes": 568,
+    "stable": true,
+    "dynamic_property_count": 1,
+    "dynamic_property_static_match": "context_menu_connected",
+    "variant_type": 1
+  },
+  "runtime_ids_saved": false,
+  "canonical_conversation_verified": false,
+  "native_send_enabled": false,
+  "manual_fallback_enabled": false,
+  "v0_passed": false,
+  "wechat_ui_input_actions": 0,
+  "wechat_messages_sent": 0,
+  "real_model_requests": 0,
+  "key_fields_read": false,
+  "databases_opened": 0,
+  "favorites_modified": 0,
+  "remote_function_calls_or_injection": false,
+  "new_dependencies_installed": false,
+  "user_ledgers_opened": false,
+  "diagnostic_redactions": [
+    "session_item payload character codes replaced by counts in two early records; execution fingerprints retained"
+  ],
+  "activation_evidence": [
+    "w2b3-canonical-hash-2026-11-02.json",
+    "w2b3-native-class-2026-11-02.json",
+    "w2b3-native-final-2026-11-02.json",
+    "w2b3-native-model-2026-11-02.json",
+    "w2b3-native-object-accessor-2026-11-02.json",
+    "w2b3-native-properties-2026-11-02.json",
+    "w2b3-native-property-types-2026-11-02.json",
+    "w2b3-native-selected-object-2026-11-02.json",
+    "w2b3-session-marker-2026-11-02.json"
+  ],
+  "account_evidence": [
+    "w2b3-account-keyless-2026-11-02.json",
+    "w2b3-account-final-2026-11-02.json"
+  ],
+  "static_evidence": "w2b3-static-identity-2026-11-02.json",
+  "final_native_evidence": "w2b3-native-final-2026-11-02.json",
+  "restoration_evidence": "w2b3-final-restored-2026-11-02.json",
+  "implementation_sha256": {
+    "scripts/probe_wechat_account.py": "c88e64d5875f65ec5607459c1ee8312a7cb9765974722765afe044170c529295",
+    "scripts/probe_wechat_input.py": "54ab2030ccc64eeb8e67c831cbbc2b8147fcbe96fd72963cd5af725378acafff",
+    "scripts/probe_wechat_input.ps1": "728d501e2a982a6f355d3dfe65e1ac1b5cec2152225308ad7bb15936df8a14ac",
+    "scripts/wechat_input_metadata.ps1": "f87983d456277c94178d45bc5cc5ba95d5a4b0575ac5899569f4e5b6d0835b25",
+    "scripts/inspect_wechat_identity.py": "95095639fe482128fa013d99d81625fc806365c169a59afa75493f5d548e27d3",
+    "src/wechat_agent/bridges/wechat/keyprobe.py": "be5f2a89f97c3cf317c444b06142b1c548205ef0440c46bf38fd7d32256a48cf",
+    "src/wechat_agent/bridges/wechat/qt_memory.py": "7c9aec538a18fe05c1a83bc0e9d61ab093c95f70cb43ff65b2e35419831bba38",
+    "tests/test_wechat_identity.py": "090d2c987e248f307b2ece59cfc6212e6404b73bb9df041b2834ed4e9b550e3b",
+    "tests/test_wechat_qt_memory.py": "858eaac8574484fc28f4c245adec2f09ead6337f868ca366782e0dae6bbab2d5",
+    "tests/test_wechat_input.py": "3fb843dbf3eaef50cfa49d2848238d869b86bf8b05d455495d936e4f31688a6e",
+    "tests/wechat_input_metadata_fixture.ps1": "0519c595e3a3f9683cd251bf2a565b235076cbc645306e504b777d246ae60be7"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-11-07T13:23:00.076289+00:00",
+  "pid": 6684,
+  "hwnd": 3605350,
+  "created_filetime": "134385311807932727",
+  "code_matches_535_test_validation": true,
+  "prior_process_generation_exited": true,
+  "operations": 10,
+  "permits": [
+    8,
+    5
+  ],
+  "active_operations": 0,
+  "unknown_count": 6,
+  "history_sha256": "fe0f2c89bf7ee1df20b3e8197356990ee6f429246e7f4258e128f17ccbb139c6",
+  "blocked_reason": "submission_or_draft_requires_review",
+  "integrity": "ok",
+  "new_source_actions": 0,
+  "ledger_writes": 0
+}

@@ -1,0 +1,34 @@
+{
+  "status": "operator_wait_expired_before_review_or_action",
+  "recorded_at": 1793792404.7025173,
+  "approval_reference": "user-bbe24a5ff9be49628ffcda50b0a16344",
+  "specific_single_trial_approved": true,
+  "prior_named_uncertainty_acceptance_approved": true,
+  "approval_consumed": false,
+  "new_input_actions": 0,
+  "new_post_message_calls": 0,
+  "gate_value": 0,
+  "original_account_matched": true,
+  "ledger": {
+    "operations": 4,
+    "attempts": 4,
+    "reviews": 1,
+    "permissions": [
+      2,
+      2
+    ],
+    "active_bindings": 0,
+    "blocked_reason": "submission_or_draft_requires_review",
+    "new_marker_actions": 0,
+    "manual_confirmations": 1,
+    "old_uncertain_state": "UNCONFIRMED",
+    "integrity": "ok"
+  },
+  "reader_stopped": true,
+  "outer_restore_verified": true,
+  "stopped_controller_result": "docs/evidence/w2b14-posted-once-2026-11-04.json",
+  "expired_nonce": "4504b4002fb924bac008b80bbd83debb",
+  "expired_signal_file_created": false,
+  "stage_d_complete": false,
+  "model_requests": 0
+}

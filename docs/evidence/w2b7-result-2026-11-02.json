@@ -1,0 +1,42 @@
+{
+  "status": "W2B7_directed_click_candidate_and_direct_worker_launch_verified_offline",
+  "recorded_at": "2026-11-02T10:39:48.671299+00:00",
+  "W2B_complete": false,
+  "V0_complete": false,
+  "new_wechat_input_actions": 0,
+  "new_wechat_submit_actions": 0,
+  "new_wechat_focus_actions": 0,
+  "wechat_process_accessed": false,
+  "wechat_accessibility_leases_opened": 0,
+  "draft_changed": false,
+  "model_requests": 0,
+  "sender_ledger_writes": 0,
+  "favorites_changed": false,
+  "new_dependencies_installed": 0,
+  "candidate_default_observer": false,
+  "candidate_default_emitter": false,
+  "candidate_live_registration": false,
+  "real_submission_path_enabled": false,
+  "windows_direct_worker_bootstrap": true,
+  "existing_attempts": 3,
+  "existing_input_permits": 1,
+  "existing_submit_permits": 1,
+  "existing_manual_confirmations": 1,
+  "ui_channel_block": "submission_or_draft_requires_review",
+  "remaining_owned_test_receivers": 0,
+  "validation": {
+    "new_cases": 36,
+    "affected_regression": 108,
+    "final_new_case_recheck": 36,
+    "ruff": "passed"
+  },
+  "offline_evidence": "docs/evidence/w2b7-offline-2026-11-02.json",
+  "implementation_sha256": {
+    "src/wechat_agent/bridges/wechat/directed_click.py": "fc8d7a0eaaab741827c412833377fe89f33d3b12fbb50ac304f596584eafab66",
+    "src/wechat_agent/bridges/wechat/send_process.py": "8ee80113df02426be000627e42fff7ea513c2a2b9aa2dd6774c328c368066349",
+    "tests/test_wechat_directed_click.py": "006f0ce04588ec1019f21b1a4ca608efb5a8ca980b9cda60d247a9486f8324ef",
+    "tests/wechat_click_receiver.py": "cf1b6f4c5fc3b6c7eb1b8983a8549549008cfa1bab9a56b18958e1c2857ce93d",
+    "tests/test_wechat_sender.py": "4ff878a77176c913679133499bc9d4e1a69031a5cf4436e197cb32f3538e535b"
+  },
+  "next_step": "W2-B8 read-only real button geometry/DPI/hit observation and directed-route/cancellation verification; preserve draft and blocked channel"
+}

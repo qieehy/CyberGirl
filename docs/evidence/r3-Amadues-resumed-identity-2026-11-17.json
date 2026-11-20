@@ -1,0 +1,52 @@
+{
+  "status": "selected_private_identity_verified",
+  "chat_text_reads": 0,
+  "inputs": 0,
+  "submits": 0,
+  "model_calls": 0,
+  "ledger_writes": 0,
+  "window": {
+    "pid": 43088,
+    "hwnd": 331728,
+    "dll_sha256": "afe3d02c58bada3c35009c0cd58ee1f57b2a00fe53237d0dce649107fddb9a20",
+    "exe_sha256": "eaaa1c6c6123ce9887e5c67b60d905d22f09fac091058f27d2d819e9ff26fc69",
+    "created_filetime": "134393698271331417",
+    "candidate_rva": 189836232,
+    "image_size": 206430208,
+    "requested_process_access": "0x438",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "native": {
+    "username_sha256": "e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734",
+    "canonical_private_chat_verified": true,
+    "lookup_bytes": 2225,
+    "stable": true
+  },
+  "account_matched": true,
+  "account_fingerprint": "7899795f940e3a76be6036711f126ecfdc733ca26557aefe3c21d0c1d50b9100",
+  "selected_label_matched": true,
+  "provider_restored": true,
+  "observer_stopped": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 0,
+    "pointer_samples": 128,
+    "pointer_position_changes": 0,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 16.519,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [],
+    "target_detection_sources": [],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "locks_released": true,
+  "gate_after": 0,
+  "private_target_file": "D:\\qieehy\\WeChatAgent\\.state\\social\\r3-owner-Amadues-readonly-20261117.json"
+}

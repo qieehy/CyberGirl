@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-29T15:09:21.884847+00:00",
+  "status": "awaiting_logged_in_main_window",
+  "source": "docs/evidence/w1f-observe-2026-10-29.uia.json",
+  "source_sha256": "08ebddd02bf939c52c0cd7d1e90c88897753626c03069f8651d4ed6ff83eabbc",
+  "observation": {
+    "node_count": 29,
+    "root_class": "mmui::LoginWindow",
+    "window_kind": "login",
+    "mmui_present": true,
+    "manual_login_or_main_window_needed": true,
+    "edit_present": false,
+    "list_present": false,
+    "bounded": true,
+    "errors": 0,
+    "chat_control_candidate": false
+  },
+  "validation": "1 targeted classification test passed; Ruff passed",
+  "live_memory_writes": 0,
+  "model_requests": 0,
+  "external_messages": 0,
+  "raw_ui_text_read": false,
+  "classification_replayed_from_existing_metadata": true,
+  "script_sha256": "55c6e773d204cdba1cfeba69fa1ba99d789cd4f1b59f7b658fd005a99ad02008"
+}

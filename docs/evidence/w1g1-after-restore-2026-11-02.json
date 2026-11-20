@@ -1,0 +1,38 @@
+{
+  "mode": "observe_only",
+  "status": "observed_no_write",
+  "model_requests": 0,
+  "external_messages": 0,
+  "system_settings_changed": false,
+  "preflight": {
+    "pid": 34044,
+    "hwnd": 68894,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "created_filetime": "134380654003431728",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x410",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "original": 0,
+  "write_attempted": false,
+  "restore_verified": null,
+  "observation": {
+    "node_count": 3,
+    "root_class": "Qt51514QWindowIcon",
+    "window_kind": "qt_shell",
+    "mmui_present": false,
+    "manual_login_or_main_window_needed": false,
+    "edit_present": false,
+    "list_present": false,
+    "bounded": false,
+    "errors": 0,
+    "roles_found": [],
+    "status": "not_found_complete",
+    "chat_control_candidate": false
+  },
+  "script_sha256": "bfff4c5ba6cb64cc1616cd78bcae00d5da849743ed61325f71bbaba8809c2f03",
+  "recorded_at": "2026-11-02T04:01:44.301514+00:00"
+}

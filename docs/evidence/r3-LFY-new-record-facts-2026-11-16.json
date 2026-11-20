@@ -1,0 +1,204 @@
+{
+  "rows": [
+    {
+      "message_id": "8392534f08be12d54b6a8156ee919f12aee2c85a2fdd2d6af4abddd2734dff18",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9965,
+      "occurred_at": 1794820221.0,
+      "content_sha256": "0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c",
+      "text_length": 4
+    },
+    {
+      "message_id": "26cf3d44228f259eeb188d4346a2b1dd9049455abc300e7790fa5b6e8b4a6492",
+      "sender_matches_peer": true,
+      "sender_matches_self": false,
+      "disposition": "OBSERVED",
+      "local_id": 9966,
+      "occurred_at": 1794820228.0,
+      "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "text_length": 1
+    },
+    {
+      "message_id": "81e3de27d027ab2e84b99d5b83568140926b0387d13d3bcebd8c11dc763eec9d",
+      "sender_matches_peer": true,
+      "sender_matches_self": false,
+      "disposition": "unsupported_message_type",
+      "local_id": 9967,
+      "occurred_at": 1794820267.0,
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_length": 0
+    },
+    {
+      "message_id": "79fa710fb0c5f2de86794f5ebe45829a9173ffbfcef0040845b2aecfda7b48e7",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9968,
+      "occurred_at": 1794820269.0,
+      "content_sha256": "58db147663869f303b94055e77d5de8829ba0ea3783847489aa02a8a4f09b532",
+      "text_length": 19
+    },
+    {
+      "message_id": "6207526c8217462f1c3adba34f895cc7a98db69af40dfd9126437bc54bb70f78",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9969,
+      "occurred_at": 1794820274.0,
+      "content_sha256": "35bcc22b96a55bc93e237028d5b8354f2996c0f569b64a017f7f613b5721d19d",
+      "text_length": 5
+    },
+    {
+      "message_id": "b927b4f4251b1bc535148231a6485a3184f15063baad7a8e316b7ba4f7f9e75d",
+      "sender_matches_peer": true,
+      "sender_matches_self": false,
+      "disposition": "stale_event",
+      "local_id": 9970,
+      "occurred_at": 1794820275.0,
+      "content_sha256": "f3411f682cda54f991ef1bb494e57f0afed76a67b3a38aae4d734a003f10320b",
+      "text_length": 2
+    },
+    {
+      "message_id": "a7d50ebb61af145e257e583be63404e764eaf18bcdcc5b01efcd08b6278be4f1",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9971,
+      "occurred_at": 1794820280.0,
+      "content_sha256": "22e840cf333b0beba350d2f9145500288e2c3337a7ce761c34a03c71cf6b9bb6",
+      "text_length": 2
+    },
+    {
+      "message_id": "1d813036c833a0bd4f771cd1886c5fc2152bfa82d6ae5c62d7921af23e34c2c6",
+      "sender_matches_peer": true,
+      "sender_matches_self": false,
+      "disposition": "stale_event",
+      "local_id": 9972,
+      "occurred_at": 1794820283.0,
+      "content_sha256": "58db147663869f303b94055e77d5de8829ba0ea3783847489aa02a8a4f09b532",
+      "text_length": 19
+    },
+    {
+      "message_id": "73cb483f6b2603c1f47e33c0b4504ff812c4f6ab1437b99439764a7eec43b3c9",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "unsupported_message_type",
+      "local_id": 9973,
+      "occurred_at": 1794820289.0,
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_length": 0
+    },
+    {
+      "message_id": "6ec174184cb0333745893fc9e617d4dd535051eccbb370006572fa8f1cecec88",
+      "sender_matches_peer": true,
+      "sender_matches_self": false,
+      "disposition": "OBSERVED",
+      "local_id": 9974,
+      "occurred_at": 1794820294.0,
+      "content_sha256": "b14f091d2aaac9481b3d01a7bbb49afcfb0e85e350a431a0eccecc0108232fb6",
+      "text_length": 4
+    },
+    {
+      "message_id": "d05d386da1841edf1d6082a2b6895a74f10018f4beccf32b7e0c1cc4fe09960f",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9975,
+      "occurred_at": 1794820305.0,
+      "content_sha256": "6aa8f49cc992dfd75a114269ed26de0ad6d4e7d7a70d9c8afb3d7a57a88a73ed",
+      "text_length": 2
+    },
+    {
+      "message_id": "a3763e0c5bfef2821ae5e4f2f37040d882c68242397875f78f0028bde6526f74",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9976,
+      "occurred_at": 1794820321.0,
+      "content_sha256": "0138740c8d68787c23aa231a6cdd09d227871888fa348f40d26da066e73ae0b9",
+      "text_length": 9
+    },
+    {
+      "message_id": "f096abcb26bd8f34ad917a5c897c44272ffa394f9ff2e9af6044e4d1303b7863",
+      "sender_matches_peer": true,
+      "sender_matches_self": false,
+      "disposition": "OBSERVED",
+      "local_id": 9977,
+      "occurred_at": 1794820332.0,
+      "content_sha256": "7750a09929235944e364c34815f5ef7ff7fc8025770444a351450fa6e91c5359",
+      "text_length": 5
+    },
+    {
+      "message_id": "f5f1e4eacc981466744e4a4acf24003eac7f30be2d69e60000463a556cdde956",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9978,
+      "occurred_at": 1794820344.0,
+      "content_sha256": "75e72df9a9a560f539457e2aec8e8b51505b95e30fa94b76dc5d2cf5e17591c7",
+      "text_length": 9
+    },
+    {
+      "message_id": "c2d02ef25d3e7db3613dcb1506a91062fbc4d204562d8cbe653e04e60682c8e7",
+      "sender_matches_peer": true,
+      "sender_matches_self": false,
+      "disposition": "unsupported_message_type",
+      "local_id": 9979,
+      "occurred_at": 1794820408.0,
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_length": 0
+    },
+    {
+      "message_id": "ee89cdbe87611f18eca0428bb4c5aec7fd3c567e9cbc2c67eb552bd4833f017d",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9980,
+      "occurred_at": 1794820499.0,
+      "content_sha256": "a49ad0bfa7f4879893720e5473c6249dda50f2a317ceb5f16b3f06fb4f6a4051",
+      "text_length": 24
+    },
+    {
+      "message_id": "6cf47529ac8abca13459a91ae7892fcdd89d3f60b70cad62a56931177ac3afe1",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9981,
+      "occurred_at": 1794820507.0,
+      "content_sha256": "0e2028120f60f3f02da3bd50368d3cf42ccdc80cb8a6a0faa3aecbab7dfcf977",
+      "text_length": 4
+    },
+    {
+      "message_id": "f0a30ee148e8485ef0a9001387e2e6e891c1fe82178a47d25aab69d8f8b31eaf",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9982,
+      "occurred_at": 1794820516.0,
+      "content_sha256": "6c9342a4f333062ce1ed60faf36bc1c72044dd4cfa8a3f6dd224102a0d1cd15d",
+      "text_length": 9
+    },
+    {
+      "message_id": "9b5ad1ed853e7a31f843a9c0b4939dbd6ddc3d3b695b24bf96ec6d0d0dccfe26",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "unsupported_message_type",
+      "local_id": 9983,
+      "occurred_at": 1794820532.0,
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_length": 0
+    },
+    {
+      "message_id": "1fbdd6fb33dd1ad07d2872185a3e6f723e751cc3fadc545447779925b3b64654",
+      "sender_matches_peer": false,
+      "sender_matches_self": true,
+      "disposition": "self_echo",
+      "local_id": 9984,
+      "occurred_at": 1794820674.0,
+      "content_sha256": "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae",
+      "text_length": 3
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "not_verified",
+  "input_actions": 0,
+  "external_messages": 0,
+  "model_requests": 0,
+  "mode": "activate_once",
+  "pid": 34044,
+  "hwnd": 68894,
+  "created_filetime": "134380654003431728",
+  "error_type": "ValueError",
+  "collector_reaped": true,
+  "restore_verified": true,
+  "original": 0,
+  "recorded_at": "2026-11-02T06:44:55.442545+00:00",
+  "implementation_sha256": {
+    "scripts/probe_wechat_input.py": "378186fdf437ab3bd270e6c96b93b707052dd34189582e98cf4d78dbd1999e38",
+    "scripts/probe_wechat_input.ps1": "728d501e2a982a6f355d3dfe65e1ac1b5cec2152225308ad7bb15936df8a14ac",
+    "scripts/wechat_input_metadata.ps1": "f87983d456277c94178d45bc5cc5ba95d5a4b0575ac5899569f4e5b6d0835b25",
+    "scripts/uia_tree.ps1": "27c7750a347f3769c971fa0cc67d1c74b4aa9126d12201db6000be31c8a1661f",
+    "scripts/verify_wechat_accessibility.py": "0d664efd1c9aa397bada5ea2f56f69d1e53453acd5f9a4ed3c99ccc90e8b06b9",
+    "src/wechat_agent/bridges/wechat/sender.py": "c4416feb8ccc54f13a4ebafec24fd9446687a5a6cd5db6fce1810d6019177ccb",
+    "src/wechat_agent/bridges/wechat/qt_memory.py": "72e71554ce2337299df1dc7e277bff3132f93199eb3f7ce5374ce434ae87a198"
+  }
+}

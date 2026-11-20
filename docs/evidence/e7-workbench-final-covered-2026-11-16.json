@@ -1,0 +1,122 @@
+{
+  "status": "standalone_identity_verified",
+  "input_posts": 0,
+  "submit_posts": 0,
+  "foreground_activations": 0,
+  "real_keyboard_or_mouse_calls": 0,
+  "ledger_writes": 0,
+  "model_requests": 0,
+  "diagnostics_only": false,
+  "window": {
+    "pid": 7872,
+    "hwnd": 31721126,
+    "dll_sha256": "afe3d02c58bada3c35009c0cd58ee1f57b2a00fe53237d0dce649107fddb9a20",
+    "exe_sha256": "eaaa1c6c6123ce9887e5c67b60d905d22f09fac091058f27d2d819e9ff26fc69",
+    "created_filetime": "134392115523127861",
+    "candidate_rva": 189836232,
+    "image_size": 206430208,
+    "requested_process_access": "0x438",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "gate_before": 0,
+  "account_matched": true,
+  "native": {
+    "canonical_conversation_verified": true,
+    "native_input_verified": true,
+    "root_class": "mmui::ChatSingleWindow",
+    "root_meta_object_rva": 152407864,
+    "root_vtable_rva": 160120888,
+    "same_window_page_lineage": true,
+    "lookup_bytes": 2198,
+    "stable": true
+  },
+  "both_patterns_empty": true,
+  "root_matches_filehelper": true,
+  "draft_diagnostics": {
+    "text_length": 0,
+    "text_empty": true,
+    "value_length": 0,
+    "value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exact_equal": true,
+    "value_empty": true,
+    "text_status": "read",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "trailing_linebreaks_only_difference": false
+  },
+  "draft_matches_control_marker": false,
+  "draft_matches_value_marker": false,
+  "draft_matches_deferred_marker": false,
+  "qt_input_has_keyboard_focus": false,
+  "geometry_checks": {
+    "button_size_bounded": true,
+    "button_inside_client": true,
+    "center_has_margin": true,
+    "client_mapping_consistent": true,
+    "client_point_packable": true,
+    "foreground_matches": false,
+    "hit_root_matches": false,
+    "hit_process_matches": false,
+    "hit_button_matches": false,
+    "no_capture": true,
+    "input_focus_owned": false,
+    "no_hardware_interference": true,
+    "button_enabled": false,
+    "button_visible": true
+  },
+  "window_geometry": {
+    "button_bounds": [
+      919,
+      1174,
+      991,
+      1214
+    ],
+    "client_bounds": [
+      125,
+      701,
+      1022,
+      1241
+    ],
+    "client_point": [
+      830,
+      493
+    ],
+    "dpi": 144,
+    "coordinate_space": "physical_per_monitor_v2",
+    "dpi_context_restored": true
+  },
+  "worker_readiness": {
+    "account_and_filehelper_verified": true,
+    "both_draft_patterns_empty": true,
+    "same_editor_and_button": true,
+    "standalone_identity_verified": true,
+    "background_observer_active": true,
+    "no_capture": true,
+    "button_not_pressed": true,
+    "class_entry_matches_pinned_code": true,
+    "covered_by_other_app": true
+  },
+  "provider_restored": true,
+  "observer_released": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 0,
+    "pointer_samples": 524,
+    "pointer_position_changes": 0,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 22.821,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [],
+    "target_detection_sources": [],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "locks_released": true,
+  "gate_after": 0,
+  "recorded_at": "2026-11-16T06:51:19.639563+00:00"
+}

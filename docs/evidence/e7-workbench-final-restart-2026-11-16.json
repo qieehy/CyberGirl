@@ -1,0 +1,35 @@
+{
+  "status": "e7_post_phone_restart_no_replay_verified",
+  "action_id": "742188c0a8723119ad2b296752315eaafc1e4aa061526fe6d5f498fa807177e0",
+  "model_calls": 0,
+  "send_calls": 0,
+  "restart_reader_pid": 18044,
+  "poll": {
+    "fresh": 0,
+    "replay": 0,
+    "pages": 0,
+    "more": false
+  },
+  "workbench_read_only_verified": true,
+  "reader_reaped": true,
+  "send_tables_unchanged_across_restart": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true
+  },
+  "model_traces_unchanged": true,
+  "action_state": "CONFIRMED",
+  "send_counts": [
+    17,
+    15,
+    11
+  ],
+  "unknown_count": 8,
+  "active_operations": 0,
+  "active_bindings": 0,
+  "integrity_ok": true,
+  "unique_echo_and_manual_confirmation": true
+}

@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-11-07T14:47:32.744717+00:00",
+  "status": "ready_for_specific_return_trial_approval",
+  "request": "w2b-background-20261107-return",
+  "marker_sha256": "44bda1b9b349a6bebd1cdd59df8afbab3655d4335d631fe3608928df5f990cb0",
+  "window": {
+    "pid": 40604,
+    "hwnd": 136907112,
+    "created_filetime": "134385356084925593"
+  },
+  "maximum_attempts": 1,
+  "return_trial_executed": false,
+  "background_sending_accepted": false,
+  "tests": {
+    "all_wechat": {
+      "passed": 581,
+      "seconds": 87.54
+    },
+    "related": {
+      "passed": 111,
+      "seconds": 10.09
+    },
+    "ruff": "passed",
+    "powershell_parser": "passed",
+    "invalid_cli_combinations_rejected": 4
+  },
+  "history_evidence": "w2b18-return-history-readonly-2026-11-07.json",
+  "readiness_evidence": "w2b18-return-new-session-readiness-2026-11-07.json",
+  "code_sha256": {
+    "src/wechat_agent/bridges/wechat/background_contract.py": "09f480727c515fe4a2076156710a2ad7c52cd68c916cf6bb73332ec43d11f376",
+    "src/wechat_agent/bridges/wechat/background_text.py": "114d2433fbd8648a03a6f18135088ea4b7ab061b40adac08dee737de4c97e20b",
+    "src/wechat_agent/bridges/wechat/background_journal.py": "5c76b7df9cccd0b0c4e867662daca65cfd10dc8c2cfcf5a566e6d696e5ff9757",
+    "src/wechat_agent/bridges/wechat/background_process.py": "59ee86ae900b7a0e98fd5cbb08612b7b3da1be1461d42e54aad32bea75d4b071",
+    "src/wechat_agent/bridges/wechat/background_observer.py": "fd1beb1497017682922f678f2e95919ba8b33855905c12eaefd028109a9639f0",
+    "src/wechat_agent/bridges/wechat/send_state.py": "4897e51d0aeb180039967a21876e9a8610906688f391e59e664efd0464c37136",
+    "src/wechat_agent/bridges/wechat/channel_review.py": "3639e6266102ad1f30223b08eff8bcaf4049b167ef99144e7419a1c4b0a1ca7a",
+    "src/wechat_agent/bridges/wechat/standalone_identity.py": "2217df2fc4ef9681ff4a5688fb97fcb3e6ceeddab1a7efaafe85bd1677ebd121",
+    "scripts/wechat_background_control.py": "8090ac3ac052d54e32eacb848a8b58bab124ae101a0f0f1d314a6b0a7a9e1759",
+    "scripts/wechat_background_native.py": "68da39966a4b7907bf9add904d567477321f9a8e0e7073d76cfda861c5af6af9",
+    "scripts/wechat_standalone_backend.py": "e4da018caaf1ec4be244ec862636cb6f43410ac19ff9860b32de518b7d64733f",
+    "scripts/wechat_standalone_worker.py": "c5285ff36c5be3418f5e205f372c5fe64868b09ab3b5f794507dadc8951e3682",
+    "scripts/probe_wechat_standalone.py": "d7db7c95ee31a5693273248779e5508fe6f48e92d602242cc31b90e463ca6ec9",
+    "scripts/probe_wechat_background_trial.py": "fcb95c44e90083a02df6a8c51d11f9bde9abbf8d661b889a73b2f62d25490917",
+    "scripts/wechat_standalone_surface.ps1": "b3187280b6694ec40e605f7954b3cdfa1fd99809ad1f5a106913cc7843482a8a",
+    "tests/test_wechat_background_return.py": "5faa54b931b59b078cd8e0612c2694f00d49f15c84137fe23258de61fb9f9bb8",
+    "tests/test_wechat_button_action_inspection.py": "87e72ce6ca9c60a3ad710e600c6091d493165cd32f83bdee5f927360cabe4e54"
+  }
+}

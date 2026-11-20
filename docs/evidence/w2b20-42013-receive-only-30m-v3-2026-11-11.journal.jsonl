@@ -1,0 +1,41 @@
+{"event": "readiness_gate", "at": 1794370010.7439494, "stage": "GATE_CHECKED", "original": 0}
+{"event": "readiness_gate", "at": 1794370010.7449503, "stage": "GATE_ENABLE_INTENT", "original": 0}
+{"event": "readiness_gate", "at": 1794370010.746302, "stage": "GATE_ENABLED", "original": 0}
+{"event": "readiness_gate", "at": 1794370016.8965514, "stage": "GATE_RESTORE_INTENT", "original": 0}
+{"event": "readiness_gate", "at": 1794370016.8975542, "stage": "GATE_RESTORED", "original": 0}
+{"event": "read_only_receive_started", "at": 1794370016.905567, "duration_seconds": 1800}
+{"event": "receive_progress", "at": 1794370067.2200918, "elapsed_seconds": 50.31199999997625, "polls": 15, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370120.0016549, "elapsed_seconds": 103.09299999999348, "polls": 30, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370173.1106083, "elapsed_seconds": 156.2029999999795, "polls": 45, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370227.1618476, "elapsed_seconds": 210.25, "polls": 60, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370280.9170856, "elapsed_seconds": 264.01500000001397, "polls": 75, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370334.3149285, "elapsed_seconds": 317.40600000001723, "polls": 90, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370387.1101565, "elapsed_seconds": 370.2029999999795, "polls": 105, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370445.4031, "elapsed_seconds": 428.5, "polls": 120, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370496.960296, "elapsed_seconds": 480.06199999997625, "polls": 135, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370548.3466122, "elapsed_seconds": 531.4369999999763, "polls": 150, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370599.9943948, "elapsed_seconds": 583.0929999999935, "polls": 165, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370651.736235, "elapsed_seconds": 634.8279999999795, "polls": 180, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370703.4875135, "elapsed_seconds": 686.5779999999795, "polls": 195, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370755.1987092, "elapsed_seconds": 738.295999999973, "polls": 210, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370806.5482104, "elapsed_seconds": 789.640000000014, "polls": 225, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370857.1379826, "elapsed_seconds": 840.2339999999967, "polls": 240, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794370908.1091464, "elapsed_seconds": 891.2029999999795, "polls": 255, "fresh": 0, "replay": 0}
+{"event": "reader_and_service_restarted", "at": 1794370924.5880458, "at_seconds": 901.4679999999935, "previous_reader_pid": 30064, "reader_pid": 2184, "checkpoints_unchanged": true, "no_send_replay": true}
+{"event": "receive_progress", "at": 1794370965.4790285, "elapsed_seconds": 948.5779999999795, "polls": 270, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371016.7701569, "elapsed_seconds": 999.8589999999967, "polls": 285, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371068.662295, "elapsed_seconds": 1051.765000000014, "polls": 300, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371120.3890426, "elapsed_seconds": 1103.4839999999967, "polls": 315, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371172.0910285, "elapsed_seconds": 1155.1869999999763, "polls": 330, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371224.531506, "elapsed_seconds": 1207.625, "polls": 345, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371276.913902, "elapsed_seconds": 1260.015000000014, "polls": 360, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371329.5539763, "elapsed_seconds": 1312.6560000000172, "polls": 375, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371381.5312204, "elapsed_seconds": 1364.625, "polls": 390, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371433.1800098, "elapsed_seconds": 1416.2810000000172, "polls": 405, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371484.7244992, "elapsed_seconds": 1467.8119999999763, "polls": 420, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371536.7006016, "elapsed_seconds": 1519.795999999973, "polls": 435, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371588.1104195, "elapsed_seconds": 1571.2029999999795, "polls": 450, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371639.8246183, "elapsed_seconds": 1622.920999999973, "polls": 465, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371690.887372, "elapsed_seconds": 1673.9839999999967, "polls": 480, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371741.8954742, "elapsed_seconds": 1724.9839999999967, "polls": 495, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794371793.9917738, "elapsed_seconds": 1777.0929999999935, "polls": 510, "fresh": 0, "replay": 0}

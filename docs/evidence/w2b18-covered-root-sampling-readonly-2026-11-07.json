@@ -1,0 +1,8 @@
+{
+  "samples": 100,
+  "all_points_other_process": 100,
+  "same_foreground_root_for_all_points": 0,
+  "other_process_cover_with_different_root": 100,
+  "foreground_is_wechat": 0,
+  "exposed_or_no_hit": 0
+}

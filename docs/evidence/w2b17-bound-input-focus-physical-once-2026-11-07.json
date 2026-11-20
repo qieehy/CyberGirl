@@ -1,0 +1,39 @@
+{
+  "status": "directed_trial_echo_observed",
+  "mode": "send_physical_reviewed_once",
+  "marker_sha256": "cdec45843e81f640a6aed6f8003820eafc953f26360b9709d9d8ae5c5a56e7ab",
+  "model_requests": 0,
+  "action_id": "866b1291579f48a91c032e3a718f2470b6975210c79b7a42ef03dad17a7d9a0d",
+  "review_id": "6e93eb44bca1e0f49bd3abc61506785cb47060350d7a7b655c490df7e02f37f5",
+  "prior_unknowns_reviewed": [
+    "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+    "e3917a17916f4156c3ed706951c4ec63adb0b5092ce9ea13eeda8643a2bb6cc1",
+    "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa"
+  ],
+  "delivery_state": "UNCONFIRMED",
+  "echo_status": "matched",
+  "operation_id": "5c2101b59fb045d799bcfda45edc3600",
+  "input_permitted": 1,
+  "submit_permitted": 1,
+  "worker_reaped": true,
+  "restore_verified": true,
+  "reason": "filehelper_candidate_0_1_1_1",
+  "gesture": {
+    "stages": [
+      "CLICK_BEGIN_INTENT",
+      "CLICK_DOWN_INTENT",
+      "CLICK_UP_INTENT",
+      "CLICK_RESULT_UNKNOWN",
+      "CLICK_MODE_INJECTED"
+    ],
+    "state": "UNKNOWN",
+    "may_have_reached_target": true,
+    "message_mode": "injected",
+    "cancel_acknowledged": false,
+    "cancel_enqueued": false
+  },
+  "local_echo": true,
+  "phone_confirmation_required": true,
+  "reader_stopped": true,
+  "outer_restore_verified": true
+}

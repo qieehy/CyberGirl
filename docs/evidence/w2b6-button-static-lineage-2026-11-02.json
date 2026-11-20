@@ -1,0 +1,39 @@
+{
+  "class_lineage": [
+    {
+      "class_name": "mmui::XOutlineButton",
+      "meta_object_rva": 152477496,
+      "static_metacall_rva": 9582128,
+      "own_methods": 6,
+      "parent_meta_rva": 152474640
+    },
+    {
+      "class_name": "mmui::XSkiaWidget",
+      "meta_object_rva": 152474640,
+      "static_metacall_rva": 44832,
+      "own_methods": 0,
+      "parent_meta_rva": 151988888
+    },
+    {
+      "class_name": "QWidget",
+      "meta_object_rva": 151988888,
+      "static_metacall_rva": 6123600,
+      "own_methods": 27,
+      "parent_meta_rva": 151737256
+    },
+    {
+      "class_name": "QObject",
+      "meta_object_rva": 151737256,
+      "static_metacall_rva": 2757296,
+      "own_methods": 5,
+      "parent_meta_rva": null
+    }
+  ],
+  "inherits_qabstractbutton": false,
+  "process_memory_accessed": false,
+  "methods_executed": 0,
+  "interpretation": "Static QObject inheritance only; does not prove the live accessibility doAction implementation.",
+  "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+  "recorded_at": "2026-11-02T09:13:42.905396+00:00",
+  "script_sha256": "b442e85d8cc16d2bfccc482a66ebfc19caf8bb59059f55d3301eb5d8239e4024"
+}

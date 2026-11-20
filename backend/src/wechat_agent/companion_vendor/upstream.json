@@ -1,0 +1,27 @@
+{
+  "author": "menglimi",
+  "read_date": "2026-11-18",
+  "versions": {
+    "memory": "2.6.6",
+    "companion": "7.2.4"
+  },
+  "files": [
+    {
+      "source": "menglimi/astrbot_plugin_memory_companion/core/person_card.py",
+      "sha256": "93dc2c7e838901e229347d9aed2de2c34061b7bc14c853cce99966c9e485fc9f"
+    },
+    {
+      "source": "menglimi/astrbot_plugin_memory_companion/core/person_weight.py",
+      "sha256": "9125f234170bd1e091bf158d8bd33ca7d7d05070d186ac472385f500376cc706"
+    },
+    {
+      "source": "menglimi/astrbot_plugin_memory_companion/core/memory_tier.py",
+      "sha256": "31b39ef1ea7ddfbdba8c1987edfdac8d7bb19f4387c03d94a5589cd7708e543a"
+    },
+    {
+      "source": "menglimi/astrbot_plugin_private_companion/companion_v2/role_work/state/mood/models.py",
+      "sha256": "a98aab6198d3065e9b8b0abfd9fc632b9990aeb4b26cd89be3d3ea9069ab9218",
+      "adaptation": "Only execution.models import replaced by local support."
+    }
+  ]
+}

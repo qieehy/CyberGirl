@@ -1,0 +1,41 @@
+{
+  "status": "background_control_unconfirmed",
+  "mode": "standalone_background_value",
+  "model_requests": 0,
+  "marker_sha256": "797799c105eed297a6909758b14cc56a1988d2a597c8d8117967fb9280074668",
+  "action_id": "cc9c6a179071690b704ee97d3811e09b011e9c6d26948ee651538d0ca7a3a1b7",
+  "review_id": "0457fa147f050cf828b5954a7ae0917e47b693ef590b2ace47c23e32f33bebed",
+  "operation_id": "9ce8e79c7931467db459616656b24427",
+  "control_result": {
+    "state": "UNKNOWN",
+    "reason": "background_target_became_foreground",
+    "input_possible": true,
+    "submit_possible": false,
+    "focus_cleanup_verified": false,
+    "input_units_attempted": 34,
+    "posts_attempted": 1,
+    "upstream_ok": false,
+    "delivery_verified": false
+  },
+  "worker_local_cleanup_verified": false,
+  "observation": {
+    "foreground_target_seen": true,
+    "foreground_events": 1,
+    "pointer_samples": 72,
+    "pointer_position_changes": 0,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 101.089,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "worker_reaped": true,
+  "provider_restored": true,
+  "input_permitted": 1,
+  "submit_permitted": 0,
+  "reader_reaped": true,
+  "locks_released": true,
+  "delivery_state": "UNCONFIRMED",
+  "phone_confirmation_required": false
+}

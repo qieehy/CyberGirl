@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-29T12:55:23.203Z",
+  "status": "observed_insufficient_control_exposure",
+  "login_confirmation": "user reported done",
+  "window_id": 460506,
+  "window_source": "fresh sky.list_windows, unique Weixin match",
+  "observations": 2,
+  "foreground_activation": 1,
+  "tree_line_count": 4,
+  "parsed_control_rows": 3,
+  "localized_control_counts": {
+    "窗口": 1,
+    "窗格": 2
+  },
+  "required_control_markers": {
+    "search": false,
+    "contacts": false,
+    "send": false,
+    "chat_input_class": false,
+    "message_view_class": false
+  },
+  "screenshot_count": 0,
+  "keyboard_or_mouse_input": 0,
+  "model_requests": 0,
+  "external_messages": 0,
+  "raw_text_persisted": false,
+  "limitations": [
+    "snapshot API does not expose full UIA patterns or raw class properties",
+    "missing nodes in this tool do not prove pyweixin incompatible",
+    "stable identities and delivery receipts untested"
+  ],
+  "next": "diagnose UIA provider exposure before W2; do not send by guessed coordinates"
+}

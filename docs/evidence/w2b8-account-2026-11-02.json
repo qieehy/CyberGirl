@@ -1,0 +1,35 @@
+{
+  "status": "active_account_verified",
+  "pid": 34044,
+  "hwnd": 68894,
+  "created_filetime": "134380654003431728",
+  "process_writes": 0,
+  "keys_read": false,
+  "databases_opened": 0,
+  "model_requests": 0,
+  "external_messages": 0,
+  "preflight": {
+    "pid": 34044,
+    "hwnd": 68894,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "exe_sha256": "5329ffc9afdeeb01db6dd5a68321277a8cf8d3f966873c070be3d04d7dfb1c0e",
+    "created_filetime": "134380654003431728",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x410",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "matched_previous_database_account": true,
+  "account_fingerprint": "7899795f940e3a76be6036711f126ecfdc733ca26557aefe3c21d0c1d50b9100",
+  "unique_account_directory": true,
+  "canonical_conversation_verified": false,
+  "recorded_at": "2026-11-02T12:54:48.505261+00:00",
+  "implementation_sha256": {
+    "scripts/probe_wechat_account.py": "2457b8809d12ae9bdaa2a6c50c7e1940782f389654257881c0a50c6d872c2d54",
+    "scripts/probe_wechat_database.py": "5d924d564475593c9ebe271dd7aef71a37b4ff88738045530058ee48434d523f",
+    "scripts/verify_wechat_accessibility.py": "d0931ebe8dfaf6b5e3db5b75b62ec0035141794b60f2594ca8fac5fe10ebb9e1",
+    "src/wechat_agent/bridges/wechat/keyprobe.py": "be5f2a89f97c3cf317c444b06142b1c548205ef0440c46bf38fd7d32256a48cf"
+  }
+}

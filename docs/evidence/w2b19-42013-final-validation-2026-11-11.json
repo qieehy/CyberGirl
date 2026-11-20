@@ -1,0 +1,30 @@
+{
+  "at": 1794366673.3377228,
+  "status": "qualified_for_two_operator_reviewed_bmp_trials",
+  "wechat_tests_passed": 641,
+  "wechat_tests_skipped": 9,
+  "test_seconds": 164.61,
+  "skip_reason": "old_4.2.0.9_binary_removed_by_upgrade",
+  "ruff": "passed",
+  "covered_phone_confirmation": "w2b18-covered-phone-confirmation-2026-11-11.json",
+  "new_version_readiness": "w2b19-42013-covered-readiness-v2-2026-11-11.json",
+  "new_service_readiness": "w2b19-42013-service-readiness-2026-11-11.json",
+  "input_permits_before": 12,
+  "submit_permits_before": 8,
+  "source_sha256": {
+    "scripts/wechat_42013_profile.py": "31190122906e0a3713ab26e27b306f9a2010085ae3a98b9f0556e2fe2359e6f7",
+    "scripts/wechat_42013_worker.py": "d611f61f1c7f3a6cf3c0bf180be0fd4c77fbb72bb5779a410e99b5e23697a58d",
+    "scripts/wechat_42013_reader_worker.py": "1ae2081e0be5169788793ca715248ca50c004618b7ac53bfd82222bdd2a6996e",
+    "scripts/probe_wechat_42013_service.py": "15cc9ca97bf30b21a565f690ab789de0c42768d4d49c3d5c026ef7832c9a5910",
+    "scripts/probe_wechat_background_service.py": "77b091286ec8ab455e513101d7e844a28fd17076cefc8a6b68f8b19d0256e2f9",
+    "src/wechat_agent/bridges/wechat/background_readmission.py": "80b06281f0538bbc437f81d4c2f51d292c66c1aff420ebe2e670ec6a9de01954",
+    "src/wechat_agent/bridges/wechat/background_sender.py": "7fe8e599ef2896dd7dd2f655c4a1a3d8101eff76e266fe30999ae3f8962697d7",
+    "src/wechat_agent/bridges/wechat/background_completion.py": "4452e319c1aca7a5017a32a6f73e6278129d14d54f415749dbd2b8b23b8b6c43",
+    "src/wechat_agent/bridges/wechat/channel_review.py": "54177d573616b9cb1410a60007fc33afafbc9d175f6f72d83cc114321a08b8ad",
+    "src/wechat_agent/bridges/wechat/send_state.py": "08f4bca07df90d920d2042cbc10770a9d1ab8a0f66483196143f76cefbe946a3",
+    "src/wechat_agent/bridges/wechat/qt_connections.py": "767fd50d6bf4de51a6a4ea302e337e873e5fdc265bd54a5a668fa2664b4cfd5e",
+    "scripts/wechat_standalone_worker.py": "91d2bfb704b9a27a3d83264aa132ddaa4b47329f9dc3885992e6a31557fbbe06",
+    "scripts/wechat_background_control.py": "1a6997e7280de90f0d523655dd4257d759d237db3e32025dfb7661bac4ea37ac",
+    "scripts/wechat_standalone_backend.py": "bcb01bfcad93c9d09c8575f3ab847793ea9314cd153e7feede40b2f9fb52190f"
+  }
+}

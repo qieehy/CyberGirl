@@ -1,0 +1,25 @@
+{
+  "status": "r3_final_offline_validation_passed",
+  "passed": 851,
+  "skipped": 9,
+  "subtests_passed": 848,
+  "elapsed_seconds": 326.03,
+  "ruff": "passed",
+  "workbench_javascript_syntax": "passed",
+  "identity_powershell_syntax": "passed",
+  "interrupted_full_run": "stopped_before_completion_to_add_explicit_private_readonly_service_construction_guard",
+  "fixture_failure": "owned-worker fixture missing; fixed without weakening production script ownership guard",
+  "wheel": ".build\\r3-readonly-wheel\\wechat_agent-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "ba4016cd1dd1fd2283b30b8e58943be59653e7dc106081915455a4b4632493a6",
+  "wheel_source_matches": {
+    "bridges/wechat/private_identity.py": true,
+    "bridges/wechat/private_receive.py": true,
+    "bridges/wechat/qt_memory.py": true,
+    "bridges/wechat/receive_process.py": true,
+    "social/ledger.py": true,
+    "workbench/private_native.py": true,
+    "workbench/service.py": true
+  },
+  "native_runtime_requires_complete_source_checkout": true,
+  "final_regression_sha256": "fad1f13c9d99063eacc9b51b89a9c7128ddd174b5d182ebf4920aa5493a35648"
+}

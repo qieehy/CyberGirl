@@ -1,0 +1,11 @@
+{
+  "status": "stopped",
+  "mode": "standalone_background_covered",
+  "model_requests": 0,
+  "marker_sha256": "ba856438c2b21288a5279134e03e9e8d5061a8e933ede4dddeb7c4db557a8434",
+  "worker_reaped": true,
+  "provider_restored": true,
+  "reader_reaped": true,
+  "locks_released": true,
+  "reason": "background_other_app_cover_required"
+}

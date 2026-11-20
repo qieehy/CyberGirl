@@ -1,0 +1,13 @@
+import {api, act, element, notice, explain, errors, refresh, state} from "./workbench.js";
+"use strict";
+(() => {
+  const get=id=>document.getElementById(id);let active=false,lastQr=null,loading=false;
+  Object.assign(errors,{clawbot_login_required:"请先使用手机微信扫码登录。",clawbot_consent_required:"请先勾选扫码者私聊的数据使用说明。",clawbot_network_error:"微信接口连接失败，请检查网络后重试。",clawbot_session_expired:"微信登录态已过期，请重新扫码。",clawbot_api_rejected:"微信接口拒绝了本次请求，未自动重发。",clawbot_qr_invalid:"微信接口未返回有效二维码。",clawbot_login_identity_missing:"登录结果缺少扫码者身份，已停止接入。",clawbot_private_auto_only:"接口版只处理已授权扫码者的新私聊消息。",clawbot_send_unconfirmed:"发送结果不确定，已暂停且不会自动重发。",clawbot_api_accepted:"微信接口已受理",clawbot_pin_invalid:"请输入手机显示的4至8位验证码。"});
+  function paint(data){const status={not_logged_in:"尚未登录",wait:"等待手机微信扫码",scaned:"已扫码，请在手机确认",confirmed:"登录成功，已限定扫码者私聊",expired:"二维码或登录态已过期，请重新获取",verify_code_blocked:"验证码尝试已被限制，请重新获取二维码",binded_redirect:"此机器人已有绑定，请检查已有接入",failed:"登录未完成"}[data.status]||data.status;get("clawbot-login-status").textContent=status+(data.error?" · "+(errors[data.error]||data.error):"");get("clawbot-login-button").disabled=loading||data.logged_in;get("clawbot-login-button").textContent=data.logged_in?"已连接":"获取 / 刷新登录二维码";get("clawbot-qr").hidden=!data.qr_png;if(data.qr_png&&data.qr_png!==lastQr){get("clawbot-qr").src=data.qr_png;lastQr=data.qr_png;}get("clawbot-pin-form").hidden=!data.need_pin;get("clawbot-qr-expiry").textContent=data.qr_png&&data.expires_at?"有效期剩余约 "+Math.max(0,Math.ceil(data.expires_at-Date.now()/1000))+" 秒":"";}
+  async function refreshLogin(){if(!active||loading)return;try{paint(await api("/api/clawbot/login"));}catch(e){get("clawbot-login-status").textContent=explain(e);}}
+  get("clawbot-login-button").addEventListener("click",()=>act(get("clawbot-login-button"),async()=>{loading=true;try{paint(await api("/api/clawbot/login",{}));}finally{loading=false;await refreshLogin();}}));
+  get("clawbot-pin-form").addEventListener("submit",e=>{e.preventDefault();act(e.submitter,async()=>{await api("/api/clawbot/pin",{pin:get("clawbot-pin").value});get("clawbot-pin").value="";notice("验证码已提交，请继续在手机上确认登录。");});});
+  window.clawbotPanel={onState:value=>{const next=value.provider==="clawbot";get("clawbot-connect").classList.toggle("hidden",!next);if(!next)return;get("clawbot-consent-text").textContent="允许将扫码者新发的文字、微信提供的语音转写、该会话最多16对已回复上下文及当前人格交给 "+value.model+"，并自动回发给扫码者；每天最多30次模型生成。";if(!value.auto_reply.requires_consent){get("clawbot-consent").checked=true;get("clawbot-consent").disabled=true;}if(!active){active=true;window.studioManagement?.show("workbench");refreshLogin();}}};
+  setInterval(refreshLogin,2000);
+  if(typeof state!=="undefined"&&state)window.clawbotPanel.onState(state);
+})();

@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "diagram_type": "tree",
+  "meta": {
+    "title": "WeChatAgent 项目结构与职责",
+    "locale": "zh-CN",
+    "output": ".archify/tree-project-structure-20261111-131038/project-structure.html",
+    "quality_profile": "showcase"
+  },
+  "layout": {
+    "direction": "right",
+    "nodeW": 250,
+    "nodeMaxW": 310,
+    "gapX": 48,
+    "gapY": 26
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "label": "WeChatAgent",
+      "sublabel": "本机社交应用 · Python ≥3.11"
+    },
+    {
+      "id": "app",
+      "label": "应用入口与运行时",
+      "sublabel": "src/wechat_agent/ 顶层模块",
+      "parent": "root"
+    },
+    {
+      "id": "cli",
+      "label": "cli.py / bootstrap.py",
+      "sublabel": "命令分发、mock/live 装配与回收",
+      "parent": "app"
+    },
+    {
+      "id": "console",
+      "label": "console.py / assets/console/",
+      "sublabel": "本机 HTTP 工作台 · 默认离线沙盒",
+      "parent": "app"
+    },
+    {
+      "id": "engine",
+      "label": "chat.py / framework.py",
+      "sublabel": "ChatEngine → 外部 AI_agent Runtime",
+      "parent": "app"
+    },
+    {
+      "id": "preview",
+      "label": "preview.py",
+      "sublabel": "显式真实人格预演 · 不投递微信",
+      "parent": "app"
+    },
+    {
+      "id": "social",
+      "label": "社交核心 social/",
+      "sublabel": "平台无关消息、人格与投递状态",
+      "parent": "root"
+    },
+    {
+      "id": "service",
+      "label": "service.py / decision.py",
+      "sublabel": "入站、决策、outbox 与适配器回执",
+      "parent": "social"
+    },
+    {
+      "id": "ledger",
+      "label": "ledger.py / models.py",
+      "sublabel": "SQLite 账本、事务、去重与恢复",
+      "parent": "social"
+    },
+    {
+      "id": "persona",
+      "label": "persona.py / groups.py",
+      "sublabel": "人格组装、群缓冲与练习策略",
+      "parent": "social"
+    },
+    {
+      "id": "sandbox",
+      "label": "sandbox.py",
+      "sublabel": "SyntheticModel + FakeAdapter 离线闭环",
+      "parent": "social"
+    },
+    {
+      "id": "provider",
+      "label": "模型接入 providers/codex/",
+      "sublabel": "文本模型调用与独立认证",
+      "parent": "root"
+    },
+    {
+      "id": "wire",
+      "label": "provider / transport / sse / response",
+      "sublabel": "有界文本请求、HTTP 流与结果校验",
+      "parent": "provider"
+    },
+    {
+      "id": "auth",
+      "label": "auth / token_manager / credentials",
+      "sublabel": "认证、令牌管理与 DPAPI 凭据",
+      "parent": "provider"
+    },
+    {
+      "id": "network",
+      "label": "catalog / config / network",
+      "sublabel": "模型目录、端点与显式本机代理",
+      "parent": "provider"
+    },
+    {
+      "id": "bridge",
+      "label": "微信桥接 bridges/wechat/",
+      "sublabel": "版本绑定 · filehelper 限定接入",
+      "parent": "root"
+    },
+    {
+      "id": "receive",
+      "label": "receive_* / reader / snapshot",
+      "sublabel": "读取子进程 → 父进程提交 → ACK",
+      "parent": "bridge"
+    },
+    {
+      "id": "state",
+      "label": "contracts / store / send_state",
+      "sublabel": "身份、游标、发送许可与证据账本",
+      "parent": "bridge"
+    },
+    {
+      "id": "native",
+      "label": "native_* / qt_* / window_proc",
+      "sublabel": "UIA、Qt 身份与原生输入事件路线",
+      "parent": "bridge"
+    },
+    {
+      "id": "background",
+      "label": "background_*",
+      "sublabel": "准入、观察、锁、意图日志与恢复",
+      "parent": "bridge"
+    },
+    {
+      "id": "engineering",
+      "label": "执行脚本与工程资料",
+      "sublabel": "scripts/ · tests/ · docs/ · 构建配置",
+      "parent": "root"
+    },
+    {
+      "id": "scripts",
+      "label": "scripts/",
+      "sublabel": "版本专用入口、探针、worker 与验收",
+      "parent": "engineering"
+    },
+    {
+      "id": "tests",
+      "label": "tests/",
+      "sublabel": "模型、账本、控制台与微信恢复测试",
+      "parent": "engineering"
+    },
+    {
+      "id": "docs",
+      "label": "docs/ 与依赖构建",
+      "sublabel": "阶段记录、能力边界、锁定与框架打包",
+      "parent": "engineering"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "三条运行链路",
+      "items": [
+        "本机聊天：CLI → bootstrap → ChatEngine → AI_agent Runtime → CodexTextProvider；mock 使用本机模拟后端。",
+        "工作台：Console → SocialService → RuntimeDecider(SyntheticModel) → outbox → FakeAdapter；真实预演为独立显式入口。",
+        "微信接收：专用脚本 → ReaderSession / 读取子进程 → BridgeStore / Ledger 提交 → 子进程 ACK；接收器不调用模型。"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "当前接通范围 · 2026-11-11",
+      "items": [
+        "最新依据为 docs/W2B20_BG1_ACCEPTANCE.md，README 保留较旧阶段描述。",
+        "微信 4.2.0.13、原账号、独立 filehelper、未最小化且被遮挡：两条固定标记发送及 30 分钟连续只读验收完成。",
+        "一般模型自动回复未开放；最小化、托盘与锁屏未验收。background_sender 拒绝固定标记之外的内容。"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "阅读范围与来源限制",
+      "items": [
+        "树枝表示职责归属，不表示调用；紧密协作文件合并展示。",
+        "当前目录无 .git，无法固定提交或验证 Git 来源；本地行号记录在同目录 source-index.md，不提供提交级来源链接。",
+        "AI_agent 0.3.0 为外部依赖；只说明本项目装配和调用边界，不展开框架内部实现。",
+        "未展开 .venv、build、缓存、egg-info 及 research 参考材料；.state 为本机账本与凭据数据，本轮未读取其内容。"
+      ]
+    }
+  ]
+}

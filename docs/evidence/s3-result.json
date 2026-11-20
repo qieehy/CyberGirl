@@ -1,0 +1,88 @@
+{
+  "stage": "S3",
+  "recorded_at_utc": "2026-10-27T09:17:26.465826+00:00",
+  "status": "explicit_live_persona_preview_passed",
+  "application_source_sha256": "de99150dab68b4ad3834e286e9911371a83479151c7f7816a509133f941cbbe0",
+  "key_tests": {
+    "new_scenarios": 3,
+    "affected_s2_scenarios": 3,
+    "junit": ".build/s3-critical.xml",
+    "sha256": "a8a19457cf160ed39db7067d992f5b8deae04b051dd93ace65603862acda7db5",
+    "attributes": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "6",
+      "time": "3.039",
+      "timestamp": "2026-10-27T17:12:12.070757+08:00",
+      "hostname": "Qze"
+    },
+    "full_regression_rerun": false,
+    "ruff": "passed"
+  },
+  "live_acceptance": {
+    "entry": "browser explicit preview button",
+    "selected_model": "gpt-6.1-sol",
+    "returned_model": "gpt-6.1-sol",
+    "persona_version": 2,
+    "state": "COMPLETED",
+    "prompt_sha256": "f763011c134ea484de303f9824e529e85c823eafb8b20777cd8f62f99718723b",
+    "reply_sha256": "b44983cbdd7c84fb276fe6101126c64a902169b442e6e558682747c904260a0b",
+    "reply_chars": 17,
+    "checks": {
+      "contains_persona_name": true,
+      "transparent_ai_identity": true,
+      "single_model_http_attempt": true,
+      "existing_social_records_preserved": true
+    },
+    "runtime_class": "runtime.runtime.Runtime",
+    "logical_model_calls": 1,
+    "model_http_attempts": 1,
+    "real_external_messages": 0,
+    "synthetic_or_real_adapter_submissions": 0,
+    "finished_at": 1793092461.3817523,
+    "screenshot": "docs/evidence/s3-preview.png",
+    "narrow_sidebar_layout": "visually inspected",
+    "h4b_refresh": "not_established_by_this_acceptance"
+  },
+  "schema": 3,
+  "ledger_counts_after_preview": {
+    "inbox": 4,
+    "decisions": 4,
+    "outbox": 3,
+    "attempts": 3,
+    "personas": 2,
+    "previews": 1
+  },
+  "project_wheel": {
+    "path": ".build/s3-wheels/wechat_agent-0.1.0-py3-none-any.whl",
+    "sha256": "702cdd62d7c6d6247f74c2adb3f654428b66da588a503fede1bc7d9e187cfd6a",
+    "bytes": 855581,
+    "verified_package_files": 39,
+    "sources_and_assets_match": true,
+    "credentials_and_state_excluded": true
+  },
+  "dependencies_and_framework_unchanged": true,
+  "default_console_still_mock": true,
+  "remaining": [
+    "Synthetic group passive triggers, buffering, cooldown and budgets",
+    "Real WeChat adapter and group scene acceptance",
+    "Multi-turn persona preview, retention/archive and proactive scheduling",
+    "H4b natural real-token refresh"
+  ],
+  "file_sha256": {
+    "src/wechat_agent/preview.py": "2ae1cc5f23702b300b8ec6f1445b98738fd1943c3dfd523a91d922903d4b37f8",
+    "src/wechat_agent/console.py": "4e3ba57aef8860a0834b926285f3ca3b22d2411bd69dc7d5957f6c0573307cb5",
+    "src/wechat_agent/cli.py": "36e913f018e4ea1b2215880ffcc433bf07e72b7ebb40e6724128fd8f159d3522",
+    "src/wechat_agent/social/ledger.py": "b7b05efa018c81c002217a4b63c80682dd79bc3f85be599f7a18c017f43d72aa",
+    "tests/test_preview.py": "0f4da1e9e84ec7ad93b300769b37b40ef085db8e9bb1c56c07e67833623d2c7c",
+    "docs/S3_LIVE_PREVIEW.md": "eb237c0295bdb1458002d2aa1ee21a81b2ddfe0a53db58de5e8ec128d150dad5",
+    "docs/evidence/s3-preview.png": "2f0c8b2ee1c62b13242550961bbc95bc9df31d5feb01e7cfa177ac44d123c1a9",
+    "README.md": "effe648fd85411321b269813d9258972faec198703ef04d812b7b906fa6496d5",
+    "PROJECT_PLAN.md": "f34c32f237ac452c56a12c1faae66f359dcb5aa00ad590684b0a64bae0ef4c81",
+    "src/wechat_agent/assets/console/app.js": "066f9df076148ae068f025d229275d7079000dcb128337a8bb2a63a873ef8723",
+    "src/wechat_agent/assets/console/index.html": "08371bdf9a55c226c305f74caee27c9a84febcb2d6aa063236c32349f9a27e3c",
+    "src/wechat_agent/assets/console/style.css": "1262d567a689b652c4fb9bf61334492df67147354ca1505092dbea996b90bbd4"
+  }
+}

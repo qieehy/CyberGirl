@@ -1,0 +1,18 @@
+{
+  "at": 1794368306.8341467,
+  "current_run": "w2b20-42013-receive-only-30m-v2-2026-11-11.json",
+  "send_count_limit": 2,
+  "actual_new_sends": 2,
+  "both_phone_confirmations_recorded": true,
+  "read_only_resume_has_no_sending_entry": true,
+  "prior_failures_preserved": [
+    "w2b20-42013-restart-30m-2026-11-11.json",
+    "w2b20-42013-receive-only-30m-2026-11-11.json"
+  ],
+  "strict_sender_observer_unchanged_in_behavior": true,
+  "read_only_known_null_foreground_max_ms": 250,
+  "unattributed_nonzero_and_event_windows_remain_fatal": true,
+  "reference": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getforegroundwindow",
+  "targeted_recovery_tests": 18,
+  "new_send_required": false
+}

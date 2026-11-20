@@ -1,0 +1,50 @@
+{
+  "status": "W2B4_native_identity_verified",
+  "recorded_at": "2026-11-02T06:58:47.939294+00:00",
+  "native_conversation_verified": true,
+  "canonical_username": "filehelper",
+  "account_matched_to_authenticated_database": true,
+  "native_send_enabled": false,
+  "W2B_complete": false,
+  "V0_complete": false,
+  "input_actions": 0,
+  "external_messages": 0,
+  "model_requests": 0,
+  "key_fields_read": false,
+  "databases_opened": 0,
+  "favorites_changed": false,
+  "account_checks_keyless": true,
+  "native_lookup_bytes": 7411,
+  "all_lease_collectors_reaped_and_restored": true,
+  "lease_evidence": [
+    "docs/evidence/w2b4-business-key-2026-11-02.json",
+    "docs/evidence/w2b4-business-key-ready-2026-11-02.json",
+    "docs/evidence/w2b4-native-identity-final-2026-11-02.json",
+    "docs/evidence/w2b4-parent-chains-2026-11-02.json"
+  ],
+  "final_gate_value": 0,
+  "final_readonly_node_count": 3,
+  "static_replay_evidence": "docs/evidence/w2b4-static-session-key-2026-11-02.json",
+  "identity_evidence": "docs/evidence/w2b4-native-identity-final-2026-11-02.json",
+  "account_final_evidence": "docs/evidence/w2b4-account-final-2026-11-02.json",
+  "restore_final_evidence": "docs/evidence/w2b4-final-restored-2026-11-02.json",
+  "validation": {
+    "pytest_passed": 25,
+    "ruff": "passed",
+    "test_files": [
+      "tests/test_wechat_native_bindings.py",
+      "tests/test_wechat_qt_memory.py",
+      "tests/test_wechat_input.py",
+      "tests/test_wechat_identity.py",
+      "tests/test_accessibility_verifier.py"
+    ]
+  },
+  "implementation_sha256": {
+    "src/wechat_agent/bridges/wechat/qt_memory.py": "76efe79563b028c9324eaac1efbeb7e15f99f6c690c07765e089e72eaf465df4",
+    "scripts/probe_wechat_input.py": "ce16bee1cbf5f3769d46f8d04e4bb508088a3734023f48926d76a017335f83c2",
+    "scripts/inspect_wechat_session_key.py": "140fa834cd40e4fc4d5837d4f8b4ebabc3807edd4f461afbbb1712945b761ea1",
+    "tests/test_wechat_native_bindings.py": "c5e1f557faa2cdf7781e23cfa444808eec9487f11a7fe1629b1489217ae28e64",
+    "tests/test_wechat_input.py": "80a610db66e13d50774914fb639e09d138ab332b2f316e46c2db5bc5b76c615a"
+  },
+  "next_step": "W2-B5: directed native input/submit worker, selected-shard baseline and self-echo wiring, single fixed marker only to filehelper"
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-16T05:08:38.369252+00:00",
+  "status": "ready",
+  "persisted_state": "active",
+  "tokens_present": true,
+  "expires_at": 1795669540.0,
+  "last_error": null,
+  "proxy": "http://127.0.0.1:7897",
+  "model_requests": 0,
+  "refresh_requests": 0
+}

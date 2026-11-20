@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-18",
+  "authorization": "user_explicitly_requested_foreground_transition_not_interrupt_private_message_sending",
+  "root_causes": ["four_whitespace_characters_in_composer", "legacy_background_only_foreground_rejection"],
+  "composer_repair": {
+    "before_value_length": 4,
+    "before_text_length": 4,
+    "before_exact_equal": true,
+    "before_whitespace_only": true,
+    "after_value_length": 0,
+    "after_text_length": 0,
+    "after_exact_equal": true,
+    "foreground_activation_during_whitespace_repair": true,
+    "read_only_prepare_after_repair": "passed",
+    "worker_cleanup_after_prepare": true,
+    "gate_restored": true
+  },
+  "runtime": {
+    "reading": true,
+    "auto_reply_enabled": true,
+    "auto_reply_phase": "waiting",
+    "auto_reply_last_error": null,
+    "foreground": true,
+    "background": true,
+    "minimized": false,
+    "model": "gpt-5.6-luna",
+    "media_enabled": true
+  },
+  "critical_tests_passed": 26,
+  "historical_failed_actions_retried": 0,
+  "extra_model_generations": 0,
+  "extra_wechat_test_sends": 0,
+  "new_live_foreground_delivery_verified": false
+}

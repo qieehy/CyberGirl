@@ -1,0 +1,42 @@
+{
+  "mode": "activate_once",
+  "status": "experiment_restored",
+  "model_requests": 0,
+  "external_messages": 0,
+  "system_settings_changed": false,
+  "preflight": {
+    "pid": 34044,
+    "hwnd": 68894,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "created_filetime": "134380654003431728",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x438",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "original": 0,
+  "write_attempted": true,
+  "restore_verified": true,
+  "observation": {
+    "node_count": 171,
+    "root_class": "mmui::MainWindow",
+    "window_kind": "main",
+    "mmui_present": true,
+    "manual_login_or_main_window_needed": false,
+    "edit_present": true,
+    "list_present": true,
+    "bounded": false,
+    "errors": 0,
+    "roles_found": [
+      "chat_input",
+      "navigation",
+      "session_list"
+    ],
+    "status": "found",
+    "chat_control_candidate": true
+  },
+  "script_sha256": "bfff4c5ba6cb64cc1616cd78bcae00d5da849743ed61325f71bbaba8809c2f03",
+  "recorded_at": "2026-11-02T04:01:35.383048+00:00"
+}

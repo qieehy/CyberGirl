@@ -1,0 +1,6 @@
+{"stage": "GATE_CHECKED", "original": 0, "at": 1793782853.165299}
+{"stage": "GATE_ENABLE_INTENT", "original": 0, "at": 1793782853.1686337}
+{"stage": "GATE_ENABLED", "original": 0, "at": 1793782853.1686337}
+{"stage": "FOCUS_PREPARE_INTENT", "original": 0, "at": 1793782859.7365847}
+{"stage": "GATE_RESTORE_INTENT", "original": 0, "at": 1793782860.7126298}
+{"stage": "GATE_RESTORED", "original": 0, "at": 1793782860.7139375}

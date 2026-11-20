@@ -1,0 +1,38 @@
+{
+  "status": "directed_trial_unconfirmed",
+  "mode": "send_posted_reviewed_once",
+  "marker_sha256": "d9d9817662d8282ef2c0ef9ba210429d85775e931d875a877a2a9f71d72d4f4b",
+  "model_requests": 0,
+  "action_id": "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa",
+  "review_id": "6802c542c60338d1c73c6d44cf5d0116b0e0871d2b40142a1b99d9a63c9e2596",
+  "prior_unknowns_reviewed": [
+    "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd"
+  ],
+  "delivery_state": "UNCONFIRMED",
+  "echo_status": "not_unique_or_absent",
+  "operation_id": "d9d623f51a5244629db1f3ce95033aec",
+  "input_permitted": 1,
+  "submit_permitted": 1,
+  "worker_reaped": true,
+  "restore_verified": true,
+  "reason": "posted_button_press_not_observed",
+  "gesture": {
+    "stages": [
+      "CLICK_BEGIN_INTENT",
+      "CLICK_MOVE_INTENT",
+      "CLICK_DOWN_INTENT",
+      "CLICK_CANCEL_INTENT",
+      "CLICK_RESULT_UNKNOWN",
+      "CLICK_MODE_QUEUED",
+      "CLICK_CANCEL_ENQUEUED"
+    ],
+    "state": "UNKNOWN",
+    "may_have_reached_target": true,
+    "message_mode": "queued",
+    "cancel_acknowledged": false,
+    "cancel_enqueued": true
+  },
+  "phone_confirmation_required": true,
+  "reader_stopped": true,
+  "outer_restore_verified": true
+}

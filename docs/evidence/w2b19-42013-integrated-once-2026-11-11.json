@@ -1,0 +1,152 @@
+{
+  "status": "background_service_echo_observed",
+  "mode": "integrated_background_bmp",
+  "marker_sha256": "16dd2b42e74c3c4f2890aeab3e5d5c5ed4972a55a55c1837e771da75c9ec8354",
+  "service_pid": 32800,
+  "model_requests": 0,
+  "start_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1793689102000,
+        "local_id": 145
+      },
+      "local_fence": 145
+    }
+  },
+  "reader_start_pid": 48516,
+  "starting_counts": {
+    "operations": 14,
+    "inputs": 12,
+    "submits": 8
+  },
+  "binding_generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+  "background_revalidation": {
+    "source_generation": "96dba0cb0ff1e650fe490b105761420f3698f7e8e3b105617cb8e81a821ef81f",
+    "generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+    "observed_at": 1794366691.195644,
+    "other_input_generations_exited": true,
+    "build_transition_verified": true
+  },
+  "readiness": {
+    "account_and_filehelper_verified": true,
+    "both_draft_patterns_empty": true,
+    "same_editor_and_button": true,
+    "standalone_identity_verified": true,
+    "background_observer_active": true,
+    "no_capture": true,
+    "button_not_pressed": true,
+    "class_entry_matches_pinned_code": true,
+    "covered_by_other_app": true,
+    "observed_at": 1794366691.1966448,
+    "binding_generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+    "prior_input_context_reconciled": true,
+    "background_admission_verified": true
+  },
+  "confirmed_replay_checks": 0,
+  "action_id": "a9a4bf9e17d71ffdcbf97885577495736fa7a59607e3f8ba089e674dc0b3974f",
+  "review_id": "feb7474e3fbf82308ea212870b885c2805bee97eb5c3138c0374b473351a3a58",
+  "dispatch_state": "UNCONFIRMED",
+  "operation_id": "989fd6d325834353a100ffe91364b84e",
+  "control_result": {
+    "state": "REQUESTED",
+    "reason": "sent",
+    "input_possible": true,
+    "submit_possible": true,
+    "focus_cleanup_verified": true,
+    "input_units_attempted": 37,
+    "posts_attempted": 41,
+    "upstream_ok": true,
+    "delivery_verified": false
+  },
+  "worker_local_cleanup_verified": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 0,
+    "pointer_samples": 321,
+    "pointer_position_changes": 0,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 109.158,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [],
+    "target_detection_sources": [],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "input_permitted": 1,
+  "submit_permitted": 1,
+  "clean_control_recorded": true,
+  "worker_reaped": true,
+  "provider_restored": true,
+  "locks_released": true,
+  "reason": "sent",
+  "unique_local_echo": true,
+  "phone_confirmation_required": true,
+  "receive_initial": {
+    "fresh": 18,
+    "replay": 0,
+    "pages": 1,
+    "more": false
+  },
+  "post_send_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794366702000,
+        "local_id": 163
+      },
+      "local_fence": 163
+    }
+  },
+  "post_send_counts": {
+    "operations": 15,
+    "inputs": 13,
+    "submits": 9
+  },
+  "end_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794366702000,
+        "local_id": 163
+      },
+      "local_fence": 163
+    }
+  },
+  "reader_reaped": true,
+  "ending_counts": {
+    "operations": 15,
+    "inputs": 13,
+    "submits": 9
+  },
+  "active_operations": 0,
+  "integrity_ok": true
+}

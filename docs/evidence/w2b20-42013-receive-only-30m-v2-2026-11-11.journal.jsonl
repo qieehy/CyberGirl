@@ -1,0 +1,28 @@
+{"event": "readiness_gate", "at": 1794368080.8225844, "stage": "GATE_CHECKED", "original": 0}
+{"event": "readiness_gate", "at": 1794368080.825584, "stage": "GATE_ENABLE_INTENT", "original": 0}
+{"event": "readiness_gate", "at": 1794368080.8265846, "stage": "GATE_ENABLED", "original": 0}
+{"event": "readiness_gate", "at": 1794368087.268483, "stage": "GATE_RESTORE_INTENT", "original": 0}
+{"event": "readiness_gate", "at": 1794368087.269483, "stage": "GATE_RESTORED", "original": 0}
+{"event": "read_only_receive_started", "at": 1794368087.2754858, "duration_seconds": 1800}
+{"event": "receive_progress", "at": 1794368139.0484316, "elapsed_seconds": 51.76500000001397, "polls": 15, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368192.8496773, "elapsed_seconds": 105.56199999997625, "polls": 30, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368245.7461636, "elapsed_seconds": 158.46799999999348, "polls": 45, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368298.425699, "elapsed_seconds": 211.14000000001397, "polls": 60, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368351.1208205, "elapsed_seconds": 263.8429999999935, "polls": 75, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368404.9894543, "elapsed_seconds": 317.7029999999795, "polls": 90, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368458.6313467, "elapsed_seconds": 371.3429999999935, "polls": 105, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368511.1261947, "elapsed_seconds": 423.8429999999935, "polls": 120, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368564.33995, "elapsed_seconds": 477.06199999997625, "polls": 135, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368618.2638721, "elapsed_seconds": 530.9839999999967, "polls": 150, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368671.7967331, "elapsed_seconds": 584.515000000014, "polls": 165, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368725.269127, "elapsed_seconds": 637.9839999999967, "polls": 180, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368778.085445, "elapsed_seconds": 690.8119999999763, "polls": 195, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368831.0640984, "elapsed_seconds": 743.7810000000172, "polls": 210, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368883.7619696, "elapsed_seconds": 796.4839999999967, "polls": 225, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794368936.5529895, "elapsed_seconds": 849.265000000014, "polls": 240, "fresh": 0, "replay": 0}
+{"event": "reader_and_service_restarted", "at": 1794368995.211241, "at_seconds": 901.7029999999795, "previous_reader_pid": 27824, "reader_pid": 37868, "checkpoints_unchanged": true, "no_send_replay": true}
+{"event": "receive_progress", "at": 1794368995.2122416, "elapsed_seconds": 901.7029999999795, "polls": 255, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794369049.0986917, "elapsed_seconds": 961.8119999999763, "polls": 270, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794369102.2755103, "elapsed_seconds": 1015.0, "polls": 285, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794369155.1304188, "elapsed_seconds": 1067.8429999999935, "polls": 300, "fresh": 0, "replay": 0}
+{"event": "receive_progress", "at": 1794369208.3257368, "elapsed_seconds": 1121.045999999973, "polls": 315, "fresh": 0, "replay": 0}

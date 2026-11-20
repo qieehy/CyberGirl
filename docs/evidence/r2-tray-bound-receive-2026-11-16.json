@@ -1,0 +1,34 @@
+{
+  "status": "stopped",
+  "started_at": 1794817424.330751,
+  "model_requests": 0,
+  "input_posts": 0,
+  "submit_posts": 0,
+  "starting_audit": {
+    "schema": 9,
+    "operations_and_permits": [
+      17,
+      15,
+      11
+    ],
+    "unknown": 8,
+    "active_operations": 0
+  },
+  "all_readers_reaped": true,
+  "ending_audit": {
+    "schema": 9,
+    "operations_and_permits": [
+      17,
+      15,
+      11
+    ],
+    "unknown": 8,
+    "active_operations": 0
+  },
+  "integrity_ok": true,
+  "migration_backups": [
+    "wechat-sender-poc.sqlite3.v8-1794802088208201400.bak"
+  ],
+  "reason": "reader_source_failed",
+  "finished_at": 1794817432.6389008
+}

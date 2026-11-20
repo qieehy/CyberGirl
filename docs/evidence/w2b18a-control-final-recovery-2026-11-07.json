@@ -1,0 +1,25 @@
+{
+  "operations": 7,
+  "permits": [
+    5,
+    5
+  ],
+  "active_operations": 0,
+  "blocked_reason": "submission_or_draft_requires_review",
+  "integrity": "ok",
+  "ledger_writes": 0,
+  "independent_gate_readback": 0,
+  "live_admitted": false,
+  "blockers": [
+    "target checked before/after enqueue is not bound to later Qt processing",
+    "no admitted persistent live host wiring or bounded child recovery for this route"
+  ],
+  "source_hashes": {
+    "scripts\\wechat_background_control.py": "7dd1cdf8ff83aa145dec33622487f0a0564f94c9f47178deb0f738ea04fcc1be",
+    "scripts\\wechat_background_native.py": "3f5b75e68dec9851f32760eaa790c6b3b6507a038229eecb572aa67de56fb933",
+    "src\\wechat_agent\\bridges\\wechat\\background_contract.py": "40489d2551839f40e5fefa2d29be221dc42d497fa550488ab145b3b32fc34fa7",
+    "src\\wechat_agent\\bridges\\wechat\\background_journal.py": "b91f59e0f1013cd90053e08514feb37a55ee4d106e2f2bc19b8d98a7a8ee749c",
+    "src\\wechat_agent\\bridges\\wechat\\background_lock.py": "30b573a4c67fd29ec20f2b62a2dba99a4a0bfd2fdc14bcc4256d1f84c4491174",
+    "src\\wechat_agent\\bridges\\wechat\\background_observer.py": "4efc60403ab8f96a8e1c0a8434f6ab64ef096e72a80d884eba78d15b6127fc05"
+  }
+}

@@ -1,0 +1,4377 @@
+{
+  "stage": "B18a",
+  "live_admitted": false,
+  "source_verified": true,
+  "license": "AGPL-3.0-only (this snapshot; older MIT snapshot is separate)",
+  "definitions": {
+    "configure": 53,
+    "_dpi_awareness": 134,
+    "ensure_dpi_aware": 150,
+    "UipiDenied": 198,
+    "_noop": 202,
+    "_is_blank": 206,
+    "_ScreenReader": 218,
+    "find_hwnd": 279,
+    "_gate_pulse": 291,
+    "_tree_ok": 346,
+    "_ensure_tree": 354,
+    "tree_hint": 406,
+    "WeChatSender": 420,
+    "encode_utf16": 513,
+    "_version_tuple": 524,
+    "_exe_version": 529,
+    "_mode_from_versions": 570,
+    "_detect_char_mode_by_version": 583,
+    "_remember_char_mode": 653,
+    "_composer_value": 676,
+    "_clear_composer": 683,
+    "sniff_char_mode": 713,
+    "detect_char_mode": 752,
+    "_composer_text": 781,
+    "_expected_text": 788,
+    "encode_gbk": 795,
+    "_uia": 815,
+    "_descendants": 820,
+    "_aid_hit": 858,
+    "norm_chat_name": 871,
+    "read_ui": 883,
+    "_tokens": 964,
+    "name_score": 970,
+    "_chat_is_target": 992,
+    "open_chat": 1012,
+    "_acquire_named_mutex": 1083,
+    "_release_named_mutex": 1106,
+    "_WriteGuard": 1119,
+    "send": 1141,
+    "probe": 1337,
+    "shutdown": 1394
+  },
+  "imports": [
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 28,
+      "module": "ctypes"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 29,
+      "module": "json"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 30,
+      "module": "os"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 31,
+      "module": "re"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 32,
+      "module": "threading"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 33,
+      "module": "time"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 34,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 1399,
+      "module": "atexit"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 816,
+      "module": "uiautomation"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 305,
+      "module": "wechatauto.accessibility",
+      "level": 0
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 539,
+      "module": "win32api"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 548,
+      "module": "ctypes"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 549,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 596,
+      "module": "os"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 597,
+      "module": "psutil"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 598,
+      "module": "win32process"
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 827,
+      "module": "uiautomation.uiautomation",
+      "level": 0
+    },
+    {
+      "file": "bridge/bg_sender.py.source.txt",
+      "line": 612,
+      "module": "wechatauto.accessibility",
+      "level": 0
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 20,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 22,
+      "module": "ctypes"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 23,
+      "module": "os"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 24,
+      "module": "subprocess"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 25,
+      "module": "threading"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 26,
+      "module": "time"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 27,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 28,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 159,
+      "module": "threading"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 52,
+      "module": "win32gui"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 53,
+      "module": "win32process"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 54,
+      "module": "psutil"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 107,
+      "module": "wechatauto.accessibility",
+      "level": 0
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 156,
+      "module": "uiautomation"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 181,
+      "module": "uiautomation"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 263,
+      "module": "win32gui"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 264,
+      "module": "win32con"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 299,
+      "module": "psutil"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 397,
+      "module": "wechatauto.accessibility",
+      "level": 0
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 432,
+      "module": "win32gui"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 433,
+      "module": "os"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 454,
+      "module": "win32gui"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 455,
+      "module": "win32con"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 582,
+      "module": "wechatauto.accessibility",
+      "level": 0
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 122,
+      "module": "os"
+    },
+    {
+      "file": "bridge/uia_boot.py.source.txt",
+      "line": 167,
+      "module": "comtypes"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 33,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 35,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 36,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 37,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 38,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 39,
+      "module": "struct"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 40,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 41,
+      "module": "functools",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 42,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 43,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 45,
+      "module": "numpy"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 47,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 49,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 55,
+      "module": "win32process"
+    },
+    {
+      "file": "vendor/wechatauto/accessibility.py.source.txt",
+      "line": 313,
+      "module": "numpy"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 11,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 12,
+      "module": "io"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 13,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 14,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 15,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 25,
+      "module": "wechatauto"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 67,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 76,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 154,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 169,
+      "module": "wechatauto.media",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 178,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 247,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 264,
+      "module": "wechatauto.media",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 298,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 335,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 354,
+      "module": "wechatauto.wx",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 399,
+      "module": "wechatauto.wx",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 444,
+      "module": "wechatauto.wx",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 498,
+      "module": "wechatauto.wx",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 129,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 144,
+      "module": "datetime"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 322,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 567,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/cli.py.source.txt",
+      "line": 475,
+      "module": "wechatauto.wx",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 19,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 21,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 22,
+      "module": "glob"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 23,
+      "module": "hashlib"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 24,
+      "module": "hmac"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 25,
+      "module": "base64"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 26,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 27,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 28,
+      "module": "queue"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 29,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 30,
+      "module": "shutil"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 31,
+      "module": "sqlite3"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 32,
+      "module": "struct"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 33,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 34,
+      "module": "tempfile"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 35,
+      "module": "threading"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 36,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 37,
+      "module": "unicodedata"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 38,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 39,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 41,
+      "module": "cryptography.hazmat.primitives.ciphers",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 42,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 3258,
+      "module": "winreg"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 203,
+      "module": "win32crypt"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 215,
+      "module": "win32crypt"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 1099,
+      "module": "subprocess"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 1331,
+      "module": "subprocess"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 829,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/db.py.source.txt",
+      "line": 803,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo.py.source.txt",
+      "line": 10,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_db.py.source.txt",
+      "line": 14,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_db.py.source.txt",
+      "line": 16,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_db.py.source.txt",
+      "line": 17,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_db.py.source.txt",
+      "line": 18,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_db.py.source.txt",
+      "line": 29,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_emoji_capture.py.source.txt",
+      "line": 13,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_emoji_capture.py.source.txt",
+      "line": 15,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_emoji_capture.py.source.txt",
+      "line": 16,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_emoji_capture.py.source.txt",
+      "line": 17,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_emoji_capture.py.source.txt",
+      "line": 28,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 45,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 47,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 48,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 49,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 50,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 51,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 52,
+      "module": "tempfile"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 53,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 54,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 68,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 69,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 70,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward.py.source.txt",
+      "line": 77,
+      "module": "wechatauto.media",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward_voice.py.source.txt",
+      "line": 17,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward_voice.py.source.txt",
+      "line": 19,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward_voice.py.source.txt",
+      "line": 20,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward_voice.py.source.txt",
+      "line": 21,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_forward_voice.py.source.txt",
+      "line": 32,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_group_messages.py.source.txt",
+      "line": 35,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_group_messages.py.source.txt",
+      "line": 37,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_group_messages.py.source.txt",
+      "line": 38,
+      "module": "hashlib"
+    },
+    {
+      "file": "vendor/wechatauto/demo_group_messages.py.source.txt",
+      "line": 39,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_group_messages.py.source.txt",
+      "line": 40,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/demo_group_messages.py.source.txt",
+      "line": 41,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_group_messages.py.source.txt",
+      "line": 42,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_group_messages.py.source.txt",
+      "line": 53,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_group_messages.py.source.txt",
+      "line": 181,
+      "module": "zstandard"
+    },
+    {
+      "file": "vendor/wechatauto/demo_guia.py.source.txt",
+      "line": 16,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_guia.py.source.txt",
+      "line": 18,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_guia.py.source.txt",
+      "line": 19,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_guia.py.source.txt",
+      "line": 20,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_guia.py.source.txt",
+      "line": 31,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_guia.py.source.txt",
+      "line": 74,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_labels.py.source.txt",
+      "line": 21,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_labels.py.source.txt",
+      "line": 23,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_labels.py.source.txt",
+      "line": 24,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_labels.py.source.txt",
+      "line": 25,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_labels.py.source.txt",
+      "line": 27,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_labels.py.source.txt",
+      "line": 63,
+      "module": "wechatauto.wx",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_listen.py.source.txt",
+      "line": 19,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_listen.py.source.txt",
+      "line": 21,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_listen.py.source.txt",
+      "line": 22,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_listen.py.source.txt",
+      "line": 23,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_listen.py.source.txt",
+      "line": 34,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_media.py.source.txt",
+      "line": 37,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_media.py.source.txt",
+      "line": 39,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_media.py.source.txt",
+      "line": 40,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_media.py.source.txt",
+      "line": 41,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/demo_media.py.source.txt",
+      "line": 42,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_media.py.source.txt",
+      "line": 43,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_media.py.source.txt",
+      "line": 54,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_download.py.source.txt",
+      "line": 30,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_download.py.source.txt",
+      "line": 32,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_download.py.source.txt",
+      "line": 33,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_download.py.source.txt",
+      "line": 34,
+      "module": "subprocess"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_download.py.source.txt",
+      "line": 35,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_download.py.source.txt",
+      "line": 36,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_download.py.source.txt",
+      "line": 47,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_interact.py.source.txt",
+      "line": 19,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_interact.py.source.txt",
+      "line": 21,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_interact.py.source.txt",
+      "line": 22,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moments_interact.py.source.txt",
+      "line": 35,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_cells.py.source.txt",
+      "line": 17,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_cells.py.source.txt",
+      "line": 19,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_cells.py.source.txt",
+      "line": 20,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_cells.py.source.txt",
+      "line": 21,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_cells.py.source.txt",
+      "line": 33,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_cells.py.source.txt",
+      "line": 34,
+      "module": "wechatauto.utils.tools",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_cells.py.source.txt",
+      "line": 172,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_cells.py.source.txt",
+      "line": 167,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comment.py.source.txt",
+      "line": 14,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comment.py.source.txt",
+      "line": 16,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comment.py.source.txt",
+      "line": 17,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comment.py.source.txt",
+      "line": 29,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comment.py.source.txt",
+      "line": 30,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comment.py.source.txt",
+      "line": 52,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comments.py.source.txt",
+      "line": 10,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comments.py.source.txt",
+      "line": 12,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comments.py.source.txt",
+      "line": 13,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comments.py.source.txt",
+      "line": 14,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comments.py.source.txt",
+      "line": 26,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comments.py.source.txt",
+      "line": 27,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_comments.py.source.txt",
+      "line": 49,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_dump.py.source.txt",
+      "line": 7,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_dump.py.source.txt",
+      "line": 9,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_dump.py.source.txt",
+      "line": 10,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_dump.py.source.txt",
+      "line": 22,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_dump.py.source.txt",
+      "line": 23,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_find.py.source.txt",
+      "line": 11,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_find.py.source.txt",
+      "line": 13,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_find.py.source.txt",
+      "line": 14,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_find.py.source.txt",
+      "line": 26,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_find.py.source.txt",
+      "line": 27,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_find.py.source.txt",
+      "line": 53,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_like.py.source.txt",
+      "line": 10,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_like.py.source.txt",
+      "line": 12,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_like.py.source.txt",
+      "line": 13,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_like.py.source.txt",
+      "line": 25,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_like.py.source.txt",
+      "line": 26,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_like.py.source.txt",
+      "line": 47,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_more.py.source.txt",
+      "line": 10,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_more.py.source.txt",
+      "line": 12,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_more.py.source.txt",
+      "line": 13,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_more.py.source.txt",
+      "line": 25,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_more.py.source.txt",
+      "line": 26,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_more.py.source.txt",
+      "line": 47,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_observe.py.source.txt",
+      "line": 16,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_observe.py.source.txt",
+      "line": 18,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_observe.py.source.txt",
+      "line": 19,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_observe.py.source.txt",
+      "line": 21,
+      "module": "wechatauto.moment_observer",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_reply.py.source.txt",
+      "line": 15,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_reply.py.source.txt",
+      "line": 17,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_reply.py.source.txt",
+      "line": 18,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_reply.py.source.txt",
+      "line": 30,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_reply.py.source.txt",
+      "line": 31,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_moment_reply.py.source.txt",
+      "line": 55,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_quote.py.source.txt",
+      "line": 3,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_quote.py.source.txt",
+      "line": 5,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_quote.py.source.txt",
+      "line": 6,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_quote.py.source.txt",
+      "line": 7,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_quote.py.source.txt",
+      "line": 18,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_quote.py.source.txt",
+      "line": 19,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_recall.py.source.txt",
+      "line": 16,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_recall.py.source.txt",
+      "line": 18,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_recall.py.source.txt",
+      "line": 19,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_recall.py.source.txt",
+      "line": 26,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_recall.py.source.txt",
+      "line": 27,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_recall.py.source.txt",
+      "line": 28,
+      "module": "wechatauto.recall",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_reply_at.py.source.txt",
+      "line": 3,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_reply_at.py.source.txt",
+      "line": 5,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_reply_at.py.source.txt",
+      "line": 6,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_reply_at.py.source.txt",
+      "line": 7,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_reply_at.py.source.txt",
+      "line": 18,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_reply_at.py.source.txt",
+      "line": 19,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 14,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 16,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 17,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 18,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 29,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 30,
+      "module": "wechatauto.wx",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 61,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 62,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 80,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 92,
+      "module": "traceback"
+    },
+    {
+      "file": "vendor/wechatauto/demo_robust.py.source.txt",
+      "line": 51,
+      "module": "traceback"
+    },
+    {
+      "file": "vendor/wechatauto/demo_send.py.source.txt",
+      "line": 34,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_send.py.source.txt",
+      "line": 36,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_send.py.source.txt",
+      "line": 37,
+      "module": "glob"
+    },
+    {
+      "file": "vendor/wechatauto/demo_send.py.source.txt",
+      "line": 38,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_send.py.source.txt",
+      "line": 39,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_send.py.source.txt",
+      "line": 40,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_send.py.source.txt",
+      "line": 51,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_send_verify.py.source.txt",
+      "line": 13,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_send_verify.py.source.txt",
+      "line": 15,
+      "module": "argparse"
+    },
+    {
+      "file": "vendor/wechatauto/demo_send_verify.py.source.txt",
+      "line": 16,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/demo_send_verify.py.source.txt",
+      "line": 17,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_send_verify.py.source.txt",
+      "line": 19,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_send_verify.py.source.txt",
+      "line": 20,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_v109.py.source.txt",
+      "line": 18,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_v109.py.source.txt",
+      "line": 20,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/demo_v109.py.source.txt",
+      "line": 21,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/demo_v109.py.source.txt",
+      "line": 22,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/demo_v109.py.source.txt",
+      "line": 33,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/demo_v109.py.source.txt",
+      "line": 146,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 14,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 15,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 16,
+      "module": "subprocess"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 17,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 18,
+      "module": "tempfile"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 19,
+      "module": "traceback"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 30,
+      "module": "wechatauto"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 31,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 32,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 34,
+      "module": "wechatauto.db"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 60,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 61,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 62,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 102,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 174,
+      "module": "psutil"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 106,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 130,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 177,
+      "module": "win32api"
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 281,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/diagnose_keys.py.source.txt",
+      "line": 249,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/exceptions.py.source.txt",
+      "line": 3,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/exceptions.py.source.txt",
+      "line": 5,
+      "module": "dataclasses",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/exceptions.py.source.txt",
+      "line": 6,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/forward.py.source.txt",
+      "line": 32,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/forward.py.source.txt",
+      "line": 34,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/forward.py.source.txt",
+      "line": 35,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/forward.py.source.txt",
+      "line": 36,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/forward.py.source.txt",
+      "line": 38,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/forward.py.source.txt",
+      "line": 39,
+      "module": "wechatauto.labels",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/forward.py.source.txt",
+      "line": 42,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/forward.py.source.txt",
+      "line": 97,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 31,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 33,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 34,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 36,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 37,
+      "module": "wechatauto.labels",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 45,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 112,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 80,
+      "module": "win32gui"
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 80,
+      "module": "win32process"
+    },
+    {
+      "file": "vendor/wechatauto/group_friend.py.source.txt",
+      "line": 81,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 42,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 44,
+      "module": "asyncio"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 45,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 46,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 47,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 48,
+      "module": "platform"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 49,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 50,
+      "module": "tempfile"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 51,
+      "module": "threading"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 52,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 53,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 54,
+      "module": "pathlib",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 55,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 57,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 59,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 60,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 61,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 421,
+      "module": "winsdk.windows.media.ocr",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 422,
+      "module": "winsdk.windows.graphics.imaging",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 423,
+      "module": "winsdk.windows.storage",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 1248,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 2188,
+      "module": "psutil"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 2189,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 1772,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 1908,
+      "module": "pyperclip"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 1990,
+      "module": "pypinyin"
+    },
+    {
+      "file": "vendor/wechatauto/guia.py.source.txt",
+      "line": 1532,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 46,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 48,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 49,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 50,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 51,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 52,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 53,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 55,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 56,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 209,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 242,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 312,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 704,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 721,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 191,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/labels.py.source.txt",
+      "line": 198,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/languages.py.source.txt",
+      "line": 8,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/logger.py.source.txt",
+      "line": 1,
+      "module": "param",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/logger.py.source.txt",
+      "line": 3,
+      "module": "logging"
+    },
+    {
+      "file": "vendor/wechatauto/logger.py.source.txt",
+      "line": 4,
+      "module": "colorama"
+    },
+    {
+      "file": "vendor/wechatauto/logger.py.source.txt",
+      "line": 5,
+      "module": "pathlib",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/logger.py.source.txt",
+      "line": 6,
+      "module": "datetime",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/logger.py.source.txt",
+      "line": 7,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/logger.py.source.txt",
+      "line": 8,
+      "module": "io"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 36,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 38,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 39,
+      "module": "glob"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 40,
+      "module": "hashlib"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 41,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 42,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 43,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 44,
+      "module": "struct"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 45,
+      "module": "tempfile"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 46,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 47,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 48,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 286,
+      "module": null,
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 450,
+      "module": "cryptography.hazmat.primitives.ciphers",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 489,
+      "module": "hashlib"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 862,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 1055,
+      "module": "shutil"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 1073,
+      "module": "subprocess"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 1074,
+      "module": "tempfile"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 1211,
+      "module": "moment",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 1336,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 2055,
+      "module": "uia_driver",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 2056,
+      "module": "guia",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 161,
+      "module": "cryptography.hazmat.primitives.ciphers",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 890,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 1060,
+      "module": "imageio_ffmpeg"
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 302,
+      "module": "cryptography.hazmat.primitives.ciphers",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 905,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 2093,
+      "module": "wx",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 2143,
+      "module": "wx",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/media.py.source.txt",
+      "line": 2268,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 18,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 20,
+      "module": "hashlib"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 21,
+      "module": "html"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 22,
+      "module": "io"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 23,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 24,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 25,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 26,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 27,
+      "module": "dataclasses",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 28,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 30,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 32,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 33,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 34,
+      "module": "wechatauto.languages",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 35,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 36,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 37,
+      "module": "wechatauto.ui.base",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 38,
+      "module": "wechatauto.utils.tools",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 39,
+      "module": "wechatauto.utils.win32",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 97,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 98,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 61,
+      "module": "importlib.resources"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 113,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1443,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 629,
+      "module": "uiautomation",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1285,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1321,
+      "module": "cv2"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1322,
+      "module": "numpy"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1355,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1356,
+      "module": "numpy"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1364,
+      "module": "cv2"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1402,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1424,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1425,
+      "module": "numpy"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1467,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1477,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1697,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1769,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1829,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1855,
+      "module": "numpy"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1856,
+      "module": "cv2"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1899,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 2423,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 2452,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 2717,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 3331,
+      "module": "wechatauto.media",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 601,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 2081,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 2082,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 2419,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 3701,
+      "module": "urllib.request"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 3717,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/moment.py.source.txt",
+      "line": 1570,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/moment_observer.py.source.txt",
+      "line": 22,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment_observer.py.source.txt",
+      "line": 24,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/moment_observer.py.source.txt",
+      "line": 25,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/moment_observer.py.source.txt",
+      "line": 26,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/moment_observer.py.source.txt",
+      "line": 27,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment_observer.py.source.txt",
+      "line": 29,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment_observer.py.source.txt",
+      "line": 30,
+      "module": "wechatauto.moment",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment_observer.py.source.txt",
+      "line": 61,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/moment_observer.py.source.txt",
+      "line": 76,
+      "module": "wechatauto.wx",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/param.py.source.txt",
+      "line": 1,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/param.py.source.txt",
+      "line": 2,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/recall.py.source.txt",
+      "line": 33,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/recall.py.source.txt",
+      "line": 35,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/recall.py.source.txt",
+      "line": 36,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/recall.py.source.txt",
+      "line": 37,
+      "module": "sqlite3"
+    },
+    {
+      "file": "vendor/wechatauto/recall.py.source.txt",
+      "line": 38,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/recall.py.source.txt",
+      "line": 39,
+      "module": "threading"
+    },
+    {
+      "file": "vendor/wechatauto/recall.py.source.txt",
+      "line": 40,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/recall.py.source.txt",
+      "line": 41,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/recall.py.source.txt",
+      "line": 150,
+      "module": "media",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/remark.py.source.txt",
+      "line": 28,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/remark.py.source.txt",
+      "line": 30,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/remark.py.source.txt",
+      "line": 31,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/remark.py.source.txt",
+      "line": 32,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/remark.py.source.txt",
+      "line": 33,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/remark.py.source.txt",
+      "line": 35,
+      "module": "wechatauto.labels",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/remark.py.source.txt",
+      "line": 37,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/remark.py.source.txt",
+      "line": 443,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 29,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 31,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 32,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 33,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 34,
+      "module": "random"
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 35,
+      "module": "threading"
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 36,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 37,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 38,
+      "module": "dataclasses",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 39,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/rhythm.py.source.txt",
+      "line": 41,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/sender.py.source.txt",
+      "line": 12,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/sender.py.source.txt",
+      "line": 14,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/sender.py.source.txt",
+      "line": 15,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/sender.py.source.txt",
+      "line": 16,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/sender.py.source.txt",
+      "line": 18,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 31,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 33,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 34,
+      "module": "difflib"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 35,
+      "module": "json"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 36,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 37,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 38,
+      "module": "struct"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 39,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 40,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 41,
+      "module": "functools",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 42,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 44,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 52,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 53,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 54,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 55,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 47,
+      "module": "win32gui"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 47,
+      "module": "win32con"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 47,
+      "module": "win32process"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 47,
+      "module": "win32api"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 251,
+      "module": "subprocess"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 283,
+      "module": "psutil"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 291,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 306,
+      "module": "subprocess"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 684,
+      "module": "pyperclip"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 696,
+      "module": "pyperclip"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 710,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 718,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 726,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 736,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 1074,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 1366,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 1367,
+      "module": "numpy"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 1426,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 1427,
+      "module": "PIL.ImageGrab"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 1459,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 1461,
+      "module": "numpy"
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 1591,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia_driver.py.source.txt",
+      "line": 1592,
+      "module": "PIL.ImageGrab"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 20,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 22,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 23,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 24,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 25,
+      "module": "subprocess"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 26,
+      "module": "threading"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 27,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 28,
+      "module": "abc",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 29,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 39,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 40,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 41,
+      "module": "wechatauto.utils.lock",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 44,
+      "module": "wechatauto.msgs.base",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 207,
+      "module": "wechatauto.msgs",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 208,
+      "module": "wechatauto.msgs",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 256,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 257,
+      "module": "wechatauto.msgs.mattr",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 358,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 359,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 476,
+      "module": "wechatauto.group_friend",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 706,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 707,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 737,
+      "module": "wechatauto.labels",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 953,
+      "module": "wechatauto.remark",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1062,
+      "module": "wechatauto.forward",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1274,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1344,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1456,
+      "module": "wechatauto.db",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1762,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1763,
+      "module": "ctypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1795,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1796,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1812,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1818,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1876,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1877,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1906,
+      "module": "wechatauto.utils.win32",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 193,
+      "module": "wechatauto.exceptions",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1044,
+      "module": "wechatauto.guia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1291,
+      "module": "wechatauto.ui.main",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1317,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1346,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1449,
+      "module": "wechatauto.moment",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1371,
+      "module": "wechatauto.uia_driver",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1491,
+      "module": "traceback"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1586,
+      "module": "traceback"
+    },
+    {
+      "file": "vendor/wechatauto/wx.py.source.txt",
+      "line": 1417,
+      "module": "pyautogui"
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 7,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 9,
+      "module": "wx",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 10,
+      "module": "param",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 11,
+      "module": "logger",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 12,
+      "module": null,
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 13,
+      "module": "moment",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 14,
+      "module": "moment_observer",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 15,
+      "module": "db",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 16,
+      "module": "media",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 17,
+      "module": "recall",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 18,
+      "module": "guia",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 27,
+      "module": "exceptions",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 34,
+      "module": "utils.lock",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__init__.py.source.txt",
+      "line": 35,
+      "module": "msgs",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/__main__.py.source.txt",
+      "line": 6,
+      "module": "sys"
+    },
+    {
+      "file": "vendor/wechatauto/__main__.py.source.txt",
+      "line": 8,
+      "module": "wechatauto.cli",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/base.py.source.txt",
+      "line": 1,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/base.py.source.txt",
+      "line": 2,
+      "module": "wechatauto.ui.component",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/base.py.source.txt",
+      "line": 6,
+      "module": "wechatauto.utils",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/base.py.source.txt",
+      "line": 7,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/base.py.source.txt",
+      "line": 8,
+      "module": "abc",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/base.py.source.txt",
+      "line": 9,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/base.py.source.txt",
+      "line": 18,
+      "module": "hashlib",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/base.py.source.txt",
+      "line": 21,
+      "module": "wechatauto.ui.chatbox",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/friend.py.source.txt",
+      "line": 1,
+      "module": "mattr",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/friend.py.source.txt",
+      "line": 2,
+      "module": "mtype",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mattr.py.source.txt",
+      "line": 1,
+      "module": "base",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mattr.py.source.txt",
+      "line": 5,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mattr.py.source.txt",
+      "line": 6,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mattr.py.source.txt",
+      "line": 12,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mattr.py.source.txt",
+      "line": 19,
+      "module": "wechatauto.ui.chatbox",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 1,
+      "module": "wechatauto.utils.tools",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 4,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 5,
+      "module": "mattr",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 10,
+      "module": "mtype",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 11,
+      "module": null,
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 12,
+      "module": null,
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 13,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 19,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 20,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/msgs/msg.py.source.txt",
+      "line": 23,
+      "module": "wechatauto.ui.chatbox",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 1,
+      "module": "base",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 5,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 6,
+      "module": "wechatauto.utils",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 7,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 13,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 20,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 21,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 22,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 23,
+      "module": "tempfile"
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 25,
+      "module": "wechatauto.ui.chatbox",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 99,
+      "module": "wechatauto.media",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 121,
+      "module": "wechatauto.ui.component",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 166,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 840,
+      "module": "collections",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 1037,
+      "module": "wechatauto.ui.component",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 768,
+      "module": "win32api"
+    },
+    {
+      "file": "vendor/wechatauto/msgs/mtype.py.source.txt",
+      "line": 817,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/msgs/self.py.source.txt",
+      "line": 1,
+      "module": "mattr",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/self.py.source.txt",
+      "line": 2,
+      "module": "mtype",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/__init__.py.source.txt",
+      "line": 1,
+      "module": "base",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/__init__.py.source.txt",
+      "line": 2,
+      "module": "mattr",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/__init__.py.source.txt",
+      "line": 3,
+      "module": "mtype",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/__init__.py.source.txt",
+      "line": 15,
+      "module": "friend",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/__init__.py.source.txt",
+      "line": 27,
+      "module": "self",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/msgs/__init__.py.source.txt",
+      "line": 39,
+      "module": "msg",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/ui/base.py.source.txt",
+      "line": 1,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/base.py.source.txt",
+      "line": 2,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/base.py.source.txt",
+      "line": 3,
+      "module": "wechatauto.utils.lock",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/base.py.source.txt",
+      "line": 4,
+      "module": "abc",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/base.py.source.txt",
+      "line": 5,
+      "module": "win32gui"
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 1,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 2,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 6,
+      "module": "wechatauto.utils.win32",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 11,
+      "module": "wechatauto.ui.component",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 14,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 15,
+      "module": "base",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 18,
+      "module": "wechatauto.msgs.msg",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 20,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 21,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 22,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/ui/chatbox.py.source.txt",
+      "line": 23,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 1,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 2,
+      "module": "wechatauto.utils.win32",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 8,
+      "module": "wechatauto.utils.tools",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 15,
+      "module": "base",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 16,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 17,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 18,
+      "module": "pathlib",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 19,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 23,
+      "module": "traceback"
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 24,
+      "module": "shutil"
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 25,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/ui/component.py.source.txt",
+      "line": 26,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 1,
+      "module": "base",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 2,
+      "module": "navigationbox",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 3,
+      "module": "sessionbox",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 4,
+      "module": "chatbox",
+      "level": 1
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 5,
+      "module": "wechatauto.utils.win32",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 11,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 12,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 13,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 14,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 19,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/ui/main.py.source.txt",
+      "line": 20,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/ui/navigationbox.py.source.txt",
+      "line": 1,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/navigationbox.py.source.txt",
+      "line": 2,
+      "module": "wechatauto.languages",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 1,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 2,
+      "module": "wechatauto",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 3,
+      "module": "wechatauto.param",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 7,
+      "module": "wechatauto.languages",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 8,
+      "module": "wechatauto.ui.component",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 9,
+      "module": "wechatauto.utils.win32",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 10,
+      "module": "wechatauto.logger",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 11,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 12,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/sessionbox.py.source.txt",
+      "line": 16,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/ui/__init__.py.source.txt",
+      "line": 1,
+      "module": "wechatauto.ui.base",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/__init__.py.source.txt",
+      "line": 2,
+      "module": "wechatauto.ui.main",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/__init__.py.source.txt",
+      "line": 3,
+      "module": "wechatauto.ui.navigationbox",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/__init__.py.source.txt",
+      "line": 4,
+      "module": "wechatauto.ui.sessionbox",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/__init__.py.source.txt",
+      "line": 5,
+      "module": "wechatauto.ui.chatbox",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/ui/__init__.py.source.txt",
+      "line": 6,
+      "module": "wechatauto.ui.component",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 14,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 16,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 17,
+      "module": "queue"
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 18,
+      "module": "tempfile"
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 19,
+      "module": "threading"
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 20,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 21,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 23,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 41,
+      "module": "comtypes",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 42,
+      "module": "uiautomation",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 53,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/uia/__init__.py.source.txt",
+      "line": 68,
+      "module": "uiautomation"
+    },
+    {
+      "file": "vendor/wechatauto/utils/lock.py.source.txt",
+      "line": 3,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/lock.py.source.txt",
+      "line": 5,
+      "module": "asyncio"
+    },
+    {
+      "file": "vendor/wechatauto/utils/lock.py.source.txt",
+      "line": 6,
+      "module": "functools"
+    },
+    {
+      "file": "vendor/wechatauto/utils/lock.py.source.txt",
+      "line": 7,
+      "module": "inspect"
+    },
+    {
+      "file": "vendor/wechatauto/utils/lock.py.source.txt",
+      "line": 8,
+      "module": "multiprocessing"
+    },
+    {
+      "file": "vendor/wechatauto/utils/lock.py.source.txt",
+      "line": 9,
+      "module": "threading"
+    },
+    {
+      "file": "vendor/wechatauto/utils/lock.py.source.txt",
+      "line": 10,
+      "module": "contextlib",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/lock.py.source.txt",
+      "line": 11,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 1,
+      "module": "__future__",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 3,
+      "module": "datetime",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 4,
+      "module": "pathlib",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 5,
+      "module": "math"
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 6,
+      "module": "re"
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 7,
+      "module": "shutil"
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 8,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 10,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 12,
+      "module": "wechatauto.uia",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/tools.py.source.txt",
+      "line": 13,
+      "module": "wechatauto.utils.win32",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 1,
+      "module": "os"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 2,
+      "module": "time"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 3,
+      "module": "struct"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 4,
+      "module": "shutil"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 5,
+      "module": "traceback"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 6,
+      "module": "ctypes"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 7,
+      "module": "typing",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 9,
+      "module": "win32ui"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 10,
+      "module": "win32gui"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 11,
+      "module": "win32api"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 12,
+      "module": "win32con"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 13,
+      "module": "win32process"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 14,
+      "module": "win32clipboard"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 15,
+      "module": "pyperclip"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 16,
+      "module": "psutil"
+    },
+    {
+      "file": "vendor/wechatauto/utils/win32.py.source.txt",
+      "line": 17,
+      "module": "PIL",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/__init__.py.source.txt",
+      "line": 1,
+      "module": "wechatauto.utils.win32",
+      "level": 0
+    },
+    {
+      "file": "vendor/wechatauto/utils/__init__.py.source.txt",
+      "line": 16,
+      "module": "wechatauto.utils.lock",
+      "level": 0
+    }
+  ],
+  "experiments": [
+    {
+      "scenario": "success",
+      "upstream_ok": true,
+      "reason": "sent",
+      "events": [
+        "input:utf16",
+        "remember_mode",
+        "submit",
+        "end_input"
+      ],
+      "final_target_matches": true,
+      "delivery_evidence": false,
+      "real_effects": false
+    },
+    {
+      "scenario": "mismatch",
+      "upstream_ok": false,
+      "reason": "input_dirty",
+      "events": [
+        "input:utf16",
+        "end_input",
+        "clear",
+        "input:gbk",
+        "end_input"
+      ],
+      "final_target_matches": true,
+      "delivery_evidence": false,
+      "real_effects": false
+    },
+    {
+      "scenario": "switch_during_input",
+      "upstream_ok": true,
+      "reason": "sent",
+      "events": [
+        "input:utf16",
+        "remember_mode",
+        "submit",
+        "end_input"
+      ],
+      "final_target_matches": false,
+      "delivery_evidence": false,
+      "real_effects": false
+    },
+    {
+      "scenario": "draft",
+      "upstream_ok": false,
+      "reason": "input_not_empty",
+      "events": [],
+      "final_target_matches": true,
+      "delivery_evidence": false,
+      "real_effects": false
+    },
+    {
+      "scenario": "unreadable",
+      "upstream_ok": false,
+      "reason": "input_unreadable",
+      "events": [],
+      "final_target_matches": true,
+      "delivery_evidence": false,
+      "real_effects": false
+    },
+    {
+      "scenario": "input_exception",
+      "upstream_ok": false,
+      "reason": "input_dirty",
+      "events": [
+        "input:utf16"
+      ],
+      "final_target_matches": true,
+      "delivery_evidence": false,
+      "real_effects": false
+    },
+    {
+      "scenario": "click_exception",
+      "upstream_ok": false,
+      "reason": "input_dirty",
+      "events": [
+        "input:utf16",
+        "remember_mode",
+        "submit"
+      ],
+      "final_target_matches": true,
+      "delivery_evidence": false,
+      "real_effects": false
+    },
+    {
+      "scenario": "verify_unreadable",
+      "upstream_ok": true,
+      "reason": "sent_unverified",
+      "events": [
+        "input:utf16",
+        "remember_mode",
+        "submit",
+        "end_input"
+      ],
+      "final_target_matches": true,
+      "delivery_evidence": false,
+      "real_effects": false
+    }
+  ],
+  "blockers": [
+    "original retries and clears despite explicit utf16",
+    "chat=None skips target checks; display-name checks are insufficient",
+    "named mutex acquisition failure permits send; local lock has no deadline",
+    "gate pulse does not restore owned changes; shutdown only restores SPI",
+    "transitive dependencies not yet fully pinned",
+    "no admitted constrained live backend or persistent permit wiring"
+  ]
+}

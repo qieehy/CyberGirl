@@ -1,0 +1,13 @@
+{
+  "client_date": "2026-11-18",
+  "offline_cache_rows": 200,
+  "latest_rows": 200,
+  "cached": true,
+  "refresh_error": "group_history_unavailable",
+  "first": "2026-11-16T19:44:11+08:00",
+  "last": "2026-11-17T16:06:27+08:00",
+  "send_model_counts_unchanged": true,
+  "critical_tests_passed": 4,
+  "send_calls": 0,
+  "model_calls": 0
+}

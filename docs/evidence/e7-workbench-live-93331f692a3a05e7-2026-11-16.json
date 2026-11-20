@@ -1,0 +1,87 @@
+{
+  "status": "e7_live_edit_send_and_phone_verified",
+  "run_id": "93331f692a3a05e7",
+  "started_at": 1794811543.7660482,
+  "input_permits_consumed": 1,
+  "submit_permits_consumed": 1,
+  "live_model_calls_before": 0,
+  "starting_audit": {
+    "operations_and_permits": [
+      16,
+      14,
+      10
+    ],
+    "unknown": 8,
+    "active_operations": 0
+  },
+  "model_approval_reference": "explicit-user-E7-20261116-restored-proxy-new-source-one-generation-original-one-send",
+  "approved_persona_version": 1,
+  "approved_model": "gpt-6.1-sol",
+  "historical_unknown_action_ids": [
+    "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+    "1b72f580238f6f27751f496f17c44ba8dd13b06dc9a5ce9a564f7d2cd7d3973a",
+    "6d36507fd615c85a28711e994ebf1d43d3dc1e1cf1429a172b5b50568b96d391",
+    "8070d04d139e6f15ce906a4631ff87471ea1c8daa2542c6aac1c91777496329a",
+    "9c48e9d7cf1aa63f33be69bc8f65661cb9af1cc534bc01955838706869d17758",
+    "cc9c6a179071690b704ee97d3811e09b011e9c6d26948ee651538d0ca7a3a1b7",
+    "e3917a17916f4156c3ed706951c4ec63adb0b5092ce9ea13eeda8643a2bb6cc1",
+    "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa"
+  ],
+  "source_message_id": "47c36cccc426a99f33b59d5dad44e5b52ee8019ef7d42df7792369a0ac48b26c",
+  "generation_request": {
+    "request_id": "e7-live-generate-93331f692a3a05e7",
+    "source_message_id": "47c36cccc426a99f33b59d5dad44e5b52ee8019ef7d42df7792369a0ac48b26c",
+    "expected_message_revision": 8,
+    "expected_persona_version": 1
+  },
+  "draft_id": "ac50cf99745714adb7a3f295a0b4475cd173617bf8dd0adf7857c1582a6450ac",
+  "generation_state": "READY",
+  "logical_model_calls": 1,
+  "expires_at": 1794811672.5325375,
+  "model_trace": {
+    "phase": "complete",
+    "inference_calls": 1,
+    "model_http_attempts": 1,
+    "finished_at": 1794811562.0581257
+  },
+  "model_original_sha256": "63477214a4d478982bf8e9ffc140df39d55d70d6bb54e2fa8491872b14bb7014",
+  "edited_version": 2,
+  "final_content_sha256": "161fce233787b19cf2b1712fcf13bac68d3a8dd5898a4ae93858a14478aae228",
+  "final_text_utf16_units": 26,
+  "native_preparation_verified": true,
+  "approval_reference": "explicit-user-E7-20261116-one-final-body-background-send-eight-unknowns-and-restored-proxy",
+  "confirmation_id": "0f4e3f8e1a3a1a083c0c6887990144b0257c2dfdfc86831c1e8a602d5b83ba67",
+  "confirmation_request": {
+    "request_id": "e7-confirm-93331f692a3a05e7",
+    "confirmation_id": "0f4e3f8e1a3a1a083c0c6887990144b0257c2dfdfc86831c1e8a602d5b83ba67"
+  },
+  "action_id": "742188c0a8723119ad2b296752315eaafc1e4aa061526fe6d5f498fa807177e0",
+  "after_send_audit": {
+    "operations_and_permits": [
+      17,
+      15,
+      11
+    ],
+    "unknown": 9,
+    "active_operations": 0
+  },
+  "unique_echo": true,
+  "dispatch_state": "UNCONFIRMED",
+  "phone_confirmation": {
+    "state": "CONFIRMED",
+    "reason": "manual_confirmation",
+    "action_id": "742188c0a8723119ad2b296752315eaafc1e4aa061526fe6d5f498fa807177e0"
+  },
+  "ending_audit": {
+    "operations_and_permits": [
+      17,
+      15,
+      11
+    ],
+    "unknown": 8,
+    "active_operations": 0
+  },
+  "integrity_ok": true,
+  "reader_reaped": true,
+  "finished_at": 1794811818.3642764
+}

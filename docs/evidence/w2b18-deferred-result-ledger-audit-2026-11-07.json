@@ -1,0 +1,27 @@
+{
+  "operations": 10,
+  "permits": [
+    8,
+    5
+  ],
+  "active_operations": 0,
+  "unknown_count": 6,
+  "blocked_reason": "submission_or_draft_requires_review",
+  "integrity": "ok",
+  "ledger_writes": 0,
+  "recorded_at": "2026-11-07T11:54:09.218938+00:00",
+  "latest_operation": {
+    "operation_id": "4d4b5f8277c54424889e5a0f248d3259",
+    "action_id": "6d36507fd615c85a28711e994ebf1d43d3dc1e1cf1429a172b5b50568b96d391",
+    "phase": "FINISHED",
+    "input_permitted": 1,
+    "submit_permitted": 0,
+    "finished": 1,
+    "worker_reaped": 1,
+    "restore_verified": 1,
+    "reason": "background_target_became_foreground"
+  },
+  "latest_stages": [
+    "BG_VALUE_INPUT_INTENT"
+  ]
+}

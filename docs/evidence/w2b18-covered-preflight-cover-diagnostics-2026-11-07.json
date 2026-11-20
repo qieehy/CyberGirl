@@ -1,0 +1,45 @@
+{
+  "target_minimized": false,
+  "foreground_is_wechat": false,
+  "own_client_bounds": [
+    930,
+    608,
+    1678,
+    1058
+  ],
+  "points": [
+    {
+      "hit_exists": true,
+      "hit_is_wechat": false,
+      "hit_is_other_process": true,
+      "root_is_foreground": true
+    },
+    {
+      "hit_exists": true,
+      "hit_is_wechat": false,
+      "hit_is_other_process": true,
+      "root_is_foreground": true
+    },
+    {
+      "hit_exists": true,
+      "hit_is_wechat": false,
+      "hit_is_other_process": true,
+      "root_is_foreground": true
+    },
+    {
+      "hit_exists": true,
+      "hit_is_wechat": false,
+      "hit_is_other_process": true,
+      "root_is_foreground": true
+    },
+    {
+      "hit_exists": true,
+      "hit_is_wechat": false,
+      "hit_is_other_process": true,
+      "root_is_foreground": true
+    }
+  ],
+  "all_points_other_process": true,
+  "input_posts": 0,
+  "submit_posts": 0
+}

@@ -1,0 +1,23 @@
+{
+  "status": "prepared_not_authorized",
+  "pid": 34044,
+  "hwnd": 68894,
+  "created_filetime": "134380654003431728",
+  "original": 0,
+  "temporary": 1,
+  "restore": 0,
+  "max_depth": 32,
+  "max_nodes": 800,
+  "worker_deadline_seconds": 30,
+  "view": "raw",
+  "model_requests": 0,
+  "external_messages": 0,
+  "files_sha256": {
+    "scripts/probe_wechat_uia.ps1": "8f3bd5634691ddd4a72012746993d44b3c1ab5221c1114d2f5055f67682d24fb",
+    "scripts/uia_tree.ps1": "27c7750a347f3769c971fa0cc67d1c74b4aa9126d12201db6000be31c8a1661f",
+    "scripts/verify_wechat_accessibility.py": "bfff4c5ba6cb64cc1616cd78bcae00d5da849743ed61325f71bbaba8809c2f03",
+    "scripts/inspect_wechat_accessibility.py": "5c84fa742bd388e65d51ce302e29b989ea6e0864132d4f010de674006428c64f"
+  },
+  "prepared_on": "2026-11-02",
+  "readonly_evidence": "w1g1-readonly-2026-11-02.json"
+}

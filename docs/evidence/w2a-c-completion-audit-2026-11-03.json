@@ -1,0 +1,37 @@
+{
+  "implementation_unchanged": true,
+  "installed_versions": {
+    "cryptography": "50.0.2",
+    "cffi": "2.1.1",
+    "pycparser": "3.12",
+    "zstandard": "0.25.0"
+  },
+  "receiver": {
+    "schema": 7,
+    "account_count": 1,
+    "shards": 2,
+    "source_records": 1,
+    "dispositions": {
+      "self_echo": 1
+    },
+    "inbox": 0,
+    "outbox": 0,
+    "attempts": 0,
+    "active_bindings": 0,
+    "cursor_count": 2,
+    "integrity": "ok"
+  },
+  "sender_unchanged": true,
+  "live_marker_acceptance": {
+    "status": "completed",
+    "marker_matches": 1,
+    "records_committed": 1,
+    "replay_verified": true,
+    "restart_verified": true,
+    "first_child_stopped": true,
+    "last_child_stopped": true,
+    "model_requests": 0,
+    "external_messages": 0,
+    "process_writes": 0
+  }
+}

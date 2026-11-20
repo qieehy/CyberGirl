@@ -1,0 +1,12 @@
+{
+  "status": "stopped",
+  "started_at": 1794829782.4004107,
+  "model_calls": 0,
+  "send_calls": 0,
+  "target_sha256": "e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734",
+  "protected_unchanged_before_restart": true,
+  "all_readers_reaped": true,
+  "active_bindings": 0,
+  "reason": "local_acceptance_new_marker_timeout",
+  "finished_at": 1794830092.6021376
+}

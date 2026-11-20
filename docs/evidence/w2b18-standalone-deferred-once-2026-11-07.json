@@ -1,0 +1,44 @@
+{
+  "status": "background_control_unconfirmed",
+  "mode": "standalone_background_deferred",
+  "model_requests": 0,
+  "marker_sha256": "541a1a6bb8d20bf2fa50171d10ad4210fa7f94ae15b2b48c63a540591fe0998e",
+  "action_id": "6d36507fd615c85a28711e994ebf1d43d3dc1e1cf1429a172b5b50568b96d391",
+  "review_id": "7c9c90875deb1633e125b65f0651603a240dfd259d107b4b30212cddbe9edfda",
+  "operation_id": "4d4b5f8277c54424889e5a0f248d3259",
+  "control_result": {
+    "state": "UNKNOWN",
+    "reason": "background_target_became_foreground",
+    "input_possible": true,
+    "submit_possible": false,
+    "focus_cleanup_verified": false,
+    "input_units_attempted": 37,
+    "posts_attempted": 0,
+    "upstream_ok": false,
+    "delivery_verified": false
+  },
+  "worker_local_cleanup_verified": false,
+  "observation": {
+    "foreground_target_seen": true,
+    "foreground_events": 2,
+    "pointer_samples": 74,
+    "pointer_position_changes": 31,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 111.256,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [
+      "value_input"
+    ],
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "worker_reaped": true,
+  "provider_restored": true,
+  "input_permitted": 1,
+  "submit_permitted": 0,
+  "reader_reaped": true,
+  "locks_released": true,
+  "delivery_state": "UNCONFIRMED",
+  "phone_confirmation_required": false
+}

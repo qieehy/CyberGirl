@@ -1,0 +1,37 @@
+{
+  "status": "private_background_single_submission_unique_echo_verified",
+  "client_date": "2026-11-17",
+  "action_id": "9dafec8ca5f45a1e912af1a38313febec583ee2cc757d9da4fe486c3ced821dc",
+  "original_send_rows_preserved": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true
+  },
+  "send_counts": [
+    19,
+    16,
+    12
+  ],
+  "input_permitted": 1,
+  "submit_permitted": 1,
+  "worker_reaped": 1,
+  "restore_verified": 1,
+  "char_intents": 23,
+  "return_down_intents": 1,
+  "return_up_intents": 1,
+  "unique_echo": true,
+  "echo_message_id": "9aa7500f11573a9d545378d3b878f904cdb857e3de0b5af669e764d9ccb82733",
+  "state": "UNCONFIRMED",
+  "attempt_state": "UNCONFIRMED",
+  "active_send_operations": 0,
+  "schema": 10,
+  "integrity_ok": true,
+  "model_calls_for_test": 0,
+  "phone_or_peer_confirmation": false,
+  "automatic_resend": false,
+  "workbench_left_running": true,
+  "gate_after": 0
+}

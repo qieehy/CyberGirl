@@ -1,0 +1,26 @@
+{
+  "status": "approved_trial_preflight_verified",
+  "preflight": {
+    "pid": 35300,
+    "hwnd": 264118,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "exe_sha256": "5329ffc9afdeeb01db6dd5a68321277a8cf8d3f966873c070be3d04d7dfb1c0e",
+    "created_filetime": "134382656085513554",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x410",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "gate_value": 0,
+  "foreground_is_selected_window": false,
+  "matched_original_account": true,
+  "implementation_unchanged": true,
+  "original_ledger_fence_verified": true,
+  "new_trial_exists": false,
+  "approval_reference": "user-bbe24a5ff9be49628ffcda50b0a16344",
+  "new_input_actions": 0,
+  "new_post_message_calls": 0,
+  "model_requests": 0
+}

@@ -1,0 +1,25 @@
+{
+  "status": "existing_selected_peer_local_drafts_verified",
+  "client_date": "2026-11-17",
+  "reason": "user requested existing messages instead of repeated coded markers",
+  "tests_passed": 57,
+  "private_local_cases": 33,
+  "existing_workbench_cases": 24,
+  "full_suite_rerun": false,
+  "node_handlers": "passed with one-hour-old stale_event source; model/send requests zero",
+  "ruff": "passed",
+  "live_evidence": "r3-Amadues-existing-local-draft-2026-11-17.json",
+  "audit": "r3-Amadues-existing-local-audit-2026-11-17.json",
+  "earlier_marker_wait_cancelled": true,
+  "earlier_empty_output_preserved": true,
+  "wait_process_and_reader_exit_checked": true,
+  "model_policy_changed": false,
+  "send_policy_changed": false,
+  "source_hashes": {
+    "src/wechat_agent/workbench/state.py": "25d3efece3d9eb0e1b5e45aafbeaa37b5ca525c9a4bff4c89e7e862218e49c9e",
+    "src/wechat_agent/assets/console/workbench.js": "6e82590f1170a6d3b9529a1c14d77b1f750b0e6e2759cd974260acfbee7146a9",
+    "tests/test_workbench_private_local.py": "47d1101c3d1332768dc1c8f57089ff8e569d88a13462bad94cece160dbc94079",
+    "tests/js/workbench_local_smoke.cjs": "2e50ebe7c4232ac7aeba194d6431a65e4c8dc2b995b59034aadb68aad5950603"
+  },
+  "test_log_sha256": "6668b7217f5ba3919bf3207a26adf722f2e019defeba720377d27b3aafe8d9eb"
+}

@@ -1,0 +1,55 @@
+{
+  "commit": "6e603974bbac3bda93d88bbd6995510ae2547f5c",
+  "purpose": "static review only; upstream code never executed",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/6e603974bbac3bda93d88bbd6995510ae2547f5c/LICENSE",
+      "local_path": "research/wechat_bridge/2026-10-29/wechatauto-replica/LICENSE.source.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "README_pypi.md",
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/6e603974bbac3bda93d88bbd6995510ae2547f5c/README_pypi.md",
+      "local_path": "research/wechat_bridge/2026-10-29/wechatauto-replica/README_pypi.md.source.txt",
+      "bytes": 237662,
+      "sha256": "eeb6cbba0821acb44c9e20520b33e9b00dc547e81911e06519bcf50d27b4bc33"
+    },
+    {
+      "path": "wechatauto/accessibility.py",
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/6e603974bbac3bda93d88bbd6995510ae2547f5c/wechatauto/accessibility.py",
+      "local_path": "research/wechat_bridge/2026-10-29/wechatauto-replica/wechatauto/accessibility.py.source.txt",
+      "bytes": 29954,
+      "sha256": "045bbf826a1bab8410886090988a3e32afdec403b4beec6b64c0406c47830f38"
+    },
+    {
+      "path": "wechatauto/uia_driver.py",
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/6e603974bbac3bda93d88bbd6995510ae2547f5c/wechatauto/uia_driver.py",
+      "local_path": "research/wechat_bridge/2026-10-29/wechatauto-replica/wechatauto/uia_driver.py.source.txt",
+      "bytes": 78494,
+      "sha256": "d320ad39f212b77d2579281970048f17695fd02f3b42cccd44355d4ba6d65720"
+    },
+    {
+      "path": "wechatauto/uia/__init__.py",
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/6e603974bbac3bda93d88bbd6995510ae2547f5c/wechatauto/uia/__init__.py",
+      "local_path": "research/wechat_bridge/2026-10-29/wechatauto-replica/wechatauto/uia/__init__.py.source.txt",
+      "bytes": 12800,
+      "sha256": "050f551f152632641164afaafa6ba29b3b09e48793b301a027ffcebd3f15ce21"
+    },
+    {
+      "path": "tools/wake_uia.py",
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/6e603974bbac3bda93d88bbd6995510ae2547f5c/tools/wake_uia.py",
+      "local_path": "research/wechat_bridge/2026-10-29/wechatauto-replica/tools/wake_uia.py.source.txt",
+      "bytes": 19092,
+      "sha256": "dfaa54fa17d67f5efe53255314116a339ff78e9183a5d9d318bd8b6c6fd6746f"
+    },
+    {
+      "path": "wechatauto/__init__.py",
+      "url": "https://raw.githubusercontent.com/fanyuantaier/wechatauto-replica/6e603974bbac3bda93d88bbd6995510ae2547f5c/wechatauto/__init__.py",
+      "local_path": "research/wechat_bridge/2026-10-29/wechatauto-replica/wechatauto/__init__.py.source.txt",
+      "bytes": 2328,
+      "sha256": "4ea04bc703e7186e57eaf14d7375f95f2e12acebb1d801d32617de9e5b3eef21"
+    }
+  ]
+}

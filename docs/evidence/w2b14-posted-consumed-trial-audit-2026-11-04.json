@@ -1,0 +1,62 @@
+{
+  "status": "approved_single_posted_trial_unconfirmed",
+  "recorded_at": 1793794440.9923818,
+  "stage_d_complete": false,
+  "approval_consumed": true,
+  "new_input_attempts": 1,
+  "new_submit_permits": 1,
+  "move_and_down_queue_acceptance_inferred_from_code_and_terminal_reason": true,
+  "up_intent_recorded": false,
+  "cancel_enqueued_is_rollback_proof": false,
+  "ledger": {
+    "operations": 5,
+    "attempts": 5,
+    "reviews": 2,
+    "permissions": [
+      3,
+      3
+    ],
+    "manual_confirmations": 1,
+    "active_bindings": 0,
+    "blocked_reason": "submission_or_draft_requires_review",
+    "new_action_state": "UNCONFIRMED",
+    "new_attempt_state": "UNCONFIRMED",
+    "old_uncertain_state": "UNCONFIRMED",
+    "integrity": "ok"
+  },
+  "new_operation": {
+    "operation_id": "d9d623f51a5244629db1f3ce95033aec",
+    "action_id": "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa",
+    "input_permitted": 1,
+    "submit_permitted": 1,
+    "finished": 1,
+    "worker_reaped": 1,
+    "restore_verified": 1,
+    "reason": "posted_button_press_not_observed"
+  },
+  "gesture_stages": [
+    "CLICK_BEGIN_INTENT",
+    "CLICK_MOVE_INTENT",
+    "CLICK_DOWN_INTENT",
+    "CLICK_CANCEL_INTENT",
+    "CLICK_RESULT_UNKNOWN",
+    "CLICK_MODE_QUEUED",
+    "CLICK_CANCEL_ENQUEUED"
+  ],
+  "new_delivery_evidence_kinds": [],
+  "prior_uncertainty_review": {
+    "action_ids": [
+      "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd"
+    ],
+    "approval_ref": "user-bbe24a5ff9be49628ffcda50b0a16344"
+  },
+  "phone_observation": {
+    "reference": "user-26dc15eb9fe8455d853843f11c0ab0b1",
+    "phone_full_marker_seen": false,
+    "computer_draft_present": true
+  },
+  "retry_performed": false,
+  "draft_cleared_by_program": false,
+  "model_requests": 0,
+  "result_sha256": "18dd570323e4e782f24547a24e988bfd360a0dc8cc0a6705d87082535b6d2dfa"
+}

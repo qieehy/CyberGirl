@@ -1,0 +1,14 @@
+{
+  "status": "persisted_after_probe_process_exit",
+  "source_records": 1,
+  "cursor_rows": 1,
+  "cursor_positions": [
+    [
+      1793593529000,
+      142
+    ]
+  ],
+  "inbox": 0,
+  "outbox": 0,
+  "attempts": 0
+}

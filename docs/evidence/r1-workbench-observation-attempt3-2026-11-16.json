@@ -1,0 +1,116 @@
+{
+  "status": "r1_workbench_observation_completed",
+  "model_assembled": false,
+  "sender_assembled": false,
+  "target_seconds": 1800,
+  "started_at": 1794814285.0297823,
+  "reader_start_pid": 33836,
+  "start_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794811625000,
+        "local_id": 177
+      },
+      "local_fence": 177
+    }
+  },
+  "generation": "cb3f7226f4846bc840b92b8c18b935487504d21beeea102fc3bc42a41d34d5d2",
+  "midrun_restart": {
+    "at_seconds": 900.2190000000119,
+    "prior_reader_pid": 33836,
+    "new_reader_pid": 46420,
+    "checkpoints_unchanged": true,
+    "generation_unchanged": true
+  },
+  "continuous_seconds": 1800.0,
+  "http_checks": 60,
+  "end_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794815272000,
+        "local_id": 180
+      },
+      "local_fence": 180
+    }
+  },
+  "new_texts": [
+    {
+      "message_id": "c311e38b5fbf6ce5cf879ede2fda8336abe17c45957b41e571725baec46f5122",
+      "sha256": "82786b97b67f56ef8dd7f8c2e950ba20f6a93dd0073f64844748774281aa8261",
+      "at_seconds": 199.34400000001187,
+      "after_restart": false,
+      "disposition": "self_echo"
+    },
+    {
+      "message_id": "204e9ac0597e68bba9e572c3521c13c9ac7946b43f2072a66fa261fadc98fd26",
+      "sha256": "13bad0ebf0c6652b838bb273c0d831917585d23ce528fb89bf988e650723a6cb",
+      "at_seconds": 861.8120000000054,
+      "after_restart": false,
+      "disposition": "self_echo"
+    },
+    {
+      "message_id": "072322316e396079c851964685641e3da8a8e83bcb9f682fac6a6c4d92e76f11",
+      "sha256": "d847be328e696c8c45d4bc5ee7c468400be2f5d2657b834c5e1ff48126b6bb54",
+      "at_seconds": 993.7810000000172,
+      "after_restart": true,
+      "disposition": "self_echo"
+    }
+  ],
+  "marker_checks_passed": true,
+  "observer_stopped": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 142,
+    "pointer_samples": 115619,
+    "pointer_position_changes": 9487,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 93.763,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [],
+    "target_detection_sources": [],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true,
+    "no_foreground_window_queries": 7,
+    "maximum_no_foreground_ms": 31.053,
+    "no_foreground_policy": "read_only_known_null_at_most_250ms_nonzero_and_events_remain_strict",
+    "unattributed_window_contexts": []
+  },
+  "all_readers_reaped": true,
+  "read_metrics": [
+    {
+      "snapshot_retries": 2,
+      "snapshot_retry_exhausted": 0
+    },
+    {
+      "snapshot_retries": 1,
+      "snapshot_retry_exhausted": 0
+    }
+  ],
+  "protected_tables_and_model_counts_unchanged": true,
+  "active_bindings": 0,
+  "integrity_ok": true,
+  "gate_after": 0,
+  "finished_at": 1794816085.0747943
+}

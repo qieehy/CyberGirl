@@ -1,0 +1,22 @@
+{
+  "status": "readonly_audit_passed",
+  "input_actions": 0,
+  "submit_actions": 0,
+  "focus_actions": 0,
+  "model_requests": 0,
+  "sender_ledger_writes": 0,
+  "gate_value": 0,
+  "active_account_matches": true,
+  "sender": {
+    "schema": 6,
+    "attempts": 3,
+    "operations": 3,
+    "permissions": [
+      1,
+      1
+    ],
+    "blocked_reason": "submission_or_draft_requires_review",
+    "manual_confirmations": 1
+  },
+  "sender_unchanged": true
+}

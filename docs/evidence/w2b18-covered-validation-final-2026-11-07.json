@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-11-07T15:19:54.639710+00:00",
+  "status": "ready_for_user_requested_single_covered_retest",
+  "authorization": "explicit_user_retest_request_plus_confirmed_new_login_and_occlusion_under_same_prior_single_trial_scope",
+  "request": "w2b-background-20261107-covered",
+  "marker_sha256": "ba856438c2b21288a5279134e03e9e8d5061a8e933ede4dddeb7c4db557a8434",
+  "window": {
+    "pid": 43264,
+    "hwnd": 28708360,
+    "created_filetime": "134385369154115744"
+  },
+  "maximum_attempts": 1,
+  "covered_trial_executed": false,
+  "background_sending_accepted": false,
+  "tests": {
+    "all_wechat": {
+      "passed": 603,
+      "seconds": 90.4
+    },
+    "focused": {
+      "passed": 34,
+      "seconds": 1.99
+    },
+    "ruff": "passed"
+  },
+  "original_ledger": {
+    "operations": 13,
+    "permits": [
+      11,
+      7
+    ],
+    "unknown_actions": [
+      "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+      "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa",
+      "e3917a17916f4156c3ed706951c4ec63adb0b5092ce9ea13eeda8643a2bb6cc1",
+      "1b72f580238f6f27751f496f17c44ba8dd13b06dc9a5ce9a564f7d2cd7d3973a",
+      "cc9c6a179071690b704ee97d3811e09b011e9c6d26948ee651538d0ca7a3a1b7",
+      "6d36507fd615c85a28711e994ebf1d43d3dc1e1cf1429a172b5b50568b96d391",
+      "9c48e9d7cf1aa63f33be69bc8f65661cb9af1cc534bc01955838706869d17758",
+      "8070d04d139e6f15ce906a4631ff87471ea1c8daa2542c6aac1c91777496329a"
+    ],
+    "active_operations": 0,
+    "blocked_reason": "submission_or_draft_requires_review",
+    "integrity": "ok",
+    "new_covered_actions": 0,
+    "history_sha256": "082793e4d9aa592ac312e0a0ec532388237aa1de8e7a93355e9227cbdd00a240",
+    "prior_process_generations_exited": true,
+    "return_delivery_state": "CONFIRMED",
+    "ledger_writes": 0
+  },
+  "code_sha256": {
+    "src/wechat_agent/bridges/wechat/background_contract.py": "f75b08aadcce3d7a1d339369e75d831b49aed9a5c7827264aac0d6f6de401219",
+    "src/wechat_agent/bridges/wechat/background_text.py": "114d2433fbd8648a03a6f18135088ea4b7ab061b40adac08dee737de4c97e20b",
+    "src/wechat_agent/bridges/wechat/background_journal.py": "0f46e1aefb9987e87c8663c554f7bd81552008044d7cf3e8655ece9cfdee7a98",
+    "src/wechat_agent/bridges/wechat/background_process.py": "59ee86ae900b7a0e98fd5cbb08612b7b3da1be1461d42e54aad32bea75d4b071",
+    "src/wechat_agent/bridges/wechat/background_observer.py": "fd1beb1497017682922f678f2e95919ba8b33855905c12eaefd028109a9639f0",
+    "src/wechat_agent/bridges/wechat/send_state.py": "24511026efcf549c23fb092185e98aa91845aa8a1acb0311310f277f82db2ef0",
+    "src/wechat_agent/bridges/wechat/channel_review.py": "44cec5e88b66a387ab9d994b6488a429afc91c74353dc369750d44c546b0bf0b",
+    "src/wechat_agent/bridges/wechat/standalone_identity.py": "2217df2fc4ef9681ff4a5688fb97fcb3e6ceeddab1a7efaafe85bd1677ebd121",
+    "scripts/wechat_background_control.py": "001fef4acfb7c8b892dfc37d24a7db5ecfa8b4f53cf900087ce75f277eb9ab21",
+    "scripts/wechat_background_native.py": "a29ee40ff82bcd52bdb492ee57e3886614d15be03d24c221b2c8476c62df6169",
+    "scripts/wechat_standalone_backend.py": "bcb01bfcad93c9d09c8575f3ab847793ea9314cd153e7feede40b2f9fb52190f",
+    "scripts/wechat_standalone_worker.py": "0fb3dc9381d38023d721074da3d7848475338d2c0112f7df1bcf558bbedd2b03",
+    "scripts/probe_wechat_standalone.py": "be630230157b0754aef8e4b7bb60e552d4eb2970fe6ab060693b4d2bdc4493af",
+    "scripts/probe_wechat_background_trial.py": "e3a1c1a1d446991863cf3636982098f984323995896a1fba1b66185bfb2e7d43",
+    "scripts/wechat_standalone_surface.ps1": "b3187280b6694ec40e605f7954b3cdfa1fd99809ad1f5a106913cc7843482a8a",
+    "tests/test_wechat_background_cover.py": "0ebacb3ff02b750f94b1b80cf7e4840fd3d1500c503a605087646a82de585952",
+    "tests/test_wechat_background_settling.py": "3b02534b0246ce7b38e296c5220a64f88724164a38633ce92ea512d1f63a5c5c"
+  },
+  "coverage_rule": "all_five_points_other_processes_and_foreground_non_wechat; covering_roots_need_not_equal_foreground_root",
+  "current_readiness_evidence": "w2b18-covered-multiapp-readiness-2026-11-07.json",
+  "prior_preflight_created_no_action_or_input": true
+}

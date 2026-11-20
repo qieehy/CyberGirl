@@ -1,0 +1,12 @@
+{
+  "status": "stopped",
+  "process_writes": 0,
+  "ledger_writes": 0,
+  "gate_writes": 0,
+  "pseudo_focus_posts": 0,
+  "input_posts": 0,
+  "submit_posts": 0,
+  "model_requests": 0,
+  "reason": "background_visible_main_window_not_unique",
+  "recorded_at": "2026-11-07T08:07:03.169644+00:00"
+}

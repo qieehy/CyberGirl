@@ -1,0 +1,33 @@
+{
+  "status": "approved_trial_readonly_preparation_wait_updated",
+  "approval_reference": "user-bbe24a5ff9be49628ffcda50b0a16344",
+  "approval_consumed": false,
+  "only_runtime_change": [
+    "scripts/probe_wechat_directed_trial.py"
+  ],
+  "change_scope": "bounded_observation_wait_for_existing_foreground_and_full_native_readiness_no_activation_or_relaxed_guards",
+  "source_sha256": {
+    "src/wechat_agent/bridges/wechat/posted_native.py": "d09ef205808236d08bf129d402fcb6c5f91b621292201afd3d2a868a75614acd",
+    "src/wechat_agent/bridges/wechat/posted_click.py": "b7d2f1190a0b08fbd3727985e58ec63b158e8855235321cedf0241bb006a75d9",
+    "src/wechat_agent/bridges/wechat/directed_native.py": "49f7ef4b77b2abdf2eb15578a24d00e7c50d805340eb6f5e9fffa9e6575931ea",
+    "src/wechat_agent/bridges/wechat/directed_click.py": "f4d315686cd58a379a413c389a4bf45f368a980528171f602938344a08ce167d",
+    "src/wechat_agent/bridges/wechat/native_sender.py": "3bd435ac149bbcef366343234fe548ba4a7e8f599fcfeb8aae5c1c8df5856308",
+    "src/wechat_agent/bridges/wechat/channel_review.py": "340964137e2045539d795dd45d64066245145b259d87efab6e61d021c6875d30",
+    "src/wechat_agent/bridges/wechat/send_state.py": "7c0880c38adba4d306a3319dc0f3dcf1402432254798d4de61992edde2c7d2f4",
+    "src/wechat_agent/bridges/wechat/send_process.py": "e1f687e1aecf0704c511ac53089524b6df5d1fab32b461e7131cbb1929e4971b",
+    "src/wechat_agent/bridges/wechat/gesture_protocol.py": "1e6e91a8df584081f623e62f9fa7fc50a992a0bac720de8650b1b05c689b8fbf",
+    "src/wechat_agent/bridges/wechat/sender.py": "f2d85ef655a941d3f3e9a70cfb1b7a1491f98b416a47cf3d2857ad0a9ff20154",
+    "scripts/wechat_native_worker.py": "2358feb85e2a6a94fb5e66c1ceb4bc112574554ce728b8c748ef1812b5a4a510",
+    "scripts/probe_wechat_directed_trial.py": "44ca52c2a245e5f807b263b5807e7da5bdd76341fba5febcc9409218b6a7e549",
+    "scripts/wechat_native_ui.ps1": "79af82f79e20a4a78cbf1f024e52158f1bedc575d697c5b2857cfbf544f9011c",
+    "scripts/wechat_input_metadata.ps1": "85ea62ebabfbd0438226f84699a333618a90c9ef95afd098e2a8a6be207845a8",
+    "scripts/wechat_click_geometry.ps1": "9b4d7418273d1f8a0372cf2a2802901dff19cba851451c56871bbaae608e6096",
+    "scripts/verify_wechat_accessibility.py": "d0931ebe8dfaf6b5e3db5b75b62ec0035141794b60f2594ca8fac5fe10ebb9e1",
+    "src/wechat_agent/assets/licenses/whale_gril-source.json": "5dcd4e94fac2972c1b9903cbaac436426885295da1a8f7b2b6f0f1ebede4f3b0",
+    "src/wechat_agent/assets/licenses/whale_gril-MIT.txt": "a20ddb85ceb7235ac7955274453290233be5f0b448a71f7c1adaaa76e6310750"
+  },
+  "old_reviewed_bundle": "docs/evidence/w2b14-posted-native-audit-2026-11-04.json",
+  "fixed_marker": "W2B-20261104-posted-once",
+  "old_uncertain_action": "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+  "new_send_actions": 0
+}

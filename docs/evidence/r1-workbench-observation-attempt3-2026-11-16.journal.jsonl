@@ -1,0 +1,65 @@
+{"event": "observation_started", "at": 1794814285.0308044, "duration_seconds": 1800, "restart_after_seconds": 900.0}
+{"event": "observation_progress", "at": 1794814285.0407975, "elapsed_seconds": 0.01600000000325963, "new_texts": 0, "http_checks": 1}
+{"event": "observation_progress", "at": 1794814315.2295978, "elapsed_seconds": 30.203000000008615, "new_texts": 0, "http_checks": 2}
+{"event": "observation_progress", "at": 1794814345.4306235, "elapsed_seconds": 60.40600000001723, "new_texts": 0, "http_checks": 3}
+{"event": "observation_progress", "at": 1794814375.7178068, "elapsed_seconds": 90.68700000000536, "new_texts": 0, "http_checks": 4}
+{"event": "observation_progress", "at": 1794814405.9014583, "elapsed_seconds": 120.875, "new_texts": 0, "http_checks": 5}
+{"event": "observation_progress", "at": 1794814436.084893, "elapsed_seconds": 151.06200000000536, "new_texts": 0, "http_checks": 6}
+{"event": "observation_progress", "at": 1794814466.2937474, "elapsed_seconds": 181.26600000000326, "new_texts": 0, "http_checks": 7}
+{"event": "new_text_committed", "at": 1794814484.3691063, "message_id": "c311e38b5fbf6ce5cf879ede2fda8336abe17c45957b41e571725baec46f5122", "sha256": "82786b97b67f56ef8dd7f8c2e950ba20f6a93dd0073f64844748774281aa8261", "at_seconds": 199.34400000001187, "after_restart": false, "disposition": "self_echo"}
+{"event": "observation_progress", "at": 1794814496.4682157, "elapsed_seconds": 211.43700000000536, "new_texts": 1, "http_checks": 8}
+{"event": "observation_progress", "at": 1794814526.6797347, "elapsed_seconds": 241.65600000001723, "new_texts": 1, "http_checks": 9}
+{"event": "observation_progress", "at": 1794814556.9080756, "elapsed_seconds": 271.875, "new_texts": 1, "http_checks": 10}
+{"event": "observation_progress", "at": 1794814587.1011639, "elapsed_seconds": 302.06200000000536, "new_texts": 1, "http_checks": 11}
+{"event": "observation_progress", "at": 1794814617.3391378, "elapsed_seconds": 332.31200000000536, "new_texts": 1, "http_checks": 12}
+{"event": "observation_progress", "at": 1794814647.5837295, "elapsed_seconds": 362.5469999999914, "new_texts": 1, "http_checks": 13}
+{"event": "observation_progress", "at": 1794814677.805795, "elapsed_seconds": 392.76600000000326, "new_texts": 1, "http_checks": 14}
+{"event": "observation_progress", "at": 1794814708.0447326, "elapsed_seconds": 423.01600000000326, "new_texts": 1, "http_checks": 15}
+{"event": "observation_progress", "at": 1794814738.2446213, "elapsed_seconds": 453.2190000000119, "new_texts": 1, "http_checks": 16}
+{"event": "observation_progress", "at": 1794814768.4538465, "elapsed_seconds": 483.4219999999914, "new_texts": 1, "http_checks": 17}
+{"event": "observation_progress", "at": 1794814798.6737592, "elapsed_seconds": 513.6410000000033, "new_texts": 1, "http_checks": 18}
+{"event": "observation_progress", "at": 1794814828.894207, "elapsed_seconds": 543.8589999999967, "new_texts": 1, "http_checks": 19}
+{"event": "observation_progress", "at": 1794814859.0695364, "elapsed_seconds": 574.0310000000172, "new_texts": 1, "http_checks": 20}
+{"event": "observation_progress", "at": 1794814889.2598138, "elapsed_seconds": 604.2339999999967, "new_texts": 1, "http_checks": 21}
+{"event": "observation_progress", "at": 1794814919.4495924, "elapsed_seconds": 634.4219999999914, "new_texts": 1, "http_checks": 22}
+{"event": "observation_progress", "at": 1794814949.5603826, "elapsed_seconds": 664.5310000000172, "new_texts": 1, "http_checks": 23}
+{"event": "observation_progress", "at": 1794814979.8042653, "elapsed_seconds": 694.7810000000172, "new_texts": 1, "http_checks": 24}
+{"event": "observation_progress", "at": 1794815010.0089955, "elapsed_seconds": 724.9839999999967, "new_texts": 1, "http_checks": 25}
+{"event": "observation_progress", "at": 1794815040.1779516, "elapsed_seconds": 755.1410000000033, "new_texts": 1, "http_checks": 26}
+{"event": "observation_progress", "at": 1794815070.399129, "elapsed_seconds": 785.375, "new_texts": 1, "http_checks": 27}
+{"event": "observation_progress", "at": 1794815100.5762854, "elapsed_seconds": 815.5469999999914, "new_texts": 1, "http_checks": 28}
+{"event": "observation_progress", "at": 1794815130.711686, "elapsed_seconds": 845.6870000000054, "new_texts": 1, "http_checks": 29}
+{"event": "new_text_committed", "at": 1794815146.8436654, "message_id": "204e9ac0597e68bba9e572c3521c13c9ac7946b43f2072a66fa261fadc98fd26", "sha256": "13bad0ebf0c6652b838bb273c0d831917585d23ce528fb89bf988e650723a6cb", "at_seconds": 861.8120000000054, "after_restart": false, "disposition": "self_echo"}
+{"event": "observation_progress", "at": 1794815160.9635944, "elapsed_seconds": 875.9370000000054, "new_texts": 2, "http_checks": 30}
+{"event": "midrun_restart_completed", "at": 1794815197.8604286, "at_seconds": 900.2190000000119, "prior_reader_pid": 33836, "new_reader_pid": 46420, "checkpoints_unchanged": true, "generation_unchanged": true}
+{"event": "observation_progress", "at": 1794815199.9824698, "elapsed_seconds": 914.8589999999967, "new_texts": 2, "http_checks": 31}
+{"event": "observation_progress", "at": 1794815230.3328545, "elapsed_seconds": 945.2810000000172, "new_texts": 2, "http_checks": 32}
+{"event": "observation_progress", "at": 1794815260.6918476, "elapsed_seconds": 975.6560000000172, "new_texts": 2, "http_checks": 33}
+{"event": "new_text_committed", "at": 1794815278.8093107, "message_id": "072322316e396079c851964685641e3da8a8e83bcb9f682fac6a6c4d92e76f11", "sha256": "d847be328e696c8c45d4bc5ee7c468400be2f5d2657b834c5e1ff48126b6bb54", "at_seconds": 993.7810000000172, "after_restart": true, "disposition": "self_echo"}
+{"event": "observation_progress", "at": 1794815290.8940208, "elapsed_seconds": 1005.8589999999967, "new_texts": 3, "http_checks": 34}
+{"event": "observation_progress", "at": 1794815321.070076, "elapsed_seconds": 1036.0469999999914, "new_texts": 3, "http_checks": 35}
+{"event": "observation_progress", "at": 1794815351.2939367, "elapsed_seconds": 1066.2660000000033, "new_texts": 3, "http_checks": 36}
+{"event": "observation_progress", "at": 1794815381.494792, "elapsed_seconds": 1096.4690000000119, "new_texts": 3, "http_checks": 37}
+{"event": "observation_progress", "at": 1794815411.6644955, "elapsed_seconds": 1126.6410000000033, "new_texts": 3, "http_checks": 38}
+{"event": "observation_progress", "at": 1794815441.7619371, "elapsed_seconds": 1156.7339999999967, "new_texts": 3, "http_checks": 39}
+{"event": "observation_progress", "at": 1794815471.8863046, "elapsed_seconds": 1186.8589999999967, "new_texts": 3, "http_checks": 40}
+{"event": "observation_progress", "at": 1794815502.007918, "elapsed_seconds": 1216.9839999999967, "new_texts": 3, "http_checks": 41}
+{"event": "observation_progress", "at": 1794815532.2144687, "elapsed_seconds": 1247.1870000000054, "new_texts": 3, "http_checks": 42}
+{"event": "observation_progress", "at": 1794815562.4102678, "elapsed_seconds": 1277.375, "new_texts": 3, "http_checks": 43}
+{"event": "observation_progress", "at": 1794815592.6454303, "elapsed_seconds": 1307.6089999999967, "new_texts": 3, "http_checks": 44}
+{"event": "observation_progress", "at": 1794815622.8182867, "elapsed_seconds": 1337.7969999999914, "new_texts": 3, "http_checks": 45}
+{"event": "observation_progress", "at": 1794815653.0358417, "elapsed_seconds": 1368.0, "new_texts": 3, "http_checks": 46}
+{"event": "observation_progress", "at": 1794815683.2014422, "elapsed_seconds": 1398.1719999999914, "new_texts": 3, "http_checks": 47}
+{"event": "observation_progress", "at": 1794815713.3749897, "elapsed_seconds": 1428.3440000000119, "new_texts": 3, "http_checks": 48}
+{"event": "observation_progress", "at": 1794815743.5602763, "elapsed_seconds": 1458.5310000000172, "new_texts": 3, "http_checks": 49}
+{"event": "observation_progress", "at": 1794815773.7274752, "elapsed_seconds": 1488.7030000000086, "new_texts": 3, "http_checks": 50}
+{"event": "observation_progress", "at": 1794815803.9206991, "elapsed_seconds": 1518.8910000000033, "new_texts": 3, "http_checks": 51}
+{"event": "observation_progress", "at": 1794815834.1091437, "elapsed_seconds": 1549.0780000000086, "new_texts": 3, "http_checks": 52}
+{"event": "observation_progress", "at": 1794815864.37094, "elapsed_seconds": 1579.3440000000119, "new_texts": 3, "http_checks": 53}
+{"event": "observation_progress", "at": 1794815894.5528839, "elapsed_seconds": 1609.5160000000033, "new_texts": 3, "http_checks": 54}
+{"event": "observation_progress", "at": 1794815924.7066479, "elapsed_seconds": 1639.6719999999914, "new_texts": 3, "http_checks": 55}
+{"event": "observation_progress", "at": 1794815954.9284449, "elapsed_seconds": 1669.8910000000033, "new_texts": 3, "http_checks": 56}
+{"event": "observation_progress", "at": 1794815985.1833005, "elapsed_seconds": 1700.1560000000172, "new_texts": 3, "http_checks": 57}
+{"event": "observation_progress", "at": 1794816015.379532, "elapsed_seconds": 1730.3440000000119, "new_texts": 3, "http_checks": 58}
+{"event": "observation_progress", "at": 1794816045.5960224, "elapsed_seconds": 1760.5620000000054, "new_texts": 3, "http_checks": 59}
+{"event": "observation_progress", "at": 1794816075.8287466, "elapsed_seconds": 1790.7969999999914, "new_texts": 3, "http_checks": 60}

@@ -1,0 +1,5 @@
+{"stage": "GATE_CHECKED", "original": 0, "at": "2026-11-07T06:24:44.284395+00:00"}
+{"stage": "GATE_ENABLE_INTENT", "original": 0, "at": "2026-11-07T06:24:44.286026+00:00"}
+{"stage": "GATE_ENABLED", "original": 0, "at": "2026-11-07T06:24:44.287087+00:00"}
+{"stage": "GATE_RESTORE_INTENT", "original": 0, "at": "2026-11-07T06:24:47.379694+00:00"}
+{"stage": "GATE_RESTORED", "original": 0, "at": "2026-11-07T06:24:47.379694+00:00"}

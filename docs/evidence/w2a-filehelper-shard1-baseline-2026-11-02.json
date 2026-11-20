@@ -1,0 +1,61 @@
+{
+  "status": "header_key_verified",
+  "stage": "complete",
+  "pid": 34044,
+  "hwnd": 68894,
+  "created_filetime": "134380654003431728",
+  "process_write_attempts": 0,
+  "key_files_written": 0,
+  "plaintext_database_files_written": 0,
+  "chat_rows_read": 0,
+  "external_messages": 0,
+  "model_requests": 0,
+  "key_source": "wcdb",
+  "preflight": {
+    "pid": 34044,
+    "hwnd": 68894,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "created_filetime": "134380654003431728",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x410",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "active_account_matched": true,
+  "account_fingerprint": "7899795f940e3a76be6036711f126ecfdc733ca26557aefe3c21d0c1d50b9100",
+  "scan": {
+    "bytes_scanned": 14053376,
+    "regions_checked": 529,
+    "config_objects_checked": 3,
+    "candidate_count": 3,
+    "failed_reads": 0
+  },
+  "snapshot": {
+    "wal_valid_frames": 6,
+    "wal_committed_frames": 6,
+    "authenticated_pages": 16587
+  },
+  "filehelper_baseline": {
+    "sort_seq": 1793290225000,
+    "local_id": 141
+  },
+  "selected_conversation": "filehelper",
+  "message_bodies_queried": 0,
+  "db_epoch_fingerprint": "06b46c802444e8f87f90444b50668fd01970e95be67ae7031608e71c40983c84",
+  "shard": "message_1.db",
+  "shard_size_bytes": 67940352,
+  "wal_present": true,
+  "header_hmac_verified": true,
+  "recorded_at": "2026-11-02T04:25:08.358100+00:00",
+  "script_sha256": "d3c5b679d2f265ae8695628e8d1dac3ef622f565df64303102800cb24ea15be3",
+  "implementation_sha256": {
+    "scripts/verify_wechat_accessibility.py": "bfff4c5ba6cb64cc1616cd78bcae00d5da849743ed61325f71bbaba8809c2f03",
+    "scripts/inspect_wechat_accessibility.py": "5c84fa742bd388e65d51ce302e29b989ea6e0864132d4f010de674006428c64f",
+    "src/wechat_agent/bridges/wechat/keyprobe.py": "57234bd75905d3e103e1f9d18b491a5c086ec95e0b5ac8d198f58cc99d012ed1",
+    "src/wechat_agent/bridges/wechat/wcdb_probe.py": "259d5635c59146c8e38f7249f9bdcbce80033fa4f67901caa02096b0c3621819",
+    "src/wechat_agent/bridges/wechat/snapshot.py": "b6e525b0da5f9379d8e5d1e98fef0c0525d946c081a3cc53b8631888fdf61a78",
+    "src/wechat_agent/bridges/wechat/reader.py": "6b97bdc599998f9d93b55860321f760b804a2db43d8b37bcfbbc1172b86e18db"
+  }
+}

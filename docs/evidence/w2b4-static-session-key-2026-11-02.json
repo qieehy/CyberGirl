@@ -1,0 +1,20 @@
+{
+  "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+  "class_name": "mmui::ChatMessagePage",
+  "meta_object_rva": 152345960,
+  "vtable_rva": 155548280,
+  "slot": "OnNewSessionDataLoaded(std::string)",
+  "slot_index": 8,
+  "static_metacall_rva": 9160080,
+  "dispatch_branch_rva": 9160736,
+  "method_rva": 29788480,
+  "session_key_offset": 464,
+  "method_prefix_sha256": "37a7ba570fbd57a2705f34386236e927ffb4c979242d38eb2ee4740418603c07",
+  "field_access_signature_verified": true,
+  "argument_equality_verified": true,
+  "interpretation": "Current page session key; equality and session-kind classifier usage statically traced.",
+  "process_memory_accessed": false,
+  "canonical_conversation_verified": false,
+  "recorded_at": "2026-11-02T06:50:50.501783+00:00",
+  "script_sha256": "140fa834cd40e4fc4d5837d4f8b4ebabc3807edd4f461afbbb1712945b761ea1"
+}

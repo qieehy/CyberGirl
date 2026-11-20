@@ -1,0 +1,14 @@
+{
+  "backup_schema": 8,
+  "current_schema": 9,
+  "original_send_tables_unchanged": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true
+  },
+  "backup_integrity": "ok",
+  "current_integrity": "ok"
+}

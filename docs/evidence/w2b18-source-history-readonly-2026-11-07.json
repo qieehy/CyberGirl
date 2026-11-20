@@ -1,0 +1,17 @@
+{
+  "named_unknown_actions": [
+    "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+    "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa",
+    "e3917a17916f4156c3ed706951c4ec63adb0b5092ce9ea13eeda8643a2bb6cc1",
+    "1b72f580238f6f27751f496f17c44ba8dd13b06dc9a5ce9a564f7d2cd7d3973a",
+    "cc9c6a179071690b704ee97d3811e09b011e9c6d26948ee651538d0ca7a3a1b7",
+    "6d36507fd615c85a28711e994ebf1d43d3dc1e1cf1429a172b5b50568b96d391"
+  ],
+  "count": 6,
+  "history_digest": "fe0f2c89bf7ee1df20b3e8197356990ee6f429246e7f4258e128f17ccbb139c6",
+  "history_only": true,
+  "review_created": false,
+  "approval_consumed": false,
+  "ledger_writes": 0,
+  "recorded_at": "2026-11-07T12:14:05.173808+00:00"
+}

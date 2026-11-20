@@ -1,0 +1,10 @@
+{
+  "at": 1794367063.0809572,
+  "question_reference": "call_3f25dd9d9e30442ba7e1090eba811571",
+  "phone_received_complete": true,
+  "marker": "W2B-20261107-background-restart-\u4e2d\u6587",
+  "marker_sha256": "9e74bfe8257d73d120834f841a89d0363fb2270e4413c3a865c261f3ac2cef72",
+  "action_id": "02df81f6161509bc66ebd6946623df7f187bca7d840cdbf5b5e02cbf33e822cc",
+  "confirmation_in_ledger_deferred_until_reader_cleanup": true,
+  "no_new_send_authorized": true
+}

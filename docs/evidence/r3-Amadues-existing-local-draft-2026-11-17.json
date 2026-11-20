@@ -1,0 +1,33 @@
+{
+  "status": "private_local_draft_edit_preview_restart_verified",
+  "started_at": 1794896767.626042,
+  "model_calls": 0,
+  "send_calls": 0,
+  "target_sha256": "e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734",
+  "source_message_id": "91595ec893132bdab4eb37d793bf9dee2d64ccbfc0d77f04bfce14ed6f58808d",
+  "source_disposition": "OBSERVED",
+  "sender_matches_selected_peer": true,
+  "draft_id": "6ba9d21503604a42651fe49a8d618eaf5dc15d6966aa46fb417230c1c109b30c",
+  "saved_version": 2,
+  "request_idempotent": true,
+  "initial_text_sha256": "c65eb463dc2d169622851e05f119f3454516189afababe2c916b90b21ea36761",
+  "final_text_sha256": "74b12cab4f7ff2a1f76ba96e75478433ebcbfa22f820af0a817a0575624625b5",
+  "preview_exact_target_and_text": true,
+  "confirmation_token_created": false,
+  "existing_source_selected": true,
+  "source_occurred_at": 1794896533.0,
+  "original_disposition_preserved": true,
+  "protected_unchanged_before_restart": true,
+  "all_readers_reaped": true,
+  "active_bindings": 0,
+  "restart_poll_fresh": 0,
+  "restart_draft_cancelled_no_replay": true,
+  "protected_send_model_and_filehelper_unchanged": true,
+  "send_counts": [
+    17,
+    15,
+    11
+  ],
+  "gate_after": 0,
+  "finished_at": 1794896788.3027508
+}

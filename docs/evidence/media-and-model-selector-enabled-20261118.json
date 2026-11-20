@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-18",
+  "authorization": "explicit_user_approval_of_selected_peer_new_images_stickers_and_local_voice_transcripts_to_gpt_6_1_sol_with_existing_private_chat_limits",
+  "port": 8765,
+  "reading": true,
+  "auto_reply": {"enabled": true, "phase": "waiting", "last_error": null},
+  "media_enabled": true,
+  "model_switch_enabled": true,
+  "current_model": "gpt-6.1-sol",
+  "live_catalog_models": 8,
+  "current_model_in_catalog": true,
+  "browser_model_selector_visible": true,
+  "selected_model_changed_by_agent": false,
+  "critical_tests_passed": 11,
+  "local_draft_javascript_smoke": "passed",
+  "prior_failed_action_retried": false,
+  "input_field_visual_observation": "empty",
+  "window_cover_restored": true,
+  "extra_reply_inferences_for_verification": 0,
+  "extra_wechat_test_sends": 0,
+  "live_media_inference_verified": false
+}

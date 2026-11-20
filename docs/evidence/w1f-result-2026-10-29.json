@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-29T14:14:19.599097+00:00",
+  "stage": "W1-F",
+  "status": "implementation_tests_and_readonly_preflight_passed",
+  "key_tests": {
+    "passed": 3,
+    "scope": "default/prewrite denial; postwrite exceptions/timeout/interrupt; restore failure and concurrent value"
+  },
+  "ruff": "passed",
+  "files": {
+    "scripts/verify_wechat_accessibility.py": "e0693336bb359ff193d7721d19769fc8674040486c6f4e1b23a335cd1de8d505",
+    "tests/test_accessibility_verifier.py": "ea34d9774be1e506720fbd6d64fff28e05da01f97552eadd36986604c4fee3ba",
+    "scripts/probe_wechat_uia.ps1": "23b3e49eba3960cdcde83b79b4e157ad16dda5295797004332efc91abf6f6307"
+  },
+  "preflight_evidence": "docs/evidence/w1f-current-window-preflight-2026-10-29.json",
+  "preflight_script_sha256": "1410bedfc5e590dd98d494ef8a06d9267e699d7bde063ceac84cdcd1d78a4d16",
+  "final_code_difference": "Added observe-only CLI after preflight; runtime path not yet executed",
+  "live_write_attempts": 0,
+  "observed_byte": 1,
+  "auto_review_rejection": {
+    "action": "sky.get_window_state include_text:true",
+    "reason": "would access private UI text contrary to structure-only boundary",
+    "retried": false,
+    "next_alternative": "existing Name/Value-free UIA metadata collector"
+  },
+  "next": "observe-only current HWND/PID; no activation needed based on current byte"
+}

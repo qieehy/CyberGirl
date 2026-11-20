@@ -1,0 +1,42 @@
+{
+  "status": "diagnostics_fixed_live_login_recovery_pending",
+  "related_tests_passed": 45,
+  "subtests_passed": 4,
+  "test_seconds": 44.71,
+  "ruff": "passed",
+  "javascript_syntax": "passed",
+  "wheel_sha256": "588dcc41416d2315eeb9657ffda227a542988e2bd17e5d9b0d4cd26d88a162f8",
+  "wheel_source_files_compared": 9,
+  "proxy": "http://127.0.0.1:7897",
+  "observed_local_auth_state": "logged_out",
+  "observed_local_tokens_present": false,
+  "browser_authorization_reported_by_user": true,
+  "login_process_had_exited_with": "connection_failure",
+  "connectivity_diagnostic_executed": false,
+  "connectivity_diagnostic_block": "automatic_approval_service_403_review_unavailable",
+  "failed_draft": {
+    "state": "FAILED",
+    "reason": "generation_failed",
+    "generation_starts": 1,
+    "action_id": null,
+    "historical_inference_http_attempts": null
+  },
+  "original_send_counts": [
+    16,
+    14,
+    10
+  ],
+  "original_unknown_count": 8,
+  "new_wechat_send_actions": 0,
+  "source_sha256": {
+    "wechat_agent/assets/console/workbench.html": "202a6c05a248176d1a117deb72433969648bda8e7486d62b3c54c88e832c70fb",
+    "wechat_agent/assets/console/workbench.js": "8180de5e1de16920a2a9e3622fc7938e0f93acad603c70aebb36d2b1b5d69692",
+    "wechat_agent/workbench/__init__.py": "e044c3dde907565a9ab878a8b96c886e4e57f5ae62179898a649bfa60b9109db",
+    "wechat_agent/workbench/authorization.py": "92485e889afd9aa5a80f56390cb2d14200665cdfe3749afe06390f0590f994cf",
+    "wechat_agent/workbench/console.py": "7453708eaa9ce326d33f39badf9394b167a18629f5f7128e8cde3b288b0a85ae",
+    "wechat_agent/workbench/native.py": "e3b84832fa6b4b006a5b982fc38eca349035f8cb14ee6ba2fba4f862f06b2d27",
+    "wechat_agent/workbench/sender.py": "ad0166d8cb9b4b80f31f2d444b3e42bde148c346874ec3af4c7c079c590384a9",
+    "wechat_agent/workbench/service.py": "42b1df9665b82e0a6809ed50ac5c881ee3f7090a65155fbe53fc1b2e4809d28f",
+    "wechat_agent/workbench/state.py": "82605e3ed349547a4a5c0ce9003ca04b793ab5963c924602cba7c7c597f48893"
+  }
+}

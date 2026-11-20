@@ -1,0 +1,22 @@
+{
+  "status": "active_account_verified",
+  "process_writes": 0,
+  "model_requests": 0,
+  "databases_opened": 0,
+  "keys_read": false,
+  "preflight": {
+    "pid": 7548,
+    "hwnd": 4721634,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "exe_sha256": "5329ffc9afdeeb01db6dd5a68321277a8cf8d3f966873c070be3d04d7dfb1c0e",
+    "created_filetime": "134382523032247282",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x410",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "gate_value": 0,
+  "matched_previous_database_account": true
+}

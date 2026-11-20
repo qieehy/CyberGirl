@@ -1,0 +1,17 @@
+{
+  "status": "consumed_trial_results_documented",
+  "recorded_at": 1793795059.4185078,
+  "stage_d_complete": false,
+  "approval_consumed": true,
+  "document_links": "passed",
+  "document_sha256": {
+    "README.md": "a7515efd2106c526d4091222bc7c697602f2b903fb72aa36cf910ced51544126",
+    "PROJECT_PLAN.md": "d1d3c0f761f5ebeb3c6ed3c5b89f8b237eba826285486c8b22d74f496924bae4",
+    "docs/W2B14_POSTED_NATIVE_TRIAL.md": "ed25ce0673d164020575f8dedd3c51e243a0e5cafe26ff95cad85f9da7d289b6",
+    "docs/WECHAT_BRIDGE_IMPLEMENTATION_PLAN.md": "e8a04d8ffcb9617546ce20fa0a7f075e00e9e2522f13e1b71e17fc0c1b2950b8",
+    "docs/WECHAT_OPERATION_SCOPE.md": "3f83eecfacb98b4bd198cf3b70afa9e11e21f1d52669038c9c591e23b32b36a8"
+  },
+  "runtime_manifest": "docs/evidence/w2b14-foreground-wait-runtime-2026-11-04.json",
+  "trial_result": "docs/evidence/w2b14-posted-after-focus-once-2026-11-04.json",
+  "final_recovery": "docs/evidence/w2b14-posted-final-recovery-2026-11-04.json"
+}

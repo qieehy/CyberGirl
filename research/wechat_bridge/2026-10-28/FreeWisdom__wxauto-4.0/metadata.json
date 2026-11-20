@@ -1,0 +1,643 @@
+{
+  "repo": "FreeWisdom/wxauto-4.0",
+  "default_branch": "main",
+  "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+  "commit_date": "2026-06-18T09:13:41Z",
+  "license": null,
+  "archived": false,
+  "tree": {
+    "sha": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+    "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/bd7c5233e79c0a185638a325bf6d30607244dfa8",
+    "tree": [
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f053cb5a9763727ce4a151ceb7ed12c7ab3738d3",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/f053cb5a9763727ce4a151ceb7ed12c7ab3738d3"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3375096b3d1e890f8da52dcfa993cfbd18cf924f",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/3375096b3d1e890f8da52dcfa993cfbd18cf924f"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64ae7efd47073cd7ecd16383d79f4482a6717fff",
+        "size": 790,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/64ae7efd47073cd7ecd16383d79f4482a6717fff"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41abe54fa1643ad1792430d18b41e8dcac5b1dbf",
+        "size": 505,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/41abe54fa1643ad1792430d18b41e8dcac5b1dbf"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d4ad004ae64de2a62f63c5a424ef5e58551281ac",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/d4ad004ae64de2a62f63c5a424ef5e58551281ac"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ea2f730301cf297181de47d8e21c9c3c53fccd9",
+        "size": 1735,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/5ea2f730301cf297181de47d8e21c9c3c53fccd9"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44b27828294f8677046a773888c73c3c9746d976",
+        "size": 348,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/44b27828294f8677046a773888c73c3c9746d976"
+      },
+      {
+        "path": "AUDIT.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "972dac251a0579d4adc84496426c63dd607b6643",
+        "size": 3624,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/972dac251a0579d4adc84496426c63dd607b6643"
+      },
+      {
+        "path": "CHANGELOG.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3d35cb76c8b0a10d985048eb8a1572a02be1f7b",
+        "size": 2453,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/d3d35cb76c8b0a10d985048eb8a1572a02be1f7b"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74fd4294b5d954f30a07bd06abd78e799b8b2dfd",
+        "size": 3691,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/74fd4294b5d954f30a07bd06abd78e799b8b2dfd"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "10e76dd3cb9bc4d834c938e2922dd9ea81f7d026",
+        "size": 15035,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/10e76dd3cb9bc4d834c938e2922dd9ea81f7d026"
+      },
+      {
+        "path": "TASK_SPEC.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b958e0fd3c9d580e2f88ae0fdc4befdaa91b76a2",
+        "size": 5907,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/b958e0fd3c9d580e2f88ae0fdc4befdaa91b76a2"
+      },
+      {
+        "path": "demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "baed279aa23c11a4fb21c8e0e20c9f471d85cf68",
+        "size": 14632,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/baed279aa23c11a4fb21c8e0e20c9f471d85cf68"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5482fd60cd6e9130f0db74946d5ed40cd4e4fd36",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/5482fd60cd6e9130f0db74946d5ed40cd4e4fd36"
+      },
+      {
+        "path": "docs/api",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "483beb2abeaaa1880db15d9d819917332d8b5e66",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/483beb2abeaaa1880db15d9d819917332d8b5e66"
+      },
+      {
+        "path": "docs/api/exceptions.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebf4e6f3c02769cb1edf406571278e71107b1189",
+        "size": 3120,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/ebf4e6f3c02769cb1edf406571278e71107b1189"
+      },
+      {
+        "path": "docs/api/message.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6311240f5aeadd18a88922431b6c5ee3ce8c180",
+        "size": 5534,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/c6311240f5aeadd18a88922431b6c5ee3ce8c180"
+      },
+      {
+        "path": "docs/api/moment.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b5c2fb15ae345706dd3544a5cb9244cecd83c82",
+        "size": 3707,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/4b5c2fb15ae345706dd3544a5cb9244cecd83c82"
+      },
+      {
+        "path": "docs/api/param.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d90ae9dada1864530b3de956281a07afcd46291",
+        "size": 3840,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/7d90ae9dada1864530b3de956281a07afcd46291"
+      },
+      {
+        "path": "docs/api/response.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41d6d90e45775a177d5fae90c5b970bd6a877d95",
+        "size": 2840,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/41d6d90e45775a177d5fae90c5b970bd6a877d95"
+      },
+      {
+        "path": "docs/api/session.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78c47746ead0c96d39dce01b500c67dd3e4f0dd1",
+        "size": 2655,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/78c47746ead0c96d39dce01b500c67dd3e4f0dd1"
+      },
+      {
+        "path": "docs/api/wechat.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "32c6aa18c971a22db9034e56d3ac7a5add975e34",
+        "size": 5796,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/32c6aa18c971a22db9034e56d3ac7a5add975e34"
+      },
+      {
+        "path": "docs/guide",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9d68c280beb469e7775c7d2ee573f563416d3783",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/9d68c280beb469e7775c7d2ee573f563416d3783"
+      },
+      {
+        "path": "docs/guide/listener.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8cdc3d4ffa1739479e69fcccd42531e5e36162f",
+        "size": 4091,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/b8cdc3d4ffa1739479e69fcccd42531e5e36162f"
+      },
+      {
+        "path": "docs/guide/messaging.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce56ca7ce2b1a24ae149a33c8039a1ab1b05012c",
+        "size": 3978,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/ce56ca7ce2b1a24ae149a33c8039a1ab1b05012c"
+      },
+      {
+        "path": "docs/guide/moments.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc4a30079dc4ff234758bd35848f75861bbe309e",
+        "size": 3590,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/bc4a30079dc4ff234758bd35848f75861bbe309e"
+      },
+      {
+        "path": "docs/index.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b72aa075c3362e8c343124d55d1e6e4d2a1af310",
+        "size": 1833,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/b72aa075c3362e8c343124d55d1e6e4d2a1af310"
+      },
+      {
+        "path": "docs/installation.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17f64da452ca22ccb9344837fd8785d1cec4a0fa",
+        "size": 1886,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/17f64da452ca22ccb9344837fd8785d1cec4a0fa"
+      },
+      {
+        "path": "docs/quickstart.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a88e369b34f4facd8425b954fbcdecf77cd6b6f0",
+        "size": 2375,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/a88e369b34f4facd8425b954fbcdecf77cd6b6f0"
+      },
+      {
+        "path": "pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8327b3dcd2e25e6c4b39d53af77dec454c3b08f",
+        "size": 2122,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/e8327b3dcd2e25e6c4b39d53af77dec454c3b08f"
+      },
+      {
+        "path": "test_at.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe453c1d24a95b0d1d39cc03f1a0c3ba1ab8de6a",
+        "size": 1208,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/fe453c1d24a95b0d1d39cc03f1a0c3ba1ab8de6a"
+      },
+      {
+        "path": "test_hand_raise_reply_workflow.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cde56999e8f4f8b72a46ac0ee5266ee9e5d5783",
+        "size": 6895,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/8cde56999e8f4f8b72a46ac0ee5266ee9e5d5783"
+      },
+      {
+        "path": "test_listener_trigger_safe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "caa91c654dafd28f2c4500e2a46a1b4cfe9d78f6",
+        "size": 1898,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/caa91c654dafd28f2c4500e2a46a1b4cfe9d78f6"
+      },
+      {
+        "path": "test_module1_basic.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67d56e34225f6f9569c43691e21fd596c89ae7bd",
+        "size": 5096,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/67d56e34225f6f9569c43691e21fd596c89ae7bd"
+      },
+      {
+        "path": "test_module2_messages.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab484d65e1054a1d2a7555e2fed8718101891e57",
+        "size": 14681,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/ab484d65e1054a1d2a7555e2fed8718101891e57"
+      },
+      {
+        "path": "test_module3_listener.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ce263751ac8ae5e60d0f8ed908f538519b7b5c6",
+        "size": 7558,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/5ce263751ac8ae5e60d0f8ed908f538519b7b5c6"
+      },
+      {
+        "path": "test_module4_windows_moments.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e470283bc50b1944c50d3b419b3cd53f4b8d229",
+        "size": 13191,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/6e470283bc50b1944c50d3b419b3cd53f4b8d229"
+      },
+      {
+        "path": "test_search_quote.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "32c785eaf68a987efb1c8b08f85a04c00eee5e54",
+        "size": 2982,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/32c785eaf68a987efb1c8b08f85a04c00eee5e54"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "708312a4bd8c041770c76f0a693fc6bece7a28c8",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/708312a4bd8c041770c76f0a693fc6bece7a28c8"
+      },
+      {
+        "path": "tests/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/conftest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/test_exceptions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d11fe78ddfe456f0387da125536f622b33ef6ebd",
+        "size": 1061,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/d11fe78ddfe456f0387da125536f622b33ef6ebd"
+      },
+      {
+        "path": "tests/test_msgs.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df48ccb3bc781501fb04f592fa1320de93b0e484",
+        "size": 4137,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/df48ccb3bc781501fb04f592fa1320de93b0e484"
+      },
+      {
+        "path": "tests/test_param.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "579c0a23a4b65514e209d11adfcd3008a48a90c6",
+        "size": 1592,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/579c0a23a4b65514e209d11adfcd3008a48a90c6"
+      },
+      {
+        "path": "tests/test_reply_queue.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5253b10dd5d9116a3dc80545e29a5eedcd57b2a",
+        "size": 5677,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/e5253b10dd5d9116a3dc80545e29a5eedcd57b2a"
+      },
+      {
+        "path": "wxauto4",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7598ff23ac7a452e2ef3627d7229a515acdc906f",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/7598ff23ac7a452e2ef3627d7229a515acdc906f"
+      },
+      {
+        "path": "wxauto4/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b85bbf512baf9e723e073a3369e651829385e665",
+        "size": 803,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/b85bbf512baf9e723e073a3369e651829385e665"
+      },
+      {
+        "path": "wxauto4/__main__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df3e53b66759b52ea2eecf1d4e836ceffb6512df",
+        "size": 1010,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/df3e53b66759b52ea2eecf1d4e836ceffb6512df"
+      },
+      {
+        "path": "wxauto4/exceptions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b410af8bfa6f322f45242f7bf5d0d946f52bbc24",
+        "size": 1502,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/b410af8bfa6f322f45242f7bf5d0d946f52bbc24"
+      },
+      {
+        "path": "wxauto4/languages.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6327eed09aed4614e779da58784ee86ddbb74461",
+        "size": 14764,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/6327eed09aed4614e779da58784ee86ddbb74461"
+      },
+      {
+        "path": "wxauto4/logger.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db9e95896fafdc2a2c2e7d8558566c411fb174dc",
+        "size": 4847,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/db9e95896fafdc2a2c2e7d8558566c411fb174dc"
+      },
+      {
+        "path": "wxauto4/moment.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "310bae678a383af04942d681871ac124d4f3317d",
+        "size": 21260,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/310bae678a383af04942d681871ac124d4f3317d"
+      },
+      {
+        "path": "wxauto4/msgs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "295b98e99644c60a645d57fa0a93a32e2aaaaebb",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/295b98e99644c60a645d57fa0a93a32e2aaaaebb"
+      },
+      {
+        "path": "wxauto4/msgs/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "044cae6a6195b332ef10c2069455f1279858e309",
+        "size": 529,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/044cae6a6195b332ef10c2069455f1279858e309"
+      },
+      {
+        "path": "wxauto4/msgs/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7d20d59fe87fe7b1c07fe1600d2402a36213036",
+        "size": 8542,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/a7d20d59fe87fe7b1c07fe1600d2402a36213036"
+      },
+      {
+        "path": "wxauto4/msgs/friend.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a11c06e68e89c632fc42418ff403f756b0e28d73",
+        "size": 1956,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/a11c06e68e89c632fc42418ff403f756b0e28d73"
+      },
+      {
+        "path": "wxauto4/msgs/mattr.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f75e1e6882b09639d92c4b4ced0340b2bebe44fa",
+        "size": 3992,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/f75e1e6882b09639d92c4b4ced0340b2bebe44fa"
+      },
+      {
+        "path": "wxauto4/msgs/msg.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f32b2b380382ded8811eb39e6d2a977b5f5705b5",
+        "size": 3936,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/f32b2b380382ded8811eb39e6d2a977b5f5705b5"
+      },
+      {
+        "path": "wxauto4/msgs/mtype.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50e6f93c0028e6b6d81ede7d53e172c646d45525",
+        "size": 2543,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/50e6f93c0028e6b6d81ede7d53e172c646d45525"
+      },
+      {
+        "path": "wxauto4/msgs/self.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f559466862f31ccd8af1321c315ad29db026b1f",
+        "size": 1928,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/3f559466862f31ccd8af1321c315ad29db026b1f"
+      },
+      {
+        "path": "wxauto4/param.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64876bd7e6c5237ebe786b7863405176bb28994c",
+        "size": 2807,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/64876bd7e6c5237ebe786b7863405176bb28994c"
+      },
+      {
+        "path": "wxauto4/reply_queue.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa8bf7d24691bf0e2b642151b2542fd47215e5dc",
+        "size": 35296,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/fa8bf7d24691bf0e2b642151b2542fd47215e5dc"
+      },
+      {
+        "path": "wxauto4/ui",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c18b6a35f8e4bffa86d2344e41fa59dd752ea2fa",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/c18b6a35f8e4bffa86d2344e41fa59dd752ea2fa"
+      },
+      {
+        "path": "wxauto4/ui/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79d570465f241ac61dbb4c126d98907e5bef6212",
+        "size": 57,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/79d570465f241ac61dbb4c126d98907e5bef6212"
+      },
+      {
+        "path": "wxauto4/ui/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef3fd3a23bb4ca29b31ae111eb249649a763e503",
+        "size": 1623,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/ef3fd3a23bb4ca29b31ae111eb249649a763e503"
+      },
+      {
+        "path": "wxauto4/ui/chatbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e72394000d064a6ab65f41d98669538454cb62c9",
+        "size": 15941,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/e72394000d064a6ab65f41d98669538454cb62c9"
+      },
+      {
+        "path": "wxauto4/ui/component.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f49d662ada0544f31129f4810ac0a0774f3b030a",
+        "size": 9901,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/f49d662ada0544f31129f4810ac0a0774f3b030a"
+      },
+      {
+        "path": "wxauto4/ui/main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a48121fe8063b918d09211fb2c330138c8e69b3",
+        "size": 8203,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/2a48121fe8063b918d09211fb2c330138c8e69b3"
+      },
+      {
+        "path": "wxauto4/ui/navigationbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21b7b625bbd279e3be90d3d5e154364b435d3463",
+        "size": 4834,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/21b7b625bbd279e3be90d3d5e154364b435d3463"
+      },
+      {
+        "path": "wxauto4/ui/sessionbox.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c59f6d851f585496aaae5e57a3463f88c49a1ab",
+        "size": 8567,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/6c59f6d851f585496aaae5e57a3463f88c49a1ab"
+      },
+      {
+        "path": "wxauto4/uia",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "46003ff675fd7b340b2f0fc2b55224375b972e9c",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/46003ff675fd7b340b2f0fc2b55224375b972e9c"
+      },
+      {
+        "path": "wxauto4/uia/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27d1594b77d53fc7b2259cc610745ad879220525",
+        "size": 2686,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/27d1594b77d53fc7b2259cc610745ad879220525"
+      },
+      {
+        "path": "wxauto4/uia/_extras.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "196ab1fe85c81ae79b8b09de9c08974f356f4272",
+        "size": 6526,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/196ab1fe85c81ae79b8b09de9c08974f356f4272"
+      },
+      {
+        "path": "wxauto4/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e81f569a28fe54c1136d82e54ed133ba79a339e8",
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/trees/e81f569a28fe54c1136d82e54ed133ba79a339e8"
+      },
+      {
+        "path": "wxauto4/utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73a87744888896622d351f6eb80b967c86618ec8",
+        "size": 422,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/73a87744888896622d351f6eb80b967c86618ec8"
+      },
+      {
+        "path": "wxauto4/utils/lock.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7b7d27ef458d59503953544f0494eff0ad49c2b",
+        "size": 2442,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/b7b7d27ef458d59503953544f0494eff0ad49c2b"
+      },
+      {
+        "path": "wxauto4/utils/tools.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b181ed762232fc70c97904c9f11b755fb49b07bf",
+        "size": 19709,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/b181ed762232fc70c97904c9f11b755fb49b07bf"
+      },
+      {
+        "path": "wxauto4/utils/useful.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "078ab70687f26b9a65de9e2fa55af3454d79d3c0",
+        "size": 3712,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/078ab70687f26b9a65de9e2fa55af3454d79d3c0"
+      },
+      {
+        "path": "wxauto4/utils/win32.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0c0621682eb77275b865024d1846dfb99af853a",
+        "size": 13506,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/c0c0621682eb77275b865024d1846dfb99af853a"
+      },
+      {
+        "path": "wxauto4/wx.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d4ff6f15dbba4429e4b68f1c941f26eebf30546f",
+        "size": 14002,
+        "url": "https://api.github.com/repos/FreeWisdom/wxauto-4.0/git/blobs/d4ff6f15dbba4429e4b68f1c941f26eebf30546f"
+      }
+    ],
+    "truncated": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-18",
+  "scope": "selected_Amadues_to_qieehy_private_chat",
+  "implementation": "explicit_media_flag_prepared_not_enabled",
+  "local_samples": [
+    {"local_id": 7, "kind": "sticker", "decoded_jpeg_data_url_chars": 10243},
+    {"local_id": 8, "kind": "image", "decoded_jpeg_data_url_chars": 87699},
+    {"local_id": 9, "kind": "voice", "transcript_with_label_chars": 11}
+  ],
+  "critical_tests": {"passed": 13, "deselected": 20, "seconds": 3.70},
+  "javascript_syntax": "passed",
+  "new_modules_lint": "passed",
+  "external_model_calls_during_media_development": 0,
+  "wechat_sends_during_media_development": 0,
+  "runtime": {
+    "reading": true,
+    "auto_reply_enabled": false,
+    "existing_stop_reason": "draft_or_input_changed",
+    "failed_operation_input_permitted": 0,
+    "failed_operation_submit_permitted": 0,
+    "failed_operation_worker_reaped": true,
+    "failed_operation_gate_restored": true,
+    "media_enabled": false
+  },
+  "pending": "explicit_extension_of_prior_text_only_model_authorization_and_activation",
+  "limitations": ["vision_endpoint_not_live_verified", "uncached_assets_not_downloaded", "voice_approximately_60_seconds_and_primarily_Chinese"]
+}

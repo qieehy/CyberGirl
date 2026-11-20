@@ -1,0 +1,14 @@
+{
+  "action_id": "9dafec8ca5f45a1e912af1a38313febec583ee2cc757d9da4fe486c3ced821dc",
+  "state": "UNCONFIRMED",
+  "reason": "sent",
+  "local_echo": false,
+  "client_date": "2026-11-17",
+  "request_id": "amadues-background-test-20261117-2",
+  "text_sha256": "ec2a9400d37488f01dbc5bb4a44163e34789c214647211150dbc5428938913c5",
+  "started_at": 1794899449.7734244,
+  "finished_at": 1794899466.2877996,
+  "background_request": true,
+  "automatic_retry": false,
+  "previous_attempt_verified_input_and_submit_zero": true
+}

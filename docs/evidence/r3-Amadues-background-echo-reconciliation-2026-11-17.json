@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "action_id": "0bd2aa2c1f1f1ee2402a2cbf5c3b0260d1510fb7ccc549d0bb383fa0af283bb3",
+      "state": "FAILED",
+      "reason": "background_observer_sampling_stalled",
+      "local_echo": false
+    },
+    {
+      "action_id": "9dafec8ca5f45a1e912af1a38313febec583ee2cc757d9da4fe486c3ced821dc",
+      "state": "UNCONFIRMED",
+      "reason": "sent",
+      "local_echo": true
+    }
+  ],
+  "resend_performed": false
+}

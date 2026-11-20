@@ -1,0 +1,22 @@
+{
+  "status": "r3_schema10_migration_original_state_preserved",
+  "backup": "wechat-sender-poc.sqlite3.v9-1794820111353099200.bak",
+  "backup_schema": 9,
+  "schema": 10,
+  "original_tables_unchanged": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true,
+    "workbench_drafts": true,
+    "workbench_draft_revisions": true,
+    "reader_accounts": true,
+    "reader_shards": true
+  },
+  "filehelper_cursors_unchanged": true,
+  "private_targets": 1,
+  "integrity_ok": true,
+  "backup_integrity_ok": true
+}

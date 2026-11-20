@@ -1,0 +1,94 @@
+{
+  "status": "offline_local_drafts_verified_live_source_wait_timed_out",
+  "unique_grouped_tests_passed": 891,
+  "skipped": 9,
+  "subtests_passed": 848,
+  "single_uninterrupted_final_suite": false,
+  "main_group": {
+    "passed": 866,
+    "skipped": 9,
+    "subtests": 821,
+    "seconds": 382.7,
+    "phase": "before final persistent-close cancellation patch"
+  },
+  "final_workbench_group": {
+    "passed": 55,
+    "seconds": 17.24,
+    "new_private_local_cases": 32,
+    "additional_storage_failure_case": {
+      "passed": 1,
+      "cleanup_in_finally_verified": true
+    },
+    "final_source_cleanup_patch": true,
+    "closes_same_ledger_rebind_gap": true
+  },
+  "http_group": {
+    "passed": 23,
+    "subtests": 27,
+    "seconds": 24.15,
+    "explicit_utf8_mode": true
+  },
+  "original_followup": {
+    "passed": 77,
+    "failed": 1,
+    "errors": 1,
+    "subtests": 27,
+    "seconds": 41.4,
+    "diagnostic": "existing ConfigurationTests output capture UnicodeDecodeError; isolated UTF-8 rerun passed; underlying mixed-encoding origin not proven"
+  },
+  "initial_new_case_audit_fixture_failure": "nonexistent wechat_send_permits table name corrected in test; permit columns audited with original operations table",
+  "javascript_handlers": "actual handlers under synthetic DOM/HTTP: compose/edit/preview; hidden send forced click emitted no model/send request",
+  "ruff": "passed for src/tests/scripts",
+  "javascript_syntax": "passed",
+  "live_helper_compile": "passed",
+  "schema_change": false,
+  "wheel": ".build\\r3-local-drafts-final-wheel-v2\\wechat_agent-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "78c91ec667b12d4c70345fe6c3c533e79142c2f5bdbfb57f64190d5c75b5459a",
+  "wheel_source_matches": {
+    "cli.py": true,
+    "workbench/console.py": true,
+    "workbench/service.py": true,
+    "workbench/state.py": true,
+    "assets/console/workbench.html": true,
+    "assets/console/workbench.js": true
+  },
+  "native_runtime_requires_complete_source_checkout": true,
+  "live_status": "stopped",
+  "live_reason": "local_acceptance_new_marker_timeout",
+  "live_model_calls": 0,
+  "live_send_calls": 0,
+  "new_live_drafts": 0,
+  "source_received_and_local_preview_live_accepted": false,
+  "all_readers_reaped": true,
+  "gate_after": 0,
+  "send_counts": [
+    17,
+    15,
+    11
+  ],
+  "unknown_ids_unchanged": true,
+  "active_bindings": 0,
+  "log_sha256": {
+    ".build\\r3-local-drafts-regression-main.log": "6ddd9d1712c7693a809ee2d9d4636909afa1696972f8407ff575c0204943e018",
+    ".build\\r3-local-drafts-final-checks.log": "f2ad5ebeaabee49a9c04b8bbe7dc53f83e0daf9d29b13beee9c97acfd40bead9",
+    ".build\\r3-local-drafts-http-isolated.log": "3c2ba6229d4170ef4c21a7574a0e4e4f0e19d012eefe4a3f4b272a8aab8c3d7a",
+    ".build\\r3-local-drafts-final-workbench.log": "6d8c95868a4635df088bd9968b53c3ec37d800697d058ab9ff23be66fa79ebd7",
+    ".build\\r3-local-drafts-final-workbench-v2.log": "ca7c33fbc1af505a9b4cb836cccddad70e8ce21788fa2ac59225392db0125ed8",
+    ".build\\r3-local-drafts-storage-fault.log": "bb03a63ccd07e6e9a7829de7a7797175b25df89a2fd27994389809b4a3343ab8"
+  },
+  "source_sha256": {
+    "cli.py": "a858b7c77133167ea2691285e4d4d337a35929fab42845dfe01d78f04ca10942",
+    "workbench/console.py": "3cc35ae20b3e751a05628db8085ddd5c54e07b8baee931cbeb1230cc9b3f749a",
+    "workbench/service.py": "657d31e7425f3f78076597c29f52e4d1f1b6a70057ab6e028ef6df6ae2beef7d",
+    "workbench/state.py": "f95cc1e8c5900db49c46802c0eb0fab04b4538cd3e9e5dcaf5fd5cf233ba2d83",
+    "assets/console/workbench.html": "7c404bfa029cab7bcadbb0be466117bad1dd7b6c1012b509ea771004022a3e60",
+    "assets/console/workbench.js": "cc136dea4611857b15c8c1202c6b4617f8234f1eca628402fcc71d60f9990b4e"
+  },
+  "acceptance_helper_sha256": "e469e082e43f2b3b3291fcb3ca506f00b1b2490ffb5d312c0455cc97cc475d72",
+  "prior_phase_validation": "r3-local-drafts-validation-2026-11-16.json retained",
+  "automatic_approval_timeout": {
+    "action": "offline workbench tests",
+    "original_command_executed": false,
+    "retry_succeeded": true
+  }
+}

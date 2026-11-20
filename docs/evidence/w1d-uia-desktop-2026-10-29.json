@@ -1,0 +1,141 @@
+{
+  "recorded_at": "2026-10-29T21:15:20.3766961+08:00",
+  "status": "observed",
+  "collector": "Windows .NET UIAutomationClient; read-only RawViewWalker and ControlViewWalker",
+  "collector_pid": 37280,
+  "collector_session": 1,
+  "collector_64bit": true,
+  "target_executable": "C:\\Program Files\\Tencent\\Weixin\\Weixin.exe",
+  "limits": {
+    "outer_deadline_seconds": 30,
+    "max_depth": 8,
+    "max_windows": 8,
+    "max_nodes_per_view": 300
+  },
+  "forbidden_fields_read": false,
+  "input_actions": 0,
+  "model_requests": 0,
+  "external_messages": 0,
+  "processes": [
+    {
+      "session": 1,
+      "pid": 6748
+    },
+    {
+      "session": 1,
+      "pid": 8060
+    },
+    {
+      "session": 1,
+      "pid": 30376
+    },
+    {
+      "session": 1,
+      "pid": 36004
+    },
+    {
+      "session": 1,
+      "pid": 36304
+    }
+  ],
+  "windows": [
+    {
+      "hwnd": 460506,
+      "pid": 30376,
+      "win32_class": "Qt51514QWindowIcon",
+      "visible": true,
+      "minimized": false,
+      "raw": {
+        "errors": [],
+        "bounded": false,
+        "nodes": [
+          {
+            "index": 0,
+            "parent": null,
+            "depth": 0,
+            "process_id": 30376,
+            "type": "ControlType.Window",
+            "class_name": "Qt51514QWindowIcon",
+            "framework": "Win32",
+            "offscreen": false,
+            "enabled": true,
+            "patterns": [
+              "WindowPatternIdentifiers.Pattern",
+              "TransformPatternIdentifiers.Pattern"
+            ]
+          },
+          {
+            "index": 1,
+            "parent": 0,
+            "depth": 1,
+            "process_id": 30376,
+            "type": "ControlType.Pane",
+            "class_name": "Qt51514QWindowIcon",
+            "framework": "Win32",
+            "offscreen": false,
+            "enabled": true,
+            "patterns": []
+          },
+          {
+            "index": 2,
+            "parent": 0,
+            "depth": 1,
+            "process_id": 30376,
+            "type": "ControlType.Pane",
+            "class_name": "MMUIRenderSubWindowHW",
+            "framework": "Win32",
+            "offscreen": false,
+            "enabled": true,
+            "patterns": []
+          }
+        ]
+      },
+      "control": {
+        "errors": [],
+        "bounded": false,
+        "nodes": [
+          {
+            "index": 0,
+            "parent": null,
+            "depth": 0,
+            "process_id": 30376,
+            "type": "ControlType.Window",
+            "class_name": "Qt51514QWindowIcon",
+            "framework": "Win32",
+            "offscreen": false,
+            "enabled": true,
+            "patterns": [
+              "WindowPatternIdentifiers.Pattern",
+              "TransformPatternIdentifiers.Pattern"
+            ]
+          },
+          {
+            "index": 1,
+            "parent": 0,
+            "depth": 1,
+            "process_id": 30376,
+            "type": "ControlType.Pane",
+            "class_name": "Qt51514QWindowIcon",
+            "framework": "Win32",
+            "offscreen": false,
+            "enabled": true,
+            "patterns": []
+          },
+          {
+            "index": 2,
+            "parent": 0,
+            "depth": 1,
+            "process_id": 30376,
+            "type": "ControlType.Pane",
+            "class_name": "MMUIRenderSubWindowHW",
+            "framework": "Win32",
+            "offscreen": false,
+            "enabled": true,
+            "patterns": []
+          }
+        ]
+      }
+    }
+  ],
+  "client_version": "4.2.0.9"
+}

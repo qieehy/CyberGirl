@@ -1,0 +1,450 @@
+{
+  "commit": "43a5d1db9e83dbfaf7f50be625d007b871869e72",
+  "purpose": "B18a static dependency closure, no imports",
+  "files": [
+    {
+      "sha256": "bbbef0ea427a91d9e1b2c68a73ef71b98b9fb7c8c6d1f39a94c845155f96783b",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/requirements.txt",
+      "bytes": 747,
+      "path": "requirements.txt"
+    },
+    {
+      "sha256": "b28bc56a63c0d9fb66f531558ef988ffc3f3dfe950187bb3b06b0abdae0b75a2",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/__init__.py",
+      "bytes": 2433,
+      "path": "vendor/wechatauto/__init__.py"
+    },
+    {
+      "sha256": "3326289a5009f25f62ae868b39f0d37695d196aaad721122028f455728d47276",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/__main__.py",
+      "bytes": 369,
+      "path": "vendor/wechatauto/__main__.py"
+    },
+    {
+      "sha256": "5a62382dd82c2916fdf50928a4a5dc4ec7f688ec5f212b077c48e2a7c4f35d60",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/accessibility.py",
+      "bytes": 30606,
+      "path": "vendor/wechatauto/accessibility.py"
+    },
+    {
+      "sha256": "5b534bd4825f1fa6a1f814f100fba8933fb205619885effd822e7617a3d3fa18",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/cli.py",
+      "bytes": 42315,
+      "path": "vendor/wechatauto/cli.py"
+    },
+    {
+      "sha256": "c39b12ad20db284db125f045e398b58b11d2901a52bad857178b44c00a5c0155",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/db.py",
+      "bytes": 148514,
+      "path": "vendor/wechatauto/db.py"
+    },
+    {
+      "sha256": "e1c5f4f61278122332af1a7dbf8b352b34c84b5ff94081f3110c369714570d1b",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_db.py",
+      "bytes": 2952,
+      "path": "vendor/wechatauto/demo_db.py"
+    },
+    {
+      "sha256": "369c42dd1dc8332341918010b876c2785d8450b0d42fa44b37a0290371c4ead4",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_emoji_capture.py",
+      "bytes": 3441,
+      "path": "vendor/wechatauto/demo_emoji_capture.py"
+    },
+    {
+      "sha256": "2483811abe34d6cf8d5dd4ea26bc03fa1e591d1250ddf83bd7276a649c218e73",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_forward_voice.py",
+      "bytes": 2756,
+      "path": "vendor/wechatauto/demo_forward_voice.py"
+    },
+    {
+      "sha256": "9a20eeec908175bd040bcdd2d5053195cb588d804a248c316afe643a2b6278e4",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_forward.py",
+      "bytes": 18415,
+      "path": "vendor/wechatauto/demo_forward.py"
+    },
+    {
+      "sha256": "3a4fec81bda202ccc474f35a4f2a20838844b4495978e6b07c6fda1550083974",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_group_messages.py",
+      "bytes": 15480,
+      "path": "vendor/wechatauto/demo_group_messages.py"
+    },
+    {
+      "sha256": "45ab55283ec81d7efda91c7c1a254daab7639fe7d78bd660f3d681016cae9b15",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_guia.py",
+      "bytes": 2611,
+      "path": "vendor/wechatauto/demo_guia.py"
+    },
+    {
+      "sha256": "495f21f080f8e456216f0c0136f087c5a6f467990b47570752537719807b1702",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_labels.py",
+      "bytes": 4317,
+      "path": "vendor/wechatauto/demo_labels.py"
+    },
+    {
+      "sha256": "7daed30b27136e59db423096878920dd9ef081c2ca9efcd25a6e7d59855faa9a",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_listen.py",
+      "bytes": 4583,
+      "path": "vendor/wechatauto/demo_listen.py"
+    },
+    {
+      "sha256": "bdabfcbc352ae230a03625e89cc2ea7acfc8f99135857270da200d0f5f509b6c",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_media.py",
+      "bytes": 10997,
+      "path": "vendor/wechatauto/demo_media.py"
+    },
+    {
+      "sha256": "f889a1449ed354001a79cf8630758ecebb5b9b3e0c509d8d15fac0a8b1314c8f",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moment_cells.py",
+      "bytes": 5365,
+      "path": "vendor/wechatauto/demo_moment_cells.py"
+    },
+    {
+      "sha256": "edb1018c97f4222d5513a014884f6dc90afdc9ec7a4fe2216f0972bac6c44d73",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moment_comment.py",
+      "bytes": 2094,
+      "path": "vendor/wechatauto/demo_moment_comment.py"
+    },
+    {
+      "sha256": "6b017d7908c2cf5d9e3f8cb107fffa73032e31128ee666b581699d68a3bd3757",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moment_comments.py",
+      "bytes": 2589,
+      "path": "vendor/wechatauto/demo_moment_comments.py"
+    },
+    {
+      "sha256": "7b592c0c9fd363135558b77f32d86a25178728fab084a81233c1e3ae1b29831f",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moment_dump.py",
+      "bytes": 2396,
+      "path": "vendor/wechatauto/demo_moment_dump.py"
+    },
+    {
+      "sha256": "d29ceacd06b44a71003f80edd9732a8bfb99bbe815dcf1b39dfaf135542f76b0",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moment_find.py",
+      "bytes": 3017,
+      "path": "vendor/wechatauto/demo_moment_find.py"
+    },
+    {
+      "sha256": "e39b5cd5017c46ac97e841bd4932e06122df0002f6dd7a320a2ee434278ffec8",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moment_like.py",
+      "bytes": 1741,
+      "path": "vendor/wechatauto/demo_moment_like.py"
+    },
+    {
+      "sha256": "b34d03d727df502c760ca8a9c850460036203b52c4f316fde04ebed831b825a4",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moment_more.py",
+      "bytes": 2236,
+      "path": "vendor/wechatauto/demo_moment_more.py"
+    },
+    {
+      "sha256": "68d6a988580e9296c0d63e937336d06ba93dd621fdedd1f4e2922f556fe9e220",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moment_observe.py",
+      "bytes": 2722,
+      "path": "vendor/wechatauto/demo_moment_observe.py"
+    },
+    {
+      "sha256": "2fa1a928c2e2f7176d833ae023398212faed52bcfc54e6308e3870cacc169a9f",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moment_reply.py",
+      "bytes": 2619,
+      "path": "vendor/wechatauto/demo_moment_reply.py"
+    },
+    {
+      "sha256": "d719826789e0529e339fdcbe93758f8cc06c0dcfec2e2ab5a4d20c566998c060",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moments_download.py",
+      "bytes": 4939,
+      "path": "vendor/wechatauto/demo_moments_download.py"
+    },
+    {
+      "sha256": "c54703150c7b3f7e27962628de9472833ff7dfb347eab4ef65e791bb8be5c408",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_moments_interact.py",
+      "bytes": 3807,
+      "path": "vendor/wechatauto/demo_moments_interact.py"
+    },
+    {
+      "sha256": "b02546d9d26bba7e2e5551d52d570be8e3cfc1004b331892cc261d58fd08a298",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_quote.py",
+      "bytes": 1935,
+      "path": "vendor/wechatauto/demo_quote.py"
+    },
+    {
+      "sha256": "20e60eb3ed6ba177ec1d04916d0caca6b26a76d9514fd04ca1eed341a20033ec",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_recall.py",
+      "bytes": 2504,
+      "path": "vendor/wechatauto/demo_recall.py"
+    },
+    {
+      "sha256": "c460063d7bde5ffc41960350ebdcb7464f80da40844a378d9eb9259afe84f0b6",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_reply_at.py",
+      "bytes": 2488,
+      "path": "vendor/wechatauto/demo_reply_at.py"
+    },
+    {
+      "sha256": "555c40a627e84bfc695b55cdeb374524d8725a7ea5dcb79ca31d91d14908472d",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_robust.py",
+      "bytes": 6346,
+      "path": "vendor/wechatauto/demo_robust.py"
+    },
+    {
+      "sha256": "49d841c08076a4f5613a9f17aa9e70106652884304fe8271da7339d833afed2d",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_send_verify.py",
+      "bytes": 8035,
+      "path": "vendor/wechatauto/demo_send_verify.py"
+    },
+    {
+      "sha256": "8f730761ce89370b060da568796fcea254527c00d3e8760c344f70e3c29c0181",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_send.py",
+      "bytes": 8563,
+      "path": "vendor/wechatauto/demo_send.py"
+    },
+    {
+      "sha256": "d3ea2de0bb963a687a90bfc022afb306265c0c12cf73cf1952eb46fb7a01eb47",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo_v109.py",
+      "bytes": 6562,
+      "path": "vendor/wechatauto/demo_v109.py"
+    },
+    {
+      "sha256": "4f7b6745735eb7dc07e8fd963749a2180d9b235545cf267a2b5b514050111106",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/demo.py",
+      "bytes": 2080,
+      "path": "vendor/wechatauto/demo.py"
+    },
+    {
+      "sha256": "554fd91bf002e0d49f3b77e9592917c6d6a6e69e0428df14ca9c2bad2f7aa5ce",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/diagnose_keys.py",
+      "bytes": 13361,
+      "path": "vendor/wechatauto/diagnose_keys.py"
+    },
+    {
+      "sha256": "287206387f5ddc5e2ea4363129cf21590dfbff12db3cfc360e7c148fdc5d4fb6",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/exceptions.py",
+      "bytes": 1767,
+      "path": "vendor/wechatauto/exceptions.py"
+    },
+    {
+      "sha256": "08665e11877a38076c5894b61be933e7c5e82c6ca395f9edb54af0d584263ab0",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/forward.py",
+      "bytes": 17415,
+      "path": "vendor/wechatauto/forward.py"
+    },
+    {
+      "sha256": "71113dfbe313f2889a8c42275b0ffc27abaef21ac1fdd4e0f6dfdc1fb90bd910",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/group_friend.py",
+      "bytes": 20784,
+      "path": "vendor/wechatauto/group_friend.py"
+    },
+    {
+      "sha256": "77543960809bc0f5830a80a4c7f080370b6a902e3fd4a4400e50afb2ff5e5fcc",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/guia.py",
+      "bytes": 137117,
+      "path": "vendor/wechatauto/guia.py"
+    },
+    {
+      "sha256": "40397e8ce1ad5a57983d4e3150cf762ddb61c5973b6a9c4d23e68684d50cfe35",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/labels.py",
+      "bytes": 63616,
+      "path": "vendor/wechatauto/labels.py"
+    },
+    {
+      "sha256": "1db86079d753914e29c32d3bf347ec9559397d5f8b78d28c2593247493b0ef32",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/languages.py",
+      "bytes": 15987,
+      "path": "vendor/wechatauto/languages.py"
+    },
+    {
+      "sha256": "9eca86a2e3b7a7c5967aa71389b1f552866f0b1276e8f1c6487e3fe001b3ba90",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/logger.py",
+      "bytes": 4732,
+      "path": "vendor/wechatauto/logger.py"
+    },
+    {
+      "sha256": "67c8b46a3329c13c363e059ca1771ef5453ab175b89a9494e287d32df32937fb",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/media.py",
+      "bytes": 118702,
+      "path": "vendor/wechatauto/media.py"
+    },
+    {
+      "sha256": "929f76782b5f05819a962c33c71ca4485e27a0f3bfa3e6690449fca853057652",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/moment_observer.py",
+      "bytes": 10885,
+      "path": "vendor/wechatauto/moment_observer.py"
+    },
+    {
+      "sha256": "d4dfe6edb4ede45e52f2e8626bc9e83370178e0fb206cefcdaf71baefdebe2b9",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/moment.py",
+      "bytes": 173546,
+      "path": "vendor/wechatauto/moment.py"
+    },
+    {
+      "sha256": "c27f297c4e12bc3d32b72c2da1f78a156162c9e23221a52ef0784b3ffd9db8cd",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/param.py",
+      "bytes": 4423,
+      "path": "vendor/wechatauto/param.py"
+    },
+    {
+      "sha256": "d9851a9a603cac9cfc522788624309cb1973704ac70025290327d90fb69d1841",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/recall.py",
+      "bytes": 16946,
+      "path": "vendor/wechatauto/recall.py"
+    },
+    {
+      "sha256": "ba0f29382a78a6e16b64d4e2ea33272e6f8e77eaca7f2ad644ddc4e841250e49",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/remark.py",
+      "bytes": 24833,
+      "path": "vendor/wechatauto/remark.py"
+    },
+    {
+      "sha256": "59b3c51ec4f27660f041f18ed1592b07f9157d3608067664155a723abbf62dda",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/rhythm.py",
+      "bytes": 13895,
+      "path": "vendor/wechatauto/rhythm.py"
+    },
+    {
+      "sha256": "e9a75fdb318f1ee015099902b088d20b978baa2c2203c39f29d82d4e34097486",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/sender.py",
+      "bytes": 7392,
+      "path": "vendor/wechatauto/sender.py"
+    },
+    {
+      "sha256": "255b06d894c99184c6a17a5ef5a782b3098632be98d460f1cea743ced4bdce26",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/uia_driver.py",
+      "bytes": 82501,
+      "path": "vendor/wechatauto/uia_driver.py"
+    },
+    {
+      "sha256": "ba428459f71cd5b9ad52f3ebd0dc25e7561dd6579dba5bcfc06b875a07233845",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/wx.py",
+      "bytes": 85332,
+      "path": "vendor/wechatauto/wx.py"
+    },
+    {
+      "sha256": "4360f00b3b36f936511191ef615c749a06b320ae9e4f980be179ad02db61757e",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/assets/__init__.py",
+      "bytes": 82,
+      "path": "vendor/wechatauto/assets/__init__.py"
+    },
+    {
+      "sha256": "b1292db5c90ed40c8a2b28b3e5c553709bba8fa6b47ffcc146f9033046e30b3a",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/dist-info/METADATA",
+      "bytes": 243584,
+      "path": "vendor/wechatauto/dist-info/METADATA"
+    },
+    {
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/dist-info/licenses/LICENSE",
+      "bytes": 11558,
+      "path": "vendor/wechatauto/dist-info/licenses/LICENSE"
+    },
+    {
+      "sha256": "a80f3a1be69fd3adb1c0b689a175535c16b25b6cd75125a214aa25342c3219fa",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/msgs/__init__.py",
+      "bytes": 1896,
+      "path": "vendor/wechatauto/msgs/__init__.py"
+    },
+    {
+      "sha256": "49cd207de66e3d2a5c6d6e47104474ed4e8a7e55e8dcf35d3abe2dcd767eb72c",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/msgs/base.py",
+      "bytes": 9352,
+      "path": "vendor/wechatauto/msgs/base.py"
+    },
+    {
+      "sha256": "d1846f4c077fb3f530a248b213297c0b47ac91c8a566ed937a89f4e0d29dc640",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/msgs/friend.py",
+      "bytes": 3193,
+      "path": "vendor/wechatauto/msgs/friend.py"
+    },
+    {
+      "sha256": "3c85617e013bd116157fdeece26f8124626db7d7ee2b9bc1f5c7ee049e43ed30",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/msgs/mattr.py",
+      "bytes": 1883,
+      "path": "vendor/wechatauto/msgs/mattr.py"
+    },
+    {
+      "sha256": "aa495bd7812514b6edbafe8a972f2c8c126bb85baa4d8f62aa64d205829133c0",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/msgs/msg.py",
+      "bytes": 4138,
+      "path": "vendor/wechatauto/msgs/msg.py"
+    },
+    {
+      "sha256": "9a88f9ff8cc98d4234ffc1d568b0f4934847c6af601f2394a5b47109961dda11",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/msgs/mtype.py",
+      "bytes": 45662,
+      "path": "vendor/wechatauto/msgs/mtype.py"
+    },
+    {
+      "sha256": "fb02ef3755d58bc3b0bb309495ed932dee14f12453f5bc6d26bff7bfb57fcba5",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/msgs/self.py",
+      "bytes": 3149,
+      "path": "vendor/wechatauto/msgs/self.py"
+    },
+    {
+      "sha256": "9ffab14e1e12f268c6c38228feb313de8e773c7febbc3c8e6aef1ad1b2d5d76d",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/ui/__init__.py",
+      "bytes": 697,
+      "path": "vendor/wechatauto/ui/__init__.py"
+    },
+    {
+      "sha256": "79b86758d8313acec8b664633294ba011776eb8ba0a95ff77ab521fe3b566735",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/ui/base.py",
+      "bytes": 1592,
+      "path": "vendor/wechatauto/ui/base.py"
+    },
+    {
+      "sha256": "fd70e47057b2e0e753898ef869b1d71869e627bf188ab4707b8224a6fc569d50",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/ui/chatbox.py",
+      "bytes": 14688,
+      "path": "vendor/wechatauto/ui/chatbox.py"
+    },
+    {
+      "sha256": "2b6a91428ef7f0844bf3da0bb76d5c106b4ca9b509502d7e184bb421512cafdf",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/ui/component.py",
+      "bytes": 10460,
+      "path": "vendor/wechatauto/ui/component.py"
+    },
+    {
+      "sha256": "301555e555a7cb0fb1ddad8e66dca008ec3ea208298b668053fff74084323aaf",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/ui/main.py",
+      "bytes": 9222,
+      "path": "vendor/wechatauto/ui/main.py"
+    },
+    {
+      "sha256": "7760938f09490aee5355405da2e8095f3c55d57ee54380cff157411c2bc17090",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/ui/navigationbox.py",
+      "bytes": 2209,
+      "path": "vendor/wechatauto/ui/navigationbox.py"
+    },
+    {
+      "sha256": "272bc72b98e8ef0a46a3bace292040e005c2f3ed82a757b20e087cd7a5ac4647",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/ui/sessionbox.py",
+      "bytes": 8487,
+      "path": "vendor/wechatauto/ui/sessionbox.py"
+    },
+    {
+      "sha256": "361de9b13f32104ddfb7bd4ae7a1eeb274dd801bbe49a18cae47337292763cac",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/uia/__init__.py",
+      "bytes": 13156,
+      "path": "vendor/wechatauto/uia/__init__.py"
+    },
+    {
+      "sha256": "0771577aae2ee93b893352874057fee3cf606f908b7d9ee2752b5e5b874448e0",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/utils/__init__.py",
+      "bytes": 707,
+      "path": "vendor/wechatauto/utils/__init__.py"
+    },
+    {
+      "sha256": "77fa821bfed074439426ef4b3e750603b7ad8ae7f7d6dff408a137bca654027e",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/utils/lock.py",
+      "bytes": 3901,
+      "path": "vendor/wechatauto/utils/lock.py"
+    },
+    {
+      "sha256": "0a715e6b201c37d8ee50ca101b1d1ce2aefc14dd79b55a4b3bd958f1d6fe532e",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/utils/tools.py",
+      "bytes": 11509,
+      "path": "vendor/wechatauto/utils/tools.py"
+    },
+    {
+      "sha256": "30ac403431d0e9c42a002cfb4a5035fd8f1a08d11188342febb3b13500c942a5",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_girl/43a5d1db9e83dbfaf7f50be625d007b871869e72/vendor/wechatauto/utils/win32.py",
+      "bytes": 12367,
+      "path": "vendor/wechatauto/utils/win32.py"
+    }
+  ]
+}

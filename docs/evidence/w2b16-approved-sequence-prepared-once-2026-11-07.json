@@ -1,0 +1,37 @@
+{
+  "status": "stopped",
+  "mode": "send_sequence_reviewed_once",
+  "marker_sha256": "0c94f4f00637c0811b6fdd57ffcd93673e702c319677088222d6d624dafc3f03",
+  "model_requests": 0,
+  "action_id": "e3917a17916f4156c3ed706951c4ec63adb0b5092ce9ea13eeda8643a2bb6cc1",
+  "review_id": "be1e1cb6827588b891ec7defe39c2fe14009d12b985551faece57568df990046",
+  "prior_unknowns_reviewed": [
+    "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+    "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa"
+  ],
+  "delivery_state": "UNCONFIRMED",
+  "echo_status": "not_unique_or_absent",
+  "operation_id": "e9e62e750cd242cdaa03a505613747fb",
+  "input_permitted": 1,
+  "submit_permitted": 1,
+  "worker_reaped": true,
+  "restore_verified": true,
+  "reason": "source_changed_during_snapshot",
+  "gesture": {
+    "stages": [
+      "CLICK_BEGIN_INTENT",
+      "CLICK_MOVE_INTENT",
+      "CLICK_DOWN_INTENT",
+      "CLICK_UP_INTENT",
+      "CLICK_RESULT_UNKNOWN",
+      "CLICK_MODE_QUEUED"
+    ],
+    "state": "UNKNOWN",
+    "may_have_reached_target": true,
+    "message_mode": "queued",
+    "cancel_acknowledged": false,
+    "cancel_enqueued": false
+  },
+  "reader_stopped": true,
+  "outer_restore_verified": true
+}

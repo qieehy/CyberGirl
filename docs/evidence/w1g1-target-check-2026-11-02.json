@@ -1,0 +1,18 @@
+{
+  "checked_on": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "proposal": "w1g1-proposal-2026-10-30.json",
+  "user_authorized_once": true,
+  "expected_pid": 6716,
+  "expected_hwnd": 67804,
+  "expected_created_filetime": "134378022271085344",
+  "proposal_file_hashes_match": true,
+  "status": "stopped_target_absent",
+  "target_process_found": false,
+  "current_weixin_process_inventory": [],
+  "activation_attempted": false,
+  "write_attempted": false,
+  "model_requests": 0,
+  "external_messages": 0,
+  "authorization_transferred_to_another_target": false
+}

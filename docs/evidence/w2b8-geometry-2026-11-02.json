@@ -1,0 +1,65 @@
+{
+  "status": "geometry_observed",
+  "mode": "geometry",
+  "input_actions": 0,
+  "submit_actions": 0,
+  "focus_actions": 0,
+  "model_requests": 0,
+  "sender_ledger_writes": 0,
+  "keys_written": 0,
+  "plaintext_database_files_written": 0,
+  "geometry": {
+    "read_only": true,
+    "submission_enabled": false,
+    "initial_empty_permit_granted": false,
+    "dpi": 144,
+    "coordinate_space": "physical_per_monitor_v2",
+    "dpi_context_restored": true,
+    "button_size": [
+      72,
+      40
+    ],
+    "client_size": [
+      1276,
+      798
+    ],
+    "checks": {
+      "button_size_bounded": true,
+      "button_inside_client": true,
+      "center_has_margin": true,
+      "client_mapping_consistent": true,
+      "client_point_packable": true,
+      "foreground_matches": false,
+      "hit_root_matches": false,
+      "hit_process_matches": false,
+      "hit_button_matches": false,
+      "no_capture": true,
+      "input_focus_owned": false,
+      "no_hardware_interference": true,
+      "button_enabled": true,
+      "button_visible": true
+    },
+    "candidate_geometry_and_route_match": false,
+    "input_empty": false,
+    "draft_sha256": "8542470389d2a32d3c9960a196a5dceee7f7de2899eeb140cad4588e732d0e1b",
+    "native_identity_verified": true,
+    "input_preserved": true
+  },
+  "worker_reaped": true,
+  "restore_verified": true,
+  "recorded_at": "2026-11-02T12:43:45.644116+00:00",
+  "implementation_sha256": {
+    "scripts/probe_wechat_post_submit.py": "f03e5d24be9c027ec2ef6d764f7c7184175483dea277843e0703e59ff53a7abd",
+    "scripts/wechat_native_worker.py": "b63fbe2ee5ae901eb681c7cc4608c173d2d22ebca70b90529b60c22df2b819e8",
+    "scripts/wechat_native_ui.ps1": "03e12c365f793a7c8767ab1f8b462e7988c7ad5e7fe55b6eb9b6243888925632",
+    "scripts/wechat_input_metadata.ps1": "2e567a05ec008253641e4724b2249abd2082feed0855e369fc5bc963fc4e14c8",
+    "scripts/wechat_click_geometry.ps1": "9b4d7418273d1f8a0372cf2a2802901dff19cba851451c56871bbaae608e6096",
+    "scripts/wechat_filehelper_source.py": "6dd88a48867372387a73f0c4bc3dbf4364bb17d3eb1bdddd2f724288ff90d984",
+    "src/wechat_agent/bridges/wechat/click_geometry.py": "26df5f50e837ed88e241198069bd2db05aedb090dbc9ad3d4558127e80e4124c",
+    "src/wechat_agent/bridges/wechat/directed_click.py": "fc8d7a0eaaab741827c412833377fe89f33d3b12fbb50ac304f596584eafab66",
+    "src/wechat_agent/bridges/wechat/native_sender.py": "c9648fa00bc7401dda18abf584f134cf0be450eea3e2ddd3bbf866365b01a4e5",
+    "src/wechat_agent/bridges/wechat/send_worker.py": "1ea549c1e43644a0883f23068a435294024d35956c767974dfa42f6f06514a9d",
+    "src/wechat_agent/bridges/wechat/qt_memory.py": "6d94ec1a147cb623893b097c719f6e0417f6e3ff8743bd0c1728ba68cf3bb3ce",
+    "scripts/verify_wechat_accessibility.py": "d0931ebe8dfaf6b5e3db5b75b62ec0035141794b60f2594ca8fac5fe10ebb9e1"
+  }
+}

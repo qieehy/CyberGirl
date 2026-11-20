@@ -1,0 +1,11 @@
+{
+  "schema": 6,
+  "attempts": 3,
+  "operations": 3,
+  "permissions": [
+    1,
+    1
+  ],
+  "blocked_reason": "submission_or_draft_requires_review",
+  "manual_confirmations": 1
+}

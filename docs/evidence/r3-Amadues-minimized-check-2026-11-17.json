@@ -1,0 +1,51 @@
+{
+  "status": "minimized_reader_running_send_guard_refused",
+  "model_calls": 0,
+  "input_calls": 0,
+  "send_calls": 0,
+  "client_date": "2026-11-17",
+  "pid": 43088,
+  "hwnd": 331728,
+  "initially_minimized": true,
+  "initially_maximized": false,
+  "gate_before": 0,
+  "foreground_before": 132768,
+  "actually_minimized": true,
+  "send_preparation_rejection": "standalone_window_minimized",
+  "http_samples_while_minimized": [
+    {
+      "reading": true,
+      "read_error": null,
+      "messages": 4
+    },
+    {
+      "reading": true,
+      "read_error": null,
+      "messages": 4
+    }
+  ],
+  "new_message_reception_tested": false,
+  "foreground_during_minimized": 132768,
+  "observer_stopped": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 0,
+    "pointer_samples": 335,
+    "pointer_position_changes": 146,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 26.509,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [],
+    "target_detection_sources": [],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true
+  },
+  "finally_minimized": true,
+  "foreground_after": 132768,
+  "gate_after": 0,
+  "send_history_and_model_unchanged": true
+}

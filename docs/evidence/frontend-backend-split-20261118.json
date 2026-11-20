@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-18",
+  "backend_source": "backend/src/wechat_agent",
+  "frontend_source": "frontend/src",
+  "backend_tests": 68,
+  "frontend_tests": 5,
+  "page_handler_smoke": true,
+  "built_routes": 14,
+  "wheel_manifest_verified": true,
+  "production_reading": true,
+  "frontend_proxy_reading": true,
+  "model": "gpt-5.6-luna",
+  "auto_reply": true,
+  "proactive": false,
+  "today_model_calls": 5,
+  "extra_test_model_calls": 0,
+  "extra_test_wechat_sends": 0,
+  "ports": {
+    "frontend": 5173,
+    "backend": 8765,
+    "history": 8766
+  },
+  "backup": ".build/layout-before-split-20261118"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "waiting_for_original_wechat_login_and_selected_window",
+  "client_date": "2026-11-17",
+  "checked_at": 1794896225.484212,
+  "wechat_processes_detected": 0,
+  "target_sha256": "e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734",
+  "previous_LOCAL_rows": 0,
+  "send_counts": [
+    17,
+    15,
+    11
+  ],
+  "active_bindings": 0,
+  "active_operations": 0,
+  "model_calls_this_turn": 0,
+  "send_calls_this_turn": 0,
+  "reader_started": false,
+  "local_draft_created": false,
+  "gate_checked": false,
+  "old_output_preserved": true,
+  "canonical_target_reselection_required": false
+}

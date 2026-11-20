@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-29T13:22:00.908370+00:00",
+  "script_sha256": "23b3e49eba3960cdcde83b79b4e157ad16dda5295797004332efc91abf6f6307",
+  "evidence_sha256": "27b727c4f54f715d3772021c6df1f4be7346c5c4301487b25d67c1757c18bbf2",
+  "powershell_syntax": "passed",
+  "raw_control_structure": "passed: 3 nodes each, no errors or bounds reached",
+  "forbidden_output_fields": "absent",
+  "document_links": "passed",
+  "actual_uia_runs_completed": 1,
+  "sandbox_start_failure_retained": true,
+  "application_regression_tests": "not rerun; no product code changes"
+}

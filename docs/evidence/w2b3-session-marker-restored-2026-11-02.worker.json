@@ -1,0 +1,87 @@
+﻿{
+    "status":  "observed",
+    "pid":  34044,
+    "hwnd":  68894,
+    "created_filetime":  "134380654003431728",
+    "input_actions":  0,
+    "model_requests":  0,
+    "external_messages":  0,
+    "raw_values_serialized":  false,
+    "canonical_identity_verified":  false,
+    "limits":  {
+                   "max_draft_chars":  2000,
+                   "max_depth":  32,
+                   "max_nodes":  800,
+                   "parent_timeout_seconds":  25
+               },
+    "tree":  {
+                 "truncation_reasons":  [
+
+                                        ],
+                 "errors":  [
+
+                            ],
+                 "bounded":  false,
+                 "nodes":  [
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Window",
+                                   "selected":  false,
+                                   "class_name":  "Qt51514QWindowIcon",
+                                   "pattern_ids":  [
+                                                       10009,
+                                                       10016
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  null,
+                                   "index":  0,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  0,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Pane",
+                                   "selected":  false,
+                                   "class_name":  "Qt51514QWindowIcon",
+                                   "pattern_ids":  [
+
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  0,
+                                   "index":  1,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  1,
+                                   "automation_id_filehelper_token":  false
+                               },
+                               {
+                                   "focused":  false,
+                                   "type":  "ControlType.Pane",
+                                   "selected":  false,
+                                   "class_name":  "MMUIRenderSubWindow",
+                                   "pattern_ids":  [
+
+                                                   ],
+                                   "automation_id_present":  false,
+                                   "parent":  0,
+                                   "index":  2,
+                                   "automation_id_filehelper_md5":  false,
+                                   "display_is_filehelper":  false,
+                                   "role":  "other",
+                                   "offscreen":  false,
+                                   "enabled":  true,
+                                   "depth":  1,
+                                   "automation_id_filehelper_token":  false
+                               }
+                           ]
+             },
+    "recorded_at":  "2026-11-02T05:43:02.5760159+00:00"
+}

@@ -1,0 +1,84 @@
+﻿{
+    "recorded_at":  "2026-11-02T04:01:43.6756382+00:00",
+    "status":  "observed",
+    "collector":  "Windows .NET UIAutomationClient; read-only RawViewWalker and ControlViewWalker",
+    "collector_pid":  24064,
+    "collector_session":  5,
+    "collector_64bit":  true,
+    "target_executable":  "C:\\Program Files\\Tencent\\Weixin\\Weixin.exe",
+    "limits":  {
+                   "outer_deadline_seconds":  30,
+                   "max_depth":  32,
+                   "max_windows":  1,
+                   "max_nodes_per_view":  800
+               },
+    "automation_id_policy":  "fixed role matching only; raw IDs never serialized",
+    "forbidden_fields_read":  false,
+    "input_actions":  0,
+    "model_requests":  0,
+    "external_messages":  0,
+    "processes":  [
+                      {
+                          "session":  5,
+                          "pid":  34044
+                      }
+                  ],
+    "windows":  [
+                    {
+                        "hwnd":  68894,
+                        "pid":  34044,
+                        "win32_class":  "Qt51514QWindowIcon",
+                        "visible":  true,
+                        "created_filetime":  "134380654003431728",
+                        "minimized":  false,
+                        "raw":  {
+                                    "truncation_reasons":  [
+
+                                                           ],
+                                    "errors":  [
+
+                                               ],
+                                    "bounded":  false,
+                                    "nodes":  [
+                                                  {
+                                                      "role":  "other",
+                                                      "index":  0,
+                                                      "parent":  null,
+                                                      "process_id":  34044,
+                                                      "type":  "ControlType.Window",
+                                                      "class_name":  "Qt51514QWindowIcon",
+                                                      "enabled":  true,
+                                                      "framework":  "Win32",
+                                                      "depth":  0,
+                                                      "offscreen":  false
+                                                  },
+                                                  {
+                                                      "role":  "other",
+                                                      "index":  1,
+                                                      "parent":  0,
+                                                      "process_id":  34044,
+                                                      "type":  "ControlType.Pane",
+                                                      "class_name":  "Qt51514QWindowIcon",
+                                                      "enabled":  true,
+                                                      "framework":  "Win32",
+                                                      "depth":  1,
+                                                      "offscreen":  false
+                                                  },
+                                                  {
+                                                      "role":  "other",
+                                                      "index":  2,
+                                                      "parent":  0,
+                                                      "process_id":  34044,
+                                                      "type":  "ControlType.Pane",
+                                                      "class_name":  "MMUIRenderSubWindowHW",
+                                                      "enabled":  true,
+                                                      "framework":  "Win32",
+                                                      "depth":  1,
+                                                      "offscreen":  false
+                                                  }
+                                              ]
+                                }
+                    }
+                ],
+    "client_version":  "4.2.0.9"
+}

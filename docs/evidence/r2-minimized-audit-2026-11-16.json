@@ -1,0 +1,21 @@
+{
+  "status": "r2_minimized_read_verified_send_preparation_denied",
+  "source_rows": 1,
+  "source_message_id": "6832b4de441d40cf9bc51a7176713483d8800c3c83a10b9d0161c4e602c93d2f",
+  "new_drafts": 0,
+  "new_model_traces": 0,
+  "send_counts": [
+    17,
+    15,
+    11
+  ],
+  "unknown_ids_unchanged": true,
+  "active_operations": 0,
+  "active_bindings": 0,
+  "integrity_ok": true,
+  "readers_reaped": true,
+  "preparation_denial": "standalone_window_minimized",
+  "gate_after_preparation": 0,
+  "minimized_sending_supported": false,
+  "tray_accepted": false
+}

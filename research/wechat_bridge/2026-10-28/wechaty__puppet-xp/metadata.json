@@ -1,0 +1,544 @@
+{
+  "repo": "wechaty/puppet-xp",
+  "default_branch": "main",
+  "commit": "1ee1e7d314a29d91dc2260db380013809c006294",
+  "commit_date": "2025-07-29T05:06:04Z",
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "archived": false,
+  "tree": {
+    "sha": "1ee1e7d314a29d91dc2260db380013809c006294",
+    "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/1ee1e7d314a29d91dc2260db380013809c006294",
+    "tree": [
+      {
+        "path": ".editorconfig",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3526162d64254c11ae9ae07e47cc6fe9f7acce0",
+        "size": 260,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/f3526162d64254c11ae9ae07e47cc6fe9f7acce0"
+      },
+      {
+        "path": ".eslintrc.cjs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91dc20826ed9abf189b750e6bb1255d4e1ae2bee",
+        "size": 170,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/91dc20826ed9abf189b750e6bb1255d4e1ae2bee"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "49792c5bdf9cdecd7ceef28cfb1e2c5b10506778",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/49792c5bdf9cdecd7ceef28cfb1e2c5b10506778"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5faef2e8fd78b40be43b8851bc645bfdcc97af71",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/5faef2e8fd78b40be43b8851bc645bfdcc97af71"
+      },
+      {
+        "path": ".github/workflows/npm.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38981e655efd77eb2e9f2d9f0756c589344f898b",
+        "size": 2682,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/38981e655efd77eb2e9f2d9f0756c589344f898b"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "353421c4bf83be90517444fe81c0b5a2b702f4bd",
+        "size": 1025,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/353421c4bf83be90517444fe81c0b5a2b702f4bd"
+      },
+      {
+        "path": ".markdownlintrc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9487d3d245b124caff636a81bb66d60975a96602",
+        "size": 221,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/9487d3d245b124caff636a81bb66d60975a96602"
+      },
+      {
+        "path": ".npmignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8be2bdf0c1eff10707f1c5fa674a3f4db2766b9",
+        "size": 30,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/c8be2bdf0c1eff10707f1c5fa674a3f4db2766b9"
+      },
+      {
+        "path": ".vscode",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3f5f4ecd7477ca3f3b2cad7dd58666eb3a3651a6",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/3f5f4ecd7477ca3f3b2cad7dd58666eb3a3651a6"
+      },
+      {
+        "path": ".vscode/launch.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8338f27a729518fc27a0961d739f8a84315d5f2",
+        "size": 313,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/e8338f27a729518fc27a0961d739f8a84315d5f2"
+      },
+      {
+        "path": ".vscode/settings.json",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "d306b3a3b45e07d15a720ebc5d77bffb76bbeca5",
+        "size": 2518,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/d306b3a3b45e07d15a720ebc5d77bffb76bbeca5"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "size": 11357,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d8db1504678a5ed0f3bd14409a0a4a831ee2f6f",
+        "size": 7652,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/1d8db1504678a5ed0f3bd14409a0a4a831ee2f6f"
+      },
+      {
+        "path": "commonjs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "317666599659b4f40c6fd81f32ab9ae799728ce0",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/317666599659b4f40c6fd81f32ab9ae799728ce0"
+      },
+      {
+        "path": "commonjs/code-root.d.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b16a982b88c5cc9c8d5102f8d8d60ece381a0c8",
+        "size": 38,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/5b16a982b88c5cc9c8d5102f8d8d60ece381a0c8"
+      },
+      {
+        "path": "commonjs/code-root.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d6d72d07debfd2ba24e9e973d1bd8776cca73cf",
+        "size": 115,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/9d6d72d07debfd2ba24e9e973d1bd8776cca73cf"
+      },
+      {
+        "path": "commonjs/code-root.spec.ts",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "eea8094c11ad10b22967c8f38f076e5c5e8e9cee",
+        "size": 208,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/eea8094c11ad10b22967c8f38f076e5c5e8e9cee"
+      },
+      {
+        "path": "commonjs/package.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a3c15a7a6312b4c27cc889aafeed79bea64ecf55",
+        "size": 23,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/a3c15a7a6312b4c27cc889aafeed79bea64ecf55"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e09a8d3e2e71242774ee9b55b8b42ffa261f9b77",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/e09a8d3e2e71242774ee9b55b8b42ffa261f9b77"
+      },
+      {
+        "path": "docs/images",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "543a1365d12ac58c9bf786542bcf3aa5184f85b7",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/543a1365d12ac58c9bf786542bcf3aa5184f85b7"
+      },
+      {
+        "path": "docs/images/mock.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c66f597483420cb72c92dc3f0f8502541f0da0da",
+        "size": 38438,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/c66f597483420cb72c92dc3f0f8502541f0da0da"
+      },
+      {
+        "path": "examples",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a761e0b81cc2e457b2c5b0d0d12c7fcbbdb769ae",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/a761e0b81cc2e457b2c5b0d0d12c7fcbbdb769ae"
+      },
+      {
+        "path": "examples/demo.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d78b07c34051a30859dfffa88aaae87157c82097",
+        "size": 8605,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/d78b07c34051a30859dfffa88aaae87157c82097"
+      },
+      {
+        "path": "examples/ding-dong-bot.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35c380d2ac3d5445edfbc19fd886f53794bc0971",
+        "size": 2899,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/35c380d2ac3d5445edfbc19fd886f53794bc0971"
+      },
+      {
+        "path": "examples/media",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fd3a0205020598f9d42829dd212e6595f82ca516",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/fd3a0205020598f9d42829dd212e6595f82ca516"
+      },
+      {
+        "path": "examples/media/test.gif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7dc6f0e74ecaf528b09a1b165c957fe7e5d4572c",
+        "size": 53392,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/7dc6f0e74ecaf528b09a1b165c957fe7e5d4572c"
+      },
+      {
+        "path": "examples/media/test.mp4",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "027db82751766b4b98804e5823c3fa715c71434b",
+        "size": 353363,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/027db82751766b4b98804e5823c3fa715c71434b"
+      },
+      {
+        "path": "examples/media/test.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "70ad1abfb622e68ff497f919cc26edc7401d0e25",
+        "size": 3497,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/70ad1abfb622e68ff497f919cc26edc7401d0e25"
+      },
+      {
+        "path": "examples/quick-start.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fbd46be7100f5241d5ce6043ba756c6cb4649ab9",
+        "size": 7880,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/fbd46be7100f5241d5ce6043ba756c6cb4649ab9"
+      },
+      {
+        "path": "examples/raw-sidecar-hook.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "252993ffd28e1cde8f1d4c1a1537dcc5000c98a1",
+        "size": 2759,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/252993ffd28e1cde8f1d4c1a1537dcc5000c98a1"
+      },
+      {
+        "path": "examples/raw-sidecar.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae041df7a3d4ed034dc4e13120f8d3dd7d1b4338",
+        "size": 5537,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/ae041df7a3d4ed034dc4e13120f8d3dd7d1b4338"
+      },
+      {
+        "path": "examples/ripe-wechaty.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd56cf47f593640f7eb17d0d0cf285935911327a",
+        "size": 5135,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/dd56cf47f593640f7eb17d0d0cf285935911327a"
+      },
+      {
+        "path": "package.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67a0b5d57a257086749ff9f90b743cdaf18a3c2e",
+        "size": 4257,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/67a0b5d57a257086749ff9f90b743cdaf18a3c2e"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "115dca1edcdfeff97ecf75a3856d3d2838a4912e",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/115dca1edcdfeff97ecf75a3856d3d2838a4912e"
+      },
+      {
+        "path": "scripts/generate-package-json.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "111e89446e023936981e3fa75e005bbc91cc4d0e",
+        "size": 408,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/111e89446e023936981e3fa75e005bbc91cc4d0e"
+      },
+      {
+        "path": "scripts/npm-pack-testing.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "2eb956dff9cf8f152c94b5db72d27ad62258da14",
+        "size": 1168,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/2eb956dff9cf8f152c94b5db72d27ad62258da14"
+      },
+      {
+        "path": "scripts/package-publish-config-tag.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "01872833155dd13ea8413f16bbbfd001175e9654",
+        "size": 345,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/01872833155dd13ea8413f16bbbfd001175e9654"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "86d870535cdf8b061ccc48f747bd18823796f1ae",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/86d870535cdf8b061ccc48f747bd18823796f1ae"
+      },
+      {
+        "path": "src/cjs.spec.ts",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "6d2f9bb39b1fd90bb78459eea22723319d0510ca",
+        "size": 229,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/6d2f9bb39b1fd90bb78459eea22723319d0510ca"
+      },
+      {
+        "path": "src/cjs.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b63aeb8ffe5a77e1f106258cae5392b6e0fce67",
+        "size": 116,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/8b63aeb8ffe5a77e1f106258cae5392b6e0fce67"
+      },
+      {
+        "path": "src/config.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d70e3d0591ded816220e73228b7ba47ca7cac05",
+        "size": 422,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/4d70e3d0591ded816220e73228b7ba47ca7cac05"
+      },
+      {
+        "path": "src/index.d.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e91e212ed4077c1fa425a8767ad6d3ccb58a5cd",
+        "size": 27,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/3e91e212ed4077c1fa425a8767ad6d3ccb58a5cd"
+      },
+      {
+        "path": "src/init-agent-script.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ae8cf9ac0cc054a087850d9d68137666e998add",
+        "size": 52128,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/9ae8cf9ac0cc054a087850d9d68137666e998add"
+      },
+      {
+        "path": "src/init-agent-script.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "964f86037fd5910da6b97a3e2619c5b172a3d605",
+        "size": 47751,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/964f86037fd5910da6b97a3e2619c5b172a3d605"
+      },
+      {
+        "path": "src/mod.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "381274742acbb3782dbfb149f6a921389675fc8a",
+        "size": 144,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/381274742acbb3782dbfb149f6a921389675fc8a"
+      },
+      {
+        "path": "src/package-json.spec.ts",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "4e65468a6edf7010989d032c694a529ad44e1741",
+        "size": 362,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/4e65468a6edf7010989d032c694a529ad44e1741"
+      },
+      {
+        "path": "src/package-json.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a9806f90274dda1befa0e8c084f3d0262b8e4ac",
+        "size": 268,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/0a9806f90274dda1befa0e8c084f3d0262b8e4ac"
+      },
+      {
+        "path": "src/puppet-xp.spec.ts",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "43021e06ae033771fa150a4eaf5afd9ed0bd1ab1",
+        "size": 647,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/43021e06ae033771fa150a4eaf5afd9ed0bd1ab1"
+      },
+      {
+        "path": "src/puppet-xp.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb8b1e69a960f30ef21057ba063a3521c74f6fc4",
+        "size": 46783,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/bb8b1e69a960f30ef21057ba063a3521c74f6fc4"
+      },
+      {
+        "path": "src/pure-functions",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2f602225124b8dabb370d3e00f44246ec4571041",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/2f602225124b8dabb370d3e00f44246ec4571041"
+      },
+      {
+        "path": "src/pure-functions/image-decrypt.spec.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24616ffb7c74899f4c8e58db320a385f675b2257",
+        "size": 227,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/24616ffb7c74899f4c8e58db320a385f675b2257"
+      },
+      {
+        "path": "src/pure-functions/image-decrypt.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3acf4a408f67969b70a2adce19be2bab5a36552a",
+        "size": 5409,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/3acf4a408f67969b70a2adce19be2bab5a36552a"
+      },
+      {
+        "path": "src/pure-functions/xml-msgpayload.spec.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04011969d6d968b995679c981ac6a1214bc78bfe",
+        "size": 222,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/04011969d6d968b995679c981ac6a1214bc78bfe"
+      },
+      {
+        "path": "src/pure-functions/xml-msgpayload.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d7adbec0011933cbd822c07cb47345e079450b8",
+        "size": 3492,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/5d7adbec0011933cbd822c07cb47345e079450b8"
+      },
+      {
+        "path": "src/wechat-sidecar.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea41a8abfdd63dd4f5343993626208b834bc8a6e",
+        "size": 3109,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/ea41a8abfdd63dd4f5343993626208b834bc8a6e"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a1a88e6298bd83cc5b9e6a4927dde41296d71cb3",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/a1a88e6298bd83cc5b9e6a4927dde41296d71cb3"
+      },
+      {
+        "path": "tests/fixtures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3ae0d52b8b13e4980410d6e18554531aaac76b6d",
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/trees/3ae0d52b8b13e4980410d6e18554531aaac76b6d"
+      },
+      {
+        "path": "tests/fixtures/smoke-testing.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cfb9c8061e030a4969234a60e1d6ab1395b9da01",
+        "size": 478,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/cfb9c8061e030a4969234a60e1d6ab1395b9da01"
+      },
+      {
+        "path": "tests/frida.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89d4edd05faeb6eec120c6000dc22fd6e4168dc6",
+        "size": 43399,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/89d4edd05faeb6eec120c6000dc22fd6e4168dc6"
+      },
+      {
+        "path": "tests/frida.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "75ad9ea2e4503b425f61d2f154767b6e1fcd2156",
+        "size": 40330,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/75ad9ea2e4503b425f61d2f154767b6e1fcd2156"
+      },
+      {
+        "path": "tests/init-agent-script.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebed4ba39045f5a2573ad81180bacb83c0286be3",
+        "size": 61778,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/ebed4ba39045f5a2573ad81180bacb83c0286be3"
+      },
+      {
+        "path": "tests/integration.spec.ts",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "e8b3258fba7940b431df496aa361f39d74b8074d",
+        "size": 392,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/e8b3258fba7940b431df496aa361f39d74b8074d"
+      },
+      {
+        "path": "tests/raw-sidecar.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3894447d8ef7b98de9ee648373f1822fd5fc202",
+        "size": 4309,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/e3894447d8ef7b98de9ee648373f1822fd5fc202"
+      },
+      {
+        "path": "tests/test.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4666434ec495b3143611abaf91532ca66a7f48c7",
+        "size": 662,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/4666434ec495b3143611abaf91532ca66a7f48c7"
+      },
+      {
+        "path": "tests/wechat-sidecar.ts",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "55ce9e6d655d9186044ab2d6d1eddd55fc1c4f4a",
+        "size": 5415,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/55ce9e6d655d9186044ab2d6d1eddd55fc1c4f4a"
+      },
+      {
+        "path": "tsconfig.cjs.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8693cd007b06ee4d7b5fa2a0a7bb0a7e9f8e6a15",
+        "size": 116,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/8693cd007b06ee4d7b5fa2a0a7bb0a7e9f8e6a15"
+      },
+      {
+        "path": "tsconfig.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b94a8b16a97c8150eb62086d28db7954e0d82241",
+        "size": 417,
+        "url": "https://api.github.com/repos/wechaty/puppet-xp/git/blobs/b94a8b16a97c8150eb62086d28db7954e0d82241"
+      }
+    ],
+    "truncated": false
+  }
+}

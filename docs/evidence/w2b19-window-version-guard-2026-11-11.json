@@ -1,0 +1,16 @@
+{
+  "status": "stopped",
+  "input_posts": 0,
+  "submit_posts": 0,
+  "foreground_activations": 0,
+  "real_keyboard_or_mouse_calls": 0,
+  "ledger_writes": 0,
+  "model_requests": 0,
+  "diagnostics_only": false,
+  "supported_version": "4.2.0.9",
+  "installed_version_directories": [
+    "4.2.0.13"
+  ],
+  "reason": "standalone_supported_version_missing",
+  "recorded_at": "2026-11-11T02:48:31.934176+00:00"
+}

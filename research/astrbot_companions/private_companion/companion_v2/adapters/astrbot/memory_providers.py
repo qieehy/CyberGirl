@@ -1,0 +1,236 @@
+"""Host-local registrations for third-party memory readers and writers."""
+
+from __future__ import annotations
+
+import asyncio
+from dataclasses import dataclass
+import inspect
+import json
+import math
+from time import monotonic
+from copy import deepcopy
+from typing import Callable
+from uuid import uuid4
+
+from companion_v2.execution.models import TaskError, encode
+
+
+REGISTRY_ATTRIBUTE = "_private_companion_memory_providers"
+PROVIDER_API_VERSION = "companion.external-memory.v1"
+
+
+def memory_provider_registry(context):
+    return getattr(context, REGISTRY_ATTRIBUTE, None)
+
+
+def memory_context_document(context):
+    return json.loads(encode({"scope": context.scope.document(),
+        "role": context.role_binding.role, "role_binding_revision": context.role_binding.revision,
+        "user": context.actor.subject, "principal": context.actor.principal,
+        "audience": context.audience}))
+
+
+@dataclass(frozen=True)
+class MemoryProviderRegistration:
+    provider_id: str
+    registration_id: str
+    plugin: object
+    display_name: str
+    priority: int
+    handles_model_memory: bool
+    timeout_seconds: float
+    read: Callable | None = None
+    write: Callable | None = None
+    summary: Callable | None = None
+    is_active: Callable | None = None
+    linked_memory_read: bool = False
+
+
+class ExternalMemoryProviderRegistry:
+    """Callbacks are leased to one live Star instance and one host lifetime."""
+
+    def __init__(self, context, *, host_active=lambda: True, owner=None):
+        self.context = context
+        self._host_active = host_active
+        self._entries = {}
+        self._read_leases = {}
+        self._closed = False
+        self.owner = owner
+        setattr(context, REGISTRY_ATTRIBUTE, self)
+
+    def register(self, provider_id, *, plugin, read=None, write=None, summary=None,
+                 display_name="", priority=0, handles_model_memory=False,
+                 is_active=None, timeout_seconds=5.0, linked_memory_read=False):
+        if self._closed or not self._host_active() or memory_provider_registry(self.context) is not self:
+            raise ValueError("memory provider registry is closed")
+        if not isinstance(provider_id, str) or not provider_id.strip() or provider_id != provider_id.strip():
+            raise ValueError("memory provider requires a non-blank provider_id")
+        if plugin is None:
+            raise ValueError("memory provider requires its owning plugin instance")
+        if not any(callable(value) for value in (read, write, summary)):
+            raise ValueError("memory provider requires a read, write or summary callback")
+        if any(value is not None and not callable(value) for value in (read, write, summary, is_active)):
+            raise ValueError("memory provider callbacks must be callable")
+        if (not isinstance(display_name, str) or type(priority) is not int
+                or type(handles_model_memory) is not bool or type(linked_memory_read) is not bool):
+            raise ValueError("invalid memory provider metadata")
+        if (type(timeout_seconds) not in (int, float) or not math.isfinite(timeout_seconds)
+                or timeout_seconds <= 0):
+            raise ValueError("memory provider timeout must be positive and finite")
+        previous = self._entries.get(provider_id)
+        if previous is not None and previous.plugin is not plugin and self._plugin_active(previous):
+            raise ValueError("memory provider_id belongs to another active plugin")
+        entry = MemoryProviderRegistration(provider_id, uuid4().hex, plugin,
+            display_name.strip() or provider_id, priority, handles_model_memory,
+            float(timeout_seconds), read, write, summary, is_active, linked_memory_read)
+        self._entries[provider_id] = entry
+        return entry.registration_id
+
+    def unregister(self, registration_id):
+        for provider_id, entry in tuple(self._entries.items()):
+            if entry.registration_id == registration_id:
+                del self._entries[provider_id]
+                return True
+        return False
+
+    def _plugin_active(self, entry):
+        try:
+            return any(getattr(star, "star_cls", None) is entry.plugin
+                       and bool(getattr(star, "activated", False))
+                       for star in self.context.get_all_stars())
+        except Exception:
+            return False
+
+    def active(self, entry):
+        if (self._closed or not self._host_active() or memory_provider_registry(self.context) is not self
+                or self._entries.get(entry.provider_id) is not entry or not self._plugin_active(entry)):
+            return False
+        if entry.is_active is None:
+            return True
+        try:
+            value = entry.is_active()
+            if inspect.isawaitable(value):
+                if inspect.iscoroutine(value):
+                    value.close()
+                return False
+            return value is True
+        except Exception:
+            return False
+
+    def _ordered(self):
+        return sorted(tuple(self._entries.values()), key=lambda entry: (-entry.priority, entry.provider_id))
+
+    @property
+    def closed(self):
+        return self._closed
+
+    def host_active(self):
+        try:
+            return bool(self._host_active())
+        except Exception:
+            return False
+
+    def select(self, capability=None, *, handles_model_memory=None):
+        for entry in self._ordered():
+            if capability is not None and getattr(entry, capability, None) is None:
+                continue
+            if handles_model_memory is not None and entry.handles_model_memory is not handles_model_memory:
+                continue
+            if self.active(entry):
+                return entry
+        return None
+
+    def snapshot(self):
+        return [{"provider_id": entry.provider_id, "display_name": entry.display_name,
+                 "priority": entry.priority, "active": self.active(entry),
+                 "handles_model_memory": entry.handles_model_memory,
+                 "linked_memory_read": entry.linked_memory_read,
+                 "capabilities": [name for name in ("read", "write", "summary")
+                                  if getattr(entry, name) is not None]}
+                for entry in self._ordered()]
+
+    def authorize_memory_read(self, request):
+        """Only a live host-issued object, never JSON/member IDs, grants access."""
+        token = request.get("_memory_read_lease")
+        lease = self._read_leases.get(token) if type(token) is object else None
+        if lease is None:
+            raise TaskError("memory_read_authorization_required", "a live host memory lease is required")
+        entry, binding, snapshot, resolver, expires = lease
+        if (monotonic() >= expires or not self.active(entry)
+                or encode({k: request.get(k) for k in ("context", "purpose", "source_plugin", "schema")}) != binding
+                or resolver() != snapshot):
+            raise TaskError("memory_read_authorization_changed", "memory authorization changed or expired")
+        return deepcopy(snapshot)
+
+    def issue_memory_read(self, entry, request, resolver):
+        if not self.active(entry) or request.get("purpose") not in ("recall", "summary"):
+            raise TaskError("memory_read_authorization_required", "an active read registration is required")
+        snapshot = resolver()
+        if snapshot.get("group_id") and not entry.linked_memory_read:
+            raise TaskError("linked_memory_provider_upgrade_required", "memory provider must support revocable linked reads")
+        token = object()
+        binding = encode({k: request.get(k) for k in ("context", "purpose", "source_plugin", "schema")})
+        self._read_leases[token] = (entry, binding, snapshot, resolver, monotonic() + 30)
+        while len(self._read_leases) > 128:
+            del self._read_leases[next(iter(self._read_leases))]
+        return {**request, "_memory_read_lease": token}
+
+    async def invoke(self, entry, capability, request):
+        if capability not in ("read", "write", "summary") or not self.active(entry):
+            raise TaskError("external_memory_provider_unavailable", "memory provider is no longer active")
+        callback = getattr(entry, capability)
+        if callback is None:
+            raise TaskError("external_memory_capability_unavailable", "memory provider lacks this callback")
+
+        async def call():
+            if not self.active(entry):
+                raise TaskError("external_memory_registration_stale", "memory provider changed before dispatch")
+            # Synchronous SDKs must not block AstrBot's event loop. A timed-out
+            # write may still finish in its worker, so the host never retries it.
+            result = (callback(request) if inspect.iscoroutinefunction(callback)
+                      else await asyncio.to_thread(callback, request))
+            return await result if inspect.isawaitable(result) else result
+
+        try:
+            result = await asyncio.wait_for(call(), timeout=entry.timeout_seconds)
+        except asyncio.TimeoutError:
+            raise TaskError("external_memory_timeout", "memory provider timed out") from None
+        except Exception:
+            raise TaskError("external_memory_callback_failed", "memory provider callback failed") from None
+        if not self.active(entry):
+            raise TaskError("external_memory_registration_stale", "memory provider changed during the call")
+        return result
+
+    def close(self):
+        self._closed = True
+        self._entries.clear()
+        self._read_leases.clear()
+        if memory_provider_registry(self.context) is self:
+            delattr(self.context, REGISTRY_ATTRIBUTE)
+
+
+def shared_memory_provider_registry(context, *, host_active=lambda: True, owner=None):
+    """Return the one live registry for this host context, creating it if needed.
+
+    The public facade is constructed more than once on the same AstrBot context
+    (the plugin's ``extension_api``, the native-extension service and the
+    manifest route). Each construction used to install a fresh registry, so a
+    third-party registration made through the public facade failed with
+    "memory provider registry is closed" as soon as one of the other facades
+    existed. Sharing the live registry keeps those facades interchangeable.
+
+    ``owner`` is the controller that owns the registry. A registry from another
+    owner is a previous host lifetime: after a reload the new controller must
+    not reuse it, or the old instance's shutdown would close the new one.
+    """
+    existing = memory_provider_registry(context)
+    if (isinstance(existing, ExternalMemoryProviderRegistry)
+            and not existing.closed and existing.host_active()
+            and (owner is None or existing.owner is owner)):
+        return existing
+    return ExternalMemoryProviderRegistry(context, host_active=host_active, owner=owner)
+
+
+__all__ = ["ExternalMemoryProviderRegistry", "MemoryProviderRegistration",
+           "PROVIDER_API_VERSION", "memory_context_document", "memory_provider_registry",
+           "shared_memory_provider_registry"]

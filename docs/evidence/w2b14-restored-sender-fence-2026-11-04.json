@@ -1,0 +1,24 @@
+{
+  "status": "restored_and_original_sender_fence_preserved",
+  "gate_value": 0,
+  "matched_original_account": true,
+  "ledger": {
+    "schema": 8,
+    "operations": 4,
+    "attempts": 4,
+    "reviews": 1,
+    "permissions": [
+      2,
+      2
+    ],
+    "manual_confirmations": 1,
+    "active_bindings": 0,
+    "blocked_reason": "submission_or_draft_requires_review",
+    "integrity": "ok",
+    "old_uncertain_state": "UNCONFIRMED"
+  },
+  "new_real_send_attempts": 0,
+  "new_review_records": 0,
+  "process_writes_during_this_independent_check": 0,
+  "model_requests": 0
+}

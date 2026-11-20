@@ -1,0 +1,93 @@
+{
+  "status": "standalone_identity_verified",
+  "input_posts": 0,
+  "submit_posts": 0,
+  "foreground_activations": 0,
+  "real_keyboard_or_mouse_calls": 0,
+  "ledger_writes": 0,
+  "model_requests": 0,
+  "diagnostics_only": true,
+  "window": {
+    "pid": 29920,
+    "hwnd": 11668968,
+    "dll_sha256": "a81c4770350a4edf3e774413da832a785d7aac50025471b30ea26d1f846b9fb4",
+    "exe_sha256": "5329ffc9afdeeb01db6dd5a68321277a8cf8d3f966873c070be3d04d7dfb1c0e",
+    "created_filetime": "134385324812396537",
+    "candidate_rva": 189758472,
+    "image_size": 206352384,
+    "requested_process_access": "0x438",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "gate_before": 0,
+  "account_matched": true,
+  "native": {
+    "canonical_conversation_verified": true,
+    "native_input_verified": true,
+    "root_class": "mmui::ChatSingleWindow",
+    "root_meta_object_rva": 152341752,
+    "root_vtable_rva": 160048360,
+    "same_window_page_lineage": true,
+    "lookup_bytes": 2198,
+    "stable": true
+  },
+  "both_patterns_empty": false,
+  "root_matches_filehelper": true,
+  "draft_diagnostics": {
+    "text_length": 30,
+    "text_empty": false,
+    "value_length": 30,
+    "value_sha256": "8ad96efbf2ca78b0ce50ae6d98e1385e96f364f8dc24a24541be4f2576dfe642",
+    "exact_equal": true,
+    "value_empty": false,
+    "text_status": "read",
+    "text_sha256": "8ad96efbf2ca78b0ce50ae6d98e1385e96f364f8dc24a24541be4f2576dfe642",
+    "trailing_linebreaks_only_difference": false
+  },
+  "draft_matches_control_marker": false,
+  "draft_matches_value_marker": false,
+  "draft_matches_deferred_marker": false,
+  "qt_input_has_keyboard_focus": true,
+  "geometry_checks": {
+    "button_size_bounded": true,
+    "button_inside_client": true,
+    "center_has_margin": true,
+    "client_mapping_consistent": true,
+    "client_point_packable": true,
+    "foreground_matches": false,
+    "hit_root_matches": true,
+    "hit_process_matches": true,
+    "hit_button_matches": true,
+    "no_capture": true,
+    "input_focus_owned": false,
+    "no_hardware_interference": true,
+    "button_enabled": true,
+    "button_visible": true
+  },
+  "window_geometry": {
+    "button_bounds": [
+      662,
+      395,
+      722,
+      428
+    ],
+    "client_bounds": [
+      0,
+      0,
+      748,
+      450
+    ],
+    "client_point": [
+      692,
+      411
+    ],
+    "dpi": 120,
+    "coordinate_space": "physical_per_monitor_v2",
+    "dpi_context_restored": true
+  },
+  "provider_restored": true,
+  "locks_released": true,
+  "gate_after": 0,
+  "recorded_at": "2026-11-07T14:18:57.692997+00:00"
+}

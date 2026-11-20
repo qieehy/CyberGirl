@@ -1,0 +1,23 @@
+{
+  "status": "awaiting_specific_operator_approval",
+  "request": "w2b-posted-20261104-single",
+  "marker": "W2B-20261104-posted-once",
+  "only_target": "original_account_builtin_filehelper",
+  "max_new_input_attempts": 1,
+  "max_new_submit_attempts": 1,
+  "retry": false,
+  "original_ledger": ".state/social/wechat-sender-poc.sqlite3",
+  "prior_unknown_action": "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+  "prior_state_must_remain": "UNCONFIRMED",
+  "old_test_draft": "W2B-20261104-directed-once",
+  "draft_handling": "operator_only_and_only_if_exact_old_test_draft_other_content_preserved",
+  "old_pid": 7548,
+  "old_created_filetime": 134382523032247282,
+  "old_process_exit_and_fresh_generation_required": true,
+  "manual_foreground_empty_input_required": true,
+  "new_operator_approval_reference": null,
+  "prior_uncertainty_acceptance_reference": null,
+  "implementation_audit": "docs\\evidence\\w2b14-posted-native-audit-2026-11-04.json",
+  "validation_document": "docs/W2B14_POSTED_NATIVE_TRIAL.md",
+  "new_real_action_or_permission_created": false
+}

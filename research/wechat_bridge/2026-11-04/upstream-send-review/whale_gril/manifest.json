@@ -1,0 +1,54 @@
+{
+  "repository": "Banan1cee/whale_gril",
+  "commit": "0af4dcd5596192e0fa4d3938ea93b404771d6e02",
+  "purpose": "static_source_review_only_no_upstream_execution",
+  "files": [
+    {
+      "path": "bridge/bg_sender.py",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_gril/0af4dcd5596192e0fa4d3938ea93b404771d6e02/bridge/bg_sender.py",
+      "sha256": "ce988a096bcd9c05181e3c9994f0f767ecf5fc64173be4b2099b71615c84b7d9",
+      "bytes": 52660
+    },
+    {
+      "path": "bridge/engine.py",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_gril/0af4dcd5596192e0fa4d3938ea93b404771d6e02/bridge/engine.py",
+      "sha256": "cc96b0d55abb63fb5f1b2e52b5e207f95d2c844d9ae74f41894c7ce3962a16d0",
+      "bytes": 230478
+    },
+    {
+      "path": "bridge/uia_boot.py",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_gril/0af4dcd5596192e0fa4d3938ea93b404771d6e02/bridge/uia_boot.py",
+      "sha256": "060e934f28a879d42b94db796ca4ff1f299b3af4a1c7118b7639943c8192dc9a",
+      "bytes": 24396
+    },
+    {
+      "path": "examples/uia_compat.py",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_gril/0af4dcd5596192e0fa4d3938ea93b404771d6e02/examples/uia_compat.py",
+      "sha256": "07ddf4e1ca175c3913583f2c4efe6a6f633b675f8a4a4e6527cef79560e027fc",
+      "bytes": 28321
+    },
+    {
+      "path": "examples/sticker_transport.py",
+      "status": "not_downloaded",
+      "error_type": "HTTPError"
+    },
+    {
+      "path": "docs/\u5fae\u4fe1\u6d88\u606f\u540e\u53f0\u53d1\u9001.md",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_gril/0af4dcd5596192e0fa4d3938ea93b404771d6e02/docs/%E5%BE%AE%E4%BF%A1%E6%B6%88%E6%81%AF%E5%90%8E%E5%8F%B0%E5%8F%91%E9%80%81.md",
+      "sha256": "9cabffb7b5fa47025734e3a85a7484489be6789e345133b71500d5bb15220d36",
+      "bytes": 38112
+    },
+    {
+      "path": "requirements.txt",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_gril/0af4dcd5596192e0fa4d3938ea93b404771d6e02/requirements.txt",
+      "sha256": "f671d7e3360acdb3ca9214f82d7159e3c6973c5de9a816ae3ec3860a86c7bf99",
+      "bytes": 175
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Banan1cee/whale_gril/0af4dcd5596192e0fa4d3938ea93b404771d6e02/LICENSE",
+      "sha256": "a20ddb85ceb7235ac7955274453290233be5f0b448a71f7c1adaaa76e6310750",
+      "bytes": 1089
+    }
+  ]
+}

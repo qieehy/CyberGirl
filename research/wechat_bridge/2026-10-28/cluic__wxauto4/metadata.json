@@ -1,0 +1,23 @@
+{
+  "repo": "cluic/wxauto4",
+  "default_branch": "main",
+  "commit": "d0ae14d3e435807b4dead393af9d014529bbac78",
+  "commit_date": "2025-10-27T14:50:48Z",
+  "license": null,
+  "archived": false,
+  "tree": {
+    "sha": "d0ae14d3e435807b4dead393af9d014529bbac78",
+    "url": "https://api.github.com/repos/cluic/wxauto4/git/trees/d0ae14d3e435807b4dead393af9d014529bbac78",
+    "tree": [
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab64326c065661841687de198040819da0ce62c1",
+        "size": 14,
+        "url": "https://api.github.com/repos/cluic/wxauto4/git/blobs/ab64326c065661841687de198040819da0ce62c1"
+      }
+    ],
+    "truncated": false
+  }
+}

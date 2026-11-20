@@ -1,0 +1,52 @@
+{
+  "status": "offline_control_layer_passed",
+  "stage": "W2-B1",
+  "recorded_at": "2026-11-02T04:51:15.355426+00:00",
+  "tests": {
+    "tests": 37,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "new_scenarios": 8,
+  "ruff": "passed",
+  "schema_version": 6,
+  "real_model_requests": 0,
+  "wechat_messages_sent": 0,
+  "wechat_process_writes": 0,
+  "wechat_input_actions": 0,
+  "favorites_modified": 0,
+  "user_ledgers_opened": false,
+  "native_ui_backend_enabled": false,
+  "v0_passed": false,
+  "readonly_ui_observation": {
+    "provider": "computer-use sky",
+    "hwnd": 68894,
+    "accessibility_nodes": 3,
+    "canonical_conversation_identity_verified": false
+  },
+  "verified_process_behaviors": [
+    "bounded_json_protocol",
+    "duplicate_and_mismatched_response_rejection",
+    "single_submit_permit",
+    "kill_before_late_submit",
+    "windows_job_parent_exit_reaping"
+  ],
+  "remaining": [
+    "native_canonical_conversation_identity",
+    "native_input_and_submit_backend",
+    "selected_snapshot_provider_wiring",
+    "one_real_filehelper_submission"
+  ],
+  "implementation_sha256": {
+    "src/wechat_agent/bridges/wechat/send_state.py": "5c6486ed2d3781c9c6ebb98b8cf94c1b87140d68f129cbf1b970945a1c59c7e0",
+    "src/wechat_agent/bridges/wechat/sender.py": "c4416feb8ccc54f13a4ebafec24fd9446687a5a6cd5db6fce1810d6019177ccb",
+    "src/wechat_agent/bridges/wechat/send_process.py": "a3879b2ed7beb5f0714f7972536c80de02d7b68c7c0dcf2525b6cc43ab749b50",
+    "src/wechat_agent/bridges/wechat/send_worker.py": "3f11766e5bc599bd58791daa29d657cc3b26571917293b0d26c4d4c0591960b2",
+    "src/wechat_agent/social/ledger.py": "3785d2bc91d4073151045efd59cf7161628aa5bb6554ca3769e0bed024251f0b",
+    "scripts/verify_wechat_accessibility.py": "0d664efd1c9aa397bada5ea2f56f69d1e53453acd5f9a4ed3c99ccc90e8b06b9",
+    "tests/test_wechat_sender.py": "dab504ce580238e1af398ea73ebc2adafa3036065ee6d08ed770e1cd582bf9df",
+    "tests/wechat_sender_worker.py": "9a4492b50c719734801cbddfaadbe1f32630f6faf20a47c9712bbc896431242f",
+    "tests/test_wechat_bridge.py": "63bcaa20b462a8e23f6dfc093a5b47a1b47b65084b70e158e82c80ea4fef1fc7"
+  }
+}

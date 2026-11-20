@@ -1,0 +1,31 @@
+{
+  "status": "safe_stop_before_trial_consumption",
+  "new_input_actions": 0,
+  "new_submit_actions": 0,
+  "model_requests": 0,
+  "gate_value": 0,
+  "account_matches": true,
+  "ledger": {
+    "schema": 8,
+    "operations": 3,
+    "attempts": 3,
+    "reviews": 0,
+    "permissions": [
+      1,
+      1
+    ],
+    "manual_confirmations": 1,
+    "blocked_reason": "submission_or_draft_requires_review",
+    "active_bindings": 0,
+    "integrity": "ok"
+  },
+  "pre_migration_backups": [
+    {
+      "name": "wechat-sender-poc.sqlite3.v6-1793782288477812000.bak",
+      "schema": 6,
+      "operations": 3,
+      "manual_confirmations": 1,
+      "sha256": "0f3d9dc0fd043c8d68d24eae17b36cd968861b409bc591f385874ad690b248a6"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "operations": 8,
+  "permits": [
+    6,
+    5
+  ],
+  "active_operations": 0,
+  "unknown_count": 4,
+  "blocked_reason": "submission_or_draft_requires_review",
+  "integrity": "ok",
+  "new_value_actions": 0,
+  "ledger_writes": 0,
+  "recorded_at": "2026-11-07T10:14:37.588360+00:00"
+}

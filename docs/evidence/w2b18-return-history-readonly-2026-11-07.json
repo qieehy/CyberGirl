@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-11-07T14:46:48.432660+00:00",
+  "operations": 12,
+  "permits": [
+    10,
+    6
+  ],
+  "unknown_actions": [
+    "1a456235d82b299c920e453512d90bec90f583286f2ed17055dc527884bc7afd",
+    "e8b2e295fb357ddf33b6df8be33b82e07aae55c124c9e3a3b1388258757ed7aa",
+    "e3917a17916f4156c3ed706951c4ec63adb0b5092ce9ea13eeda8643a2bb6cc1",
+    "1b72f580238f6f27751f496f17c44ba8dd13b06dc9a5ce9a564f7d2cd7d3973a",
+    "cc9c6a179071690b704ee97d3811e09b011e9c6d26948ee651538d0ca7a3a1b7",
+    "6d36507fd615c85a28711e994ebf1d43d3dc1e1cf1429a172b5b50568b96d391",
+    "9c48e9d7cf1aa63f33be69bc8f65661cb9af1cc534bc01955838706869d17758",
+    "8070d04d139e6f15ce906a4631ff87471ea1c8daa2542c6aac1c91777496329a"
+  ],
+  "active_operations": 0,
+  "blocked_reason": "submission_or_draft_requires_review",
+  "integrity": "ok",
+  "new_return_actions": 0,
+  "history_sha256": "5d5390b0cb1210bad5f800f06719aa10f55d2d076df7eaf28b51b6b842ee1434",
+  "prior_process_generations_exited": true,
+  "ledger_writes": 0
+}

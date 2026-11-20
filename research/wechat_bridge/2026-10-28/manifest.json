@@ -1,0 +1,219 @@
+{
+  "purpose": "static review only; no upstream code executed or installed",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/aixed/WeChat-Hook/1003f3e48d99711d6cfe8d12813049ac832490d6/README.md",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    },
+    {
+      "repo": "aixed/WeChat-Hook",
+      "commit": "1003f3e48d99711d6cfe8d12813049ac832490d6",
+      "upstream_path": "src/http_routes.cpp",
+      "url": "https://raw.githubusercontent.com/aixed/WeChat-Hook/1003f3e48d99711d6cfe8d12813049ac832490d6/src/http_routes.cpp",
+      "local_path": "research/wechat_bridge/2026-10-28/aixed__WeChat-Hook/src/http_routes.cpp.source.txt",
+      "sha256": "f9d98cb9d4cb7e69c3f732b6f738b23806222b06d5870b9ababd1554740f4b48",
+      "bytes": 364
+    },
+    {
+      "repo": "aixed/WeChat-Hook",
+      "commit": "1003f3e48d99711d6cfe8d12813049ac832490d6",
+      "upstream_path": "src/SendTextMsg.cpp",
+      "url": "https://raw.githubusercontent.com/aixed/WeChat-Hook/1003f3e48d99711d6cfe8d12813049ac832490d6/src/SendTextMsg.cpp",
+      "local_path": "research/wechat_bridge/2026-10-28/aixed__WeChat-Hook/src/SendTextMsg.cpp.source.txt",
+      "sha256": "9419b082e1fd3aebe36d728ff76c283a4c0aa0da00fbe37380a1019544b353f7",
+      "bytes": 2009
+    },
+    {
+      "repo": "lich0821/WeChatFerry",
+      "commit": "0f5c60a034fcac234cabd000b49c9200defa7f7d",
+      "upstream_path": "README.MD",
+      "url": "https://raw.githubusercontent.com/lich0821/WeChatFerry/0f5c60a034fcac234cabd000b49c9200defa7f7d/README.MD",
+      "local_path": "research/wechat_bridge/2026-10-28/lich0821__WeChatFerry/README.MD.source.txt",
+      "sha256": "c886c0fb6358630d045aff2520489e34967d9168a8dcf37c773e5ba7f09187cd",
+      "bytes": 8220
+    },
+    {
+      "repo": "lich0821/WeChatFerry",
+      "commit": "0f5c60a034fcac234cabd000b49c9200defa7f7d",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/lich0821/WeChatFerry/0f5c60a034fcac234cabd000b49c9200defa7f7d/LICENSE",
+      "local_path": "research/wechat_bridge/2026-10-28/lich0821__WeChatFerry/LICENSE.source.txt",
+      "sha256": "672ce29efa6c310a5f390c43e8abcab1be4c7690a775f0334de8892aefacebce",
+      "bytes": 1065
+    },
+    {
+      "repo": "lich0821/WeChatFerry",
+      "commit": "0f5c60a034fcac234cabd000b49c9200defa7f7d",
+      "upstream_path": "WeChatFerry/spy/spy.h",
+      "url": "https://raw.githubusercontent.com/lich0821/WeChatFerry/0f5c60a034fcac234cabd000b49c9200defa7f7d/WeChatFerry/spy/spy.h",
+      "local_path": "research/wechat_bridge/2026-10-28/lich0821__WeChatFerry/WeChatFerry/spy/spy.h.source.txt",
+      "sha256": "527eb0d020973cbfe694df84b9bb969b3ddc498685c40025897d135b411bd350",
+      "bytes": 502
+    },
+    {
+      "repo": "wechaty/puppet-xp",
+      "commit": "1ee1e7d314a29d91dc2260db380013809c006294",
+      "upstream_path": "README.md",
+      "url": "https://raw.githubusercontent.com/wechaty/puppet-xp/1ee1e7d314a29d91dc2260db380013809c006294/README.md",
+      "local_path": "research/wechat_bridge/2026-10-28/wechaty__puppet-xp/README.md.source.txt",
+      "sha256": "3970f9deff4103d469e9add4a4900d69028b1996ac96595b7ca0e9d57ee6b117",
+      "bytes": 7652
+    },
+    {
+      "repo": "wechaty/puppet-xp",
+      "commit": "1ee1e7d314a29d91dc2260db380013809c006294",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/wechaty/puppet-xp/1ee1e7d314a29d91dc2260db380013809c006294/LICENSE",
+      "local_path": "research/wechat_bridge/2026-10-28/wechaty__puppet-xp/LICENSE.source.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wechaty/puppet-xp/1ee1e7d314a29d91dc2260db380013809c006294/package.json",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    },
+    {
+      "repo": "cluic/wxauto4",
+      "commit": "d0ae14d3e435807b4dead393af9d014529bbac78",
+      "upstream_path": "README.md",
+      "url": "https://raw.githubusercontent.com/cluic/wxauto4/d0ae14d3e435807b4dead393af9d014529bbac78/README.md",
+      "local_path": "research/wechat_bridge/2026-10-28/cluic__wxauto4/README.md.source.txt",
+      "sha256": "93efb09225fcd2626a307a2ef851da26c1e9ffe8ea16a38373333bd8d34f049f",
+      "bytes": 14
+    },
+    {
+      "repo": "FreeWisdom/wxauto-4.0",
+      "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+      "upstream_path": "README.md",
+      "url": "https://raw.githubusercontent.com/FreeWisdom/wxauto-4.0/bd7c5233e79c0a185638a325bf6d30607244dfa8/README.md",
+      "local_path": "research/wechat_bridge/2026-10-28/FreeWisdom__wxauto-4.0/README.md.source.txt",
+      "sha256": "8d9109606deb8eb9b5032acc0af95e2eb32caa0068c8dec5beba63ea4e7fa6cc",
+      "bytes": 15035
+    },
+    {
+      "repo": "FreeWisdom/wxauto-4.0",
+      "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+      "upstream_path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/FreeWisdom/wxauto-4.0/bd7c5233e79c0a185638a325bf6d30607244dfa8/pyproject.toml",
+      "local_path": "research/wechat_bridge/2026-10-28/FreeWisdom__wxauto-4.0/pyproject.toml.source.txt",
+      "sha256": "133ae80521eb85971f75fa34179e679defebf33541d857f2bdc6c1721e7adf40",
+      "bytes": 2122
+    },
+    {
+      "repo": "FreeWisdom/wxauto-4.0",
+      "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+      "upstream_path": "wxauto4/msgs/base.py",
+      "url": "https://raw.githubusercontent.com/FreeWisdom/wxauto-4.0/bd7c5233e79c0a185638a325bf6d30607244dfa8/wxauto4/msgs/base.py",
+      "local_path": "research/wechat_bridge/2026-10-28/FreeWisdom__wxauto-4.0/wxauto4/msgs/base.py.source.txt",
+      "sha256": "51e85169cef95bace93a17e80da0efa17c803027740706ad115003b5a4e300c6",
+      "bytes": 8542
+    },
+    {
+      "repo": "FreeWisdom/wxauto-4.0",
+      "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+      "upstream_path": "wxauto4/ui/chatbox.py",
+      "url": "https://raw.githubusercontent.com/FreeWisdom/wxauto-4.0/bd7c5233e79c0a185638a325bf6d30607244dfa8/wxauto4/ui/chatbox.py",
+      "local_path": "research/wechat_bridge/2026-10-28/FreeWisdom__wxauto-4.0/wxauto4/ui/chatbox.py.source.txt",
+      "sha256": "bc99b0ec4613e890a9a758e5112071b18e61fbfce3a00537418176d59f8f1ae4",
+      "bytes": 15941
+    },
+    {
+      "repo": "FreeWisdom/wxauto-4.0",
+      "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+      "upstream_path": "wxauto4/wx.py",
+      "url": "https://raw.githubusercontent.com/FreeWisdom/wxauto-4.0/bd7c5233e79c0a185638a325bf6d30607244dfa8/wxauto4/wx.py",
+      "local_path": "research/wechat_bridge/2026-10-28/FreeWisdom__wxauto-4.0/wxauto4/wx.py.source.txt",
+      "sha256": "402b90aa2dfdcaccfb250c1a0e856d61f00b39a1d1fc6623930b6c4e26e98166",
+      "bytes": 14002
+    },
+    {
+      "repo": "FreeWisdom/wxauto-4.0",
+      "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+      "upstream_path": "wxauto4/ui/main.py",
+      "url": "https://raw.githubusercontent.com/FreeWisdom/wxauto-4.0/bd7c5233e79c0a185638a325bf6d30607244dfa8/wxauto4/ui/main.py",
+      "local_path": "research/wechat_bridge/2026-10-28/FreeWisdom__wxauto-4.0/wxauto4/ui/main.py.source.txt",
+      "sha256": "74ee62a4396341d9561ca34a27e327ebee928e0a1df70fe11cb36083eba3c52f",
+      "bytes": 8203
+    },
+    {
+      "repo": "FreeWisdom/wxauto-4.0",
+      "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+      "upstream_path": "wxauto4/reply_queue.py",
+      "url": "https://raw.githubusercontent.com/FreeWisdom/wxauto-4.0/bd7c5233e79c0a185638a325bf6d30607244dfa8/wxauto4/reply_queue.py",
+      "local_path": "research/wechat_bridge/2026-10-28/FreeWisdom__wxauto-4.0/wxauto4/reply_queue.py.source.txt",
+      "sha256": "3176575562d4c8ae40ec60e33293f41f089f74c3fdf0a6eba929c00efbf8ef55",
+      "bytes": 35296
+    },
+    {
+      "repo": "FreeWisdom/wxauto-4.0",
+      "commit": "bd7c5233e79c0a185638a325bf6d30607244dfa8",
+      "upstream_path": "docs/api/message.md",
+      "url": "https://raw.githubusercontent.com/FreeWisdom/wxauto-4.0/bd7c5233e79c0a185638a325bf6d30607244dfa8/docs/api/message.md",
+      "local_path": "research/wechat_bridge/2026-10-28/FreeWisdom__wxauto-4.0/docs/api/message.md.source.txt",
+      "sha256": "815823437038e3031b00b9ee24cb34413dc8007debeb1691c9e3e033bd1a7c36",
+      "bytes": 5534
+    },
+    {
+      "repo": "Hello-Mr-Crab/pywechat",
+      "commit": "8589baa049bb91d3a500602c167f07b2f8397a13",
+      "upstream_path": "README.md",
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/README.md",
+      "local_path": "research/wechat_bridge/2026-10-28/Hello-Mr-Crab__pywechat/README.md.source.txt",
+      "sha256": "807ee4d37ab52e8487c773845309b9afea537473be813f7498a956968a45d4ec",
+      "bytes": 10726
+    },
+    {
+      "repo": "Hello-Mr-Crab/pywechat",
+      "commit": "8589baa049bb91d3a500602c167f07b2f8397a13",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/LICENSE",
+      "local_path": "research/wechat_bridge/2026-10-28/Hello-Mr-Crab__pywechat/LICENSE.source.txt",
+      "sha256": "49f2cf942857a38bcad3270a3b07c185e8bc302f3fb7ef3a3c9d2014438b6333",
+      "bytes": 27420
+    },
+    {
+      "repo": "Hello-Mr-Crab/pywechat",
+      "commit": "8589baa049bb91d3a500602c167f07b2f8397a13",
+      "upstream_path": "QuickStart.md",
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/QuickStart.md",
+      "local_path": "research/wechat_bridge/2026-10-28/Hello-Mr-Crab__pywechat/QuickStart.md.source.txt",
+      "sha256": "28ed4b807393aa880a11c47ac89500d724a16cffb870585e3bf5bd71dba18bf9",
+      "bytes": 2622
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/src/pyproject.toml",
+      "error": "_ssl.c:993: The handshake operation timed out"
+    },
+    {
+      "repo": "Hello-Mr-Crab/pywechat",
+      "commit": "8589baa049bb91d3a500602c167f07b2f8397a13",
+      "upstream_path": "src/requirements.txt",
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/src/requirements.txt",
+      "local_path": "research/wechat_bridge/2026-10-28/Hello-Mr-Crab__pywechat/src/requirements.txt.source.txt",
+      "sha256": "098d022dd421333f6ae523ac93722ae896c28569d32155511a65240f2ade4b96",
+      "bytes": 211
+    },
+    {
+      "repo": "Hello-Mr-Crab/pywechat",
+      "commit": "8589baa049bb91d3a500602c167f07b2f8397a13",
+      "upstream_path": "src/pyweixin/WeChatAuto.py",
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/src/pyweixin/WeChatAuto.py",
+      "local_path": "research/wechat_bridge/2026-10-28/Hello-Mr-Crab__pywechat/src/pyweixin/WeChatAuto.py.source.txt",
+      "sha256": "128431100260ce104323224344ed10a12ee8a0fa0350ea060133d9b32eb26ac7",
+      "bytes": 268404
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/src/pyweixin/WeChatTools.py",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    },
+    {
+      "repo": "Hello-Mr-Crab/pywechat",
+      "commit": "8589baa049bb91d3a500602c167f07b2f8397a13",
+      "upstream_path": "src/pyweixin/Uielements.py",
+      "url": "https://raw.githubusercontent.com/Hello-Mr-Crab/pywechat/8589baa049bb91d3a500602c167f07b2f8397a13/src/pyweixin/Uielements.py",
+      "local_path": "research/wechat_bridge/2026-10-28/Hello-Mr-Crab__pywechat/src/pyweixin/Uielements.py.source.txt",
+      "sha256": "d50b4ad02e5f80ac007fc0a5eb362439f737cb560e782404b6dcb1318c57e355",
+      "bytes": 113690
+    }
+  ]
+}

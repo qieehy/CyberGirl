@@ -1,0 +1,27 @@
+{
+  "at": 1794369999.631554,
+  "status": "read_only_recovery_validated",
+  "wechat_tests_passed": 654,
+  "wechat_tests_skipped": 9,
+  "test_seconds": 168.46,
+  "ruff": "passed",
+  "snapshot_retry_policy": "only_source_changed_during_snapshot_max_3_reads_before_response_no_ack_or_ui_retry",
+  "prior_run_snapshot_failure_preserved": true,
+  "reader_protocol_metrics_added": true,
+  "send_entry_disabled": true,
+  "original_send_counts": [
+    16,
+    14,
+    10
+  ],
+  "source_sha256": {
+    "scripts/wechat_reader_worker.py": "a1a8562e67d3dd71c4c56cf6f74385994cd43001c6f703e235b94623a4931c4c",
+    "scripts/wechat_reader_source.py": "27807669ca13d5053e4adebe7e488ed4c2b750d6b8460857582a071e4813eedd",
+    "scripts/probe_wechat_42013_receive_soak.py": "1c531d021c85e6a1e7a0da54ae855d726b50f8fa7a4789346c6d07b962527d60",
+    "src/wechat_agent/bridges/wechat/background_observer.py": "82eb93a0b1066b303b5cde08824f4e4a26faed138ed5e0696d58dee3d7598638",
+    "src/wechat_agent/bridges/wechat/receive_observer.py": "c4641d74325fc8a32313c47624e0f84dc92b3b34360a85c34b1d641c5c384bd3",
+    "src/wechat_agent/bridges/wechat/receive_process.py": "c91de6e5fbbeca2226d377c756f7ebf29f17e36c46328aaf0c7e69028a0d95f3",
+    "src/wechat_agent/bridges/wechat/snapshot.py": "b6e525b0da5f9379d8e5d1e98fef0c0525d946c081a3cc53b8631888fdf61a78",
+    "scripts/wechat_42013_profile.py": "31190122906e0a3713ab26e27b306f9a2010085ae3a98b9f0556e2fe2359e6f7"
+  }
+}

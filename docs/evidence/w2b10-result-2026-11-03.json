@@ -1,0 +1,57 @@
+{
+  "status": "W2B10_static_keyboard_route_traced_no_single_message_candidate_qualified",
+  "recorded_at": "2026-11-03T05:08:02.460062+00:00",
+  "W2B_complete": false,
+  "V0_complete": false,
+  "wechat_process_accessed": false,
+  "wechat_accessibility_leases_opened": 0,
+  "new_wechat_input_actions": 0,
+  "new_wechat_submit_actions": 0,
+  "new_wechat_focus_actions": 0,
+  "new_wechat_window_messages": 0,
+  "native_methods_executed": 0,
+  "current_draft_observed": false,
+  "draft_changed_by_agent": false,
+  "model_requests": 0,
+  "sender_ledger_writes": 0,
+  "keys_read": false,
+  "message_databases_opened": 0,
+  "favorites_changed": false,
+  "new_dependencies_installed": 0,
+  "native_sender_path_changed": false,
+  "real_submission_path_enabled": false,
+  "single_message_candidates_qualified": 0,
+  "static_input_signal_to_view_send_traced": true,
+  "current_filter_registration_observed": false,
+  "current_input_send_connection_observed": false,
+  "current_send_preference_observed": false,
+  "existing_attempts": 3,
+  "existing_operations": 3,
+  "existing_input_permits": 1,
+  "existing_submit_permits": 1,
+  "existing_manual_confirmations": 1,
+  "outbox_states": {
+    "CONFIRMED": 1,
+    "FAILED": 2
+  },
+  "ui_channel_block": "submission_or_draft_requires_review",
+  "validation": {
+    "new_static_cases": 12,
+    "existing_pre_effect_denial_cases": 2,
+    "total_passed": 14,
+    "ruff": "passed",
+    "static_route_replay": "passed"
+  },
+  "evidence_files": [
+    "docs/evidence/w2b10-static-keyboard-route-2026-11-03.json"
+  ],
+  "offline_contract": "docs/W2B11_BOUNDED_GESTURE_CONTRACT.md",
+  "implementation_sha256": {
+    "scripts/inspect_wechat_keyboard_route.py": "3c030dd810b09c7018d94a8977b0f2c79c6c4ed65a6746dede553716232ac69d",
+    "scripts/wechat_pinned_image.py": "493b751b37700c4e40a326e294ef89935558de620dde5277ced26f324844dea4",
+    "tests/test_wechat_keyboard_route.py": "9feac04bf479309a3da1769814e9759ef094907d187991ea40e4857b61fd1ec6",
+    "docs/W2B10_KEYBOARD_ROUTE_QUALIFICATION.md": "be9bb5c7c6169ae39805ad95590a8159fdfcb8f3b8b518e23c509f008ea1d714",
+    "docs/W2B11_BOUNDED_GESTURE_CONTRACT.md": "d6621e8acb459acdc2bf2181333dabca00f6e7a41ac92b96ad10db9ff67bda0c"
+  },
+  "next_step": "W2-B11 implement the bounded full-gesture contract offline: durable intents, original target checks, UNKNOWN stop and manual reconciliation; keep native sending disabled"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "not_verified",
+  "process_writes": 0,
+  "accessibility_leases": 0,
+  "window_messages_sent": 0,
+  "input_actions": 0,
+  "submit_actions": 0,
+  "focus_actions": 0,
+  "sender_ledger_writes": 0,
+  "error_type": "SocialError",
+  "reason": "window_proc_query_failed",
+  "win32_error": 5,
+  "procedure_kind": "window",
+  "recorded_at": "2026-11-04T08:16:28.161710+00:00",
+  "implementation_sha256": {
+    "scripts/probe_wechat_window_proc.py": "4d1dae63dfac275aaf0225619676c978e2c2b43e6fb025a5972354cbbfac6cd4",
+    "scripts/wechat_pinned_image.py": "493b751b37700c4e40a326e294ef89935558de620dde5277ced26f324844dea4",
+    "src/wechat_agent/bridges/wechat/window_proc.py": "5738081d83726dfcf39fb7428e85219271fbf628352594d36e28cfb75e5fac0b",
+    "scripts/verify_wechat_accessibility.py": "d0931ebe8dfaf6b5e3db5b75b62ec0035141794b60f2594ca8fac5fe10ebb9e1"
+  }
+}

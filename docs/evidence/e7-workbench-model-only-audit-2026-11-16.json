@@ -1,0 +1,31 @@
+{
+  "status": "e7_new_source_live_draft_verified_no_wechat_send",
+  "source_message_id": "e5732a42566e6fa977abe6f1e6c48a67b847c99201c34d6f83f331f18c63660f",
+  "draft_id": "4b1379cc964d4aeea8b6358e05002918ae9bd16b40401b7187ebd17bd80b6dbd",
+  "generated_text_sha256": "2dd3add442b8c914f7de241d3ae0b915e5b78eb71b6137e240e838c9861363ab",
+  "saved_revision": 1,
+  "source_has_one_generation": true,
+  "old_failed_source_preserved": true,
+  "model_trace": {
+    "phase": "complete",
+    "inference_calls": 1,
+    "model_http_attempts": 1,
+    "finished_at": 1794806129.001735
+  },
+  "original_send_tables_unchanged": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true
+  },
+  "historical_unknown_list_is_snapshot_not_new_approval": true,
+  "new_send_actions": 0,
+  "input_permits_consumed": 0,
+  "submit_permits_consumed": 0,
+  "all_readers_reaped": true,
+  "old_unknown_count": 8,
+  "active_bindings": 0,
+  "integrity_ok": true
+}

@@ -1,0 +1,6 @@
+{"stage": "GATE_CHECKED", "original": 0, "at": 1794030387.9231167}
+{"stage": "GATE_ENABLE_INTENT", "original": 0, "at": 1794030387.9241176}
+{"stage": "GATE_ENABLED", "original": 0, "at": 1794030387.925117}
+{"stage": "GATE_CHECKED", "original": 1, "at": 1794030390.9802053}
+{"stage": "GATE_RESTORE_INTENT", "original": 0, "at": 1794030395.037501}
+{"stage": "GATE_RESTORED", "original": 0, "at": 1794030395.0414882}

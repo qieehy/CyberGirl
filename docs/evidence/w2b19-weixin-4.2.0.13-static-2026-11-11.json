@@ -1,0 +1,156 @@
+{
+  "machine": "x64",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "virtual_size": 126318871,
+      "raw_size": 126319104,
+      "file_offset": 1024,
+      "characteristics": 1610612768
+    },
+    {
+      "name": ".rdata",
+      "rva": 126324736,
+      "virtual_size": 62470600,
+      "raw_size": 62470656,
+      "file_offset": 126320128,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".data",
+      "rva": 188796928,
+      "virtual_size": 9921752,
+      "raw_size": 9448448,
+      "file_offset": 188790784,
+      "characteristics": 3221225536
+    },
+    {
+      "name": ".pdata",
+      "rva": 198721536,
+      "virtual_size": 6237756,
+      "raw_size": 6238208,
+      "file_offset": 198239232,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".gxfg",
+      "rva": 204959744,
+      "virtual_size": 16032,
+      "raw_size": 16384,
+      "file_offset": 204477440,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".qtmetad",
+      "rva": 204976128,
+      "virtual_size": 749,
+      "raw_size": 1024,
+      "file_offset": 204493824,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".qtmimed",
+      "rva": 204980224,
+      "virtual_size": 336838,
+      "raw_size": 336896,
+      "file_offset": 204494848,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".tls",
+      "rva": 205320192,
+      "virtual_size": 6901,
+      "raw_size": 7168,
+      "file_offset": 204831744,
+      "characteristics": 3221225536
+    },
+    {
+      "name": "_RDATA",
+      "rva": 205328384,
+      "virtual_size": 500,
+      "raw_size": 512,
+      "file_offset": 204838912,
+      "characteristics": 1073741888
+    },
+    {
+      "name": "malloc_h",
+      "rva": 205332480,
+      "virtual_size": 398,
+      "raw_size": 512,
+      "file_offset": 204839424,
+      "characteristics": 1610612768
+    },
+    {
+      "name": ".rsrc",
+      "rva": 205336576,
+      "virtual_size": 114148,
+      "raw_size": 114176,
+      "file_offset": 204839936,
+      "characteristics": 1073741888
+    },
+    {
+      "name": ".reloc",
+      "rva": 205451264,
+      "virtual_size": 978880,
+      "raw_size": 978944,
+      "file_offset": 204954112,
+      "characteristics": 1107296320
+    }
+  ],
+  "image_size": 206430208,
+  "core_string_rvas": [
+    152358408
+  ],
+  "core_reference_rvas": [
+    8888333,
+    8888334,
+    8894865,
+    8894866,
+    8894938,
+    8894939,
+    8895925,
+    8895926,
+    8895998,
+    8895999
+  ],
+  "signature_candidates": [
+    {
+      "instruction_rva": 8890674,
+      "candidate_rva": 189836232,
+      "target_section": ".data",
+      "nearest_core_xref_distance": 2340
+    },
+    {
+      "instruction_rva": 68812578,
+      "candidate_rva": 198511352,
+      "target_section": ".data",
+      "nearest_core_xref_distance": 59916579
+    }
+  ],
+  "near_core_candidates": [
+    {
+      "instruction_rva": 8890674,
+      "candidate_rva": 189836232,
+      "target_section": ".data",
+      "nearest_core_xref_distance": 2340
+    }
+  ],
+  "distinct_near_targets": [
+    189836232
+  ],
+  "runtime_verified": false,
+  "process_memory_accessed": false,
+  "interpretation": "Static candidates only; do not use as a write authorization or proof of compatibility.",
+  "status": "new_version_static_candidates_only",
+  "installed_version": "4.2.0.13",
+  "supported_version": "4.2.0.9",
+  "pinned_dll_exists": false,
+  "sha256": "afe3d02c58bada3c35009c0cd58ee1f57b2a00fe53237d0dce649107fddb9a20",
+  "exe_sha256": "eaaa1c6c6123ce9887e5c67b60d905d22f09fac091058f27d2d819e9ff26fc69",
+  "bytes": 205943848,
+  "master_key_anchor_matches": 1,
+  "process_writes": 0,
+  "external_messages": 0,
+  "at": 1794365074.0281403
+}

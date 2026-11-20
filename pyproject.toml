@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools==84.0.0", "wheel==0.48.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wechat-agent"
+version = "0.1.0"
+description = "Local social application using the owner's AI_agent framework"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["ai-agent==0.3.0", "httpx==0.28.1"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "ruff==0.16.1"]
+wechat-read = ["cryptography==50.0.2", "zstandard==0.25.0"]
+wechat-media = ["Pillow==13.0.0", "av==19.0.2", "silk-python==0.2.9", "faster-whisper==1.2.1"]
+clawbot = ["qrcode[pil]==8.2"]
+
+[project.scripts]
+wechat-agent = "wechat_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["backend/src"]
+
+[tool.setuptools.package-data]
+wechat_agent = ["assets/tiktoken/*", "assets/web/manifest.json", "assets/web/*/*", "assets/licenses/*", "companion_vendor/LICENSE*", "companion_vendor/NOTICE.md", "companion_vendor/upstream.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["backend/src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]
+ignore = ["E501"]

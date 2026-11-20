@@ -1,0 +1,9 @@
+{
+  "status": "phone_confirmation_recorded",
+  "mode": "phone_confirmation",
+  "marker_sha256": "cdec45843e81f640a6aed6f8003820eafc953f26360b9709d9d8ae5c5a56e7ab",
+  "model_requests": 0,
+  "evidence_added": true,
+  "delivery_state": "CONFIRMED",
+  "action_id": "866b1291579f48a91c032e3a718f2470b6975210c79b7a42ef03dad17a7d9a0d"
+}

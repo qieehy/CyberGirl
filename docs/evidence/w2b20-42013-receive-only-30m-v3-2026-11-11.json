@@ -1,0 +1,115 @@
+{
+  "status": "read_only_receive_restart_completed",
+  "sends_disabled": true,
+  "service_pid": 35216,
+  "binding_generation": "74cd20db46b8b3930dda8513f1063201897ba4717021d6aa05738106a112031d",
+  "predecessor_action_ids": [
+    "a9a4bf9e17d71ffdcbf97885577495736fa7a59607e3f8ba089e674dc0b3974f",
+    "02df81f6161509bc66ebd6946623df7f187bca7d840cdbf5b5e02cbf33e822cc"
+  ],
+  "resumed_after_interrupted_run": true,
+  "readiness": {
+    "account_and_filehelper_verified": true,
+    "both_draft_patterns_empty": true,
+    "same_editor_and_button": true,
+    "standalone_identity_verified": true,
+    "background_observer_active": true,
+    "no_capture": true,
+    "button_not_pressed": true,
+    "class_entry_matches_pinned_code": true,
+    "covered_by_other_app": true
+  },
+  "confirmed_replay_checks": 2,
+  "start_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794366892000,
+        "local_id": 164
+      },
+      "local_fence": 164
+    }
+  },
+  "starting_totals": {
+    "operations": 16,
+    "inputs": 14,
+    "submits": 10,
+    "outbox": 16,
+    "attempts": 16
+  },
+  "reader_start_pid": 30064,
+  "midrun_restart": {
+    "at_seconds": 901.4679999999935,
+    "previous_reader_pid": 30064,
+    "reader_pid": 2184,
+    "checkpoints_unchanged": true,
+    "no_send_replay": true
+  },
+  "continuous_seconds": 1800.015000000014,
+  "target_seconds": 1800,
+  "polls": 516,
+  "received_fresh": 0,
+  "received_replays": 0,
+  "end_checkpoints": {
+    "message_0.db": {
+      "shard": "message_0.db:123990a853650cb22f79cc55e7328688abd28f9abe2e0022fd8397b1ad44c07a",
+      "start": {
+        "sort_seq": 1780300303000,
+        "local_id": 312
+      },
+      "local_fence": 312
+    },
+    "message_1.db": {
+      "shard": "message_1.db:5e6f03636ab19cee6ad33edb02656d9dbd72c18efbbd43e2f62d2d0efb0b9359",
+      "start": {
+        "sort_seq": 1794366892000,
+        "local_id": 164
+      },
+      "local_fence": 164
+    }
+  },
+  "snapshot_retries": 5,
+  "snapshot_retry_exhausted": 0,
+  "reader_reaped": true,
+  "observer_stopped": true,
+  "observation": {
+    "foreground_target_seen": false,
+    "foreground_events": 54,
+    "pointer_samples": 115342,
+    "pointer_position_changes": 7102,
+    "requested_sample_interval_ms": 10.0,
+    "maximum_sample_gap_ms": 34.213,
+    "pointer_change_attribution": "not_determined",
+    "failure": null,
+    "target_foreground_phases": [],
+    "target_detection_sources": [],
+    "target_foreground_sampled": false,
+    "target_foreground_events": [],
+    "target_foreground_events_dropped": 0,
+    "hook_released": true,
+    "observer_stopped": true,
+    "no_foreground_window_queries": 2,
+    "maximum_no_foreground_ms": 16.242,
+    "no_foreground_policy": "read_only_known_null_at_most_250ms_nonzero_and_events_remain_strict",
+    "unattributed_window_contexts": []
+  },
+  "ending_totals": {
+    "operations": 16,
+    "inputs": 14,
+    "submits": 10,
+    "outbox": 16,
+    "attempts": 16
+  },
+  "model_requests": 0,
+  "new_sends": 0,
+  "integrity_ok": true,
+  "active_operations": 0
+}

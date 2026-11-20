@@ -1,0 +1,39 @@
+{
+  "status": "catalog_failure_no_send_independently_verified",
+  "failed_run_id": "c8402e2b4362165b",
+  "draft_id": "c393d89d7ec4f31808955301c5012df803aafb2b8cbab3123062eb6edec7abeb",
+  "draft": {
+    "state": "FAILED",
+    "reason": "connection_failure",
+    "model_calls": 1,
+    "action_id": null
+  },
+  "model_trace": {
+    "phase": "catalog",
+    "inference_calls": 0,
+    "model_http_attempts": 0,
+    "error": "connection_failure",
+    "finished_at": 1794811152.0816822
+  },
+  "original_send_tables_unchanged": {
+    "outbox": true,
+    "attempts": true,
+    "wechat_send_operations": true,
+    "wechat_send_journal": true,
+    "wechat_channel_reviews": true,
+    "delivery_evidence": true
+  },
+  "send_counts": [
+    16,
+    14,
+    10
+  ],
+  "unknown_count": 8,
+  "active_operations": 0,
+  "active_bindings": 0,
+  "source_generation_count": 1,
+  "native_preparations_for_draft": 0,
+  "reader_reaped": true,
+  "integrity_ok": true,
+  "gate_after": 0
+}

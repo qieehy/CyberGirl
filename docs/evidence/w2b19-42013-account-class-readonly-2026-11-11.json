@@ -1,0 +1,26 @@
+{
+  "status": "read_only_new_version_account_and_class_verified",
+  "process_writes": 0,
+  "keys_read": false,
+  "input_posts": 0,
+  "submit_posts": 0,
+  "preflight": {
+    "pid": 39344,
+    "hwnd": 42731376,
+    "dll_sha256": "afe3d02c58bada3c35009c0cd58ee1f57b2a00fe53237d0dce649107fddb9a20",
+    "exe_sha256": "eaaa1c6c6123ce9887e5c67b60d905d22f09fac091058f27d2d819e9ff26fc69",
+    "created_filetime": "134387634382633494",
+    "candidate_rva": 189836232,
+    "image_size": 206430208,
+    "requested_process_access": "0x410",
+    "page_protection": 4,
+    "page_type": 16777216,
+    "instruction_matches_disk": true
+  },
+  "account_matched": true,
+  "gate_value": 0,
+  "class_entry_rva": 40631776,
+  "class_entry_code_sha256": "9e43255df672041854e111813c5b87cf178583f0786ef53fbf55afe329c9d5d7",
+  "class_entry_code_hex": "4157415641554154565755534881ece8000000660f7fb424d00000004c89cf4c89c389d54889ce488b05f201dd084831e048898424c800000089d14c89c24d89c8e84a1b00004189c748c78424800000000000000081fd830000000f95c04885db0f94c108c1750e448b2f448b7704f30f7e7708eb0a660feff64531ed4531f6",
+  "instruction_rva": 8890674
+}

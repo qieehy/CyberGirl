@@ -1,0 +1,12 @@
+{
+  "status": "header_key_verified",
+  "header_hmac_verified": true,
+  "active_account_matched": true,
+  "account_fingerprint": "e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734",
+  "amadues_matches_previously_verified_peer": true,
+  "qieehy_target_sha256": "7899795f940e3a76be6036711f126ecfdc733ca26557aefe3c21d0c1d50b9100",
+  "database": ".state\\social\\accounts\\e1f54edafa19e1d8d3ebb893387fd13c4e31f79c715127350b4dd86539ed1734\\wechat.sqlite3",
+  "model_calls": 0,
+  "send_calls": 0,
+  "original_ledger_untouched": true
+}

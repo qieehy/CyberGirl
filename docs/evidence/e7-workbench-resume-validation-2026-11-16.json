@@ -1,0 +1,25 @@
+{
+  "status": "offline_resume_validation_passed",
+  "passed": 801,
+  "skipped": 9,
+  "subtests_passed": 848,
+  "elapsed_seconds": 264.33,
+  "full_regression_log": ".build\\workbench-resume-full-regression-unsandboxed.log",
+  "full_regression_sha256": "99039c9a02deb7fa4369e021660157f7407971da7bc91f6cec91279092ea2d41",
+  "initial_sandbox_run": "interrupted_socketpair_accept_block_before_test_progress",
+  "completed_run": "approved_outside_sandbox_synthetic_models_and_temporary_ledgers",
+  "command_line_admission": {
+    "e7_workbench_live.py": {
+      "missing_scope_rejected": true,
+      "help_success": true,
+      "sha256": "10904189d0a2e7932759f185228d37b9b18429548d661ec07bd8e71f55bedae8"
+    },
+    "e7_workbench_receive.py": {
+      "missing_scope_rejected": true,
+      "help_success": true,
+      "sha256": "4a4a3451849ddbb7b831b028449491446458fbdb397f87199d984512f7cce8d7"
+    }
+  },
+  "live_model_calls": 0,
+  "live_send_actions": 0
+}

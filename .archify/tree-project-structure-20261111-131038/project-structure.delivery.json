@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "29c3fa50-a729-4b32-b7ed-bccc371b8e25",
+  "status": "current",
+  "command": "deliver",
+  "type": "tree",
+  "input": "D:\\qieehy\\WeChatAgent\\.archify\\tree-project-structure-20261111-131038\\candidate.json",
+  "output": "D:\\qieehy\\WeChatAgent\\.archify\\tree-project-structure-20261111-131038\\project-structure.html",
+  "specification": {
+    "sha256": "e3ad92681e39f04f68cba13d97a641e336ff87d38b2bf4079cbdbdbee3620327",
+    "bytes": 6182
+  },
+  "artifact": {
+    "sha256": "2f7769c61ec5b6d7834572081024064f261c437b8f4b2c65b4c30bd789ce4bcf",
+    "bytes": 870064
+  }
+}

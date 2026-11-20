@@ -1,0 +1,6 @@
+{"event":"readiness_gate","at":1794366684.949145,"stage":"GATE_CHECKED","original":0}
+{"event":"readiness_gate","at":1794366684.9521456,"stage":"GATE_ENABLE_INTENT","original":0}
+{"event":"readiness_gate","at":1794366684.9531457,"stage":"GATE_ENABLED","original":0}
+{"event":"readiness_gate","at":1794366691.1906426,"stage":"GATE_RESTORE_INTENT","original":0}
+{"event":"readiness_gate","at":1794366691.1916423,"stage":"GATE_RESTORED","original":0}
+{"event":"background_send_echo_observed","at":1794366703.397365,"action_id":"a9a4bf9e17d71ffdcbf97885577495736fa7a59607e3f8ba089e674dc0b3974f","marker_sha256":"16dd2b42e74c3c4f2890aeab3e5d5c5ed4972a55a55c1837e771da75c9ec8354"}
